@@ -27,9 +27,9 @@ email: "alevtina.verbovetskaya@cuny.edu"
 description: University Director of Library Systems in the Office of Library Services at The City University of New York.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#github_username:  alevtina
-#instagram_username: averbovetskaya
-#facebook_username: verbovetskaya
+github_username:  alevtina
+instagram_username: averbovetskaya
+facebook_username: verbovetskaya
 permalink: blog/:year/:month/:day/:title:output_ext
 
 # Build settings
@@ -48,10 +48,10 @@ header_pages:
   - blog.md
 minima:
   skin: auto
-  social_links:
-    - { platform: github,  user_url: "https://github.com/alevtina" }
-    - { platform: instagram, user_url: "https://instagram.com/averbovetskaya" }
-    - { platform: facebook, user_url: "https://facebook.com/verbovetskaya" }
+#  social_links:
+#    - { platform: github,  user_url: "https://github.com/alevtina" }
+#    - { platform: instagram, user_url: "https://instagram.com/averbovetskaya" }
+#    - { platform: facebook, user_url: "https://facebook.com/verbovetskaya" }
 
 # Reading Time settings
 reading_time:
