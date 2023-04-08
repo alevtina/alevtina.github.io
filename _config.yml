@@ -29,7 +29,7 @@ twitter_username: alevtina
 github_username:  alevtina
 instagram_username: averbovetskaya
 facebook_username: verbovetskaya
-permalink: :year/:month/:day/:title:output_ext
+permalink: blog/:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: minima
