@@ -84,4 +84,3 @@ highlighter: rouge
 #   - vendor/ruby/
 include:
     - blog/
-    - _plugins
