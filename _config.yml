@@ -42,7 +42,7 @@ plugins:
 
 # "minima" theme settings
 header_pages:
-  - about.md
+  - index.md
   - experience.md
   - presentations.md
   - blog.md
@@ -55,9 +55,9 @@ minima:
 
 # Reading Time settings
 reading_time:
-  second_plural: "s"    # default: seconds
-  minute_singular: "m"  # default: minute
-  minute_plural: "m"    # default: minutes
+  second_plural: "sec"    # default: seconds
+  minute_singular: "min"  # default: minute
+  minute_plural: "min"    # default: minutes
 
 # kramdown settings
 markdown: kramdown
