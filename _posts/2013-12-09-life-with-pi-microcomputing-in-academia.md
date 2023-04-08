@@ -2,7 +2,8 @@
 layout: post
 title: "Life with Pi: Microcomputing in Academia"
 date: "2013-12-09"
-category: [research]
+last_modified_at: "2023-04-08"
+categories: [research]
 tags: [arduino, beaglebone, conference, microcomputers, microcomputing, presentation, raspberry-pi, single-board-computers]
 ---
 
