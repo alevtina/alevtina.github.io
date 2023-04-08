@@ -12,7 +12,7 @@ tags:
 
 When we last met, I gave you a behind-the-scenes look at how [four librarians became superstars](https://alevtina.commons.gc.cuny.edu/2011/06/30/the-one-where-four-librarians-become-superstars/). In this installment, I show you what the finished product looks like...
 
-[![Screenshot of the Lehman College Library's video tutorials page](https://www.lehman.edu/library/video-tutorials.php)
+![Screenshot of the Lehman College Library's video tutorials page](/assets/img/lc_video_tutorials.png)
 
 The [videos](https://www.lehman.edu/library/video-tutorials.php) turned out exactly as I had envisioned them and I am incredibly proud of all the work my colleagues and I put into them. The website on which these videos are displayed also allows students to email the videos to themselves for later viewing, which will be crucial at the conclusions of the library's information literacy workshops.
 
