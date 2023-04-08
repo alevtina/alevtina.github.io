@@ -14,7 +14,7 @@ tags:
 
 Ta-da! The [RefWorks](https://www.refworks.com/refworks2/) flyer is complete:
 
-![RefWorks Flyer](/assets/img/refworks_-_flier_spring2011-231x300.png)
+![RefWorks Flyer](/assets/img/refworks_-_flier_spring2011.png)
 
 [Download PDF](/assets/file/refworks_-_flier_spring2011.pdf)
 
