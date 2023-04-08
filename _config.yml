@@ -45,6 +45,7 @@ header_pages:
   - about.md
   - experience.md
   - presentations.md
+  - blog.md
 minima:
   skin: auto
   social_links:
