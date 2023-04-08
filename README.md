@@ -1,3 +1,3 @@
 # alevtina.github.io
 
-This the repository for Alevtina Verbovetskaya's GitHub Pages presence.
+This is Alevtina Verbovetskaya's professional presence.
