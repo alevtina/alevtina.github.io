@@ -39,7 +39,7 @@ Verbovetskaya, A. (2017, November 3). *Cataloging practices & OneSearch: Functio
 
 **Verbovetskaya, A.**, Samieske, R., & Collins, K. J. (2017, May 5). *One search, many systems: The ins and outs of Primo at CUNY.* Invited talk at the Library Association of the City University of New York (LACUNY) Reference Roundtable group meeting, New York, NY.
 
-Havelka, S. & Verbovetskaya, A. (2011, November 9). *Smart(phone) searching: Information retrieval on the go.* Invited talk at the monthly meeting of the Hunter College Library Professional Development Group, New York, NY.
+Havelka, S. & **Verbovetskaya, A.** (2011, November 9). *Smart(phone) searching: Information retrieval on the go.* Invited talk at the monthly meeting of the Hunter College Library Professional Development Group, New York, NY.
 
 ## Seminar
 
