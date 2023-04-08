@@ -24,7 +24,7 @@ author:
   email: "alevtina.verbovetskaya@cuny.edu"
 author: Alevtina Verbovetskaya
 email: "alevtina.verbovetskaya@cuny.edu"
-description: Thoughts on systems librarianship from a middle management systems librarian. Opinions my own.
+description: University Director of Library Systems in the Office of Library Services at The City University of New York.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  alevtina
@@ -38,6 +38,7 @@ anchor_link: true
 show_excerpts: true
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # "minima" theme settings
 header_pages:
@@ -53,9 +54,9 @@ minima:
 
 # Reading Time settings
 reading_time:
-  second_plural: "sec"    # default: seconds
-  minute_singular: "min"  # default: minute
-  minute_plural: "min"    # default: minutes
+  second_plural: "s"    # default: seconds
+  minute_singular: "m"  # default: minute
+  minute_plural: "m"    # default: minutes
 
 # kramdown settings
 markdown: kramdown
