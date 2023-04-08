@@ -35,13 +35,10 @@ It collects information in hidden input fields so all the user sees is a "Submit
         note the name of each (in the form of `entry.[xxxxxx]`, where `[xxxxxx]` is a string of numeric characters)
 4. In your EZproxy `docs` directory, edit `needhost.htm` and insert the following into the body of the page (replacing `[FORM_ID]` and `entry.[xxxxxx]` with the names from your form):
 
-{% highlight html %}
+{% highlight html linenos %}
 <h3>Oops!</h3>
-
 <p>There appears to be a problem with the library's setup of the material you are trying to access. The host <em>^H</em> is not recognized by the proxy server.</p>
-
 <p>If you arrived here by following a link and believe this resource should be accessible, let us know of this error by hitting the "Submit" button below:</p>
-
 <script type="text/javascript">var submitted=false;</script>
 <iframe id="hidden_iframe" style="display: none;" name="hidden_iframe"></iframe></pre>
 <form id="needhost_form" action="https://docs.google.com/forms/d/[FORM_ID]/formResponse" method="POST" target="hidden_iframe">
@@ -79,7 +76,7 @@ By default, you do not get email notifications when a form is submitted. You can
 
 To overcome this, we'll create a script that will send the results to you by email as soon as a user submits the form. In the response spreadsheet, go to `Tools > Script editor > Blank Project` and paste the following code into the editor (replacing placeholder variable values with your own):
 
-{% highlight javascript %}
+{% highlight javascript  linenos%}
 function sendFormByEmail(e) {
 	var emailSubject = "Request to add host to EZproxy config.txt";  
 	// Set with your email address or a comma-separated list of email addresses.
