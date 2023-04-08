@@ -19,7 +19,7 @@ Last week, I became the leader of my library's e-book/e-reader project. This wee
 
 One of the things that's making things easier is my whiteboard! The part of the eLibrary project that's the most time-consuming and worrisome for me is marketing. ([Read all about my grand marketing plans on the group's blog!](https://ebooksinthelibraries.commons.gc.cuny.edu/2011/01/20/i-wasnt-looking-for-you-but-thank-you-for-finding-me/trackback/)) So this is me, storyboarding the stop-motion promo video I'm planning:
 
-![Storyboard paneling on whiteboard](https://blog.verbovetskaya.com/wp-content/uploads/2011/01/IMAG0340.jpg)
+![Storyboard paneling on whiteboard](/assets/img/IMAG0340.jpg)
 
 Each panel is explained below:
 

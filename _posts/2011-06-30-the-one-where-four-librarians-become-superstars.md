@@ -17,13 +17,13 @@ Well, maybe not _super_ stars... but three of my colleagues (Robert Farrell, Ste
 
 And then this happened!
 
-![Science Librarian, Jennifer King, sitting in front of a green screen](https://blog.verbovetskaya.com/wp-content/uploads/2011/06/IMG_0547.jpg)
+![Science Librarian, Jennifer King, sitting in front of a green screen](/assets/img/IMG_0547.jpg)
 
-![Multiple monitors in the production control room, all displaying what's on the various cameras in the studio](http://blog.verbovetskaya.com/wp-content/uploads/2011/06/IMG_0548.jpg)
+![Multiple monitors in the production control room, all displaying what's on the various cameras in the studio](/assets/img/IMG_0548.jpg)
 
-![Robert Farrell (Coordinator of Information Literacy & Assessment) and Allie Verbovetskaya (Instructional Technologies Librarian) writing scene/take information on a clapperboard](https://blog.verbovetskaya.com/wp-content/uploads/2011/06/IMG_0551.jpg)
+![Robert Farrell (Coordinator of Information Literacy & Assessment) and Allie Verbovetskaya (Instructional Technologies Librarian) writing scene/take information on a clapperboard](/assets/img/IMG_0551.jpg)
 
-![Allie Verbovetskaya (Instructional Technologies Librarian; seated) and Jennifer King (Science Librarian) posing in front of the green screen before 'Action!' is called](https://blog.verbovetskaya.com/wp-content/uploads/2011/06/IMG_0558.jpg)
+![Allie Verbovetskaya (Instructional Technologies Librarian; seated) and Jennifer King (Science Librarian) posing in front of the green screen before 'Action!' is called](/assets/img/IMG_0558.jpg)
 
 We had a teleprompter and everything! It was quite exciting. Unexpectedly, a photographer from the Media Relations office came by and took photos of the studio (with us in it!) and control room for the college. So these photos may appear somewhere on the college website or in print, too! (They'll be similar to these photos — taken graciously by Stefanie Havelka — but not as blurry or blown out. Sorry, Stef!)
 

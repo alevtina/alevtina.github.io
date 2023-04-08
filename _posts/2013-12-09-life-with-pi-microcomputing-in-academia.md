@@ -11,7 +11,7 @@ Last Friday, I co-led a presentation on single-board computers at the [2013 CUNY
 
 ### Life with Pi: Microcomputing in Academia
 
-![Life with Pi: Microcomputing in Academia](http://blog.verbovetskaya.com/wp-content/uploads/2013/12/life_with_pi_-_microcomputing_in_academia.png)
+![Life with Pi: Microcomputing in Academia](/assets/img/life_with_pi_-_microcomputing_in_academia.png)
 
 #### Introduction to single-board computers
 

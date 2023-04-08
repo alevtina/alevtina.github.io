@@ -23,11 +23,11 @@ I've been working with [Drupal](http://www.drupal.org/) for the last year in my 
 
 One of the biggest [Y U NO WORK!?](http://knowyourmeme.com/memes/y-u-no-guy) moments was trying to figure out why users' personal contact forms were not conforming to the friendly URL pattern I'd set up with [Pathauto](https://drupal.org/project/pathauto/):
 
-![Drupal 7 Pathauto User Paths](http://blog.verbovetskaya.com/wp-content/uploads/2013/09/d7_-_pathauto_-_user_paths.png)
+![Drupal 7 Pathauto User Paths](/assets/img/d7_-_pathauto_-_user_paths.png)
 
 No matter what I did, the users' contact forms were always located at `user/[uid]/contact` (and not at the desired `users/[user:name]/contact`). The thing that confused me the most, though, was that this wasn't a problem in our current D6 instance and that's because Pathauto 6.x-1.6 contains a separate field for user contact forms paths:
 
-![Drupal 6 Pathauto User Paths](http://blog.verbovetskaya.com/wp-content/uploads/2013/09/d6_-_pathauto_-_user_paths.png)
+![Drupal 6 Pathauto User Paths](/assets/img/d6_-_pathauto_-_user_paths.png)
 
 Frustratingly, there's no such field in Pathauto 7.x-1.2.
 

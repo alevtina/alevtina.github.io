@@ -22,7 +22,7 @@ tags:
 
 Back in March, my colleague enlisted me to help him roll out mobile-friendly interfaces for all centrally-hosted EZproxy instances. (My office provides support for all 21 libraries in CUNY. Half of the libraries host their own proxy servers while the others rely on us to host and maintain their instances.) While I was at it, I decided to spruce it up a little bit and make it so that users can send error reports if they reach [needhost.htm](http://www.oclc.org/support/services/ezproxy/documentation/errorpages.en.html):
 
-![Screenshot](http://blog.verbovetskaya.com/wp-content/uploads/2013/10/cuny_ezproxy_-_needhost.png)
+![Screenshot](/assets/img/cuny_ezproxy_-_needhost.png)
 
 It collects information in hidden input fields so all the user sees is a "Submit" button. This is done with a Google Form and some JavaScript. To implement similar functionality for your EZproxy server:
 
@@ -73,7 +73,7 @@ Note the `<script>` and `<iframe>` tags in the code. What are they?
 
 _Et voilà!_ You now have EZproxy error reports, submitted by users trying to access actual resources, in a spreadsheet in your Google Drive account:
 
-![Screenshot](http://blog.verbovetskaya.com/wp-content/uploads/2013/10/cuny_ezproxy_-_needhost_form_submissions.png)
+![Screenshot](/assets/img/cuny_ezproxy_-_needhost_form_submissions.png)
 
 By default, you do not get email notifications when a form is submitted. You can turn on this functionality in the Google Spreadsheet but all it will do is inform you when a user has submitted the form, without actually providing you with the form data in the email.
 
@@ -113,7 +113,7 @@ Click `File > Save` and give the project a name (such as `needhost_notify`). Go 
 
 A message will be shown to authorize the script; click "Continue." Read the terms and click "Accept." It will approve the authorization for the trigger and bring you back to the code editor. You can now close the editor and go back to your spreadsheet because you're all set!
 
-![Screenshot](http://blog.verbovetskaya.com/wp-content/uploads/2013/10/cuny_ezproxy_-_needhost_email.png)
+![Screenshot](/assets/img/cuny_ezproxy_-_needhost_email.png)
 
 You should now have a form, embedded in your EZproxy's needhost.htm file, that users can submit to self-report problems accessing resources. Their responses will be logged in a spreadsheet in your Google Drive account and emailed to you upon submission. Go forth and troubleshoot!
 
