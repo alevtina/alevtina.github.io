@@ -11,4 +11,4 @@ Allie has a unique mix of library training coupled with technical know-how. She 
 
 She's mom to a rambunctious son who makes her laugh, and partner to an amazing guy who brews her sour beer.
 
-You can email Allie at <alevtina.verbovetskaya@cuny.edu.
+You can email Allie at <alevtina.verbovetskaya@cuny.edu>.
