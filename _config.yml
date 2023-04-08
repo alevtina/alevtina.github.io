@@ -84,3 +84,4 @@ highlighter: rouge
 #   - vendor/ruby/
 include:
     - Gemfile
+    - blog/
