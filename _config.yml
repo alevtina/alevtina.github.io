@@ -83,5 +83,5 @@ highlighter: rouge
 #   - vendor/gems/
 #   - vendor/ruby/
 include:
-    - Gemfile
     - blog/
+    - _plugins
