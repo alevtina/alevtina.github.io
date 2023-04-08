@@ -27,10 +27,9 @@ email: "alevtina.verbovetskaya@cuny.edu"
 description: Thoughts on systems librarianship from a middle management systems librarian. Opinions my own.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alevtina
-github_username:  alevtina
-instagram_username: averbovetskaya
-facebook_username: verbovetskaya
+#github_username:  alevtina
+#instagram_username: averbovetskaya
+#facebook_username: verbovetskaya
 permalink: blog/:year/:month/:day/:title:output_ext
 
 # Build settings
@@ -51,7 +50,6 @@ minima:
     - { platform: github,  user_url: "https://github.com/alevtina" }
     - { platform: instagram, user_url: "https://instagram.com/averbovetskaya" }
     - { platform: facebook, user_url: "https://facebook.com/verbovetskaya" }
-    - { platform: twitter, user_url: "https://twitter.com/alevtina" }
 
 # Reading Time settings
 reading_time:
