@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Life with Pi: Microcomputing in Academia"
-excerpt: "Where I recap a presentation I co-led on single-board computers."
 date: "2013-12-09"
 category: [research]
 tags: [arduino, beaglebone, conference, microcomputers, microcomputing, presentation, raspberry-pi, single-board-computers]
