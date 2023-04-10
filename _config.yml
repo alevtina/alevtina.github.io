@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alevtina Verbovetskaya
+title: verbovetskaya.com
 author:
   name: Alevtina Verbovetskaya
   email: "alevtina.verbovetskaya@cuny.edu"
 author: Alevtina Verbovetskaya
 email: "alevtina.verbovetskaya@cuny.edu"
-description: University Director of Library Systems in the Office of Library Services at The City University of New York.
+description: "Director of Library Systems @ CUNY"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://verbovetskaya.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alevtina
 instagram_username: averbovetskaya
 facebook_username: verbovetskaya
@@ -54,10 +54,10 @@ minima:
 #    - { platform: facebook, user_url: "https://facebook.com/verbovetskaya" }
 
 # Reading Time settings
-reading_time:
-  second_plural: "sec"    # default: seconds
-  minute_singular: "min"  # default: minute
-  minute_plural: "min"    # default: minutes
+#reading_time:
+#  second_plural: "sec"    # default: seconds
+#  minute_singular: "min"  # default: minute
+#  minute_plural: "min"    # default: minutes
 
 # kramdown settings
 markdown: kramdown
@@ -82,5 +82,7 @@ highlighter: rouge
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Include in processing.
 include:
     - blog/
