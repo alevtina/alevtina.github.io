@@ -24,8 +24,14 @@ This is the professional presence of Alevtina Verbovetskaya, University Director
 
 ### Markdown
 
+To be filled in later!
+
 ## Resources
 
 * [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
 
-* 
+* [Front Matter Guide](https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/)
+
+* [Piotr Horzycki: "I moved my WordPress blog to Jekyll. Here's why and how"](https://peterdev.pl/i-moved-my-wordpress-blog-to-jekyll-heres-why-and-how/)
+
+* [Slowbro blog: "Dark Theme for Minima is here"](https://blog.slowb.ro/dark-theme-for-minima-jekyll/) (requires using minima 3.0.0 from the GitHub repo, which is not supported by GitHub pages at the time of this writing)
