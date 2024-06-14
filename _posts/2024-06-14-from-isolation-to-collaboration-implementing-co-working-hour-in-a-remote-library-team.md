@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "From Isolation to Collaboration: Implementing Co-Working Hour in a Remote Library Team"
-date: "2024-06-14"
-last_modified_at: "2024-06-14"
+date: "2024-06-14 19:01 -0500"
+last_modified_at: "2024-06-14 19:14 -0500"
 categories: [management]
 tags: [remote-work, work-from-home, team-collaboration, team-management, change-management]
 ---
