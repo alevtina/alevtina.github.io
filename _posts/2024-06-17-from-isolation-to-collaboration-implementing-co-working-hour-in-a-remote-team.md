@@ -7,7 +7,7 @@ categories: [management]
 tags: [remote-work, work-from-home, team-collaboration, team-management, change-management]
 ---
 
-In the central Office of Library Services (OLS), our small but mighty team of systems librarians and catalogers undertook the migration of the CUNY Libraries' system from Aleph to Alma, affecting around 700 library staff across 35 libraries. Amid this, the COVID-19 pandemic forced remote work, administrative turnover led to uncertainties, and staff resignations and retirements decimated our team. Despite these challenges, we successfully completed the migration with remote training sessions. During this period, I was promoted to Director of Library Systems, supervising staff remotely for the first time. To help onboard a new hire and maintain team cohesion, I instituted a daily co-working hour. Three years later, this practice is a beloved aspect of our team, transforming our isolated work into a collaborative experience.
+In the central Office of Library Services, our small but mighty team of systems librarians and catalogers undertook the migration of the CUNY Libraries' system from Aleph to Alma, affecting around 700 library staff across 35 libraries. Amid this, the COVID-19 pandemic forced remote work, administrative turnover led to uncertainties, and staff resignations and retirements decimated our team. Despite these challenges, we successfully completed the migration with remote training sessions. During this period, I was promoted to Director of Library Systems, supervising staff remotely for the first time. To help onboard a new hire and maintain team cohesion, I instituted a daily co-working hour. Three years later, this practice is a beloved aspect of our team, transforming our isolated work into a collaborative experience.
 
 ## Concept of Co-Working Hour
 
@@ -35,9 +35,9 @@ Regular virtual interactions help mitigate feelings of isolation and strengthen 
 
 Constant communication channels foster better understanding and teamwork. Our daily co-working hour ensures that everyone is on the same page, reducing misunderstandings and ensuring that tasks are aligned with our goals. This continuous flow of communication promotes a cohesive team dynamic and improves overall efficiency.
 
-When describing this virtual co-working concept to a colleague, the team member for whom this practice was originally established shared a powerful insight. She mentioned that she never feels out of touch with me or her co-workers. She is in constant contact with us, starting her mornings on a positive note. This routine boosts her morale and makes her feel more comfortable reaching out via Teams messenger or email throughout the day. This anecdote highlights the significant impact of our co-working hour on individual team members' comfort and confidence in communication.
+When describing this virtual co-working concept to a colleague, one of my team members shared a powerful insight. She mentioned that she never feels out of touch with me or her co-workers. She is in constant contact with us, starting her mornings on a positive note. This routine boosts her morale and makes her feel more comfortable reaching out throughout the day. This anecdote highlights the significant impact of our co-working hour on individual team members' comfort and confidence in communication.
 
-Our daily co-working hour has transformed our remote work environment by fostering accountability, collaboration, communication, and reducing feelings of isolation. This practice has become an integral part of our team's success, demonstrating its value in enhancing remote work experiences in various industries.
+Our daily co-working hour has transformed our remote work environment by fostering accountability, collaboration, communication, and reducing feelings of isolation. This practice has become an integral part of our team's success, demonstrating its value in enhancing remote work experiences, regardless of industry.
 
 ## Challenges and Solutions
 
@@ -45,13 +45,13 @@ Implementing the daily co-working hour came with its set of challenges. Initiall
 
 Over time, we found our rhythm. We grew comfortable with each other and began opening up both personally and professionally. These sessions became a safe space where my colleagues and I shared personal tragedies, such as the loss of three pets in six months, and provided each other with much-needed comfort and support. It was also during these hours that we laughed the hardest, strengthening our bond.
 
-The co-working hours also proved to be highly productive. We used this time to dissect support tickets, collaborate on solutions, and review responses from vendors. Even in moments of silence, when we worked independently for upwards of 30 minutes, there was a comforting presence knowing we had each other's backs and were always willing to pair up and troubleshoot together.
+The co-working hours also proved to be highly productive. We used this time to reviewing outstanding support tickets, collaborate on solutions, review responses from vendors, and prepare for the day. Even in moments of silence, when we worked independently for upwards of 30 minutes, there was a comforting presence knowing we were there and always willing to team up.
 
 Attendance remains voluntary, yet we now have 100% participation. Those who initially joined out of curiosity soon recognized the immense benefits and did not want to miss out on this valuable time. This shift from voluntary attendance to full participation underscores the effectiveness of our co-working hour in fostering a supportive, collaborative, and productive team environment.
 
 ## How to Implement Co-Working Hour
 
-Implementing a co-working hour is simple, cost-effective, and requires minimal resources. All you need is a camera and an agreed-upon time to meet regularly. Here are some practical steps:
+Implementing a co-working hour is simple, cost-effective, and requires minimal resources. All you need is a computer, a camera, and an agreed-upon time to meet regularly. Here are some practical steps:
 
 ### Commitment from Leadership
 
@@ -67,7 +67,7 @@ Choose a regular time that works for everyone. This practice is ideal for small 
 
 ### Create a Comfortable Space
 
-Encourage a relaxed atmosphere where team members can chat, share updates, and work together on tasks. This can include discussing support tickets, brainstorming solutions, or even enjoying a few moments of silence while working independently.
+Encourage a relaxed atmosphere where team members can chat, share updates, and work together on tasks. This can even include enjoying a few moments of silence while working independently.
 
 By following these steps, you can foster a collaborative and supportive team environment, enhancing productivity and team cohesion.
 
