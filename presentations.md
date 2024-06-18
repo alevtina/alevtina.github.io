@@ -5,6 +5,8 @@ title: "Presentations"
 
 ## Conference
 
+Verbovetskaya, A. (2024, May 16). *AFN and P2P: Sharing resources harmoniously.* Presentation at Ex Libris Users of North America (ELUNA) 2024 conference, Minneapolis, MN.
+
 **Verbovetskaya, A.** & Fredericksen, K. (2023, May 10). *To NZ, or not to NZ, that is the question.* Presentation at Ex Libris Users of North America (ELUNA) 2023 conference, Los Angeles, CA.
 
 Verbovetskaya, A. (2017, October 20). *Adjusting your package: Using the Central Package Manager in the Primo NUI.* Presentation at Ex Libris Northeast User Group (ENUG) 2017 conference, Jersey City, NJ.
