@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![Caucasian woman with dark brown hair (in a pixie cut) and black-rimmed glasses, wearing a blazer, with a whiteboard, desk, and other office sundries behind her](/assets/img/allie.png){: style="float:right;border-radius:50%;border:6px solid #424242;max-width:50%;margin:0 0 10px 10px"}
+![Caucasian woman with dark brown hair (in a pixie cut) and black-rimmed glasses, wearing a blazer, with a whiteboard, desk, and other office sundries behind her](/assets/img/Verbovetskaya_Alevtina_sq.png){: style="float:right;border-radius:50%;border:6px solid #424242;max-width:50%;margin:0 0 10px 10px"}
 
 Alevtina Verbovetskaya is the University Director of Library Systems in the [Office of Library Services](https://www.cuny.edu/about/administration/offices/library-services/) at [The City University of New York](https://www.cuny.edu/). In this role, Allie is responsible for all aspects of library information systems as deployed or planned at the 31 CUNY Libraries supporting the University's 25 campuses and 100+ research centers and institutes. Most recently, she led the University-wide implementation of a new library services platform, Ex Libris Alma, that replaced the outdated integrated library system, Ex Libris Aleph, that was in use at the CUNY Libraries for almost 20 years.
 
