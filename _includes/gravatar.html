@@ -1,0 +1,24 @@
+{%- comment -%}
+Gravatar image helper
+Usage: {% include gravatar.html email="alevtina.verbovetskaya@cuny.edu" size="200" alt="Alt text" class="css-class" %}
+{%- endcomment -%}
+
+{%- assign gravatar_email = include.email | default: site.author.gravatar_email | default: site.email -%}
+{%- assign gravatar_size = include.size | default: "200" -%}
+{%- assign gravatar_alt = include.alt | default: site.author.name -%}
+{%- assign gravatar_class = include.class | default: "gravatar" -%}
+
+{%- if gravatar_email -%}
+    {%- assign email_hash = gravatar_email | downcase | strip | md5 -%}
+    <img src="https://www.gravatar.com/avatar/{{ email_hash }}?s={{ gravatar_size }}&d=identicon&r=pg" 
+         alt="{{ gravatar_alt }}" 
+         class="{{ gravatar_class }}"
+         width="{{ gravatar_size }}" 
+         height="{{ gravatar_size }}">
+{%- else -%}
+    <img src="https://via.placeholder.com/{{ gravatar_size }}x{{ gravatar_size }}/3b82f6/ffffff?text={{ site.author.name | slice: 0, 2 | upcase }}" 
+         alt="{{ gravatar_alt }}" 
+         class="{{ gravatar_class }}"
+         width="{{ gravatar_size }}" 
+         height="{{ gravatar_size }}">
+{%- endif -%}
