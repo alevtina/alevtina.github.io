@@ -4,10 +4,10 @@ title: Home
 description: "University Director of Library Systems at The City University of New York. Leading digital transformation and technology innovation in academic library systems."
 ---
 
-<section class="hero">
+<section class="hero" aria-labelledby="hero-title">
     <div class="hero-content">
         {% include gravatar.html size="200" class="hero-image" %}
-        <h1 class="hero-title">{{ site.author.name }}</h1>
+        <h1 class="hero-title" id="hero-title">{{ site.author.name }}</h1>
         <p class="hero-subtitle">{{ site.author.title }}</p>
         <p class="hero-description">
             {{ site.author.bio }}
@@ -16,8 +16,8 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
-<section id="about" class="section">
-    <h2 class="section-title">About</h2>
+<section id="about" class="section" aria-labelledby="about-title">
+    <h2 class="section-title" id="about-title">About</h2>
     <div class="card-grid">
         <div class="card">
             <h3 class="card-title">Leadership & Vision</h3>
@@ -34,8 +34,8 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
-<section id="experience" class="section">
-    <h2 class="section-title">Professional Experience</h2>
+<section id="experience" class="section" aria-labelledby="experience-title">
+    <h2 class="section-title" id="experience-title">Professional Experience</h2>
     <div class="card-grid">
         <div class="card">
             <p class="card-subtitle">Current Position</p>
@@ -57,8 +57,8 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
-<section id="skills" class="section">
-    <h2 class="section-title">Areas of Expertise</h2>
+<section id="skills" class="section" aria-labelledby="skills-title">
+    <h2 class="section-title" id="skills-title">Areas of Expertise</h2>
     <div class="skills-grid">
         <div class="skill-item">
             <div class="skill-title">Library Technology Systems</div>
@@ -79,8 +79,8 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
-<section id="contact" class="section">
-    <h2 class="section-title">Contact</h2>
+<section id="contact" class="section" aria-labelledby="contact-title">
+    <h2 class="section-title" id="contact-title">Contact</h2>
     <div class="contact-grid">
         <div class="contact-item">
             <div class="contact-icon">📧</div>
@@ -103,8 +103,8 @@ description: "University Director of Library Systems at The City University of N
 </section>
 
 {%- if site.posts.size > 0 -%}
-<section id="latest-blog" class="section">
-    <h2 class="section-title">Latest from the Blog</h2>
+<section id="latest-blog" class="section" aria-labelledby="latest-blog-title">
+    <h2 class="section-title" id="latest-blog-title">Latest from the Blog</h2>
     {%- assign latest_post = site.posts.first -%}
     <div class="latest-post-card">
         <div class="latest-post-content">
