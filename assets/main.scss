@@ -620,6 +620,7 @@ html {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    overflow: hidden; /* Prevent overflow */
 }
 
 .tag {
@@ -629,6 +630,8 @@ html {
     border-radius: 1rem;
     font-size: 0.8rem;
     font-weight: 500;
+    white-space: nowrap; /* Prevent tags from breaking */
+    flex-shrink: 0; /* Prevent tags from compressing */
 }
 
 .read-more-link {
@@ -730,8 +733,13 @@ html {
 }
 
 .post-tags {
+    flex-wrap: wrap;
+    
     .tag {
         margin-right: 0.5rem;
+        margin-bottom: 0.25rem; /* Add bottom margin for wrapped tags */
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 }
 
@@ -889,6 +897,7 @@ html {
 @media (max-width: 768px) {
     .blog-container {
         padding: 1rem;
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
 
     .blog-title {
@@ -915,5 +924,14 @@ html {
 
     .nav-next {
         text-align: left;
+    }
+
+    .post-card-tags {
+        max-width: 100%;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
     }
 }
