@@ -6,26 +6,27 @@ permalink: /blog/
 ---
 
 <div class="blog-container">
-    <section class="blog-hero">
+    <section class="blog-hero" aria-labelledby="blog-title">
         <div class="blog-hero-content">
-            <h1 class="blog-title">Blog</h1>
+            <h1 class="blog-title" id="blog-title">Blog</h1>
             <p class="blog-description">
                 Insights on library systems, technology leadership, and digital transformation in academic libraries.
             </p>
         </div>
     </section>
 
-    <section class="blog-posts">
+    <section class="blog-posts" aria-labelledby="posts-title">
+        <h2 class="sr-only" id="posts-title">Blog Posts</h2>
         {%- if site.posts.size > 0 -%}
             <div class="posts-grid">
                 {%- for post in site.posts -%}
                     <article class="post-card">
                         <div class="post-card-content">
-                            <h2 class="post-card-title">
+                            <h3 class="post-card-title">
                                 <a href="{{ post.url | relative_url }}" class="post-link">
                                     {{ post.title | escape }}
                                 </a>
-                            </h2>
+                            </h3>
                             
                             <div class="post-card-meta">
                                 <time datetime="{{ post.date | date_to_xmlschema }}">
@@ -61,7 +62,7 @@ permalink: /blog/
         {%- else -%}
             <div class="no-posts">
                 <div class="no-posts-content">
-                    <h2>Coming Soon</h2>
+                    <h3>Coming Soon</h3>
                     <p>Blog posts will appear here soon. Check back for insights on library systems and technology leadership.</p>
                 </div>
             </div>
