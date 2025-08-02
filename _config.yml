@@ -70,15 +70,15 @@ defaults:
 # Site navigation
 navigation:
   - title: "About"
-    url: "#about"
+    url: "/#about"
   - title: "Experience"
-    url: "#experience"
+    url: "/#experience"
   - title: "Skills"
-    url: "#skills"
+    url: "/#skills"
   - title: "Blog"
     url: "/blog"
   - title: "Contact"
-    url: "#contact"
+    url: "/#contact"
 
 # Contact information
 contact:
