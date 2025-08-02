@@ -18,73 +18,91 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: verbovetskaya.com
+# Site settings
+title: "Alevtina Verbovetskaya"
+email: alevtina.verbovetskaya@cuny.edu
+description: >-
+  University Director of Library Systems at The City University of New York.
+  Leading digital transformation and technology innovation in academic library systems.
+baseurl: ""
+url: "https://alevtina.github.io"
+
+# Personal information
 author:
-  name: Alevtina Verbovetskaya
-  email: "alevtina.verbovetskaya@cuny.edu"
-author: Alevtina Verbovetskaya
-email: "alevtina.verbovetskaya@cuny.edu"
-description: "Director of Library Systems @ CUNY"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://verbovetskaya.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  alevtina
-instagram_username: averbovetskaya
-facebook_username: verbovetskaya
-permalink: blog/:year/:month/:day/:title:output_ext
+  name: "Alevtina Verbovetskaya"
+  title: "University Director of Library Systems"
+  organization: "The City University of New York"
+  bio: >-
+    Leading digital transformation and technology innovation in academic library systems 
+    at The City University of New York. Passionate about creating accessible, efficient, 
+    and user-centered information systems.
+
+# Social profiles
+social:
+  linkedin: alevtina-verbovetskaya
+  github: alevtina
+  email: alevtina.verbovetskaya@cuny.edu
 
 # Build settings
-theme: minima
-anchor_link: true
-show_excerpts: true
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# set timezone
-timezone: America/New_York
-
-# "minima" theme settings
-header_pages:
-  - index.md
-  - experience.md
-  - presentations.md
-  - blog.md
-minima:
-  skin: auto
-#  social_links:
-#    - { platform: github,  user_url: "https://github.com/alevtina" }
-#    - { platform: instagram, user_url: "https://instagram.com/averbovetskaya" }
-#    - { platform: facebook, user_url: "https://facebook.com/verbovetskaya" }
-
-# Reading Time settings
-#reading_time:
-#  second_plural: "sec"    # default: seconds
-#  minute_singular: "min"  # default: minute
-#  minute_plural: "min"    # default: minutes
-
-# kramdown settings
 markdown: kramdown
 highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  experience:
+    output: false
+  skills:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Site navigation
+navigation:
+  - title: "About"
+    url: "#about"
+  - title: "Experience"
+    url: "#experience"
+  - title: "Skills"
+    url: "#skills"
+  - title: "Contact"
+    url: "#contact"
+
+# Contact information
+contact:
+  email: "alevtina.verbovetskaya@cuny.edu"
+  linkedin: "https://www.linkedin.com/in/alevtina-verbovetskaya/"
+  institution: "The City University of New York"
+  institution_url: "https://cuny.edu"
 
 # Include in processing.
 include:
