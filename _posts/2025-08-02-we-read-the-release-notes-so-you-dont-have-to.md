@@ -22,6 +22,7 @@ It wasn’t engaging, it wasn’t efficient, and it wasn’t helping anyone actu
 My team at the CUNY Office of Library Services sat down and asked ourselves a simple question:
 
 > What would it look like to actually support our librarians during release cycles—not just inform them?
+
 The answer became _Shelf Help_, a quarterly open webinar that walks library staff through what’s new in Alma and Primo VE. We time each session to land the Thursday before Ex Libris pushes changes to production, giving people time to understand what’s coming and ask questions before it affects their work.
 
 We held our first session in November 2024. One year and four sessions later, it’s become a reliable touchstone in our systems calendar—with around 70 registrants and 80% attendance each time.
