@@ -48,10 +48,10 @@ description: "University Director of Library Systems at The City University of N
         <div class="card">
             <h3 class="card-title">Key Achievements</h3>
             <p class="card-content">
-                • Spearheaded migration to next-generation library management systems<br>
-                • Implemented comprehensive digital asset management solutions<br>
+                • Led CUNY-wide migration to a next-generation library services platform<br>
+                • Strengthened system integrations across library and university-wide technologies<br>
                 • Enhanced user experience through modern discovery interfaces<br>
-                • Established robust data governance and security protocols
+                • Built a collaborative, mission-driven team culture
             </p>
         </div>
     </div>
