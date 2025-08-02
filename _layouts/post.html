@@ -3,17 +3,17 @@ layout: default
 ---
 
 <div class="blog-container">
-    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" aria-labelledby="post-title">
         <header class="post-header">
-            <div class="post-breadcrumb">
+            <nav class="post-breadcrumb" aria-label="Breadcrumb">
                 <a href="{{ '/' | relative_url }}" class="breadcrumb-link">Home</a>
                 <span class="breadcrumb-separator">→</span>
                 <a href="{{ '/blog' | relative_url }}" class="breadcrumb-link">Blog</a>
                 <span class="breadcrumb-separator">→</span>
                 <span class="breadcrumb-current">{{ page.title | truncate: 50 }}</span>
-            </div>
+            </nav>
             
-            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <h1 class="post-title p-name" id="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
             
             <div class="post-meta">
                 <div class="post-meta-item">
@@ -53,12 +53,12 @@ layout: default
             </div>
         </header>
 
-        <div class="post-content e-content" itemprop="articleBody">
+        <section class="post-content e-content" itemprop="articleBody" aria-labelledby="post-title">
             {{ content }}
-        </div>
+        </section>
 
         <footer class="post-footer">
-            <div class="post-navigation">
+            <nav class="post-navigation" aria-label="Post navigation">
                 {%- if page.previous.url -%}
                     <a class="nav-previous" href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title | escape }}">
                         <span class="nav-direction">← Previous</span>
@@ -72,7 +72,7 @@ layout: default
                         <span class="nav-title">{{ page.next.title | truncate: 40 }}</span>
                     </a>
                 {%- endif -%}
-            </div>
+            </nav>
             
             <div class="back-to-blog">
                 <a href="{{ '/blog' | relative_url }}" class="back-link">← Back to All Posts</a>
@@ -80,9 +80,10 @@ layout: default
         </footer>
 
         {%- if site.disqus.shortname -%}
-            <div class="comments-section">
+            <section class="comments-section" aria-labelledby="comments-title">
+                <h2 class="sr-only" id="comments-title">Comments</h2>
                 {%- include disqus_comments.html -%}
-            </div>
+            </section>
         {%- endif -%}
 
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
