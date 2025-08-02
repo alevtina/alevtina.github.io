@@ -6,7 +6,7 @@ description: "University Director of Library Systems at The City University of N
 
 <section class="hero">
     <div class="hero-content">
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author.name }}" class="hero-image">
+        {% include gravatar.html size="200" class="hero-image" %}
         <h1 class="hero-title">{{ site.author.name }}</h1>
         <p class="hero-subtitle">{{ site.author.title }}</p>
         <p class="hero-description">
