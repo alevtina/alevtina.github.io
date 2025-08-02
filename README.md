@@ -1,37 +1,115 @@
-# verbovetskaya.com
+# Alevtina Verbovetskaya - Professional Website
 
-This is the professional presence of Alevtina Verbovetskaya, University Director of Library Systems at The City University of New York.
+My professional website showcasing expertise in library systems and technology leadership at The City University of New York.
 
-## Meta
+## Features
 
-| Name      | Description                                      |
-| --------- | ------------------------------------------------ |
-| Platform  | [GitHub Pages](https://pages.github.com/)        |
-| Generator | [Jekyll 4.3.2](https://jekyllrb.com/)            |
-| Theme     | [minima 2.5.1](https://github.com/jekyll/minima) |
+- ✨ **Modern Design**: Clean, professional layout with contemporary styling
+- 🌙 **Automatic Dark Mode**: Responds to user's OS theme preference
+- 📱 **Mobile-First**: Fully responsive design optimized for all devices
+- ♿ **Accessible**: WCAG AA compliant with proper semantic markup
+- ⚡ **Fast**: Optimized performance with minimal dependencies
+- 🔧 **Jekyll-Powered**: Easy to maintain and deploy on GitHub Pages
+- 📝 **Integrated Blog**: Professional blog with latest post showcase
 
-## Shortcuts
+## Technology Stack
 
-### Jekyll
+- **Jekyll 4.3.2** - Static site generator
+- **GitHub Pages** - Hosting and deployment
+- **Sass/SCSS** - Stylesheet preprocessing
+- **Gravatar** - Profile image management
+- **Semantic HTML** - Accessibility and SEO optimization
 
-#### Linking to pages
+## File Structure
 
-`[Link to a page]({% link file.md %})`
+```
+├── _config.yml           # Site configuration
+├── _includes/            # Reusable components
+│   ├── head.html
+│   ├── header.html
+│   ├── footer.html
+│   └── gravatar.html
+├── _layouts/             # Page templates
+│   ├── default.html
+│   └── post.html
+├── _posts/               # Blog posts
+├── assets/
+│   ├── main.scss         # Main stylesheet
+│   └── images/           # Images and media
+├── blog/
+│   └── index.md          # Blog landing page
+├── index.md              # Homepage content
+└── README.md             # This file
+```
 
-#### Linking to posts
+## Content Management
 
-`[Link to a post]({% post_url /blog/yyyy-mm-dd-name-of-post %})`
+### Adding Blog Posts
 
-### Markdown
+Create new posts in the `_posts/` directory with this naming convention:
+```
+YYYY-MM-DD-title-of-post.md
+```
 
-To be filled in later!
+Use this front matter template:
+```yaml
+---
+layout: post
+title: "Your Post Title"
+date: 2025-08-02
+author: "Alevtina Verbovetskaya"
+tags: [library-systems, technology, leadership]
+---
 
-## Resources
+Your content here...
+```
 
-* [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+### Updating Personal Information
 
-* [Front Matter Guide](https://chriskyfung.github.io/amp-affiliately-jekyll-theme/front-matter-guide/)
+Edit `_config.yml` to update:
+- Contact information
+- Bio and professional details
+- Social media links
+- Site metadata
 
-* [Piotr Horzycki: "I moved my WordPress blog to Jekyll. Here's why and how"](https://peterdev.pl/i-moved-my-wordpress-blog-to-jekyll-heres-why-and-how/)
+### Customizing Design
 
-* [Slowbro blog: "Dark Theme for Minima is here"](https://blog.slowb.ro/dark-theme-for-minima-jekyll/) (requires using minima 3.0.0 from the GitHub repo, which is not supported by GitHub pages at the time of this writing)
+The site uses a clean blue color scheme (`#0033A1`). To modify colors, edit the CSS custom properties in `assets/main.scss`:
+
+```scss
+:root {
+    --brand-blue: #0033A1;
+    --accent-primary: var(--brand-blue);
+    --accent-primary-hover: #002080;
+    // ... other color variables
+}
+```
+
+## Deployment
+
+The site automatically deploys via GitHub Pages when changes are pushed to the main branch. It's available at: `https://alevtina.github.io`
+
+## Performance Features
+
+- **System fonts**: No web font downloads required
+- **Optimized images**: Gravatar integration for profile photos
+- **Minimal CSS**: Only necessary styles included
+- **Progressive enhancement**: Works without JavaScript
+- **Responsive images**: Proper sizing and optimization
+
+## Accessibility Features
+
+- **Semantic HTML**: Proper heading hierarchy and landmarks
+- **WCAG AA compliance**: Color contrast and interactive elements
+- **Keyboard navigation**: Full site navigation without mouse
+- **Screen reader support**: Proper ARIA labels and descriptions
+- **Reduced motion support**: Respects user preferences
+- **Focus indicators**: Visible keyboard navigation
+
+## Browser Support
+
+- ✅ Modern browsers (Chrome, Firefox, Safari, Edge)
+- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+- ✅ Works with JavaScript disabled
+- ✅ Accessible to screen readers
+- ✅ Automatic dark mode support
