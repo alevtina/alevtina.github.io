@@ -5,6 +5,10 @@
 
 // CSS Custom Properties for theming
 :root {
+    // Brand colors
+    --brand-blue: #0033A1;
+    --brand-gold: #FFB71B;
+    
     // Light mode colors
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
@@ -12,8 +16,18 @@
     --text-primary: #1e293b;
     --text-secondary: #475569;
     --text-muted: #64748b;
-    --accent-primary: #0033A1;
-    --accent-secondary: #002080;
+    
+    // Primary accent (blue-based)
+    --accent-primary: var(--brand-blue);
+    --accent-primary-hover: #002080;
+    --accent-primary-light: #e6f0ff;
+    
+    // Secondary accent (gold-based)
+    --accent-secondary: var(--brand-gold);
+    --accent-secondary-hover: #e6a600;
+    --accent-secondary-light: #fff8e6;
+    
+    // Utility colors
     --border-color: #e2e8f0;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -29,8 +43,16 @@
         --text-primary: #f8fafc;
         --text-secondary: #cbd5e1;
         --text-muted: #94a3b8;
+        
+        // Adjusted for dark mode accessibility
         --accent-primary: #4d7dd6;
-        --accent-secondary: #0033A1;
+        --accent-primary-hover: #6b93db;
+        --accent-primary-light: #1a2332;
+        
+        --accent-secondary: #ffc947;
+        --accent-secondary-hover: #ffce5c;
+        --accent-secondary-light: #332b1a;
+        
         --border-color: #334155;
         --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
         --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
@@ -95,7 +117,7 @@ body {
     transition: color 0.3s ease;
 
     &:hover, &:focus {
-        color: var(--accent-secondary);
+        color: var(--accent-primary-hover);
     }
 }
 
@@ -195,8 +217,8 @@ body {
 
 .cta-button {
     display: inline-block;
-    background-color: var(--accent-primary);
-    color: white;
+    background-color: var(--accent-secondary);
+    color: var(--brand-blue);
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -205,7 +227,7 @@ body {
     box-shadow: var(--shadow-md);
 
     &:hover, &:focus {
-        background-color: var(--accent-secondary);
+        background-color: var(--accent-secondary-hover);
         transform: translateY(-2px);
         box-shadow: var(--shadow-lg);
         outline: none;
@@ -234,7 +256,7 @@ body {
         transform: translateX(-50%);
         width: 60px;
         height: 3px;
-        background-color: var(--accent-primary);
+        background: linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
         border-radius: 2px;
     }
 }
@@ -296,9 +318,13 @@ body {
     transition: all 0.3s ease;
 
     &:hover {
-        background-color: var(--accent-primary);
+        background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
         color: white;
         transform: scale(1.05);
+    }
+
+    &:nth-child(even):hover {
+        background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-primary) 100%);
     }
 }
 
@@ -331,7 +357,10 @@ body {
 .contact-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--accent-primary);
+    background: linear-gradient(45deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .contact-title {
