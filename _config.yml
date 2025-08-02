@@ -1,26 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 # Site settings
 title: "Alevtina Verbovetskaya"
-email: alevtina.verbovetskaya@cuny.edu
+email: alevtina@cuny.edu
 description: >-
   University Director of Library Systems at The City University of New York.
   Leading digital transformation and technology innovation in academic library systems.
@@ -36,10 +16,11 @@ author:
     Leading digital transformation and technology innovation in academic library systems 
     at The City University of New York. Passionate about creating accessible, efficient, 
     and user-centered information systems.
+  gravatar_email: "alevtina.verbovetskaya@cuny.edu"  # Email associated with your Gravatar account
 
 # Social profiles
 social:
-  linkedin: alevtina-verbovetskaya
+  linkedin: https://www.linkedin.com/in/alevtina-verbovetskaya/
   github: alevtina
   email: alevtina.verbovetskaya@cuny.edu
 
@@ -103,7 +84,3 @@ contact:
   linkedin: "https://www.linkedin.com/in/alevtina-verbovetskaya/"
   institution: "The City University of New York"
   institution_url: "https://cuny.edu"
-
-# Include in processing.
-include:
-    - blog/
