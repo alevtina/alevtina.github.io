@@ -69,8 +69,16 @@ description: "University Director of Library Systems at The City University of N
             <div>Strategic Planning, Implementation</div>
         </div>
         <div class="skill-item">
+            <div class="skill-title">Digital Scholarship</div>
+            <div>Research Support, Data Management</div>
+        </div>
+        <div class="skill-item">
             <div class="skill-title">User Experience</div>
             <div>Interface Design, Accessibility</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">Vendor Relations</div>
+            <div>Contract Negotiation, Partnerships</div>
         </div>
         <div class="skill-item">
             <div class="skill-title">Team Leadership</div>
@@ -101,3 +109,52 @@ description: "University Director of Library Systems at The City University of N
         </div>
     </div>
 </section>
+
+{%- if site.posts.size > 0 -%}
+<section id="latest-blog" class="section">
+    <h2 class="section-title">Latest from the Blog</h2>
+    {%- assign latest_post = site.posts.first -%}
+    <div class="latest-post-card">
+        <div class="latest-post-content">
+            <h3 class="latest-post-title">
+                <a href="{{ latest_post.url | relative_url }}" class="latest-post-link">
+                    {{ latest_post.title | escape }}
+                </a>
+            </h3>
+            
+            <div class="latest-post-meta">
+                <time datetime="{{ latest_post.date | date_to_xmlschema }}">
+                    {{ latest_post.date | date: "%B %-d, %Y" }}
+                </time>
+                {%- if latest_post.author -%}
+                    <span class="meta-separator">•</span>
+                    <span class="post-author">{{ latest_post.author }}</span>
+                {%- endif -%}
+            </div>
+            
+            {%- if latest_post.excerpt -%}
+                <div class="latest-post-excerpt">
+                    {{ latest_post.excerpt | strip_html | truncatewords: 40 }}
+                </div>
+            {%- endif -%}
+            
+            {%- if latest_post.tags and latest_post.tags.size > 0 -%}
+                <div class="latest-post-tags">
+                    {%- for tag in latest_post.tags limit: 4 -%}
+                        <span class="tag">{{ tag }}</span>
+                    {%- endfor -%}
+                </div>
+            {%- endif -%}
+            
+            <div class="latest-post-actions">
+                <a href="{{ latest_post.url | relative_url }}" class="read-post-button">
+                    Read Full Post →
+                </a>
+                <a href="{{ '/blog' | relative_url }}" class="view-all-link">
+                    View All Posts
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{%- endif -%}
