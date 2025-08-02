@@ -69,16 +69,8 @@ description: "University Director of Library Systems at The City University of N
             <div>Strategic Planning, Implementation</div>
         </div>
         <div class="skill-item">
-            <div class="skill-title">Digital Scholarship</div>
-            <div>Research Support, Data Management</div>
-        </div>
-        <div class="skill-item">
             <div class="skill-title">User Experience</div>
             <div>Interface Design, Accessibility</div>
-        </div>
-        <div class="skill-item">
-            <div class="skill-title">Vendor Relations</div>
-            <div>Contract Negotiation, Partnerships</div>
         </div>
         <div class="skill-item">
             <div class="skill-title">Team Leadership</div>
