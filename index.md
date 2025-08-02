@@ -28,7 +28,7 @@ description: "University Director of Library Systems at The City University of N
         <div class="card">
             <h3 class="card-title">Innovation Focus</h3>
             <p class="card-content">
-                I'm committed to leveraging emerging technologies to enhance library services, from implementing modern integrated library systems to developing digital scholarship platforms that support 21st-century research and learning.
+                I drive practical innovation by implementing and integrating technologies that improve library services. My work enhances discovery, transparency, accessibility, and the user experience across the CUNY system.
             </p>
         </div>
     </div>
