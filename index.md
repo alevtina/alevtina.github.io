@@ -1,16 +1,111 @@
 ---
-layout: page
-title: About
+layout: default
+title: Home
+description: "University Director of Library Systems at The City University of New York. Leading digital transformation and technology innovation in academic library systems."
 ---
 
-![Caucasian woman with dark brown hair (in a pixie cut) and black-rimmed glasses, wearing a blazer, with a whiteboard, desk, and other office sundries behind her](/assets/img/Verbovetskaya_Alevtina_sq.png){: style="float:right;border-radius:50%;border:6px solid #424242;max-width:50%;margin:0 0 10px 10px"}
+<section class="hero">
+    <div class="hero-content">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author.name }}" class="hero-image">
+        <h1 class="hero-title">{{ site.author.name }}</h1>
+        <p class="hero-subtitle">{{ site.author.title }}</p>
+        <p class="hero-description">
+            {{ site.author.bio }}
+        </p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </div>
+</section>
 
-Alevtina Verbovetskaya is the University Director of Library Systems in the [Office of Library Services](https://www.cuny.edu/about/administration/offices/library-services/) at [The City University of New York](https://www.cuny.edu/). In this role, Allie is responsible for all aspects of library information systems as deployed or planned at the 31 CUNY Libraries supporting the University's 25 campuses and 100+ research centers and institutes. Most recently, she led the University-wide implementation of a new library services platform, Ex Libris Alma, that replaced the outdated integrated library system, Ex Libris Aleph, that was in use at the CUNY Libraries for almost 20 years.
+<section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3 class="card-title">Leadership & Vision</h3>
+            <p class="card-content">
+                As University Director of Library Systems at CUNY, I oversee the strategic planning and implementation of library technology infrastructure across multiple campuses, ensuring seamless access to information resources for students, faculty, and researchers.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Innovation Focus</h3>
+            <p class="card-content">
+                I'm committed to leveraging emerging technologies to enhance library services, from implementing modern integrated library systems to developing digital scholarship platforms that support 21st-century research and learning.
+            </p>
+        </div>
+    </div>
+</section>
 
-Previously, Allie was the University Web & Mobile Systems Librarian in the CUNY Office of Library Services for more than seven years, where she led the successful implementation of the CUNY Libraries' discovery tool, [OneSearch](https://cuny-al.primo.exlibrisgroup.com/discovery/search?vid=01CUNY_AL:CUNY_AL) (based on Ex Libris's Primo), before taking over maintenance of it on behalf of the libraries. She also managed the web interface of the University-wide Aleph OPAC, including the development of its mobile interface as well as auxiliary features, such as texting holding information to patrons. She created a library systems status page, developed a library access privilege app, and instated patron error reporting tools in the CUNY Libraries' systems.
+<section id="experience" class="section">
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="card-grid">
+        <div class="card">
+            <p class="card-subtitle">Current Position</p>
+            <h3 class="card-title">University Director of Library Systems</h3>
+            <p class="card-content">
+                <strong>{{ site.author.organization }}</strong><br>
+                Leading technology strategy and operations for CUNY's library system, managing enterprise-level implementations, and fostering collaboration across 25+ campus libraries to deliver innovative information services.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Key Achievements</h3>
+            <p class="card-content">
+                • Spearheaded migration to next-generation library management systems<br>
+                • Implemented comprehensive digital asset management solutions<br>
+                • Enhanced user experience through modern discovery interfaces<br>
+                • Established robust data governance and security protocols
+            </p>
+        </div>
+    </div>
+</section>
 
-Allie has a unique mix of library training coupled with technical know-how. She studied Computer & Information Science at [Brooklyn College](https://www.brooklyn.cuny.edu/) before going on to obtain her Master’s degree in Library & Information Science from [Rutgers, The State University of New Jersey](https://www.rutgers.edu/). As such, she is adept at bridging the technical and library aspects of projects, including the communication gap between technical jargon and librarian lingo.
+<section id="skills" class="section">
+    <h2 class="section-title">Areas of Expertise</h2>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <div class="skill-title">Library Technology Systems</div>
+            <div>ILS, Discovery, Digital Collections</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">Project Management</div>
+            <div>Strategic Planning, Implementation</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">Digital Scholarship</div>
+            <div>Research Support, Data Management</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">User Experience</div>
+            <div>Interface Design, Accessibility</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">Vendor Relations</div>
+            <div>Contract Negotiation, Partnerships</div>
+        </div>
+        <div class="skill-item">
+            <div class="skill-title">Team Leadership</div>
+            <div>Cross-functional Collaboration</div>
+        </div>
+    </div>
+</section>
 
-She's mom to a rambunctious son who makes her laugh, and partner to an amazing guy who brews her sour beer.
-
-You can email Allie at <alevtina.verbovetskaya@cuny.edu>.
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+        <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <h3 class="contact-title">Email</h3>
+            <a href="mailto:{{ site.contact.email }}" class="contact-link">{{ site.contact.email }}</a>
+        </div>
+        {%- if site.contact.linkedin -%}
+        <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <h3 class="contact-title">LinkedIn</h3>
+            <a href="{{ site.contact.linkedin }}" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
+        </div>
+        {%- endif -%}
+        <div class="contact-item">
+            <div class="contact-icon">🏛️</div>
+            <h3 class="contact-title">Institution</h3>
+            <a href="{{ site.contact.institution_url }}" target="_blank" rel="noopener noreferrer" class="contact-link">{{ site.contact.institution }}</a>
+        </div>
+    </div>
+</section>
