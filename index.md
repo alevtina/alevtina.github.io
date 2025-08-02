@@ -79,6 +79,29 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+        <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <h3 class="contact-title">Email</h3>
+            <a href="mailto:{{ site.contact.email }}" class="contact-link">{{ site.contact.email }}</a>
+        </div>
+        {%- if site.contact.linkedin -%}
+        <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <h3 class="contact-title">LinkedIn</h3>
+            <a href="{{ site.contact.linkedin }}" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
+        </div>
+        {%- endif -%}
+        <div class="contact-item">
+            <div class="contact-icon">🏛️</div>
+            <h3 class="contact-title">Institution</h3>
+            <a href="{{ site.contact.institution_url }}" target="_blank" rel="noopener noreferrer" class="contact-link">{{ site.contact.institution }}</a>
+        </div>
+    </div>
+</section>
+
 {%- if site.posts.size > 0 -%}
 <section id="latest-blog" class="section">
     <h2 class="section-title">Latest from the Blog</h2>
@@ -127,26 +150,3 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 {%- endif -%}
-
-<section id="contact" class="section">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-grid">
-        <div class="contact-item">
-            <div class="contact-icon">📧</div>
-            <h3 class="contact-title">Email</h3>
-            <a href="mailto:{{ site.contact.email }}" class="contact-link">{{ site.contact.email }}</a>
-        </div>
-        {%- if site.contact.linkedin -%}
-        <div class="contact-item">
-            <div class="contact-icon">💼</div>
-            <h3 class="contact-title">LinkedIn</h3>
-            <a href="{{ site.contact.linkedin }}" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
-        </div>
-        {%- endif -%}
-        <div class="contact-item">
-            <div class="contact-icon">🏛️</div>
-            <h3 class="contact-title">Institution</h3>
-            <a href="{{ site.contact.institution_url }}" target="_blank" rel="noopener noreferrer" class="contact-link">{{ site.contact.institution }}</a>
-        </div>
-    </div>
-</section>
