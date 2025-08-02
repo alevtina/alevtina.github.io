@@ -61,20 +61,20 @@ description: "University Director of Library Systems at The City University of N
     <h2 class="section-title" id="skills-title">Areas of Expertise</h2>
     <div class="skills-grid">
         <div class="skill-item">
-            <div class="skill-title">Library Technology Systems</div>
-            <div>ILS, Discovery, Digital Collections</div>
+            <div class="skill-title">Library Systems Strategy</div>
+            <div>Enterprise platforms (Alma, Primo VE), system migrations, discovery optimization, digital infrastructure planning</div>
         </div>
         <div class="skill-item">
-            <div class="skill-title">Project Management</div>
-            <div>Strategic Planning, Implementation</div>
+            <div class="skill-title">Project Leadership & Implementation</div>
+            <div> Strategic planning, vendor management, cross-campus coordination, change management</div>
         </div>
         <div class="skill-item">
-            <div class="skill-title">User Experience</div>
-            <div>Interface Design, Accessibility</div>
+            <div class="skill-title">User Experience & Web Services</div>
+            <div>Interface design, accessibility, authentication (SSO), custom tools for service transparency</div>
         </div>
         <div class="skill-item">
-            <div class="skill-title">Team Leadership</div>
-            <div>Cross-functional Collaboration</div>
+            <div class="skill-title">Team & Organizational Development</div>
+            <div>Team leadership, staff mentoring, operational governance, collaborative culture-building</div>
         </div>
     </div>
 </section>
