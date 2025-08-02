@@ -75,10 +75,10 @@ navigation:
     url: "/#experience"
   - title: "Skills"
     url: "/#skills"
-  - title: "Blog"
-    url: "/blog"
   - title: "Contact"
     url: "/#contact"
+  - title: "Blog"
+    url: "/blog"
 
 # Contact information
 contact:
