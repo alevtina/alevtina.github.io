@@ -2,14 +2,14 @@
 layout: post
 title: "We Read the Release Notes So You Don't Have To"
 date: "2025-08-02 19:16"
-last_modified_at: "2025-08-02 19:51"
+last_modified_at: "2025-08-02 19:57"
 categories: [leadership]
 tags: [Alma, Primo VE, library systems, release notes, change management]
 ---
 
 _One year into Shelf Help, here’s what we’ve learned about making library systems feel less like a black box._
 
-For a long time, we read the release notes the way many people do: haphazardly, hurriedly, and mostly in preparation for a committee meeting.
+For a long time, my team at CUNY's Office of Library Services (OLS) read the release notes the way many people do: haphazardly, hurriedly, and mostly in preparation for a committee meeting.
 
 We'd skim through the Alma and Primo VE quarterly updates—sometimes individually, sometimes together—then talk through the highlights six separate times: once with each of our three working groups and again with our three advisory committees. It was theoretical (“This probably affects cataloging…”), abstract (“Based on the screenshot, I think it works like this…”), and ultimately redundant.
 
