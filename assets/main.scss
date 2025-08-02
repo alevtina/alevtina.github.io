@@ -12,9 +12,9 @@
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
     --bg-accent: #f1f5f9;
-    --text-primary: #1e293b;
-    --text-secondary: #475569;
-    --text-muted: #64748b;
+    --text-primary: #1a202c;        // Darker for better contrast
+    --text-secondary: #2d3748;      // Darker for better contrast  
+    --text-muted: #4a5568;          // Darker for better contrast
     
     // Primary accent (blue-based)
     --accent-primary: var(--brand-blue);
@@ -35,8 +35,8 @@
         --bg-secondary: #1e293b;
         --bg-accent: #334155;
         --text-primary: #f8fafc;
-        --text-secondary: #cbd5e1;
-        --text-muted: #94a3b8;
+        --text-secondary: #e2e8f0;       // Lighter for better contrast in dark mode
+        --text-muted: #cbd5e1;           // Lighter for better contrast in dark mode
         
         // Adjusted for dark mode accessibility
         --accent-primary: #4d7dd6;
@@ -379,7 +379,7 @@ body {
 }
 
 .footer-text {
-    color: var(--text-muted);
+    color: #4a5568;  // Darker color for better contrast
     margin-bottom: 1rem;
 }
 
@@ -390,7 +390,7 @@ body {
     margin-top: 1rem;
 
     a {
-        color: var(--text-muted);
+        color: #4a5568;  // Darker color for better contrast
         transition: color 0.3s ease, transform 0.3s ease;
         padding: 0.5rem;
         border-radius: 0.25rem;
@@ -405,6 +405,17 @@ body {
             width: 20px;
             height: 20px;
         }
+    }
+}
+
+// Dark mode footer adjustments
+@media (prefers-color-scheme: dark) {
+    .footer-text {
+        color: #cbd5e1;  // Lighter color for dark mode
+    }
+    
+    .footer-social a {
+        color: #cbd5e1;  // Lighter color for dark mode
     }
 }
 
