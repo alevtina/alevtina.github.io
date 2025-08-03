@@ -2,6 +2,8 @@
 layout: post
 title: "I think this song has reached its peak"
 date: "2010-11-15"
+author: "Alevtina Verbovetskaya"
+excerpt: "Student feedback revealed they want more videos in my library workshops because 'they seem to catch my attention'—proving The Simpsons clips work better than I expected!"
 categories: 
   - "instruction"
 tags: 
