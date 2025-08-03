@@ -2,6 +2,8 @@
 layout: post
 title: "It all comes down to this"
 date: "2011-01-21"
+author: "Alevtina Verbovetskaya"
+excerpt: "Leading my library's e-book project, I created a CUNY Academic Commons group and used my beloved whiteboard to storyboard a stop-motion promo video about heavy textbooks vs e-readers."
 categories: 
   - "special-initiatives"
 tags: 
