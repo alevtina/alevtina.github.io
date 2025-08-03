@@ -28,6 +28,7 @@ social:
 markdown: kramdown
 highlighter: rouge
 theme: minima
+excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
