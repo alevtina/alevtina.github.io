@@ -253,7 +253,11 @@ description: "University Director of Library Systems at The City University of N
             
             {%- if latest_post.excerpt -%}
                 <div class="latest-post-excerpt">
-                    {{ latest_post.excerpt | strip_html | truncatewords: 40 }}
+                    {%- if latest_post.excerpt contains site.excerpt_separator -%}
+                        {{ latest_post.excerpt | strip_html | strip }}
+                    {%- else -%}
+                        {{ latest_post.excerpt | strip_html | truncatewords: 40 }}
+                    {%- endif -%}
                 </div>
             {%- endif -%}
             
