@@ -50,6 +50,21 @@
     }
 }
 
+.presentations-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.presentations-note {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 // Reset and base styles
 * {
     margin: 0;
@@ -320,6 +335,19 @@ body {
 }
 
 // Presentations section
+.presentations-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.presentations-note {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .presentations-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
