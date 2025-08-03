@@ -14,6 +14,6 @@ description: "University Director of Library Systems at The City University of N
 
 {% include presentations.html %}
 
-{% include contact.html %}
-
 {% include latest-blog.html %}
+
+{% include contact.html %}
