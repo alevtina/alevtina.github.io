@@ -40,7 +40,11 @@ permalink: /blog/
                             
                             {%- if post.excerpt -%}
                                 <div class="post-card-excerpt">
-                                    {{ post.excerpt | strip_html | truncatewords: 30 }}
+                                    {%- if post.excerpt contains site.excerpt_separator -%}
+                                        {{ post.excerpt | strip_html | strip }}
+                                    {%- else -%}
+                                        {{ post.excerpt | strip_html | truncatewords: 30 }}
+                                    {%- endif -%}
                                 </div>
                             {%- endif -%}
                             
