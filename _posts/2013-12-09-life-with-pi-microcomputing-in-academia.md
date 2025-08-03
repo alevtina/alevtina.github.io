@@ -3,6 +3,8 @@ layout: post
 title: "Life with Pi: Microcomputing in Academia"
 date: "2013-12-09"
 last_modified_at: "2023-04-08"
+author: "Alevtina Verbovetskaya"
+excerpt: "At the 2013 CUNY IT Conference, we demonstrated how affordable single-board computers like Raspberry Pi can transform academia through creative projects ranging from RFID pet feeders to classroom web servers and research data collection."
 categories: [research]
 tags: [arduino, beaglebone, conference, microcomputers, microcomputing, presentation, raspberry-pi, single-board-computers]
 ---
