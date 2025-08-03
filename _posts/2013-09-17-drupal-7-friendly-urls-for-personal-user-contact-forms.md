@@ -2,6 +2,8 @@
 layout: post
 title: "Drupal 7: Friendly URLs for personal user contact forms"
 date: "2013-09-17"
+author: "Alevtina Verbovetskaya"
+excerpt: "Migrating from Drupal 6 to 7, I hit a wall when user contact forms wouldn't follow my Pathauto URL patterns—until I discovered the Sub-pathauto module fixed it perfectly."
 categories: 
   - "cms"
 tags: 
