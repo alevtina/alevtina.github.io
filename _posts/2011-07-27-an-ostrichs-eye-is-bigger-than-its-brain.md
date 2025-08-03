@@ -2,6 +2,8 @@
 layout: post
 title: "An ostrich's eye is bigger than its brain"
 date: "2011-07-27"
+author: "Alevtina Verbovetskaya"
+excerpt: "Reviewing 239 student citations revealed that 62.8% came from websites, not library databases—making me question whether we should teach Google skills before database searching."
 categories: 
   - "instruction"
 tags: 
