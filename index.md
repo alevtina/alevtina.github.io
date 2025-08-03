@@ -199,8 +199,8 @@ description: "University Director of Library Systems at The City University of N
     
     <div class="presentations-footer">
         <p class="presentations-note">
-            <strong>{{ site.posts.size | plus: 15 }} presentations</strong> at international, national, and regional conferences since 2009, 
-            including keynotes and invited talks on library technology, mobile services, and system implementation.
+            <strong>20+ presentations</strong> at international, national, and regional conferences since 2009, 
+            including invited talks on library technology, mobile services, and system implementation.
         </p>
     </div>
 </section>
