@@ -2,6 +2,8 @@
 layout: post
 title: "As easy as Alpha Bravo Charlie"
 date: "2010-11-11"
+author: "Alevtina Verbovetskaya"
+excerpt: "Teaching terrifies me—my heart races facing all those blinking eyeballs—but students love my Simpsons clips for demonstrating critical thinking concepts in library instruction."
 categories: 
   - "instruction"
 tags: 
