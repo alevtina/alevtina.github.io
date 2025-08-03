@@ -2,6 +2,8 @@
 layout: post
 title: "A show of hands from those in this audience of one"
 date: "2011-01-12"
+author: "Alevtina Verbovetskaya"
+excerpt: "Becoming RefWorks Administrator with only 3.8% faculty adoption, I'm planning workshops that start by auto-generating bibliographies from 50+ citations to show the tool's magic immediately."
 categories: 
   - "instruction"
 tags: 
