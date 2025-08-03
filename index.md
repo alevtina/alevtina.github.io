@@ -81,6 +81,14 @@ description: "University Director of Library Systems at The City University of N
 
 <section id="presentations" class="section" aria-labelledby="presentations-title">
     <h2 class="section-title" id="presentations-title">Presentations & Speaking</h2>
+    
+    <div class="presentations-header">
+        <p class="presentations-note">
+            Selected highlights from <strong>20+ presentations</strong> at international, national, and regional conferences since 2009, 
+            including invited talks on library technology, mobile services, and system implementation.
+        </p>
+    </div>
+    
     <div class="presentations-grid">
         <div class="presentation-card">
             <h3 class="presentation-title">AFN and P2P: Sharing resources harmoniously</h3>
@@ -195,13 +203,6 @@ description: "University Director of Library Systems at The City University of N
                 <span class="tag">Academic Libraries</span>
             </div>
         </div>
-    </div>
-    
-    <div class="presentations-footer">
-        <p class="presentations-note">
-            <strong>20+ presentations</strong> at international, national, and regional conferences since 2009, 
-            including invited talks on library technology, mobile services, and system implementation.
-        </p>
     </div>
 </section>
 
