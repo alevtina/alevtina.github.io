@@ -2,7 +2,7 @@
 layout: post
 title: "We Read the Release Notes So You Don't Have To"
 date: "2025-08-02 19:16"
-last_modified_at: "2025-08-02 19:57"
+last_modified_at: "2025-08-02 20:28"
 categories: [leadership]
 tags: [Alma, Primo VE, library systems, release notes, change management]
 ---
@@ -27,7 +27,7 @@ The answer became _Shelf Help_, a quarterly open webinar that walks library staf
 
 We held our first session in November 2024. One year and four sessions later, it’s become a reliable touchstone in our systems calendar—with around 70 registrants and 80% attendance each time.
 
-# Why It Works (And What We Do Differently)
+## Why It Works (And What We Do Differently)
 
 _Shelf Help_ isn't just a reading of the release notes. It's a systems-thinking exercise with a service mindset.
 
