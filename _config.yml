@@ -82,7 +82,7 @@ navigation:
   - title: "Contact"
     url: "/#contact"
   - title: "Blog"
-    url: "/blog"
+    url: "/#latest-blog"
 
 # Contact information
 contact:
