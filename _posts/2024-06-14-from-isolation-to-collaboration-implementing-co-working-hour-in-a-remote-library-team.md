@@ -3,6 +3,8 @@ layout: post
 title: "From Isolation to Collaboration: Implementing Co-Working Hour in a Remote Library Team"
 date: "2024-06-14 19:01"
 last_modified_at: "2024-06-14 19:14"
+author: "Alevtina Verbovetskaya"
+excerpt: "Amid the challenges of migrating CUNY Libraries' system during the pandemic, implementing a daily virtual co-working hour transformed our isolated remote work into a collaborative experience that fostered accountability, enhanced communication, and strengthened team bonds—ultimately achieving 100% voluntary participation three years later."
 categories: [management]
 tags: [remote-work, work-from-home, team-collaboration, team-management, change-management]
 ---
