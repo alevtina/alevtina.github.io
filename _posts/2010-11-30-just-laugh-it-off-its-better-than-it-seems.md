@@ -2,6 +2,8 @@
 layout: post
 title: "Just laugh it off, it's better than it seems"
 date: "2010-11-30"
+author: "Alevtina Verbovetskaya"
+excerpt: "I finally get it—dressing professionally isn't vanity but necessity when you're younger than students, helping them identify you as staff who can actually help with research questions."
 categories: 
   - "reference"
 tags: 
