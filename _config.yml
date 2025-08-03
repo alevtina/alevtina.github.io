@@ -79,10 +79,10 @@ navigation:
     url: "/#skills"
   - title: "Presentations"
     url: "/#presentations"
-  - title: "Contact"
-    url: "/#contact"
   - title: "Blog"
     url: "/#latest-blog"
+  - title: "Contact"
+    url: "/#contact"
 
 # Contact information
 contact:
