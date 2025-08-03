@@ -76,6 +76,8 @@ navigation:
     url: "/#experience"
   - title: "Skills"
     url: "/#skills"
+  - title: "Presentations"
+    url: "/#presentations"
   - title: "Contact"
     url: "/#contact"
   - title: "Blog"
