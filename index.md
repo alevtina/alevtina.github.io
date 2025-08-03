@@ -79,6 +79,132 @@ description: "University Director of Library Systems at The City University of N
     </div>
 </section>
 
+<section id="presentations" class="section" aria-labelledby="presentations-title">
+    <h2 class="section-title" id="presentations-title">Presentations & Speaking</h2>
+    <div class="presentations-grid">
+        <div class="presentation-card">
+            <h3 class="presentation-title">AFN and P2P: Sharing resources harmoniously</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">Ex Libris Users of North America (ELUNA) 2024</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">May 16, 2024</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">Minneapolis, MN</span>
+            </div>
+            <p class="presentation-description">
+                Exploring strategies for harmonious resource sharing between Alma Fulfillment Network and peer-to-peer systems in academic library environments.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Resource Sharing</span>
+                <span class="tag">Alma</span>
+                <span class="tag">Library Networks</span>
+            </div>
+        </div>
+
+        <div class="presentation-card">
+            <h3 class="presentation-title">To NZ, or not to NZ, that is the question</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">Ex Libris Users of North America (ELUNA) 2023</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">May 10, 2023</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">Los Angeles, CA</span>
+            </div>
+            <p class="presentation-description">
+                Strategic considerations for Network Zone participation in Alma, examining the benefits and challenges for multi-campus library systems.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Alma Network Zone</span>
+                <span class="tag">Strategic Planning</span>
+                <span class="tag">Multi-Campus Systems</span>
+            </div>
+        </div>
+
+        <div class="presentation-card">
+            <h3 class="presentation-title">One search, many systems: The ins and outs of Primo at CUNY</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">LACUNY Reference Roundtable (Invited)</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">May 5, 2017</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">New York, NY</span>
+            </div>
+            <p class="presentation-description">
+                Comprehensive overview of Primo implementation across CUNY's diverse library ecosystem, addressing integration challenges and user experience optimization.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Discovery Systems</span>
+                <span class="tag">Primo</span>
+                <span class="tag">CUNY</span>
+            </div>
+        </div>
+
+        <div class="presentation-card">
+            <h3 class="presentation-title">Text me, maybe: Implementing texting functionality in the Aleph OPAC</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">International Group of Ex Libris Users (IGeLU) 2014</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">September 16, 2014</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">Oxford, England, UK</span>
+            </div>
+            <p class="presentation-description">
+                Innovative approach to mobile engagement in library services through SMS integration in the library catalog system.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Mobile Services</span>
+                <span class="tag">SMS Integration</span>
+                <span class="tag">User Experience</span>
+            </div>
+        </div>
+
+        <div class="presentation-card">
+            <h3 class="presentation-title">Managing a three-ring circus: Upgrading Aleph, implementing Primo, and maintaining support</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">International Group of Ex Libris Users (IGeLU) 2014</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">September 16, 2014</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">Oxford, England, UK</span>
+            </div>
+            <p class="presentation-description">
+                Project management strategies for complex library system migrations while maintaining service quality for a quarter million users.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Project Management</span>
+                <span class="tag">System Migration</span>
+                <span class="tag">Large-Scale Implementation</span>
+            </div>
+        </div>
+
+        <div class="presentation-card">
+            <h3 class="presentation-title">Aleph-to-go: How CUNY adapted Aleph for a mobile population</h3>
+            <div class="presentation-meta">
+                <span class="presentation-venue">Ex Libris Users of North America (ELUNA) 2013</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-date">May 1, 2013</span>
+                <span class="meta-separator">•</span>
+                <span class="presentation-location">Athens, GA</span>
+            </div>
+            <p class="presentation-description">
+                Pioneering mobile adaptations for library management systems to serve an increasingly mobile academic community.
+            </p>
+            <div class="presentation-tags">
+                <span class="tag">Mobile Optimization</span>
+                <span class="tag">Adaptive Design</span>
+                <span class="tag">Academic Libraries</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="presentations-footer">
+        <p class="presentations-note">
+            <strong>{{ site.posts.size | plus: 15 }} presentations</strong> at international, national, and regional conferences since 2009, 
+            including keynotes and invited talks on library technology, mobile services, and system implementation.
+        </p>
+    </div>
+</section>
+
 <section id="contact" class="section" aria-labelledby="contact-title">
     <h2 class="section-title" id="contact-title">Contact</h2>
     <div class="contact-grid">
