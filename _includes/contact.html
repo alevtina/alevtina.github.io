@@ -1,0 +1,22 @@
+<section id="contact" class="section" aria-labelledby="contact-title">
+    <h2 class="section-title" id="contact-title">Contact</h2>
+    <div class="contact-grid">
+        <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <h3 class="contact-title">Email</h3>
+            <a href="mailto:{{ site.contact.email }}" class="contact-link">{{ site.contact.email }}</a>
+        </div>
+        {%- if site.contact.linkedin -%}
+        <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <h3 class="contact-title">LinkedIn</h3>
+            <a href="{{ site.contact.linkedin }}" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
+        </div>
+        {%- endif -%}
+        <div class="contact-item">
+            <div class="contact-icon">🏛️</div>
+            <h3 class="contact-title">Institution</h3>
+            <a href="{{ site.contact.institution_url }}" target="_blank" rel="noopener noreferrer" class="contact-link">{{ site.contact.institution }}</a>
+        </div>
+    </div>
+</section>
