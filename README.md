@@ -25,19 +25,25 @@ My professional website showcasing expertise in library systems and technology l
 ```
 ├── _config.yml           # Site configuration
 ├── _includes/            # Reusable components
+│   ├── about.html
+│   ├── contact.html
 │   ├── head.html
 │   ├── header.html
+│   ├── hero.html
 │   ├── footer.html
-│   └── gravatar.html
+│   ├── gravatar.html
+│   ├── latest-blog.html
+│   ├── presentations.html
+│   └── skills.html
 ├── _layouts/             # Page templates
 │   ├── default.html
 │   └── post.html
 ├── _posts/               # Blog posts
 ├── assets/
 │   ├── main.scss         # Main stylesheet
-│   └── images/           # Images and media
-├── blog/
-│   └── index.md          # Blog landing page
+│   └── img/              # Images and media
+├── 404.html              # Error 404 page
+├── blog.md               # Blog landing page
 ├── index.md              # Homepage content
 └── README.md             # This file
 ```
@@ -58,6 +64,7 @@ layout: post
 title: "Your Post Title"
 date: 2025-08-02
 author: "Alevtina Verbovetskaya"
+excerpt: "Summary of no more than 200 characters."
 tags: [library-systems, technology, leadership]
 ---
 
