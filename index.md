@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "Alevtina (Allie) Verbovetskaya—University Director of Library Systems at The City University of New York."
+description: "Alevtina (Allie) Verbovetskaya—University Director of Library Systems at CUNY."
 ---
 
 {% include hero.html %}
