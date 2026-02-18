@@ -1,52 +1,14 @@
 {%- if site.posts.size > 0 -%}
-<section id="latest-blog" class="section" aria-labelledby="latest-blog-title">
-    <h2 class="section-title" id="latest-blog-title">Latest from the Blog</h2>
-    {%- assign latest_post = site.posts.first -%}
-    <div class="latest-post-card">
-        <div class="latest-post-content">
-            <h3 class="latest-post-title">
-                <a href="{{ latest_post.url | relative_url }}" class="latest-post-link">
-                    {{ latest_post.title | escape }}
-                </a>
-            </h3>
-            
-            <div class="latest-post-meta">
-                <time datetime="{{ latest_post.date | date_to_xmlschema }}">
-                    {{ latest_post.date | date: "%B %-d, %Y" }}
-                </time>
-                {%- if latest_post.author -%}
-                    <span class="meta-separator">•</span>
-                    <span class="post-author">{{ latest_post.author }}</span>
-                {%- endif -%}
-            </div>
-            
-            {%- if latest_post.excerpt -%}
-                <div class="latest-post-excerpt">
-                    {%- if latest_post.excerpt contains site.excerpt_separator -%}
-                        {{ latest_post.excerpt | strip_html | strip }}
-                    {%- else -%}
-                        {{ latest_post.excerpt | strip_html | truncatewords: 40 }}
-                    {%- endif -%}
-                </div>
-            {%- endif -%}
-            
-            {%- if latest_post.tags and latest_post.tags.size > 0 -%}
-                <div class="latest-post-tags">
-                    {%- for tag in latest_post.tags limit: 4 -%}
-                        <span class="tag">{{ tag }}</span>
-                    {%- endfor -%}
-                </div>
-            {%- endif -%}
-            
-            <div class="latest-post-actions">
-                <a href="{{ latest_post.url | relative_url }}" class="read-post-button">
-                    Read Full Post →
-                </a>
-                <a href="{{ '/blog' | relative_url }}" class="view-all-link">
-                    View All Posts
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="section">
+    <h2>Recent Posts</h2>
+    <ul class="recent-posts">
+        {%- for post in site.posts limit: 5 -%}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <span class="date">{{ post.date | date: "%b %Y" }}</span>
+        </li>
+        {%- endfor -%}
+    </ul>
+    <p><a href="{{ '/blog' | relative_url }}">All posts →</a></p>
+</div>
 {%- endif -%}

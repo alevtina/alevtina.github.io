@@ -2,90 +2,41 @@
 layout: default
 ---
 
-<div class="blog-container">
-    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" aria-labelledby="post-title">
-        <header class="post-header">
-            <nav class="post-breadcrumb" aria-label="Breadcrumb">
-                <a href="{{ '/' | relative_url }}" class="breadcrumb-link">Home</a>
-                <span class="breadcrumb-separator">→</span>
-                <a href="{{ '/blog' | relative_url }}" class="breadcrumb-link">Blog</a>
-                <span class="breadcrumb-separator">→</span>
-                <span class="breadcrumb-current">{{ page.title | truncate: 50 }}</span>
-            </nav>
-            
-            <h1 class="post-title p-name" id="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-            
-            <div class="post-meta">
-                <div class="post-meta-item">
-                    <span class="meta-icon">📅</span>
-                    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
-                        {{ page.date | date: date_format }}
-                    </time>
-                </div>
-                
-                {%- if page.last_modified_at -%}
-                    <div class="post-meta-item">
-                        <span class="meta-icon">✏️</span>
-                        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
-                            Revised: {{ page.last_modified_at | date: date_format }}
-                        </time>
-                    </div>
-                {%- endif -%}
-                
-                {%- if page.author -%}
-                    <div class="post-meta-item">
-                        <span class="meta-icon">👤</span>
-                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span class="p-author h-card" itemprop="name">{{ page.author }}</span>
-                        </span>
-                    </div>
-                {%- endif -%}
-                
-                {%- if page.tags and page.tags.size > 0 -%}
-                    <div class="post-meta-item post-tags">
-                        <span class="meta-icon">🏷️</span>
-                        {%- for tag in page.tags -%}
-                            <span class="tag">{{ tag }}</span>
-                        {%- endfor -%}
-                    </div>
-                {%- endif -%}
-            </div>
-        </header>
-
-        <section class="post-content e-content" itemprop="articleBody" aria-labelledby="post-title">
-            {{ content }}
-        </section>
-
-        <footer class="post-footer">
-            <nav class="post-navigation" aria-label="Post navigation">
-                {%- if page.previous.url -%}
-                    <a class="nav-previous" href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title | escape }}">
-                        <span class="nav-direction">← Previous</span>
-                        <span class="nav-title">{{ page.previous.title | truncate: 40 }}</span>
-                    </a>
-                {%- endif -%}
-                
-                {%- if page.next.url -%}
-                    <a class="nav-next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title | escape }}">
-                        <span class="nav-direction">Next →</span>
-                        <span class="nav-title">{{ page.next.title | truncate: 40 }}</span>
-                    </a>
-                {%- endif -%}
-            </nav>
-            
-            <div class="back-to-blog">
-                <a href="{{ '/blog' | relative_url }}" class="back-link">← Back to All Posts</a>
-            </div>
-        </footer>
-
-        {%- if site.disqus.shortname -%}
-            <section class="comments-section" aria-labelledby="comments-title">
-                <h2 class="sr-only" id="comments-title">Comments</h2>
-                {%- include disqus_comments.html -%}
-            </section>
-        {%- endif -%}
-
-        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-    </article>
+<div class="breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a> → <a href="{{ '/blog' | relative_url }}">Blog</a> → {{ page.title | truncate: 50 }}
 </div>
+
+<article>
+    <header class="post-header">
+        <h1>{{ page.title | escape }}</h1>
+        <div class="post-meta">
+            {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+            {{ page.date | date: date_format }}
+            {%- if page.author %} · {{ page.author }}{% endif -%}
+        </div>
+        {%- if page.tags and page.tags.size > 0 -%}
+        <div class="post-tags">
+            {%- for tag in page.tags -%}
+                <span class="tag">{{ tag }}</span>
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <nav class="post-nav">
+        <div>
+            {%- if page.previous.url -%}
+            <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title | truncate: 30 }}</a>
+            {%- endif -%}
+        </div>
+        <div>
+            {%- if page.next.url -%}
+            <a href="{{ page.next.url | relative_url }}">{{ page.next.title | truncate: 30 }} →</a>
+            {%- endif -%}
+        </div>
+    </nav>
+</article>

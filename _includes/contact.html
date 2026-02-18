@@ -1,25 +1,8 @@
-<section id="contact" class="section" aria-labelledby="contact-title">
-    <h2 class="section-title" id="contact-title">Contact</h2>
-    <div class="contact-grid">
-        <div class="contact-item">
-            <div class="contact-icon">📧</div>
-            <h3 class="contact-title">Email</h3>
-            <a href="mailto:{{ site.contact.email }}" class="contact-link">{{ site.contact.email }}</a>
-        </div>
-        {%- if site.contact.linkedin -%}
-        <div class="contact-item">
-            <div class="contact-icon">💼</div>
-            <h3 class="contact-title">LinkedIn</h3>
-            <a href="{{ site.contact.linkedin }}" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
-        </div>
-        {%- endif -%}
-        <div class="contact-item">
-            <div class="contact-icon">📍</div>
-            <h3 class="contact-title">Office</h3>
-            <div class="contact-link">
-                555 W 57th St, 16th Fl<br>
-                New York, NY 10019
-            </div>
-        </div>
-    </div>
-</section>
+<div class="section">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+        <li><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>
+        <li><a href="{{ site.contact.linkedin }}" rel="noopener noreferrer">LinkedIn</a></li>
+        <li>555 W 57th St, 16th Fl, New York, NY 10019</li>
+    </ul>
+</div>
