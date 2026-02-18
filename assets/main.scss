@@ -6,7 +6,7 @@
 :root {
     --text: #222;
     --text-light: #555;
-    --text-muted: #888;
+    --text-muted: #737373;
     --bg: #fff;
     --accent: #0033A1;
     --highlight: #FFB71B;
@@ -18,7 +18,7 @@
 :root.dark {
     --text: #dde0e6;
     --text-light: #9ea5b0;
-    --text-muted: #6b7280;
+    --text-muted: #8891a0;
     --bg: #141821;
     --accent: #6b9fff;
     --highlight: #FFB71B;
@@ -31,7 +31,7 @@
     :root:not(.light) {
         --text: #dde0e6;
         --text-light: #9ea5b0;
-        --text-muted: #6b7280;
+        --text-muted: #8891a0;
         --bg: #141821;
         --accent: #6b9fff;
         --highlight: #FFB71B;

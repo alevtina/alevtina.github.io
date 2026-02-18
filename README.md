@@ -1,16 +1,6 @@
-# Alevtina Verbovetskaya - Professional Website
+# verbovetskaya.com
 
-My professional website showcasing expertise in library systems and technology leadership at The City University of New York.
-
-## Features
-
-- ✨ **Modern Design**: Clean, professional layout with contemporary styling
-- 🌙 **Automatic Dark Mode**: Responds to user's OS theme preference
-- 📱 **Mobile-First**: Fully responsive design optimized for all devices
-- ♿ **Accessible**: WCAG AA compliant with proper semantic markup
-- ⚡ **Fast**: Optimized performance with minimal dependencies
-- 🔧 **Jekyll-Powered**: Easy to maintain and deploy on GitHub Pages
-- 📝 **Integrated Blog**: Professional blog with latest post showcase
+Personal website. Built with Jekyll, hosted on GitHub Pages.
 
 ## Technology Stack
 
@@ -37,6 +27,7 @@ My professional website showcasing expertise in library systems and technology l
 │   └── skills.html
 ├── _layouts/             # Page templates
 │   ├── default.html
+│   ├── page.html
 │   └── post.html
 ├── _posts/               # Blog posts
 ├── assets/
@@ -81,20 +72,19 @@ Edit `_config.yml` to update:
 
 ### Customizing Design
 
-The site uses a clean blue color scheme (`#0033A1`). To modify colors, edit the CSS custom properties in `assets/main.scss`:
+The site uses CUNY Blue (`#0033A1`) as the accent color. To modify colors, edit the CSS custom properties in `assets/main.scss`:
 
 ```scss
 :root {
-    --brand-blue: #0033A1;
-    --accent-primary: var(--brand-blue);
-    --accent-primary-hover: #002080;
+    --accent: #0033A1;
+    --highlight: #FFB71B;
     // ... other color variables
 }
 ```
 
 ## Deployment
 
-The site automatically deploys via GitHub Pages when changes are pushed to the main branch. It's available at: `https://alevtina.github.io`
+The site automatically deploys via GitHub Pages when changes are pushed to the main branch. It's available at: `https://verbovetskaya.com`
 
 ## Performance Features
 
@@ -107,7 +97,7 @@ The site automatically deploys via GitHub Pages when changes are pushed to the m
 ## Accessibility Features
 
 - **Semantic HTML**: Proper heading hierarchy and landmarks
-- **WCAG AA compliance**: Color contrast and interactive elements
+- **WCAG AA compliance**: Color contrast meets 4.5:1 minimum
 - **Keyboard navigation**: Full site navigation without mouse
 - **Screen reader support**: Proper ARIA labels and descriptions
 - **Reduced motion support**: Respects user preferences
@@ -115,8 +105,8 @@ The site automatically deploys via GitHub Pages when changes are pushed to the m
 
 ## Browser Support
 
-- ✅ Modern browsers (Chrome, Firefox, Safari, Edge)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-- ✅ Works with JavaScript disabled
-- ✅ Accessible to screen readers
-- ✅ Automatic dark mode support
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+- Works with JavaScript disabled
+- Accessible to screen readers
+- Automatic dark mode support with manual toggle
