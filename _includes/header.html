@@ -1,13 +1,14 @@
-<header class="header">
-    <nav class="nav-container">
-        <a href="{{ '/' | relative_url }}" class="logo">{{ site.author.name | default: site.title }}</a>
-        
-        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
-        
-        <ul class="nav-menu">
-            {%- for item in site.navigation -%}
-                <li><a href="{{ item.url }}" class="nav-link">{{ item.title }}</a></li>
-            {%- endfor -%}
-        </ul>
-    </nav>
-</header>
+<nav class="site-nav" aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}">About</a>
+    <span class="nav-sep">·</span>
+    <a href="{{ '/experience' | relative_url }}">Experience</a>
+    <span class="nav-sep">·</span>
+    <a href="{{ '/presentations' | relative_url }}">Presentations</a>
+    <span class="nav-sep">·</span>
+    <a href="{{ '/blog' | relative_url }}">Blog</a>
+    <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="toggle-label">🌞</span>
+        <span class="toggle-track"><span class="toggle-knob"></span></span>
+        <span class="toggle-label">🌚</span>
+    </button>
+</nav>

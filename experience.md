@@ -7,7 +7,7 @@ title: "Experience"
 ### Office of Library Services, The City University of New York
 *08/2020 – Present*
 
-* Lead university-wide implementation of library services platform, Ex Libris Alma, for 25 campuses (31 libraries) and Central Office
+* Lead university-wide implementation of library services platform, Ex Libris Alma, for 26 campuses (31 libraries) and Central Office
 * Oversee all aspects of library information systems as deployed or planned at the CUNY Libraries, including digital repository services, digital preservation, content management systems, integrated library systems, discovery services, web services, and application development
 * Ensure delivery of services in the most cost-effective manner by reducing redundancy of infrastructure and leveraging shared services when possible
 * Maintain awareness of and implement new technologies and appropriate tools to continuously improve library operations and services to support CUNY Libraries’ research, teaching, and learning mission
@@ -23,7 +23,7 @@ title: "Experience"
 ### Office of Library Services, The City University of New York
 *09/2012 – 08/2020*
 
-* Led university-wide implementation of library services platform, Ex Libris Alma, for 25 campuses (31 libraries) and Central Office
+* Led university-wide implementation of library services platform, Ex Libris Alma, for 26 campuses (31 libraries) and Central Office
 * Led university-wide implementation of library discovery platform, Ex Libris Primo
 * Administered and maintained discovery platform on behalf of university-wide constituents
 * Created, revised, and maintained scripts in JavaScript on university-wide library catalog, Ex Libris Aleph
