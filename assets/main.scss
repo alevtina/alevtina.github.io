@@ -65,9 +65,6 @@ body {
     body {
         font-size: 1.25rem;
     }
-    nav.site-nav {
-        font-size: 1rem;
-    }
 }
 
 .sr-only {
@@ -157,6 +154,10 @@ nav.site-nav {
     .nav-sep {
         color: var(--text-muted);
         margin: 0 0.35rem;
+    }
+
+    @media (min-width: 900px) {
+        font-size: 1rem;
     }
 }
 
