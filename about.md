@@ -21,6 +21,7 @@ Need a [bio or headshot](/about/bios)?
 - **[Alma Letters](https://github.com/cuny-libraries/alma-letters)**—version-controlled patron notification templates (headers, receipts, overdue notices) synced across CUNY's 22 Alma institution zones via the Configuration API
 - **Shelf Help**—a quarterly webinar series where my team reviews the Alma/Primo VE release notes and shares the most pertinent updates with CUNY library staff and faculty
 - **Fulfillment Drop-In** and **Analytics Drop-In**—casual, office hours-style sessions for cross-campus collaboration, knowledge building, and troubleshooting
+- **Library Agentic AI Peer Mentoring Program**—a 16-week cohort where 13 CUNY librarians build practical AI tools and develop critical evaluation skills, sponsored by the Office of Library Services (Spring 2026)
 
 ## Experience
 
