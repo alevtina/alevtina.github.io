@@ -26,8 +26,8 @@ More about my [presentations](/presentations). Need a [bio or headshot](/about/b
     - Substitute Technical Services/Electronic Resources Librarian (2012)
     - Adjunct Librarian (2011)
 - **Lehman College**
-    - Substitute Instructional Technologies Librarian (2010–2011)
     - Librarian for the High School of American Studies (2011)
+    - Substitute Instructional Technologies Librarian (2010–2011)
 - **College of Staten Island**
     - Adjunct Librarian (2010)
 - **Brooklyn College**
