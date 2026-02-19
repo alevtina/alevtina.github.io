@@ -104,6 +104,7 @@ a {
     font-weight: 600;
     font-size: 1.75rem;
     text-decoration: none;
+    line-height: 1.2;
 
     &:hover {
         color: var(--accent);
@@ -111,8 +112,9 @@ a {
 }
 
 .site-subtitle {
-    color: var(--text-light);
-    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
 }
 
 // Navigation
