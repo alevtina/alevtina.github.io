@@ -10,6 +10,8 @@ Copy/paste bios and headshot for conference programs, introductions, etc.
 
 <a href="https://www.gravatar.com/avatar/{{ site.author.gravatar_hash }}?s=2048&d=identicon&r=pg">{% include gravatar.html size="200" class="photo" %}</a>
 
+Credit: CUNY/Marcus Beasley
+
 ## Short
 
 Alevtina (Allie) Verbovetskaya (she/her) is the University Director of Library Systems at The City University of New York (CUNY).
