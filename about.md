@@ -18,15 +18,21 @@ More about my [presentations](/presentations). Need a [bio or headshot](/about/b
 
 ## Experience
 
-- **University Director of Library Systems**, Office of Library Services, CUNY (2020–present)
-- **University Web & Mobile Systems Librarian**, Office of Library Services, CUNY (2012–2020)
-- **Technical Services/Electronic Resources Librarian**, Ursula C. Schwerin Library, New York City College of Technology (2012)
-- **Adjunct Lecturer**, Ursula C. Schwerin Library, New York City College of Technology (2011)
-- **Librarian**, High School of American Studies at Lehman College (2011)
-- **Instructional Technologies Librarian**, Leonard Lief Library, Lehman College (2010–2011)
-- **Adjunct Instructor**, Library, College of Staten Island (2010)
-- **Adjunct Instructor**, Library, Brooklyn College (2009–2010)
-- **College Assistant**, Library, Brooklyn College (2008–2010)
+- **The City University of New York**
+    - University Director of Library Systems (2020–present)
+    - University Web & Mobile Systems Librarian (2013–2020)
+    - Substitute University Web & Mobile Systems Librarian (2012–2013)
+- **New York City College of Technology**
+    - Substitute Technical Services/Electronic Resources Librarian (2012)
+    - Adjunct Lecturer (2011)
+- **Lehman College**
+    - Substitute Instructional Technologies Librarian, Leonard Lief Library (2010–2011)
+    - Librarian, High School of American Studies (2011)
+- **College of Staten Island**
+    - Adjunct Instructor (2010)
+- **Brooklyn College**
+    - Adjunct Instructor (2009–2010)
+    - College Assistant (2008–2010)
 
 ## Education
 
