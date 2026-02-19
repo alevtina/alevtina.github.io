@@ -272,6 +272,12 @@ li {
     margin-bottom: 0.35rem;
 }
 
+.page-content ul li,
+.page-content ol li {
+    color: var(--text);
+    font-size: inherit;
+}
+
 // Simple item list (presentations)
 .item-list {
     list-style: none;
