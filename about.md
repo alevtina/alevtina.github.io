@@ -6,9 +6,11 @@ permalink: /about/
 
 I've spent my entire career in CUNY libraries, starting as an intern and working through reference, instruction, e-resources, technical services, and web services across multiple campuses before moving into systems. That path is a big part of how I think about this work now.
 
-Today I lead a small team of systems librarians responsible for the platforms, discovery systems, and shared tools that keep CUNY's 31 academic libraries connected across 26 campuses. We led the university-wide migration from Aleph to Alma, and more recently we've been focused on building shared technical capacity—through open-source tooling, cross-campus peer mentoring, and initiatives like an AI literacy cohort for CUNY librarians.
+Today I lead a small team of systems librarians responsible for the platforms, discovery systems, and shared tools that keep CUNY's 31 academic libraries connected across 26 campuses. We led the university-wide migration from Aleph to Alma, and more recently we've been focused on building shared technical capacity—through open-source tooling, cross-campus knowledge sharing, and initiatives like an AI literacy cohort for CUNY librarians.
 
 When I'm not thinking about library systems, I'm usually knitting, riding my bike, or cooking something vegan. I keep saying I'm going to get back into weightlifting.
+
+Need a [bio or headshot](/about/bios)?
 
 ## Projects
 
@@ -46,5 +48,3 @@ When I'm not thinking about library systems, I'm usually knitting, riding my bik
 - [alevtina.verbovetskaya@cuny.edu](mailto:alevtina.verbovetskaya@cuny.edu)
 - 646-664-8205
 - 555 W 57th St, Rm. 1685, New York, NY 10019
-
-Need a [bio or headshot](/about/bios)?
