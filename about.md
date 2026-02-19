@@ -10,18 +10,18 @@ Most people call me Allie. When I'm not thinking about library systems, I'm usua
 
 More about my [presentations](/presentations). Need a [bio or headshot](/about/bios)?
 
+## Projects
+
+- **[Alma Letters](https://github.com/cuny-libraries/alma-letters)**—version-controlled patron notification templates (headers, receipts, overdue notices) synced across CUNY's 22 Alma institution zones via the Configuration API
+- **Shelf Help**—a quarterly webinar series where my team reviews the Alma/Primo VE release notes and shares the most pertinent updates with CUNY library staff and faculty
+- **Fulfillment Drop-In** and **Analytics Drop-In**—casual, office hours-style sessions for cross-campus collaboration, knowledge building, and troubleshooting
+
 ## Experience
 
 - **University Director of Library Systems**, Office of Library Services, CUNY (2020–present)
 - **University Web & Mobile Systems Librarian**, Office of Library Services, CUNY (2012–2020)
 - **Technical Services/Electronic Resources Librarian**, Ursula C. Schwerin Library, New York City College of Technology (2012)
 - **Instructional Technologies Librarian**, Leonard Lief Library, Lehman College (2010–2011)
-
-## Projects
-
-- **[Alma Letters](https://github.com/cuny-libraries/alma-letters)**—version-controlled patron notification templates (headers, receipts, overdue notices) synced across CUNY's 22 Alma institution zones via the Configuration API
-- **Shelf Help**—a quarterly webinar series where my team reviews the Alma/Primo VE release notes and shares the most pertinent updates with CUNY library staff and faculty
-- **Fulfillment Drop-In** and **Analytics Drop-In**—casual, office hours-style sessions for cross-campus collaboration, knowledge building, and troubleshooting
 
 ## Education
 
