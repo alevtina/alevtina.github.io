@@ -8,7 +8,7 @@ I've spent my entire career in CUNY libraries—starting as an intern and workin
 
 Most people call me Allie. When I'm not thinking about library systems, I'm usually knitting, riding my bike, or cooking something vegan. I keep saying I'm going to get back into weightlifting.
 
-More about my [presentations](/presentations). Need a [bio or headshot](/about/bios)?
+Need a [bio or headshot](/about/bios)?
 
 ## Projects
 

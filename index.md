@@ -6,6 +6,4 @@ description: "Alevtina (Allie) Verbovetskaya—University Director of Library Sy
 
 {% include hero.html %}
 
-{% include about.html %}
-
 {% include latest-blog.html %}
