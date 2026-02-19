@@ -285,10 +285,17 @@ footer.site-footer {
 
     .footer-links {
         margin-top: 0.35rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
 
-        .nav-sep {
-            color: var(--text-muted);
-            margin: 0 0.3rem;
+        a {
+            display: flex;
+            align-items: center;
+        }
+
+        svg {
+            vertical-align: middle;
         }
     }
 }
