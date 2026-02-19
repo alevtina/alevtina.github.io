@@ -80,13 +80,47 @@ a {
     }
 }
 
+// Site header
+.site-header {
+    margin-bottom: 2.5rem;
+}
+
+.site-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.header-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: block;
+}
+
+.site-title {
+    color: var(--text);
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--accent);
+    }
+}
+
+.site-subtitle {
+    color: var(--text-light);
+    font-size: 0.85rem;
+}
+
 // Navigation
 nav.site-nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-bottom: 2.5rem;
     font-size: 0.9rem;
 
     a {
@@ -95,6 +129,11 @@ nav.site-nav {
 
         &:hover {
             color: var(--accent);
+        }
+
+        &.active {
+            color: var(--text);
+            font-weight: 600;
         }
     }
 
@@ -179,6 +218,15 @@ p {
     margin-bottom: 1rem;
 }
 
+// Photo (bios page)
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    display: block;
+}
+
 // Homepage intro
 .intro {
     margin-bottom: 2.5rem;
@@ -188,14 +236,6 @@ p {
     color: var(--text-light);
     font-size: 1rem;
     margin-bottom: 1rem;
-}
-
-.intro .photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    display: block;
 }
 
 // Sections
@@ -441,12 +481,6 @@ footer.site-footer {
     a {
         color: var(--text-light);
     }
-}
-
-.breadcrumb {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    margin-bottom: 1.5rem;
 }
 
 // Recent posts on homepage
