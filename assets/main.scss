@@ -92,9 +92,7 @@ a {
 
 // Site header
 .site-header {
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.5rem;
 }
 
 .site-title-row {
@@ -160,6 +158,11 @@ nav.site-nav {
 
     @media (min-width: 900px) {
         font-size: 1rem;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
     }
 }
 
