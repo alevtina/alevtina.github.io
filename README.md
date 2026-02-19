@@ -21,7 +21,7 @@ Personal website. Built with Jekyll, hosted on GitHub Pages.
 ├── assets/
 │   ├── main.scss         # Main stylesheet
 │   └── img/              # Images and media
-├── about.md              # About page
+├── about.md              # About page (redirects from /experience)
 ├── bios.md               # Copy/paste bios and headshot
 ├── blog.md               # Blog listing page
 ├── index.md              # Homepage
