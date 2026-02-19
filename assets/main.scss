@@ -138,12 +138,11 @@ nav.site-nav {
     font-size: 0.9rem;
 
     a {
-        color: var(--text-light);
+        color: var(--accent);
         text-decoration: underline;
         text-decoration-color: var(--border);
 
         &:hover {
-            color: var(--accent);
             text-decoration-color: var(--accent);
         }
 
