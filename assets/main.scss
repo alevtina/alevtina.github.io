@@ -57,6 +57,12 @@ body {
     padding: 2rem 1.5rem;
 }
 
+@media (min-width: 900px) {
+    body {
+        font-size: 1.25rem;
+    }
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
