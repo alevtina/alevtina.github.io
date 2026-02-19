@@ -272,12 +272,6 @@ li {
     margin-bottom: 0.35rem;
 }
 
-.page-content ul li,
-.page-content ol li {
-    color: var(--text);
-    font-size: inherit;
-}
-
 // Simple item list (presentations)
 .item-list {
     list-style: none;
@@ -518,32 +512,6 @@ footer.site-footer {
     font-size: 0.85rem;
 }
 
-// Page content (experience.md, presentations.md)
-.page-content {
-    h2 {
-        font-size: 1.15rem;
-        margin-top: 2rem;
-        margin-bottom: 0.25rem;
-    }
-
-    h3 {
-        font-size: 1rem;
-        font-weight: normal;
-        color: var(--text-light);
-        margin-top: 0.1rem;
-        margin-bottom: 0.1rem;
-    }
-
-    ul {
-        margin-top: 0.5rem;
-        margin-bottom: 2rem;
-
-        li {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
-    }
-}
 
 // Contact
 .contact-list {
