@@ -4,11 +4,11 @@ title: "About"
 permalink: /about/
 ---
 
-I've spent my entire career in CUNY libraries—starting as an intern and working my way through just about every role you can hold in an academic library: e-resources, technical services, instructional design, reference, instruction. That path through different campuses and different kinds of work is a big part of how I think about systems now. Today I lead a small team of systems librarians responsible for the technology that runs across CUNY's 31 academic libraries—library services platforms, discovery layers, proxy servers, and a growing portfolio of shared tools—plus the support, training, and coordination that keep everything working across 26 campuses.
+I've spent my entire career in CUNY libraries, starting as an intern and working through reference, instruction, e-resources, technical services, and web services across multiple campuses before moving into systems. That path is a big part of how I think about this work now.
 
-Most people call me Allie. When I'm not thinking about library systems, I'm usually knitting, riding my bike, or cooking something vegan. I keep saying I'm going to get back into weightlifting.
+Today I lead a small team of systems librarians responsible for the platforms, discovery systems, and shared tools that keep CUNY's 31 academic libraries connected across 26 campuses. We led the university-wide migration from Aleph to Alma, and more recently we've been focused on building shared technical capacity—through open-source tooling, cross-campus peer mentoring, and initiatives like an AI literacy cohort for CUNY librarians.
 
-Need a [bio or headshot](/about/bios)?
+When I'm not thinking about library systems, I'm usually knitting, riding my bike, or cooking something vegan. I keep saying I'm going to get back into weightlifting.
 
 ## Projects
 
@@ -33,6 +33,7 @@ Need a [bio or headshot](/about/bios)?
 - **Brooklyn College**
     - Adjunct Librarian (2009–2010)
     - Library College Assistant (2008–2010)
+    - Library Intern (2008)
 
 ## Education
 
@@ -45,3 +46,5 @@ Need a [bio or headshot](/about/bios)?
 - [alevtina.verbovetskaya@cuny.edu](mailto:alevtina.verbovetskaya@cuny.edu)
 - 646-664-8205
 - 555 W 57th St, Rm. 1685, New York, NY 10019
+
+Need a [bio or headshot](/about/bios)?
