@@ -1,11 +1,16 @@
 {%- if site.posts.size > 0 -%}
 <div class="section">
     <h2>Recent Posts</h2>
-    <ul class="recent-posts">
-        {%- for post in site.posts limit: 5 -%}
+    <ul class="post-list">
+        {%- for post in site.posts limit: 3 -%}
         <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            <span class="date">{{ post.date | date: "%b %Y" }}</span>
+            <div class="post-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </div>
+            <div class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+            {%- if post.excerpt -%}
+            <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
+            {%- endif -%}
         </li>
         {%- endfor -%}
     </ul>

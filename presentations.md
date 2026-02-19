@@ -5,6 +5,8 @@ title: "Presentations"
 
 ## Conference
 
+Verbovetskaya, A. (2024, December 6). *CUNY-SUNY library synergy: Streamlining access, amplifying resources.* Presentation at CUNY IT Conference 2024, New York, NY.
+
 Verbovetskaya, A. (2024, May 16). *AFN and P2P: Sharing resources harmoniously.* Presentation at Ex Libris Users of North America (ELUNA) 2024 conference, Minneapolis, MN.
 
 **Verbovetskaya, A.** & Fredericksen, K. (2023, May 10). *To NZ, or not to NZ, that is the question.* Presentation at Ex Libris Users of North America (ELUNA) 2023 conference, Los Angeles, CA.
@@ -23,6 +25,8 @@ Collins, K. J. & **Verbovetskaya, A.** (2014, September 16). *Managing a three-r
 
 Verbovetskaya, A. (2014, May 1). *Text me, maybe: Implementing texting functionality in the Aleph OPAC.* Presentation at Ex Libris Users of North America (ELUNA) 2014 conference, Montreal, QC, Canada.
 
+Davis, R., Tidal, J., **Verbovetskaya, A.**, & Zweibel, S. (2013, December 6). *Life with Pi: Microcomputing in academia.* Presentation at CUNY IT Conference 2013, New York, NY.
+
 Verbovetskaya, A. (2013, October 11). *Text me, maybe: Implementing texting functionality in the Aleph OPAC.* Presentation at Ex Libris Northeast User Group (ENUG) 2013 conference, Storrs, CT.
 
 Collins, K. J. & **Verbovetskaya, A.** (2013, May 1). *Aleph-to-go: How CUNY adapted Aleph for a mobile population.* Presentation at Ex Libris Users of North America (ELUNA) 2013 conference, Athens, GA.
@@ -31,7 +35,7 @@ Verbovetskaya, A. (2012, June 8). *From backstage to center stage: Librarians as
 
 Havelka, S. & **Verbovetskaya, A.** (2012, March 16). *Mobile information literacy: Let’s use an app for that!* Presentation at 3Ts 2012: Engaging Students with Transliteracy, Technology, and Teaching conference, Albany, NY.
 
-Arzola, R., Havelka, S., King, J. A., Soto, A., & **Verbovetskaya, A.** (2010, December 14). *Future is now: Introducing eReaders to CUNY libraries.* Presentation at CUNY 9th Annual IT Conference, New York, NY.
+Arzola, R., Havelka, S., King, J. A., Soto, A., & **Verbovetskaya, A.** (2010, December 14). *Future is now: Introducing eReaders to CUNY libraries.* Presentation at CUNY IT Conference 2010, New York, NY.
 
 **Verbovetskaya, A.** & Gurgov, V. (2009, June 3). *WIMS: A database-driven solution for managing online resources.* Discussion session at LibCampNYC 2009, Brooklyn, NY.
 
