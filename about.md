@@ -21,7 +21,12 @@ More about my [presentations](/presentations). Need a [bio or headshot](/about/b
 - **University Director of Library Systems**, Office of Library Services, CUNY (2020–present)
 - **University Web & Mobile Systems Librarian**, Office of Library Services, CUNY (2012–2020)
 - **Technical Services/Electronic Resources Librarian**, Ursula C. Schwerin Library, New York City College of Technology (2012)
+- **Adjunct Lecturer**, Ursula C. Schwerin Library, New York City College of Technology (2011)
+- **Librarian**, High School of American Studies at Lehman College (2011)
 - **Instructional Technologies Librarian**, Leonard Lief Library, Lehman College (2010–2011)
+- **Adjunct Instructor**, Library, College of Staten Island (2010)
+- **Adjunct Instructor**, Library, Brooklyn College (2009–2010)
+- **College Assistant**, Library, Brooklyn College (2008–2010)
 
 ## Education
 
@@ -31,6 +36,6 @@ More about my [presentations](/presentations). Need a [bio or headshot](/about/b
 
 ## Contact
 
-Email: [alevtina.verbovetskaya@cuny.edu](mailto:alevtina.verbovetskaya@cuny.edu)<br>
-Phone: 646-664-8205<br>
-Office: 555 W 57th St, Rm. 1685, New York, NY 10019
+- [alevtina.verbovetskaya@cuny.edu](mailto:alevtina.verbovetskaya@cuny.edu)
+- 646-664-8205
+- 555 W 57th St, Rm. 1685, New York, NY 10019
