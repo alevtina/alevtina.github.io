@@ -47,13 +47,6 @@ exclude:
   - vendor/ruby/
   - README.md
 
-# Collections
-collections:
-  experience:
-    output: false
-  skills:
-    output: false
-
 # Defaults
 defaults:
   - scope:
@@ -68,24 +61,3 @@ defaults:
       layout: "post"
       permalink: /blog/:year/:month/:day/:title.html
 
-# Site navigation
-navigation:
-  - title: "About"
-    url: "/#about"
-  - title: "Experience"
-    url: "/#experience"
-  - title: "Skills"
-    url: "/#skills"
-  - title: "Presentations"
-    url: "/#presentations"
-  - title: "Blog"
-    url: "/#latest-blog"
-  - title: "Contact"
-    url: "/#contact"
-
-# Contact information
-contact:
-  email: "alevtina.verbovetskaya@cuny.edu"
-  linkedin: "https://www.linkedin.com/in/alevtina-verbovetskaya/"
-  institution: "The City University of New York"
-  institution_url: "https://cuny.edu"
