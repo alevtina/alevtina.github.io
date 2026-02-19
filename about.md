@@ -24,15 +24,15 @@ More about my [presentations](/presentations). Need a [bio or headshot](/about/b
     - Substitute University Web & Mobile Systems Librarian (2012–2013)
 - **New York City College of Technology**
     - Substitute Technical Services/Electronic Resources Librarian (2012)
-    - Adjunct Lecturer (2011)
+    - Adjunct Librarian (2011)
 - **Lehman College**
-    - Substitute Instructional Technologies Librarian, Leonard Lief Library (2010–2011)
-    - Librarian, High School of American Studies (2011)
+    - Substitute Instructional Technologies Librarian (2010–2011)
+    - Librarian for the High School of American Studies (2011)
 - **College of Staten Island**
-    - Adjunct Instructor (2010)
+    - Adjunct Librarian (2010)
 - **Brooklyn College**
-    - Adjunct Instructor (2009–2010)
-    - College Assistant (2008–2010)
+    - Adjunct Librarian (2009–2010)
+    - Library College Assistant (2008–2010)
 
 ## Education
 
