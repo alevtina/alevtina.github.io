@@ -2,6 +2,10 @@
 layout: page
 title: "About"
 permalink: /about/
+redirect_from:
+  - /experience
+  - /experience/
+  - /experience.html
 ---
 
 I've spent my entire career in CUNY libraries, starting as an intern and working through reference, instruction, e-resources, technical services, and web services across multiple campuses before moving into systems. That path is a big part of how I think about this work now.
