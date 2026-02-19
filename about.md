@@ -8,7 +8,14 @@ I've spent my entire career in CUNY libraries—starting as an intern and workin
 
 Most people call me Allie. When I'm not thinking about library systems, I'm usually knitting, riding my bike, or cooking something vegan. I keep saying I'm going to get back into weightlifting.
 
-More about my [experience](/experience) and [presentations](/presentations). Need a [bio or headshot](/about/bios)?
+More about my [presentations](/presentations). Need a [bio or headshot](/about/bios)?
+
+## Experience
+
+- **University Director of Library Systems**, Office of Library Services, CUNY (2020–present)
+- **University Web & Mobile Systems Librarian**, Office of Library Services, CUNY (2012–2020)
+- **Technical Services/Electronic Resources Librarian**, Ursula C. Schwerin Library, New York City College of Technology (2012)
+- **Instructional Technologies Librarian**, Leonard Lief Library, Lehman College (2010–2011)
 
 ## Projects
 
