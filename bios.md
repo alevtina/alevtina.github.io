@@ -8,7 +8,7 @@ Copy/paste bios and headshot for conference programs, introductions, etc.
 
 ## Headshot
 
-<a href="https://www.gravatar.com/avatar/{{ site.author.gravatar_hash }}?s=800&d=identicon&r=pg">{% include gravatar.html size="200" class="photo" %}</a>
+<a href="https://www.gravatar.com/avatar/{{ site.author.gravatar_hash }}?s=2048&d=identicon&r=pg">{% include gravatar.html size="200" class="photo" %}</a>
 
 ## Short
 
