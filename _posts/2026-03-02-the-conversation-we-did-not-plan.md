@@ -15,6 +15,8 @@ The RAG discussion led naturally to a demo of something Stephen has been sitting
 
 Then he turned it over to the room. And waited.[^1]
 
+[^1]: Stephen had been working on this. Early in the program, we talked about the facilitation instinct to fill silence—to jump in with a follow-up before anyone has had a real chance to think. He started counting to ten before moving on. By today, when the silence stretched past ten seconds, he messaged me a resigned "ah well" and held it anyway.
+
 And then Will spoke.
 
 Will is a library school student, still early in his studies, participating in a program designed for working librarians. What he said was this: he's going into the field because of the relational, humanistic pull of it, the thing that happens when a person who needs help encounters another person who can provide it. And he's nervous about what happens to a field when every job becomes more technical and less about being with people. "What actually is the point?" he asked.
@@ -32,8 +34,6 @@ Stephen closed the meeting by saying he thought we'd need to keep having this co
 It was a fitting note to end on. We'd spent part of the session talking about how AI systems retrieve and contextualize information. We spent the rest of it trying to articulate what humans bring that those systems can't retrieve or contextualize: judgment, relationship, the particular kind of knowing that comes from being uncertain and staying in the room anyway.
 
 And part of it, I think, was the question itself, asked by someone new enough to the profession to still be asking why, not just how. That instinct, Robin would say, is exactly what we need to protect.
-
-[^1]: Stephen had been working on this. Early in the program, we talked about the facilitation instinct to fill silence—to jump in with a follow-up before anyone has had a real chance to think. He started counting to ten before moving on. By today, when the silence stretched past ten seconds, he messaged me a resigned "ah well" and held it anyway.
 
 ---
 
