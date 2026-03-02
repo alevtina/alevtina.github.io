@@ -33,8 +33,8 @@ It was a fitting note to end on. We'd spent part of the session talking about ho
 
 And part of it, I think, was the question itself, asked by someone new enough to the profession to still be asking why, not just how. That instinct, Robin would say, is exactly what we need to protect.
 
+[^1]: Stephen had been working on this. Early in the program, we talked about the facilitation instinct to fill silence — to jump in with a follow-up before anyone has had a real chance to think. He started counting to ten before moving on. By today, when the silence stretched past ten seconds, he messaged me a resigned "ah well" and held it anyway.
+
 ---
 
 *We're six weeks into a 16-week cohort. [Post 1 is here.](/blog/2026/02/18/building-ai-literacy-at-scale.html) More to come.*
-
-[^1]: Stephen had been working on this. Early in the program, we talked about the facilitation instinct to fill silence — to jump in with a follow-up before anyone has had a real chance to think. He started counting to ten before moving on. By today, when the silence stretched past ten seconds, he messaged me a resigned "ah well" and held it anyway.
