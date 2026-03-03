@@ -17,6 +17,13 @@ permalink: /blog/
                 <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </div>
             <div class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+            {%- if post.tags and post.tags.size > 0 -%}
+            <div class="post-tags">
+                {%- for tag in post.tags -%}
+                    <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+                {%- endfor -%}
+            </div>
+            {%- endif -%}
             {%- if post.excerpt -%}
             <div class="post-excerpt">
                 {{ post.excerpt | strip_html | truncatewords: 30 }}

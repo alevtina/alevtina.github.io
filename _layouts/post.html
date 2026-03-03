@@ -28,7 +28,7 @@ layout: default
         {% webmentions page.url %}
 
         <div class="webmention-form-wrapper">
-            <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mention this post from your site:</p>
+            <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mentioned this post from your site? Let me know!</p>
             <form class="webmention-form" action="https://webmention.io/verbovetskaya.com/webmention" method="POST">
                 <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
                 <input class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />

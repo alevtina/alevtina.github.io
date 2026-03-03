@@ -4,7 +4,7 @@ layout: default
 
 <div class="blog-page">
     <h1>Tagged: {{ page.title }}</h1>
-    <p class="blog-desc">{{ page.posts | size }} post{%- if page.posts.size != 1 -%}s{%- endif -%} tagged with "{{ page.title }}".</p>
+    <p class="blog-desc">{{ page.posts | size }} post{% if page.posts.size != 1 %}s{% endif %} tagged with "{{ page.title }}":</p>
 
     <ul class="post-list">
         {%- for post in page.posts -%}
