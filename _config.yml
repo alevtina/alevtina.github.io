@@ -44,6 +44,7 @@ webmentions:
   pages: false
   js: false
   templates:
+    webmentions: _includes/webmentions/webmentions.html
     likes: _includes/webmentions/likes.html
     reposts: _includes/webmentions/reposts.html
     replies: _includes/webmentions/replies.html
