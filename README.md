@@ -67,6 +67,23 @@ tags: [library-systems, technology]
 ---
 ```
 
+## Adding TOC
+
+Kramdown has native TOC generation built in. To add a TOC to any post, just place this in the markdown where the TOC should appear (usually after an introductory paragraph):
+
+```liquid
+---
+## On This Page
+{:.no_toc}
+
+* TOC
+{:toc}
+---
+```
+Note the `{:no_toc}` on the "On This Page" heading: that prevents the heading itself from appearing in the TOC.
+
+The TOPC will auto-generate anchor links from all the `##`, `###`, etc. headings in the post.
+
 ## Deployment
 
 Deploys automatically via GitHub Actions on push to main. The workflow:
