@@ -96,3 +96,4 @@ bundle exec jekyll serve
 ```
 
 Requires Ruby 3.3+ (managed via `.ruby-version` / rbenv).
+
