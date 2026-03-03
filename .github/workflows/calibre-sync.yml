@@ -1,0 +1,39 @@
+name: Sync Calibre-Web Reading Data
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run Calibre-Web sync
+        env:
+          CALIBRE_WEB_URL: ${{ secrets.CALIBRE_WEB_URL }}
+          CALIBRE_WEB_USER: ${{ secrets.CALIBRE_WEB_USER }}
+          CALIBRE_WEB_PASS: ${{ secrets.CALIBRE_WEB_PASS }}
+        run: python _scripts/calibre_sync.py
+
+      - name: Commit new reading files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "sync: calibre-web reading data"
+          file_pattern: "_reading/*.md"
+          # skip_dirty_check: false is the default — no commit if nothing changed

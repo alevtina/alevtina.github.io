@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+{%- if page.author -%}
+  {%- if page.author.first -%}
+    {%- assign author_string = page.author | join: " and " -%}
+  {%- else -%}
+    {%- assign author_string = page.author -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign author_string = "" -%}
+{%- endif -%}
+
+{%- if page.status == "finished" -%}
+  {%- assign status_label = "Finished" -%}
+{%- elsif page.status == "reading" -%}
+  {%- assign status_label = "Currently Reading" -%}
+{%- elsif page.status == "to-read" -%}
+  {%- assign status_label = "Want to Read" -%}
+{%- else -%}
+  {%- assign status_label = page.status -%}
+{%- endif -%}
+
+<article class="h-entry read-entry">
+
+  {{- /* Microformats2 machine-readable properties */ -}}
+  <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
+  <span class="p-author h-card" hidden>
+    <span class="p-name">{{ site.author.name | escape }}</span>
+    <a class="u-url" href="{{ site.url }}"></a>
+  </span>
+  <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" hidden>{{ page.date | date_to_xmlschema }}</time>
+  <data class="p-x-read-status" value="{{ page.status }}" hidden></data>
+
+  <header class="read-header">
+    {%- if page.cover and page.cover != "" -%}
+    <div class="read-cover-wrap">
+      <img class="read-cover u-photo" src="{{ page.cover | escape }}" alt="Cover of {{ page.title | escape }}" loading="lazy" />
+    </div>
+    {%- endif -%}
+
+    <div class="read-info">
+      {{- /* p-read-of h-cite: the book itself */ -}}
+      <div class="p-read-of h-cite">
+        <h1 class="p-name read-title">{{ page.title | escape }}</h1>
+
+        {%- if author_string != "" -%}
+        <p class="p-author read-author">{{ author_string | escape }}</p>
+        {%- endif -%}
+
+        {%- if page.series -%}
+        <p class="read-series">
+          {{ page.series | escape -}}
+          {%- if page.series_part %} #{{ page.series_part }}{%- endif %}
+        </p>
+        {%- endif -%}
+
+        {%- if page.isbn -%}
+        <data class="p-uid" value="urn:isbn:{{ page.isbn | escape }}">
+          ISBN {{ page.isbn | escape }}
+        </data>
+        {%- endif -%}
+      </div>
+
+      <div class="read-meta">
+        <span class="read-status read-status--{{ page.status }}">{{ status_label }}</span>
+        {%- if page.status == "finished" -%}
+        <span class="read-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+        {%- endif -%}
+      </div>
+
+      {%- if page.rating -%}
+      <div class="read-rating">Rating: {{ page.rating | escape }}</div>
+      {%- endif -%}
+
+      {%- if page.tags and page.tags.size > 0 -%}
+      <div class="read-tags post-tags">
+        {%- for tag in page.tags -%}
+        <span class="tag">{{ tag | escape }}</span>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+    </div>
+  </header>
+
+  {%- if content != "" and content != "<p></p>\n" -%}
+  <div class="read-notes p-summary e-content">
+    {{ content }}
+  </div>
+  {%- endif -%}
+
+  <section class="webmentions-section">
+    <h2>Webmentions</h2>
+    {% webmentions page.url %}
+
+    <div class="webmention-form-wrapper">
+      <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mentioned this from your site? Let me know!</p>
+      <form class="webmention-form" action="https://webmention.io/verbovetskaya.com/webmention" method="POST">
+        <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
+        <input class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
+        <button class="webmention-form__button" type="submit">Send Webmention</button>
+      </form>
+    </div>
+  </section>
+
+</article>

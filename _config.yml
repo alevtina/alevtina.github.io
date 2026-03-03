@@ -58,6 +58,20 @@ webmentions:
     replies: _includes/webmentions/replies.html
 
 
+# Reading collection
+collections:
+  reading:
+    output: true
+    permalink: /reading/:name/
+
+# jekyll-feed: main feed + reading feed
+feed:
+  collections:
+    posts:
+      path: "/feed.xml"
+    reading:
+      path: "/feed/reading.xml"
+
 # Exclude from processing
 exclude:
   - .sass-cache/
@@ -85,4 +99,9 @@ defaults:
     values:
       layout: "post"
       permalink: /blog/:title/
+  - scope:
+      path: ""
+      type: "reading"
+    values:
+      layout: "read"
 
