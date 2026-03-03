@@ -72,15 +72,20 @@ tags: [library-systems, technology]
 Kramdown has native TOC generation built in. To add a TOC to any post, just place this in the markdown where the TOC should appear (usually after an introductory paragraph):
 
 ```
-## On This Page
+## Jump to
 {:.no_toc}
 
 * TOC
 {:toc}
 ```
-Note the `{:no_toc}` on the "On This Page" heading: that prevents the heading itself from appearing in the TOC.
+Note the `{:no_toc}` on the "Jump to" heading: that prevents the heading itself from appearing in the TOC.
 
-The TOPC will auto-generate anchor links from all the `##`, `###`, etc. headings in the post.
+> [!TIP]
+> Exclude any other heading from the TOC using the same syntax:
+> `## This won't appear in the TOC`
+> `{:.no_toc}`
+
+The TOC will auto-generate anchor links from all the `##`, `###`, etc. headings in the post.
 
 ## Deployment
 
