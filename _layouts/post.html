@@ -23,7 +23,23 @@ layout: default
         {{ content }}
     </div>
 
-    <nav class="post-nav">
+    <section class="webmentions-section">
+        <h2>Webmentions</h2>
+        {% webmentions page.url %}
+
+        <div class="webmention-form-wrapper">
+            <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mention this post from your site:</p>
+            <form class="webmention-form" action="https://webmention.io/verbovetskaya.com/webmention" method="POST">
+                <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
+                <input class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
+                <button class="webmention-form__button" type="submit">Send Webmention</button>
+            </form>
+        </div>
+    </section>
+
+    <nav class="post-nav" aria-label="Post navigation">
+        <h2>More posts</h2>
+        <div class="post-nav__links">
         <div>
             {%- if page.previous.url -%}
             <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title | truncate: 30 }}</a>
@@ -33,6 +49,7 @@ layout: default
             {%- if page.next.url -%}
             <a href="{{ page.next.url | relative_url }}">{{ page.next.title | truncate: 30 }} →</a>
             {%- endif -%}
+        </div>
         </div>
     </nav>
 </article>
