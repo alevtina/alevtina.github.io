@@ -582,12 +582,16 @@ footer.site-footer {
 }
 
 .recent-posts li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
     margin-bottom: 0.35rem;
 }
 
 .recent-posts .date {
     color: var(--text-muted);
     font-size: 0.85rem;
+    flex-shrink: 0;
 }
 
 
