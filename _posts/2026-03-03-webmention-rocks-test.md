@@ -3,10 +3,10 @@ layout: post
 title: "Webmention Rocks Test"
 date: 2026-03-03
 tags: [technology]
-published: false
+redirect_from: /blog/2026/03/03/webmention-rocks-test.html
 ---
 
-Testing webmention endpoint discovery with [webmention.rocks](https://webmention.rocks/).
+Testing webmention endpoint discovery with [webmention.rocks](https://webmention.rocks/). Sending outgoing webmentions using [@remy/webmention](https://github.com/remy/wm) via GitHub Actions. Receiving via [webmention.io](https://webmention.io/). Site built with [Jekyll](https://jekyllrb.com/) and [jekyll-webmention_io](https://github.com/aarongustafson/jekyll-webmention_io).
 
 - [Test 1](https://webmention.rocks/test/1)
 - [Test 2](https://webmention.rocks/test/2)
