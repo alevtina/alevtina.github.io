@@ -55,6 +55,8 @@ Create new posts in `_posts/` with this naming convention:
 YYYY-MM-DD-title-of-post.md
 ```
 
+### Front Matter
+
 Front matter template:
 ```yaml
 ---
@@ -67,7 +69,7 @@ tags: [library-systems, technology]
 ---
 ```
 
-## Adding TOC
+### Table of Contents
 
 Kramdown has native TOC generation built in. To add a TOC to any post, just place this in the markdown where the TOC should appear (usually after an introductory paragraph):
 
