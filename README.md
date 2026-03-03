@@ -71,14 +71,12 @@ tags: [library-systems, technology]
 
 Kramdown has native TOC generation built in. To add a TOC to any post, just place this in the markdown where the TOC should appear (usually after an introductory paragraph):
 
-```liquid
----
+```
 ## On This Page
 {:.no_toc}
 
 * TOC
 {:toc}
----
 ```
 Note the `{:no_toc}` on the "On This Page" heading: that prevents the heading itself from appearing in the TOC.
 
