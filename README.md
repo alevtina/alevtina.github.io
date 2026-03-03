@@ -82,8 +82,10 @@ Note the `{:no_toc}` on the "Jump to" heading: that prevents the heading itself 
 
 > [!TIP]
 > Exclude any other heading from the TOC using the same syntax:
-> `## This won't appear in the TOC`
-> `{:.no_toc}`
+> ```
+> ## This won't appear in the TOC
+> {:.no_toc}
+> ```
 
 The TOC will auto-generate anchor links from all the `##`, `###`, etc. headings in the post.
 
