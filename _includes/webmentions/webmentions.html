@@ -4,6 +4,7 @@
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 {% if webmentions.size > 0 %}
+<h3 class="webmentions__label">Mentions</h3>
 <div class="webmentions"{{ html_proofer_attr }}{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>
   <ol class="webmentions__list">
     {% for webmention in webmentions %}
