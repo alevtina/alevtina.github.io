@@ -35,6 +35,19 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-webmention_io
+
+# Webmentions
+webmentions:
+  username: verbovetskaya.com
+  cache_folder: _data
+  pages: false
+  js: false
+  templates:
+    likes: _includes/webmentions/likes.html
+    reposts: _includes/webmentions/reposts.html
+    replies: _includes/webmentions/replies.html
+
 
 # Exclude from processing
 exclude:
