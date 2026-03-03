@@ -6,20 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "I enhanced EZproxy's needhost.htm with a Google Form that lets users report access errors—collecting browser data automatically and emailing me the results for quick troubleshooting."
 categories: 
   - "proxy"
-tags: 
-  - "alert"
-  - "error"
-  - "ezproxy"
-  - "form"
-  - "google-drive"
-  - "google-form"
-  - "google-spreadsheet"
-  - "javascript"
-  - "needhost"
-  - "notification"
-  - "report"
-  - "script"
-  - "spreadsheet"
+tags: [ezproxy, technology]
+redirect_from: /blog/2013/10/18/user-triggered-error-reporting-in-ezproxy.html
 ---
 
 Back in March, my colleague enlisted me to help him roll out mobile-friendly interfaces for all centrally-hosted EZproxy instances. (My office provides support for all 21 libraries in CUNY. Half of the libraries host their own proxy servers while the others rely on us to host and maintain their instances.) While I was at it, I decided to spruce it up a little bit and make it so that users can send error reports if they reach [needhost.htm](http://www.oclc.org/support/services/ezproxy/documentation/errorpages.en.html):

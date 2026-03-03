@@ -6,12 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Student feedback revealed they want more videos in my library workshops because 'they seem to catch my attention'—proving The Simpsons clips work better than I expected!"
 categories: 
   - "instruction"
-tags: 
-  - "assessment"
-  - "simpsons"
-  - "survey"
-  - "teaching"
-  - "videos"
+tags: [teaching]
+redirect_from: /blog/2010/11/15/i-think-this-song-has-reached-its-peak.html
 ---
 
 At the end of my ENG 110 (Critical Thinking) classes, I ask the students to fill out a survey. One of the questions is "What would make this workshop better? Why?" The best response I've received so far:

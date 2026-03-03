@@ -6,12 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "After 3 weeks of design iterations, my RefWorks flyer is ready for campus-wide distribution—including 4 workshops scheduled at different times to accommodate all schedules."
 categories: 
   - "instruction"
-tags: 
-  - "advertising"
-  - "endnote"
-  - "flyer"
-  - "marketing"
-  - "refworks"
+tags: []
+redirect_from: /blog/2011/01/28/the-more-i-see-the-less-i-know.html
 ---
 
 Ta-da! The [RefWorks](https://www.refworks.com/refworks2/) flyer is complete:

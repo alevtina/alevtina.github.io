@@ -6,13 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Four librarians used the campus film studio's teleprompter and green screen to create Google-style instructional videos—short, sweet tutorials under one minute each."
 categories: 
   - "instruction"
-tags: 
-  - "film-studio"
-  - "green-screen"
-  - "studio"
-  - "teleprompter"
-  - "tutorials"
-  - "videos"
+tags: [videos, tutorials]
+redirect_from: /blog/2011/06/30/the-one-where-four-librarians-become-superstars.html
 ---
 
 Well, maybe not _super_ stars... but three of my colleagues (Robert Farrell, Stefanie Havelka, Jennifer King) and I headed over to the campus [Multimedia Center](https://www.lehman.edu/multimedia-center/) last week to make use of their fancy film studio equipment and talented staff to shoot our brief instructional videos. These videos will be presented similarly to Google's [Teach Parents Tech](https://www.teachparentstech.org/) videos: short & sweet (≤1min), easygoing narrative, screencasts where appropriate... So to emulate the great minds at Google, I isolated 16 areas/topics that needed videos, wrote the scripts, found actors, shot practice videos, tweaked the scripts, shot more practice videos, and, finally, booked the Center's studio.

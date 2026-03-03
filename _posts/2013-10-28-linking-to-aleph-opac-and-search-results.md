@@ -6,12 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Linking to Aleph OPAC searches requires removing session IDs from URLs and using specific parameters like find_scan_code—here's how to create persistent, proxied links."
 categories: 
   - "ils"
-tags: 
-  - "aleph"
-  - "ccl"
-  - "link"
-  - "opac"
-  - "search"
+tags: [aleph, technology]
+redirect_from: /blog/2013/10/28/linking-to-aleph-opac-and-search-results.html
 ---
 
 **Update**: This post was updated in August 2014 to reflect the new URL for the CUNY Catalog.

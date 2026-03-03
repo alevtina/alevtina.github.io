@@ -4,7 +4,8 @@ title: "Building AI Literacy at Scale: A CUNY Libraries Experiment"
 date: 2026-02-18
 author: "Alevtina Verbovetskaya"
 excerpt: "Three weeks into a peer mentoring cohort where 13 CUNY librarians are building practical AI tools and developing critical evaluation skills."
-tags: [library-systems, technology, leadership, professional-development, artificial-intelligence]
+tags: [leadership, artificial-intelligence]
+redirect_from: /blog/2026/02/18/building-ai-literacy-at-scale.html
 ---
 
 Last year, my department began experimenting with new models for systemwide professional development—programs designed to build shared technical capacity across CUNY Libraries rather than deliver one-off trainings. This semester, we’re extending that work in a more hands-on direction.

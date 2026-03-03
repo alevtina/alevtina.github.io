@@ -6,18 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Reviewing 239 student citations revealed that 62.8% came from websites, not library databases—making me question whether we should teach Google skills before database searching."
 categories: 
   - "instruction"
-tags: 
-  - "assessment"
-  - "bibliographies"
-  - "citations"
-  - "freshmen"
-  - "google"
-  - "information-literacy"
-  - "learning"
-  - "memory"
-  - "pedagogy"
-  - "teaching"
-  - "undergraduate"
+tags: [teaching]
+redirect_from: /blog/2011/07/27/an-ostrichs-eye-is-bigger-than-its-brain.html
 ---
 
 Along with two of my colleagues here at the Lehman College Library, I am currently in the process of reviewing research papers from 31 students in three sections of ENG 120 (Principles of Effective Writing II). We are examining their bibliographies to see how and whether students are applying what they'd learned in the library classes they were required to attend. A couple of thoughts came to me immediately:

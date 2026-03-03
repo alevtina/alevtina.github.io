@@ -6,7 +6,8 @@ last_modified_at: "2023-04-08"
 author: "Alevtina Verbovetskaya"
 excerpt: "At the 2013 CUNY IT Conference, we demonstrated how affordable single-board computers like Raspberry Pi can transform academia through creative projects ranging from RFID pet feeders to classroom web servers and research data collection."
 categories: [research]
-tags: [arduino, beaglebone, conference, microcomputers, microcomputing, presentation, raspberry-pi, single-board-computers]
+tags: [raspberry-pi, presentation, technology]
+redirect_from: /blog/2013/12/09/life-with-pi-microcomputing-in-academia.html
 ---
 
 Last Friday, I co-led a presentation on single-board computers at the [2013 CUNY IT Conference](http://www.centerdigitaled.com/events/CUNY-IT-Conference-2013.html). Since it was a very well-attended session (where we had great discussions with the attendees), I thought I'd provide a brief recap and link to the presentation material.

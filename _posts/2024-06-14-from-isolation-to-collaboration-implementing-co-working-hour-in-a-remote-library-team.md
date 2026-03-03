@@ -6,7 +6,8 @@ last_modified_at: "2024-06-14 19:14"
 author: "Alevtina Verbovetskaya"
 excerpt: "Implementing a daily virtual co-working hour during remote work transformed our isolated library systems team into a collaborative unit that achieved 100% voluntary participation."
 categories: [management]
-tags: [remote-work, work-from-home, team-collaboration, team-management, change-management]
+tags: [leadership, remote-work, change-management]
+redirect_from: /blog/2024/06/14/from-isolation-to-collaboration-implementing-co-working-hour-in-a-remote-library-team.html
 ---
 
 In the central Office of Library Services, our small but mighty team of systems librarians and catalogers undertook the migration of the CUNY Libraries' system from Aleph to Alma, affecting around 700 library staff across 35 libraries. Amid this, the COVID-19 pandemic forced remote work, administrative turnover led to uncertainties, and staff resignations and retirements decimated our team. Despite these challenges, we successfully completed the migration with remote training sessions. During this period, I was promoted to Director of Library Systems, supervising staff remotely for the first time. To help onboard a new hire and maintain team cohesion, I instituted a daily co-working hour. Three years later, this practice is a beloved aspect of our team, transforming our isolated work into a collaborative experience.

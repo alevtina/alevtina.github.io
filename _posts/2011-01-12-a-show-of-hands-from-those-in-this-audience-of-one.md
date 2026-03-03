@@ -6,12 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Becoming RefWorks Administrator with only 3.8% faculty adoption, I'm planning workshops that start by auto-generating bibliographies from 50+ citations to show the tool's magic immediately."
 categories: 
   - "instruction"
-tags: 
-  - "marketing"
-  - "outreach"
-  - "preparation"
-  - "refworks"
-  - "teaching"
+tags: [teaching]
+redirect_from: /blog/2011/01/12/a-show-of-hands-from-those-in-this-audience-of-one.html
 ---
 
 So I decided that I didn't have enough on my plate and took over the role of RefWorks Administrator at the Leonard Lief Library. And, actually, it's quite a peaceful gig, considering how underutilized this tool is on my campus. (Approximately 3.8% of faculty have created an account in [RefWorks](https://www.refworks.com/). The figure for students is at a dismal 1.6%.) However, I want to turn that around. Everyone on campus — especially those involved in research, such as graduate students and junior faculty — should know about this citation management tool.

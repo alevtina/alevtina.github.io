@@ -6,10 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Our library instructional videos turned out exactly as envisioned—short tutorials students can email to themselves, created through collaboration across campus departments."
 categories: 
   - "instruction"
-tags: 
-  - "teaching"
-  - "tutorials"
-  - "videos"
+tags: [teaching, tutorials, videos]
+redirect_from: /blog/2011/09/27/video-tutorials-a-la-carte.html
 ---
 
 When we last met, I gave you a behind-the-scenes look at how [four librarians became superstars](https://alevtina.commons.gc.cuny.edu/2011/06/30/the-one-where-four-librarians-become-superstars/). In this installment, I show you what the finished product looks like...

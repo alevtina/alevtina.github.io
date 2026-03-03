@@ -85,5 +85,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /blog/:year/:month/:day/:title.html
+      permalink: /blog/:title/
 

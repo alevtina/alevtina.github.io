@@ -4,7 +4,8 @@ title: "The Conversation We Didn't Plan"
 date: 2026-03-02
 author: "Alevtina Verbovetskaya"
 excerpt: "Six weeks into our agentic AI cohort, the technical agenda gave way to an honest conversation about what AI means for a profession defined by its human dimension."
-tags: [library-systems, technology, leadership, professional-development, artificial-intelligence]
+tags: [leadership, artificial-intelligence]
+redirect_from: /blog/2026/03/02/the-conversation-we-did-not-plan.html
 ---
 
 Stephen waited. Ten seconds. Maybe twelve. The Teams call was silent. Nobody moved to fill it.

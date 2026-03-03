@@ -6,7 +6,8 @@ last_modified_at: "2025-08-02 20:36"
 author: "Alevtina Verbovetskaya"
 excerpt: "One year into Shelf Help, here’s what we’ve learned about making library systems feel less like a black box."
 categories: [leadership]
-tags: [Alma, Primo VE, library systems, release notes, change management]
+tags: [library-systems, alma, primo-ve, change-management]
+redirect_from: /blog/2025/08/02/we-read-the-release-notes-so-you-dont-have-to.html
 ---
 
 For a long time, my team at CUNY's Office of Library Services (OLS) read the release notes the way many people do: haphazardly, hurriedly, and mostly in preparation for a committee meeting.

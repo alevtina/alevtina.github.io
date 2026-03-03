@@ -6,11 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Teaching terrifies me—my heart races facing all those blinking eyeballs—but students love my Simpsons clips for demonstrating critical thinking concepts in library instruction."
 categories: 
   - "instruction"
-tags: 
-  - "preparation"
-  - "simpsons"
-  - "teaching"
-  - "videos"
+tags: [teaching, videos]
+redirect_from: /blog/2010/11/11/as-easy-as-alpha-bravo-charlie.html
 ---
 
 One of the biggest challenges I've faced since starting my first full-time position as a librarian is instruction. I am not, by nature, a teacher. I get terrible anxiety when standing in front of a room full of people (all those eyeballs blinking at me!). My heart starts beating uncontrollably and I lose control of my voice. My only reprieve is that I have to teach maybe one class every week. (I commend every teacher out there for his/her ability to do this on a regular — and much more frequent — basis!)

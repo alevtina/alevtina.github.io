@@ -6,16 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "I finally get it—dressing professionally isn't vanity but necessity when you're younger than students, helping them identify you as staff who can actually help with research questions."
 categories: 
   - "reference"
-tags: 
-  - "ageism"
-  - "appearance"
-  - "attire"
-  - "attitude"
-  - "dress"
-  - "perception"
-  - "reference"
-  - "stereotypes"
-  - "uniform"
+tags: [professional-development]
+redirect_from: /blog/2010/11/30/just-laugh-it-off-its-better-than-it-seems.html
 ---
 
 I get it now. I'm supposed to dress in business casual because it sets me apart from the students. (And when I'm younger than the average student on campus, this is of utmost importance.) Instead of people asking me, "You _work_ here?" with a twinge of disbelief, they ask me, "Do you work here? I need help." My attire is like a uniform, letting the students know whom to turn to if they're having trouble finding a classroom or needing assistance with their research.

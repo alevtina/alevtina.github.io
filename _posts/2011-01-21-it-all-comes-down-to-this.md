@@ -6,15 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Leading my library's e-book project, I created a CUNY Academic Commons group and used my beloved whiteboard to storyboard a stop-motion promo video about heavy textbooks vs e-readers."
 categories: 
   - "special-initiatives"
-tags: 
-  - "advertising"
-  - "e-books"
-  - "e-readers"
-  - "lehman-elibrary"
-  - "marketing"
-  - "outreach"
-  - "videos"
-  - "whiteboard"
+tags: [videos]
+redirect_from: /blog/2011/01/21/it-all-comes-down-to-this.html
 ---
 
 Last week, I became the leader of my library's e-book/e-reader project. This week, [I started a group on the CUNY Academic Commons](https://commons.gc.cuny.edu/groups/e-books-in-the-libraries/) for everyone who's involved in similar projects on other campuses. (Was this move selfish? Slightly. I want to know how others are managing their programs but I also want everyone else to benefit from such a space. At the [LACUNY](https://www.lacuny.org/) Dialogues event this past Tuesday, it was obvious that others agreed.) So now when I'm not working on LibGuides or RefWorks, covering the reference desk, teaching (or preparing to teach) classes, combing through book catalogs, attending workshops and meetings, planning instructional tutorials/videos, writing/answering emails, or managing the library's knitting group (which I started so I have only myself to blame), I have this new project to occupy my headspace.

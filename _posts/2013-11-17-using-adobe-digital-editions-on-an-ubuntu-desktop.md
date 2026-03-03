@@ -6,16 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "I installed Ubuntu but panicked when I couldn't install Adobe Digital Editions for my e-reader—until I discovered how to use Wine and Winetricks to get ADE working perfectly."
 categories: 
   - "general"
-tags: 
-  - "ade"
-  - "adobe"
-  - "adobe-digital-editions"
-  - "digital-editions"
-  - "e-readers"
-  - "nook"
-  - "ubuntu"
-  - "wine"
-  - "winetricks"
+tags: [technology]
+redirect_from: /blog/2013/11/17/using-adobe-digital-editions-on-an-ubuntu-desktop.html
 ---
 
 [I recently purchased a new laptop and installed the Ubuntu OS on it.](https://acid-stars.com/2013/11/16/need-moar-tech/trackback/) However, in my excitement to install a UNIX-like working environment, I forgot that some software works only with the two major operating systems (i.e., Windows and Mac). Namely, I needed to install [Adobe Digital Editions](http://www.adobe.com/products/digital-editions.html) on my new machine and panicked briefly when I realized I couldn't do that. But after some quick research, I learned how to install ADE and then have it recognize my e-reader.

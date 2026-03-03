@@ -6,19 +6,8 @@ author: "Alevtina Verbovetskaya"
 excerpt: "Migrating from Drupal 6 to 7, I hit a wall when user contact forms wouldn't follow my Pathauto URL patterns—until I discovered the Sub-pathauto module fixed it perfectly."
 categories: 
   - "cms"
-tags: 
-  - "alias"
-  - "contact"
-  - "contact-form"
-  - "drupal"
-  - "form"
-  - "friendly-urls"
-  - "modules"
-  - "pathauto"
-  - "redirect"
-  - "subpathauto"
-  - "support-site"
-  - "upgrade"
+tags: [drupal, technology]
+redirect_from: /blog/2013/09/17/drupal-7-friendly-urls-for-personal-user-contact-forms.html
 ---
 
 I've been working with [Drupal](http://www.drupal.org/) for the last year in my current position (as University Web & Mobile Systems Librarian at the [City University of New York](http://www.cuny.edu/)) and I have a love-hate relationship with it. I appreciate its power and agility but curse its complexity, especially for the lay end-user. The biggest project thus far has been moving the department's support site from Drupal 6 to the newest version of Drupal 7. There's no easy way to accomplish this so I've been doing it manually, using [Node Export](https://drupal.org/project/node_export) and [Feeds](https://drupal.org/project/feeds) to move data from one instance to the other. It's been tedious work but manageable since it's a small site.
