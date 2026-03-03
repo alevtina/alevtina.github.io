@@ -449,6 +449,19 @@ footer.site-footer {
         margin-bottom: 0.75rem;
     }
 
+    hr {
+        border: none;
+        text-align: center;
+        margin: 2.5rem 0;
+
+        &::after {
+            content: "· · ·";
+            color: var(--text-muted);
+            letter-spacing: 0.5em;
+            font-size: 0.85rem;
+        }
+    }
+
     a {
         text-decoration: underline;
         text-decoration-color: var(--border);
