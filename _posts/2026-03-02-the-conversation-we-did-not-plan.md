@@ -7,33 +7,49 @@ excerpt: "Six weeks into our agentic AI cohort, the technical agenda gave way to
 tags: [library-systems, technology, leadership, professional-development, artificial-intelligence]
 ---
 
-Thirteen librarians and library staff from across CUNY's 26 campuses are spending their Mondays this semester building AI tools together—peer to peer, one session at a time. We know what these sessions look like: someone shares a breakthrough, someone hits a wall, Stephen teaches us something new. This one had all of that. And then something else happened.
+Stephen waited. Ten seconds. Maybe twelve. The Teams call was silent. Nobody moved to fill it.
 
-Kristen shared a tip about Claude's Projects feature that turned out to be more useful than she expected. Patty ran into 403 errors trying to push updates to Alma. Debugging, troubleshooting, the usual texture of a working group that is actually working. Then Stephen walked through RAG (retrieval-augmented generation): the judge who knows the law but asks a clerk to find the relevant precedents, the difference between a vector database and agentic retrieval, why vendor implementations of these tools are often disappointing. Good, grounded, practical.
+And then Will spoke, and the session became something neither of us had planned.
 
-The RAG discussion led naturally to a demo of something Stephen has been sitting on for months: a reference agent he built for the Graduate Center that draws on two sources — LibGuides for campus-specific information like hours, policies, and research guides, and the Primo Search API to retrieve results from the library's discovery tool. In his own testing, it outperforms the library's existing chat service at answering reference questions. ([The code is on GitHub](https://github.com/szweibel/reference_agent).) He's not deployed it yet. He's been having individual conversations with colleagues about what it would mean to do so: whether an AI agent should be a patron's first impression of the library, whether the profession is ready. At least three people in our group are building something similar. I noted that we're a self-selected group, probably in the minority. "Also very true," Stephen said. He called it both desirable and problematic.
+I should back up. A few weeks into this peer mentoring program, I told Stephen he was going too fast. Not with the content—with the pauses. He'd ask the room a question and then, before anyone had a real chance to think, he'd answer it himself or move on. It's a hard habit to break, especially in virtual sessions where silence feels like a technical problem. But I've seen what happens when a facilitator learns to wait: people say things they wouldn't have said if the space had been filled for them.
 
-Then he turned it over to the room. And waited.[^1]
+Stephen took the feedback seriously. He started counting to ten before moving on. By this past Monday, when he turned a question over to the room and the silence stretched well past ten seconds, he messaged me a quiet "ah well"—and held it anyway.
 
-[^1]: Stephen had been working on this. Early in the program, we talked about the facilitation instinct to fill silence—to jump in with a follow-up before anyone has had a real chance to think. He started counting to ten before moving on. By today, when the silence stretched past ten seconds, he messaged me a resigned "ah well" and held it anyway.
+What rushed in was worth waiting for.
 
-And then Will spoke.
+---
 
-Will is a library school student, still early in his studies, participating in a program designed for working librarians. What he said was this: he's going into the field because of the relational, humanistic pull of it, the thing that happens when a person who needs help encounters another person who can provide it. And he's nervous about what happens to a field when every job becomes more technical and less about being with people. "What actually is the point?" he asked.
+We'd had a full first half. Kristen shared a practical discovery about Claude's Projects feature—storing files in a Project rather than uploading them fresh each session keeps you from burning through your context limit so quickly, something she'd understood intellectually but hadn't felt until she tried it. Patty ran into 403 errors trying to push updates to Alma, which turned out to be my doing: I'd given everyone read-only API access while we're still learning. The sandboxes are next.
 
-Robin offered a frame I keep returning to: humanity, she observed, spent a long time trying to make humans into computers. The assembly line, regimented productivity, structural consistency. And now we've actually built the machines that do those things better than us. Her concern was about the younger generation specifically: people who are still becoming wise and may now have powerful tools that let them appear to arrive at answers without doing the work of getting there. "AI is really great," she said, "if you're already wise."
+Then Stephen walked through RAG—retrieval-augmented generation—with a metaphor I liked: the judge who knows the law but asks a clerk to find the relevant precedents. Vector databases, agentic retrieval, why vendor implementations of these tools so often disappoint. And then, as a kind of live demonstration of everything he'd just explained, he showed us a reference agent he built for the Graduate Center. It draws on LibGuides for campus-specific information and the Primo Search API for discovery, and in his own testing it outperforms the library's existing chat service. ([The code is on GitHub](https://github.com/szweibel/reference_agent).) He hasn't deployed it. He's been having careful conversations about what that would mean—whether an AI agent should be a patron's first impression of the library, whether the profession is ready.
 
-Jason pushed back gently: AI literacy is fundamentally an information literacy problem, and that's where librarians have something irreplaceable to offer. Not despite the disruption, but because of it. Anthony, who teaches a foundational reference course at Queens College's GSLIS, was more direct: getting out in front of this isn't a choice. It's a professional obligation.
+At least three people in our group are building something similar. I noted that we're a self-selected group, probably in the minority. "Also very true," Stephen said. He called it both desirable and problematic.
 
-Ashley brought the political dimension that the rest of us had been circling without quite landing on. She noted that Anthropic had recently [refused to comply with government demands](https://web.archive.org/web/20260226233531/https://www.cnn.com/2026/02/26/tech/anthropic-rejects-pentagon-offer) that would have opened the technology to mass surveillance and military use. She asked the room: what conversation would we be having right now if they hadn't? If Anthropic had handled that moment differently, would we have kept using it? That, she said, is also our ethical obligation as librarians. To know these systems well enough to answer that question when it matters.
+Then he asked: has any of this changed your mind? And he waited.
 
-Shamiana said her main worry isn't that AI is coming for her job. It's that access will eventually become unequal. That these tools will be available to some and not others, consolidating advantage rather than distributing it.
+---
 
-Stephen closed the meeting by saying he thought we'd need to keep having this conversation, that AI is going to impact our labor in ways that will vary a great deal and that we can't fully anticipate. He wasn't trying to wrap it up neatly, and he didn't. His homework suggestion for the week: try building a RAG pipeline, something that does agentic retrieval or vector embedding, whatever makes sense for your project.
+Will is a library school student, still early in his studies, the youngest person in a program designed for working librarians. He said he'd barely touched these tools before joining, that curiosity was most of what brought him here. But the more he learned, the more a question nagged at him. He could see that AI handles reference questions efficiently and well. What he kept turning over was what that means for the patron on the other end—whether you can build the curiosity and relationship that makes learning stick if the interaction is frictionless by design. "What actually is the point?" he asked. And then, almost in the same breath: "It's also really cool to learn how this works."
 
-It was a fitting note to end on. We'd spent part of the session talking about how AI systems retrieve and contextualize information. We spent the rest of it trying to articulate what humans bring that those systems can't retrieve or contextualize: judgment, relationship, the particular kind of knowing that comes from being uncertain and staying in the room anyway.
+I've been thinking about that pairing ever since. Not the question and the answer, but the question and the delight sitting right next to each other. That's not confusion. That's intellectual honesty. And it opened something in the room.
 
-And part of it, I think, was the question itself, asked by someone new enough to the profession to still be asking why, not just how. That instinct, Robin would say, is exactly what we need to protect.
+Robin said that humanity spent a long time trying to make humans into computers—the assembly line, regimented productivity, structural consistency—and now we've built machines that do those things better than us. Her worry was for people who are still developing judgment, who now have access to powerful tools that let them appear to arrive at answers without doing the work of getting there. "AI is really great," she said, "if you're already wise."
+
+Jason pushed back gently: understanding what an AI system can and can't do, what it was trained on, what it retrieves and why, is fundamentally an information literacy question. That's not a threat to librarianship—it's an argument for it. Anthony, who teaches a foundational reference course at Queens College's GSLIS, was more blunt: students are already receiving AI-generated citations they can't evaluate. Getting out in front of this isn't optional. It's a professional obligation.
+
+Ashley brought the political dimension that the rest of us had been circling. The previous Friday, Defense Secretary Pete Hegseth had blacklisted Anthropic after the company refused to remove safeguards against using Claude for mass surveillance or autonomous weapons. [The company held its line and accepted the consequences.](https://web.archive.org/web/20260226233531/https://www.cnn.com/2026/02/26/tech/anthropic-rejects-pentagon-offer) Ashley's question was simple and a little destabilizing: what conversation would we be having right now if they hadn't? Would we still be using these tools? For a room full of people with professional commitments to intellectual freedom, it wasn't a rhetorical question.
+
+Shamiana said her worry isn't job loss. It's that access will eventually become unequal—that these tools will be available to some and not others, compounding existing advantages rather than distributing new ones.
+
+Stephen closed by saying we'd need to keep having this conversation. He wasn't trying to resolve it, and he didn't. His homework for the week: try building a RAG pipeline, whatever makes sense for your project.
+
+---
+
+Here is what I keep coming back to. We spent the first part of the session talking about how AI systems retrieve and contextualize information. We spent the second part trying to articulate something those systems can't do: sit with a hard question, resist the pull toward a tidy answer, and trust that the silence is doing something.
+
+Stephen learned to count to ten. Will asked something real. The room held it.
+
+That's what peer learning looks like when it's working.
 
 ---
 
