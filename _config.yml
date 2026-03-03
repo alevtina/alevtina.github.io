@@ -36,6 +36,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-webmention_io
+  - jekyll-archives
+
+# Tag archives
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag_archive
+  permalinks:
+    tag: /tags/:name/
 
 # Webmentions
 webmentions:

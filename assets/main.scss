@@ -439,6 +439,41 @@ footer.site-footer {
     padding: 0.1rem 0.5rem;
     border-radius: 3px;
     margin-right: 0.25rem;
+    text-decoration: none;
+
+    &:hover {
+        background: var(--accent);
+        color: #fff;
+    }
+}
+
+// Table of contents (kramdown {:toc})
+#markdown-toc {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    list-style: none;
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 1rem;
+        margin-top: 0.25rem;
+    }
+
+    a {
+        color: var(--text-light);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
 }
 
 .post-content {
