@@ -9,7 +9,7 @@ series_part:
 cover: "https://covers.openlibrary.org/b/id/15097006-L.jpg"
 status: finished
 date: 2025-08-01
-rating:
+rating: 2
 tags: ["Literary Fiction"]
 calibre_id: 579
 ---

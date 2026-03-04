@@ -9,7 +9,7 @@ series_part: 2
 cover: "https://covers.openlibrary.org/b/id/13186198-L.jpg"
 status: finished
 date: 2025-08-01
-rating:
+rating: 4
 tags: ["Romance"]
 calibre_id: 544
 ---
