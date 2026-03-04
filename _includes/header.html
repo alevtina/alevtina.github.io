@@ -11,6 +11,8 @@
         <span class="nav-sep">·</span>
         <a href="{{ '/about' | relative_url }}"{% if page.url == '/about' or page.url == '/about/' %} class="active"{% endif %}>About</a>
         <span class="nav-sep">·</span>
+        <a href="{{ '/reading' | relative_url }}"{% if page.url == '/reading' or page.url == '/reading/' or page.layout == 'read' %} class="active"{% endif %}>Reading</a>
+        <span class="nav-sep">·</span>
         <a href="{{ '/presentations' | relative_url }}"{% if page.url == '/presentations' or page.url == '/presentations/' or page.url == '/presentations.html' %} class="active"{% endif %}>Presentations</a>
         <span class="nav-sep">·</span>
         <a href="{{ '/blog' | relative_url }}"{% if page.url == '/blog' or page.url == '/blog/' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
