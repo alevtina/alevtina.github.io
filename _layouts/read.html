@@ -87,9 +87,9 @@ layout: default
         <dt>Borrow</dt>
         <dd>
           {%- if page.isbn -%}
-          <a class="read-worldcat-link" href="https://openlibrary.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
+          <a class="read-openlibrary-link" href="https://openlibrary.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
           {%- else -%}
-          <a class="read-worldcat-link" href="https://openlibrary.org/search?mode=everything&q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
+          <a class="read-openlibrary-link" href="https://openlibrary.org/search?mode=everything&q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
           {%- endif -%}
         </dd>
       </dl>
