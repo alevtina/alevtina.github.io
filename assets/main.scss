@@ -16,6 +16,7 @@ $base-line-height: 1.7;
     --highlight: #FFB71B;
     --border: #ddd;
     --code-bg: #f5f5f5;
+    --star-fill: #b45309;
 }
 
 // Explicit dark mode via toggle
@@ -28,6 +29,7 @@ $base-line-height: 1.7;
     --highlight: #FFB71B;
     --border: #2a3040;
     --code-bg: #1a2030;
+    --star-fill: #f59e0b;
 }
 
 // Auto dark mode (when no preference is stored)
@@ -41,6 +43,7 @@ $base-line-height: 1.7;
         --highlight: #FFB71B;
         --border: #2a3040;
         --code-bg: #1a2030;
+        --star-fill: #f59e0b;
     }
 }
 
@@ -754,15 +757,15 @@ html {
 }
 
 .reading-cover {
-    width: 54px;
+    width: 85px;
     height: auto;
     display: block;
     border-radius: 2px;
 }
 
 .reading-cover-placeholder {
-    width: 54px;
-    height: 81px; // 2:3 book proportions
+    width: 85px;
+    height: 128px; // 2:3 book proportions
     flex-shrink: 0;
     border-radius: 2px;
     background: var(--border);
@@ -802,8 +805,18 @@ html {
 .reading-rating {
     display: block;
     font-size: 0.85rem;
-    color: var(--text-muted);
 }
+
+.star-rating {
+    display: inline-flex;
+    gap: 0.1em;
+    line-height: 1;
+    vertical-align: middle;
+    letter-spacing: 0;
+}
+
+.star--filled { color: var(--star-fill); }
+.star--empty  { color: var(--text-muted); }
 
 // -------------------------------------------------------------------------
 // Reading collection — individual book page

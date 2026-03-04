@@ -67,8 +67,16 @@ layout: default
         {%- endif -%}
 
         {%- if page.rating -%}
+        {%- assign _rparts = page.rating | split: "/" -%}
+        {%- assign _rnum = _rparts[0] | plus: 0 -%}
         <dt>Rating</dt>
-        <dd>{{ page.rating | escape }}</dd>
+        <dd>
+          <span class="star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
+            {%- for i in (1..5) -%}
+              {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
+            {%- endfor -%}
+          </span>
+        </dd>
         {%- endif -%}
 
         {%- if page.isbn -%}

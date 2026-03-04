@@ -137,7 +137,13 @@ description: "Books I've read, am reading, and want to read."
               <span class="reading-year">{{ book.year }}</span>
               {%- endif -%}
               {%- if book.rating -%}
-              <span class="reading-rating">{{ book.rating | escape }}</span>
+              {%- assign _rparts = book.rating | split: "/" -%}
+              {%- assign _rnum = _rparts[0] | plus: 0 -%}
+              <span class="reading-rating star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
+                {%- for i in (1..5) -%}
+                  {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
+                {%- endfor -%}
+              </span>
               {%- endif -%}
             </div>
           </div>
