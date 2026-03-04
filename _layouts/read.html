@@ -84,12 +84,12 @@ layout: default
         <dd><data class="p-uid" value="urn:isbn:{{ page.isbn | escape }}">{{ page.isbn | escape }}</data></dd>
         {%- endif -%}
 
-        <dt>Get it</dt>
+        <dt>Borrow</dt>
         <dd>
           {%- if page.isbn -%}
-          <a class="read-worldcat-link" href="https://www.worldcat.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">Local library</a>
+          <a class="read-worldcat-link" href="https://openlibrary.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
           {%- else -%}
-          <a class="read-worldcat-link" href="https://www.worldcat.org/search?q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">Local library</a>
+          <a class="read-worldcat-link" href="https://openlibrary.org/search?mode=everything&q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">Open Library</a>
           {%- endif -%}
         </dd>
       </dl>
