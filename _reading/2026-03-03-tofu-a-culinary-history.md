@@ -1,0 +1,15 @@
+---
+layout: read
+title: "Tofu: A Culinary History"
+author: "Russell Thomas"
+isbn:
+year:
+series:
+series_part:
+cover:
+status: to-read
+date: 2026-03-03
+rating:
+tags: []
+calibre_id: 612
+---

@@ -1,0 +1,15 @@
+---
+layout: read
+title: "Nexus: A Brief History of Information Networks from the Stone Age to AI"
+author: "Yuval Noah Harari"
+isbn:
+year: 2024
+series:
+series_part:
+cover:
+status: to-read
+date: 2026-03-03
+rating:
+tags: ["Non-Fiction: Science & Ideas"]
+calibre_id: 551
+---
