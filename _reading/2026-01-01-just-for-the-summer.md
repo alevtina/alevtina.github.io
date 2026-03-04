@@ -4,7 +4,7 @@ title: "Just for the Summer"
 author: "Abby Jimenez"
 isbn: "9781538767443"
 year: 2024
-series:
+series: "Part of Your World"
 series_part:
 cover: "https://covers.openlibrary.org/b/id/14602781-L.jpg"
 status: finished
@@ -13,6 +13,7 @@ rating:
 tags: ["Romance"]
 calibre_id: 533
 ---
+
 
 
 
