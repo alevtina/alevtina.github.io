@@ -14,6 +14,4 @@ tags: ["Romance"]
 calibre_id: 533
 ---
 
-
-
 A summer read that I read in the winter. It's exactly what I thought it would be and I enjoyed it for what it was.

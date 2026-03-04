@@ -13,17 +13,3 @@ rating: 4
 tags: ["Literary Fiction"]
 calibre_id: 571
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
