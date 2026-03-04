@@ -1,6 +1,6 @@
 ---
 layout: read
-title: "Co-Intelligence"
+title: "Co-Intelligence: Living and Working with AI"
 author: "Ethan Mollick"
 isbn: "9780593716724"
 year: 2024
@@ -13,3 +13,4 @@ rating:
 tags: []
 calibre_id: 473
 ---
+
