@@ -79,9 +79,9 @@ layout: default
         <dt>Get it</dt>
         <dd>
           {%- if page.isbn -%}
-          <a class="read-worldcat-link" href="https://www.worldcat.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">At your local library</a>
+          <a class="read-worldcat-link" href="https://www.worldcat.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">Local library</a>
           {%- else -%}
-          <a class="read-worldcat-link" href="https://www.worldcat.org/search?q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">At your local library</a>
+          <a class="read-worldcat-link" href="https://www.worldcat.org/search?q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">Local library</a>
           {%- endif -%}
         </dd>
       </dl>
