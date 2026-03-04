@@ -2,7 +2,7 @@
 layout: read
 title: "Just for the Summer"
 author: "Abby Jimenez"
-isbn: "9781538704448"
+isbn: "9781538767443"
 year: 2024
 series:
 series_part:
@@ -13,6 +13,7 @@ rating:
 tags: ["Romance"]
 calibre_id: 533
 ---
+
 
 
 
