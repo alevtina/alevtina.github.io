@@ -8,8 +8,10 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/9228100-L.jpg"
 status: finished
-date: 2025-01-01
+date: 2025-08-01
 rating:
 tags: ["Romance"]
 calibre_id: 575
 ---
+
+I devoured this book.
