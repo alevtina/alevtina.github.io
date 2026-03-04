@@ -7,7 +7,7 @@ description: "Books I've read, am reading, and want to read."
 
 <div class="reading-log">
   <h1>Reading Log</h1>
-  <p>Books I've read, am reading, and want to read — synced from Calibre-Web and published as <a href="https://indieweb.org/read">IndieWeb read posts</a>.</p>
+  <p>Books I've read, am reading, and want to read—synced from Calibre-Web and published as <a href="https://indieweb.org/read">IndieWeb read posts</a>.</p>
 
   {%- assign all_reading = site.reading | sort: "date" | reverse -%}
 
@@ -16,7 +16,7 @@ description: "Books I've read, am reading, and want to read."
   {%- if currently_reading.size > 0 -%}
   <section class="reading-section">
     <h2>Currently Reading</h2>
-    <ul class="reading-list">
+    <ul class="reading-list" role="list">
       {%- for book in currently_reading -%}
       {%- if book.author.first -%}
         {%- assign book_author = book.author | join: " and " -%}
@@ -31,11 +31,18 @@ description: "Books I've read, am reading, and want to read."
           <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
             <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
           </a>
+          {%- else -%}
+          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
+            <div class="reading-cover-placeholder"></div>
+          </a>
           {%- endif -%}
           <div class="reading-item-info">
             <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
             {%- if book_author != "" -%}
             <span class="p-author reading-author">{{ book_author | escape }}</span>
+            {%- endif -%}
+            {%- if book.year -%}
+            <span class="reading-year">{{ book.year }}</span>
             {%- endif -%}
           </div>
         </div>
@@ -50,7 +57,7 @@ description: "Books I've read, am reading, and want to read."
   {%- if to_read.size > 0 -%}
   <section class="reading-section">
     <h2>Want to Read</h2>
-    <ul class="reading-list">
+    <ul class="reading-list" role="list">
       {%- for book in to_read -%}
       {%- if book.author.first -%}
         {%- assign book_author = book.author | join: " and " -%}
@@ -65,11 +72,18 @@ description: "Books I've read, am reading, and want to read."
           <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
             <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
           </a>
+          {%- else -%}
+          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
+            <div class="reading-cover-placeholder"></div>
+          </a>
           {%- endif -%}
           <div class="reading-item-info">
             <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
             {%- if book_author != "" -%}
             <span class="p-author reading-author">{{ book_author | escape }}</span>
+            {%- endif -%}
+            {%- if book.year -%}
+            <span class="reading-year">{{ book.year }}</span>
             {%- endif -%}
           </div>
         </div>
@@ -96,7 +110,7 @@ description: "Books I've read, am reading, and want to read."
 
     {%- for year in years_seen -%}
     <h3>{{ year }}</h3>
-    <ul class="reading-list">
+    <ul class="reading-list" role="list">
       {%- for book in finished -%}
         {%- assign book_year = book.date | date: "%Y" -%}
         {%- if book_year == year -%}
@@ -118,6 +132,9 @@ description: "Books I've read, am reading, and want to read."
               <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
               {%- if book_author != "" -%}
               <span class="p-author reading-author">{{ book_author | escape }}</span>
+              {%- endif -%}
+              {%- if book.year -%}
+              <span class="reading-year">{{ book.year }}</span>
               {%- endif -%}
               {%- if book.rating -%}
               <span class="reading-rating">{{ book.rating | escape }}</span>

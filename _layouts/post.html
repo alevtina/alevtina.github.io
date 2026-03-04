@@ -31,7 +31,8 @@ layout: default
             <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mentioned this post from your site? Let me know!</p>
             <form class="webmention-form" action="https://webmention.io/verbovetskaya.com/webmention" method="POST">
                 <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
-                <input class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
+                <label for="webmention-source" class="sr-only">Your page URL</label>
+                <input id="webmention-source" class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
                 <button class="webmention-form__button" type="submit">Send Webmention</button>
             </form>
         </div>

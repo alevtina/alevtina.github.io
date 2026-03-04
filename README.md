@@ -12,6 +12,7 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 - **jekyll-webmention_io** — displays webmentions at build time
 - **@remy/webmention** — sends outgoing webmentions on deploy
 - **GoatCounter** — privacy-friendly analytics
+- **[calibre-web-reads](https://github.com/alevtina/calibre-web-reads)** — syncs Calibre-Web shelves to IndieWeb read posts
 
 ## File Structure
 
@@ -32,8 +33,10 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 ├── _layouts/
 │   ├── default.html
 │   ├── page.html
-│   └── post.html            # Includes webmentions section + form
+│   ├── post.html            # Includes webmentions section + form
+│   └── read.html            # IndieWeb read post layout (microformats2)
 ├── _posts/                  # Blog posts
+├── _reading/                # IndieWeb read posts (synced via calibre-web-reads)
 ├── _data/                   # Webmention cache (auto-generated)
 ├── assets/
 │   ├── main.scss            # Main stylesheet
@@ -45,8 +48,23 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 ├── blog.md                  # Blog listing page
 ├── index.md                 # Homepage
 ├── presentations.md         # Presentations page
+├── reading.md               # Reading log index page
 └── 404.html                 # Error page
 ```
+
+## Reading Log
+
+Books are synced from Calibre-Web using [calibre-web-reads](https://github.com/alevtina/calibre-web-reads), a standalone Python script that runs locally (the Calibre-Web instance is on the home network, not reachable from GitHub Actions).
+
+To sync:
+
+```sh
+cd ../calibre-web-reads
+set -a && source .env && set +a
+python3 sync.py
+```
+
+The script writes new files to `_reading/`, then commits and pushes automatically. Existing files are never overwritten — add ratings and notes freely. See `_reading/README.md` for the front matter reference and how to add books manually.
 
 ## Adding Blog Posts
 

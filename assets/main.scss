@@ -700,6 +700,231 @@ html {
     display: none;
 }
 
+// -------------------------------------------------------------------------
+// Reading collection — index page (/reading/)
+// -------------------------------------------------------------------------
+
+.reading-section {
+    margin-top: 2rem;
+
+    > h2 {
+        margin-top: 0;
+        padding-bottom: 0.35rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    // Year headings under Finished
+    > h3 {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
+.reading-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.reading-item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    // The h-cite wrapper inside each list item
+    .h-cite {
+        display: flex;
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+}
+
+.reading-cover-link {
+    display: block;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.reading-cover {
+    width: 54px;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+}
+
+.reading-cover-placeholder {
+    width: 54px;
+    height: 81px; // 2:3 book proportions
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--border);
+}
+
+.reading-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+}
+
+.reading-title {
+    display: block;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+}
+
+.reading-author {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--text-light);
+}
+
+.reading-year {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.reading-rating {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+// -------------------------------------------------------------------------
+// Reading collection — individual book page
+// -------------------------------------------------------------------------
+
+.read-entry {
+    .read-header {
+        display: flex;
+        gap: 1.75rem;
+        align-items: flex-start;
+        margin-bottom: 1.75rem;
+
+        @media (max-width: 480px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .read-cover-wrap {
+        flex-shrink: 0;
+        width: 160px;
+
+        @media (max-width: 480px) {
+            width: 140px;
+        }
+    }
+
+    .read-cover {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 3px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+    }
+
+    .read-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .read-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .read-author {
+        color: var(--text-light);
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    // Labeled metadata grid
+    .read-meta-dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 0.75rem;
+        row-gap: 0.25rem;
+        margin: 0.75rem 0 0;
+        align-items: baseline;
+
+        dt {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            white-space: nowrap;
+        }
+
+        dd {
+            display: flex;
+            align-items: baseline;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+
+        .read-worldcat-link {
+            font-size: 0.9rem;
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+            &::after { content: " →"; }
+            &:hover { opacity: 0.8; }
+        }
+    }
+
+    .read-status {
+        display: inline-block;
+        font-size: 0.65rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        padding: 0.1rem 0.45rem;
+        border-radius: 99px;
+        border: 1px solid currentColor;
+
+        &.read-status--finished  { color: var(--accent); }
+        &.read-status--reading   { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+        &.read-status--to-read   { color: var(--text-muted); }
+    }
+
+    .read-date {
+        font-size: 0.875rem;
+        color: var(--text-muted);
+    }
+
+    .read-tags {
+        margin-top: 0.6rem;
+    }
+
+    // Notes/body content — separated from the header block
+    .read-notes {
+        margin-top: 1.75rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+    }
+}
+
 .webmentions__list {
     list-style: none;
     padding-left: 0;

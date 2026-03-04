@@ -24,7 +24,7 @@ layout: default
 
 <article class="h-entry read-entry">
 
-  {{- /* Microformats2 machine-readable properties */ -}}
+  {{- /* Microformats2 machine-readable properties on the h-entry */ -}}
   <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
   <span class="p-author h-card" hidden>
     <span class="p-name">{{ site.author.name | escape }}</span>
@@ -40,42 +40,54 @@ layout: default
     </div>
     {%- endif -%}
 
-    <div class="read-info">
-      {{- /* p-read-of h-cite: the book itself */ -}}
-      <div class="p-read-of h-cite">
-        <h1 class="p-name read-title">{{ page.title | escape }}</h1>
+    {{- /* p-read-of h-cite: the book being read */ -}}
+    <div class="read-info p-read-of h-cite">
+      <h1 class="p-name read-title">{{ page.title | escape }}</h1>
+      {%- if author_string != "" -%}
+      <p class="p-author read-author">{{ author_string | escape }}</p>
+      {%- endif -%}
 
-        {%- if author_string != "" -%}
-        <p class="p-author read-author">{{ author_string | escape }}</p>
+      <dl class="read-meta-dl">
+        {%- if page.series -%}
+        <dt>Series</dt>
+        <dd>{{ page.series | escape }}{%- if page.series_part %} #{{ page.series_part }}{%- endif %}</dd>
         {%- endif -%}
 
-        {%- if page.series -%}
-        <p class="read-series">
-          {{ page.series | escape -}}
-          {%- if page.series_part %} #{{ page.series_part }}{%- endif %}
-        </p>
+        <dt>Status</dt>
+        <dd>
+          <span class="read-status read-status--{{ page.status }}">{{ status_label }}</span>
+          {%- if page.status == "finished" -%}
+          <span class="read-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+          {%- endif -%}
+        </dd>
+
+        {%- if page.year -%}
+        <dt>Published</dt>
+        <dd>{{ page.year }}</dd>
+        {%- endif -%}
+
+        {%- if page.rating -%}
+        <dt>Rating</dt>
+        <dd>{{ page.rating | escape }}</dd>
         {%- endif -%}
 
         {%- if page.isbn -%}
-        <data class="p-uid" value="urn:isbn:{{ page.isbn | escape }}">
-          ISBN {{ page.isbn | escape }}
-        </data>
+        <dt>ISBN</dt>
+        <dd><data class="p-uid" value="urn:isbn:{{ page.isbn | escape }}">{{ page.isbn | escape }}</data></dd>
         {%- endif -%}
-      </div>
 
-      <div class="read-meta">
-        <span class="read-status read-status--{{ page.status }}">{{ status_label }}</span>
-        {%- if page.status == "finished" -%}
-        <span class="read-date">{{ page.date | date: "%B %-d, %Y" }}</span>
-        {%- endif -%}
-      </div>
-
-      {%- if page.rating -%}
-      <div class="read-rating">Rating: {{ page.rating | escape }}</div>
-      {%- endif -%}
+        <dt>Get it</dt>
+        <dd>
+          {%- if page.isbn -%}
+          <a class="read-worldcat-link" href="https://www.worldcat.org/isbn/{{ page.isbn | escape }}" rel="noopener noreferrer" target="_blank">At your local library</a>
+          {%- else -%}
+          <a class="read-worldcat-link" href="https://www.worldcat.org/search?q={{ page.title | uri_escape }}" rel="noopener noreferrer" target="_blank">At your local library</a>
+          {%- endif -%}
+        </dd>
+      </dl>
 
       {%- if page.tags and page.tags.size > 0 -%}
-      <div class="read-tags post-tags">
+      <div class="read-tags">
         {%- for tag in page.tags -%}
         <span class="tag">{{ tag | escape }}</span>
         {%- endfor -%}
@@ -84,7 +96,8 @@ layout: default
     </div>
   </header>
 
-  {%- if content != "" and content != "<p></p>\n" -%}
+  {%- assign _notes = content | strip_html | strip -%}
+  {%- if _notes != "" -%}
   <div class="read-notes p-summary e-content">
     {{ content }}
   </div>
@@ -98,7 +111,8 @@ layout: default
       <p class="webmentions-info">This site supports <a href="https://indieweb.org/Webmention">webmentions</a> via the <a href="https://indieweb.org/">IndieWeb</a> and <a href="https://webmention.io/">webmention.io</a>. Mentioned this from your site? Let me know!</p>
       <form class="webmention-form" action="https://webmention.io/verbovetskaya.com/webmention" method="POST">
         <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
-        <input class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
+        <label for="webmention-source" class="sr-only">Your page URL</label>
+        <input id="webmention-source" class="webmention-form__input" type="url" name="source" placeholder="https://your-site.com/response" required />
         <button class="webmention-form__button" type="submit">Send Webmention</button>
       </form>
     </div>

@@ -62,7 +62,7 @@ webmentions:
 collections:
   reading:
     output: true
-    permalink: /reading/:name/
+    permalink: /reading/:slug/
 
 # jekyll-feed: main feed + reading feed
 feed:

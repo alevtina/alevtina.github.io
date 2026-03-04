@@ -7,7 +7,7 @@ published: false
 Files in this folder are Jekyll collection items rendered by `_layouts/read.html`
 as IndieWeb [read posts](https://indieweb.org/read) with microformats2 markup.
 
-Most files are created automatically by `_scripts/calibre_sync.py`. The script
+Most files are created automatically by [calibre-web-reads](https://github.com/alevtina/calibre-web-reads). The script
 **never overwrites existing files**, so you can freely add notes and ratings
 without fear of losing them on the next sync.
 
@@ -69,27 +69,25 @@ Fields you'll most often fill in manually:
 
 ## Shelf naming conventions in Calibre-Web
 
-The sync script looks for shelves with these exact names (case-insensitive):
+The sync script looks for shelves named `{prefix}-YYYY`, `{prefix}-reading`, and `{prefix}-tbr`, where the prefix defaults to your Calibre-Web username.
 
-| Shelf name          | Status in front matter |
-|---------------------|------------------------|
-| `alevtina-2024`     | `finished`             |
-| `alevtina-2025`     | `finished`             |
-| `alevtina-reading`  | `reading`              |
-| `alevtina-tbr`      | `to-read`              |
+| Shelf name         | Status in front matter |
+|--------------------|------------------------|
+| `alevtina-2024`    | `finished`             |
+| `alevtina-2025`    | `finished`             |
+| `alevtina-reading` | `reading`              |
+| `alevtina-tbr`     | `to-read`              |
 
 Add a new `alevtina-YYYY` shelf each year for finished books.
 
 ---
 
-## Running the sync manually
+## Running the sync
 
 ```sh
-export CALIBRE_WEB_URL="https://your-calibre-web-instance.example.com"
-export CALIBRE_WEB_USER="your-username"
-export CALIBRE_WEB_PASS="your-password"
-python _scripts/calibre_sync.py
+cd ../calibre-web-reads
+set -a && source .env && set +a
+python3 sync.py
 ```
 
-Or trigger the GitHub Actions workflow manually via the Actions tab
-→ **Sync Calibre-Web Reading Data** → **Run workflow**.
+See [calibre-web-reads](https://github.com/alevtina/calibre-web-reads) for setup and configuration.
