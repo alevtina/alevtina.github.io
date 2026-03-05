@@ -1,7 +1,9 @@
 ---
 layout: post
+archived: true
 title: "Linking to Aleph OPAC and search results"
 date: "2013-10-28"
+last_modified_at: "2014-08-01"
 author: "Alevtina Verbovetskaya"
 excerpt: "Linking to Aleph OPAC searches requires removing session IDs from URLs and using specific parameters like find_scan_code—here's how to create persistent, proxied links."
 categories: 
@@ -10,7 +12,9 @@ tags: [aleph, technology]
 redirect_from: /blog/2013/10/28/linking-to-aleph-opac-and-search-results.html
 ---
 
-**Update**: This post was updated in August 2014 to reflect the new URL for the CUNY Catalog.
+> **Note**
+> 
+> This post was updated in August 2014 to reflect the new URL for the CUNY Catalog.
 
 [Linking to the Aleph OPAC](#linking-to-the-aleph-opac) is easy. [Linking to a specific search](#linking-to-a-specific-search) is... well, it's not as easy and it requires some practice. I'll explain how to do them both.
 

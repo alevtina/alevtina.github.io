@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Using Adobe Digital Editions on an Ubuntu desktop"
 date: "2013-11-17"
 author: "Alevtina Verbovetskaya"

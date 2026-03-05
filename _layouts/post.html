@@ -19,6 +19,13 @@ layout: default
         {%- endif -%}
     </header>
 
+    {%- if page.archived -%}
+    <div class="archive-notice">
+        <p><strong>This post has been archived.</strong><br>
+        It's quite old and may reference tools or techniques that have since been replaced. The original text is preserved below for historical reference.</p>
+    </div>
+    {%- endif -%}
+
     <div class="post-content">
         {{ content }}
     </div>

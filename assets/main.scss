@@ -416,6 +416,25 @@ footer.site-footer {
     margin-top: 0.25rem;
 }
 
+// Archive notice
+.archive-notice {
+    border-left: 3px solid var(--text-muted);
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
+    background: var(--code-bg);
+    border-radius: 0 4px 4px 0;
+    font-size: 0.9rem;
+    color: var(--text-light);
+
+    p {
+        margin-bottom: 0;
+    }
+
+    strong {
+        color: var(--text);
+    }
+}
+
 // Individual blog post
 .post-header {
     margin-bottom: 2rem;

@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "Drupal 7: Friendly URLs for personal user contact forms"
 date: "2013-09-17"
 author: "Alevtina Verbovetskaya"
@@ -22,7 +23,7 @@ No matter what I did, the users' contact forms were always located at `user/[uid
 
 Frustratingly, there's no such field in Pathauto 7.x-1.2.
 
-...There is, however, [Sub-pathauto](https://drupal.org/project/subpathauto)— a totally separate module that does exactly what it sounds like. It creates sub-path URL aliases for patterns created with Pathauto. I installed it\* as soon as I learned about its existence:
+...There is, however, [Sub-pathauto](https://drupal.org/project/subpathauto)— a totally separate module that does exactly what it sounds like. It creates sub-path URL aliases for patterns created with Pathauto. I installed it[^1]] as soon as I learned about its existence:
 
 {% highlight terminal %}
 $ drush dl subpathauto
@@ -34,6 +35,4 @@ And, _presto_! Users' personal contact forms are now at the desired `users/[user
 
 Now why didn't Pathauto for D7 come standard with this functionality?
 
-* * *
-
-\* [Drush](https://github.com/drush-ops/drush) is seriously awesome.
+[^1]: [Drush](https://github.com/drush-ops/drush) is seriously awesome.

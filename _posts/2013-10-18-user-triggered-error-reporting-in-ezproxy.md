@@ -1,5 +1,6 @@
 ---
 layout: post
+archived: true
 title: "User-triggered error reporting in EZproxy"
 date: "2013-10-18"
 author: "Alevtina Verbovetskaya"
