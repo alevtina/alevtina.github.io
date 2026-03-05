@@ -4,66 +4,41 @@ title: "We Read the Release Notes So You Don't Have To"
 date: "2025-08-02 19:16"
 last_modified_at: "2025-08-02 20:36"
 author: "Alevtina Verbovetskaya"
-excerpt: "One year into Shelf Help, here’s what we’ve learned about making library systems feel less like a black box."
+excerpt: "One year into Shelf Help, here's what we've learned about making library systems feel less like a black box."
 categories: [leadership]
 tags: [library-systems, alma, primo-ve, change-management]
 redirect_from: /blog/2025/08/02/we-read-the-release-notes-so-you-dont-have-to.html
 ---
 
-For a long time, my team at CUNY's Office of Library Services (OLS) read the release notes the way many people do: haphazardly, hurriedly, and mostly in preparation for a committee meeting.
+For a long time, my team at CUNY's Office of Library Services read release notes the way most people do: quickly, right before a meeting, and with mild dread.
 
-We'd skim through the Alma and Primo VE quarterly updates—sometimes individually, sometimes together—then talk through the highlights six separate times: once with each of our three working groups and again with our three advisory committees. It was theoretical (“This probably affects cataloging…”), abstract (“Based on the screenshot, I think it works like this…”), and ultimately redundant.
+Every quarter, we'd review the Alma and Primo VE updates, then repeat the same conversation six different times—three working groups, three advisory committees. We'd speculate about what a feature probably did based on screenshots. We'd guess which workflows it might affect. And most of that context stopped with the committee rep.
 
-And the kicker? Most of that insight never made it past the committee rep.
+It wasn't efficient. It wasn't engaging. And it definitely wasn't helping 30+ libraries feel ready for change.
 
-It wasn’t engaging, it wasn’t efficient, and it wasn’t helping anyone actually understand the changes coming their way. So in late 2024, we decided to rethink it.
+So in late 2024, we tried something different.
 
-## Enter: Shelf Help
+We called it _Shelf Help_.
 
-My team at the CUNY Office of Library Services sat down and asked ourselves a simple question:
+The idea was simple: instead of discussing release notes in silos, we'd host a single, open webinar for all CUNY library staff. We schedule it the Thursday before Ex Libris pushes updates to production. The timing matters—people get clarity before the changes land.
 
-> What would it look like to actually support our librarians during release cycles—not just inform them?
+But the bigger shift wasn't the format. It was the mindset.
 
-The answer became _Shelf Help_, a quarterly open webinar that walks library staff through what’s new in Alma and Primo VE. We time each session to land the Thursday before Ex Libris pushes changes to production, giving people time to understand what’s coming and ask questions before it affects their work.
+We stopped summarizing and started testing.
 
-We held our first session in November 2024. One year and four sessions later, it’s become a reliable touchstone in our systems calendar—with around 70 registrants and 80% attendance each time.
+Now, before each session, we:
 
-## Why It Works (And What We Do Differently)
+* Read every line of the release notes
+* Test new features in our Alma and Primo VE sandboxes
+* Decide what's actually relevant to our campuses
+* Build examples and walkthroughs
+* Share the recording and documentation afterward
 
-_Shelf Help_ isn't just a reading of the release notes. It's a systems-thinking exercise with a service mindset.
+Instead of “Here's what the notes say,” it's “Here's what this does in our environment, and here's what to watch for.”
 
-We:
-* Read and analyze all the release notes
-* Test each feature in our Alma/Primo VE sandboxes
-* Focus on what's real and what’s relevant to our campuses
-* Build clear examples, annotated slides, and walkthroughs
-* Share recordings and documentation for asynchronous access
-* Create a space where anyone—regardless of committee role—can learn and ask questions
+We launched in November 2024. A year and four sessions later, we consistently see around 70 registrants with roughly 80% attendance. After the first session, 89% of respondents rated their satisfaction as high, and 100% said they wanted the series to continue.
 
-Instead of parsing dense documents in committee silos, we'e created a shared, cross-campus conversation.
-
-## The Philosophy Behind It
-
-"We read the release notes so you don't have to" isn't just a tagline. It's a commitment.
-
-It's a commitment to:
-
-* **Transparency**: Explaining not just what is changing, but why it matters
-* **Equity**: Giving everyone—regardless of job title—access to the same timely, clear information
-* **Collaboration**: Helping campuses stay aligned, informed, and confident about what’s coming
-* **Trust**: Showing that our central team is engaged, responsive, and invested in easing the burden
-
-It's also an acknowledgment that our work as systems leaders isn't just technical—it's deeply human. Every configuration setting we adjust affects real people doing real work. Every overlooked release detail can become someone's emergency.
-
-## One Year In: What I've Learned
-
-Our first _Shelf Help_ session launched with the November 2024 Alma and Primo VE releases. After that pilot, we surveyed attendees to see if we were on the right track.
-
-The response was clear:
-* 89% of respondents rated their satisfaction as high
-* 100% wanted the series to continue
-
-We also received thoughtful, enthusiastic feedback that affirmed what we hoped _Shelf Help_ could be:
+The comments told the story:
 
 > "Reading a long list of release notes is overwhelming. The format chosen made the information much more accessible and understandable."
 
@@ -71,14 +46,8 @@ We also received thoughtful, enthusiastic feedback that affirmed what we hoped _
 
 > "I love Shelf Help! I know it takes a lot for the three of you to prepare. I'm grateful."
 
-That last comment stuck with me—because yes, it _does_ take a lot. But it’s the kind of work that makes the rest of the work easier for everyone else. That's the goal.
+It does take time. But it saves far more time across the system. And more importantly, it reduces anxiety. No one likes waking up to a changed interface and a flood of “What just happened?” emails.
 
-_Shelf Help_ has taught me that support doesn't always mean creating something brand-new. Sometimes it means taking something messy and overlooked—like release notes—and making it clear, contextual, and communal.
+What I've learned is this: support doesn't always mean building something new. Sometimes it means taking something dense and scattered—like release notes—and making it shared, practical, and human.
 
-It's also reminded me that systems work, when done well, can help people feel less alone. In a massive university system like CUNY, a little clarity goes a long way.
-
-## What's Next
-
-We'll keep iterating. We'll keep inviting feedback. We'll keep showing up every quarter with tested features, sandbox insights, and a few nerdy jokes hidden in the slides.
-
-Because reading the release notes is just the start. Helping people understand them—and feel confident navigating what comes next—that's the real work.
+In a university system as large as CUNY, clarity is a form of service.

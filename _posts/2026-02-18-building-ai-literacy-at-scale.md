@@ -8,30 +8,32 @@ tags: [leadership, artificial-intelligence]
 redirect_from: /blog/2026/02/18/building-ai-literacy-at-scale.html
 ---
 
-Last year, my department began experimenting with new models for systemwide professional development—programs designed to build shared technical capacity across CUNY Libraries rather than deliver one-off trainings. This semester, we’re extending that work in a more hands-on direction.
+Last year, my department started rethinking professional development at CUNY Libraries. Instead of one-off trainings, we began building programs that grow shared technical capacity across campuses.
 
-We’re three weeks into a 16-week peer mentoring cohort exploring agentic AI and its implications for library work.
+This semester, that work has taken a hands-on turn.
 
-The initiative is sponsored by the Office of Library Services, where my team of systems librarians focuses on building infrastructure—technical, operational, and increasingly, human. When Stephen Zweibel, Digital Scholarship Librarian at the Graduate Center, proposed a cohort grounded in practical AI development, we saw an opportunity. Librarians shouldn’t sit on the sidelines while vendors define what AI in libraries looks like. We should understand it well enough to shape it.
+We're three weeks into a 16-week peer mentoring cohort focused on agentic AI and what it actually means for library workflows.
 
-This idea builds on work we’ve been doing for several years through our Alma Extensibility Task Force—a group of CUNY librarians who use Alma’s REST APIs to extend functionality based on systemwide needs. That effort has produced small but meaningful extensions—automations, integrations, and configuration improvements that Alma doesn’t natively support.
+The cohort is sponsored by the Office of Library Services. My team typically works on infrastructure—systems, integrations, APIs—but infrastructure isn't only technical. It's human. If vendors are going to build AI into library systems, we need librarians who understand it well enough to evaluate it, question it, and, when necessary, build alternatives.
 
-The peer mentoring cohort expands that model. It opens the door beyond those who already identify as programmers and beyond Alma itself. It treats AI not as a product to purchase but as a capability to cultivate.
+The idea builds on our Alma Extensibility Task Force, where librarians use Alma's REST APIs to solve systemwide problems. That group has quietly produced automations and integrations Alma doesn't natively support. The AI cohort expands that model beyond Alma and beyond the people who already see themselves as developers.
 
-Thirteen library faculty and staff from nine CUNY campuses are spending the semester building AI-enabled tools to address real workflow challenges. Stephen is leading the cohort, guiding participants through development while emphasizing critical evaluation: understanding APIs, interrogating model limitations, assessing risk, and distinguishing what’s technically feasible from what’s simply well-marketed.
+Thirteen faculty and staff from nine CUNY campuses are spending the semester building AI-enabled tools tied to real needs: automating publication tracking for repositories, creating accessibility checks for course content, enhancing discovery, streamlining reserves, improving shared data access.
 
-The project proposals reflect the breadth of challenges libraries face: automating faculty publication tracking for institutional repositories, building accessibility checkers for course content, enhancing discovery systems, streamlining course reserves workflows, and developing CUNY-wide tools for data access. Technical backgrounds range from complete beginners to experienced developers, which makes the peer learning dynamic especially powerful.
+Skill levels range from beginners to experienced coders. That mix is intentional. Peer learning works best when people bring different strengths to the table.
 
-Several of the projects I’ve been eager to pursue—including externalizing Alma letters into version-controlled infrastructure and standardizing access model descriptions across institution zones—are taking shape within this cohort. These were ideas that had been percolating for some time. With the combination of peer learning, structured time, and tools like Claude Code, they’ve moved from concept to implementation.
+Several projects I've wanted to tackle for years—like externalizing Alma letters into version-controlled infrastructure—are finally moving. The difference isn't just better tools. It's structured time and a cohort of colleagues building alongside each other.
 
-Different problems. Same pattern: identify what should be shared, codify it, and apply it reliably at scale.
+My role is mostly scaffolding: coordinating logistics, maintaining the Teams space, making sure experimentation feels possible but not overwhelming. It's administrative, sure, but it's also strategic. Capacity building requires design.
 
-From my side, the work is about scaffolding: structuring the cohort, handling logistics, setting up the shared collaboration space in Microsoft Teams, and creating a framework that supports experimentation without overwhelming participants. It’s administrative work, yes—but it’s also strategic. Capacity building doesn’t happen accidentally. It requires intention, coordination, and sustained support.
+Already, the Teams channel is active with troubleshooting, API questions, and real workflow conversations. People are making time for this despite heavy workloads. That matters.
 
-Beyond the individual projects, the goal is distributed expertise. Participants will become campus resources—colleagues who can help their institutions navigate vendor claims, evaluate AI tools critically, and understand what’s genuinely possible versus marketing hype. In a 26-campus system, that kind of distributed technical fluency is infrastructure.
+The goal isn't just AI literacy. It's distributed expertise.
 
-The Teams space is already active: participants troubleshooting installation issues together, sharing resources, asking substantive questions about APIs and workflow automation. The commitment level is notable—several participants are balancing significant professional and personal responsibilities to make this work.
+In a 26-campus system, we need librarians who can assess vendor claims, understand technical tradeoffs, and decide when to build instead of buy. That kind of fluency is infrastructure.
 
-What emerges over the next thirteen weeks remains to be seen. But one thing is already clear: this isn’t just about AI literacy. It’s about expanding who gets to build—and ensuring that librarians remain active shapers of the systems that shape our work.
+We're only three weeks in. But it's clear this isn't about chasing a trend.
 
-More to come.
+It's about expanding who gets to build—and making sure librarians remain active participants in shaping the systems that shape us.
+
+More soon.
