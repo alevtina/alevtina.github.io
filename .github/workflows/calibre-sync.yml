@@ -29,6 +29,8 @@ jobs:
           CALIBRE_WEB_URL: ${{ secrets.CALIBRE_WEB_URL }}
           CALIBRE_WEB_USER: ${{ secrets.CALIBRE_WEB_USER }}
           CALIBRE_WEB_PASS: ${{ secrets.CALIBRE_WEB_PASS }}
+          JEKYLL_READING_DIR: ${{ github.workspace }}/_reading
+          JEKYLL_REPO_DIR: ${{ github.workspace }}
         run: python _scripts/calibre_sync.py
 
       - name: Commit new reading files
