@@ -9,7 +9,6 @@ redirect_from:
 - /blog/2026/02/18/building-ai-literacy-at-scale.html
 - /blog/building-ai-literacy-at-scale.html
 ---
-
 Last year, my department started rethinking professional development at CUNY Libraries. Instead of one-off trainings, we began building programs that grow shared technical capacity across campuses.
 
 This semester, that work has taken a hands-on turn.

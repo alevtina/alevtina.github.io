@@ -9,7 +9,6 @@ redirect_from:
 - /blog/2026/03/02/the-conversation-we-did-not-plan.html
 - /blog/the-conversation-we-did-not-plan.html
 ---
-
 Stephen asked the question and waited.
 
 Ten seconds. Maybe more. On a Teams call, that kind of silence feels dangerous. Like you've lost the room. Or your Wi-Fi.

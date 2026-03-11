@@ -11,7 +11,6 @@ redirect_from:
 - /blog/2025/08/02/we-read-the-release-notes-so-you-dont-have-to.html
 - /blog/we-read-the-release-notes-so-you-dont-have-to.html
 ---
-
 For a long time, my team at CUNY's Office of Library Services read release notes the way most people do: quickly, right before a meeting, and with mild dread.
 
 Every quarter, we'd review the Alma and Primo VE updates, then repeat the same conversation six different times—three working groups, three advisory committees. We'd speculate about what a feature probably did based on screenshots. We'd guess which workflows it might affect. And most of that context stopped with the committee rep.

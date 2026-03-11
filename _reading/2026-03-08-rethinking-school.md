@@ -7,8 +7,8 @@ year: 2018
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780393356847-L.jpg"
-status: to-read
-date: 2026-03-03
+status: reading
+date: 2026-03-08
 rating:
 tags: ["Non-Fiction: Personal"]
 calibre_id: 498

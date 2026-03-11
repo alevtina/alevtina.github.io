@@ -11,53 +11,46 @@ redirect_from:
 - /blog/2024/06/14/from-isolation-to-collaboration-implementing-co-working-hour-in-a-remote-library-team.html
 - /blog/from-isolation-to-collaboration-implementing-co-working-hour-in-a-remote-library-team.html
 ---
+When our team at CUNY’s Office of Library Services migrated 35 libraries from Aleph to Alma, the stakes were already high. Then the pandemic arrived. We went remote overnight. Leadership changed. People left. I stepped into the Director of Library Systems role and found myself supervising a team I no longer saw in person.
 
-When our small team at CUNY’s Office of Library Services migrated 35 libraries from Aleph to Alma, everything was already high stakes. Then the pandemic hit. We went fully remote. Leadership turned over. Colleagues retired or resigned. I was promoted to Director of Library Systems and suddenly supervising remotely for the first time.
+It was a lot to absorb at once.
 
-It was… a lot.
+To help a new hire get oriented—and to keep myself grounded—I opened a daily one‑hour Zoom room. No agenda. No slides. Just: “I’ll be here.”
 
-To help onboard a new hire—and honestly, to help myself—I started a daily one-hour Zoom room. No agenda. Just "I'll be here."
+Three years later, attendance is still optional. Everyone still shows up.
 
-Three years later, attendance is still technically optional. It’s also 100%.
+## What the Hour Actually Looks Like
 
-## What It Actually Is
+Most mornings, we log in and work. Sometimes we walk through support tickets together. Sometimes we untangle a vendor’s latest reply. Sometimes we prep for whatever meetings are looming. And sometimes we sit quietly and chip away at our own tasks.
 
-Every morning, we log on and work. Sometimes we review support tickets together. Sometimes we troubleshoot vendor responses. Sometimes we prep for meetings. Sometimes we sit in silence and get things done.
+It’s not a meeting. It’s shared space.
 
-It's not a meeting. It's shared space.
+## What Shifted
 
-## What Changed
+* Fewer bottlenecks.
+Instead of scheduling another meeting or writing a long email chain, we just ask the question. Things that might have dragged on for days get resolved in minutes.
 
-1. Fewer bottlenecks.
-Instead of scheduling yet another meeting or writing long email threads, we just... ask. Problems that might have lingered for days get resolved in minutes.
+* Built‑in accountability.  
+There’s something about being quietly present with other people that makes it easier to focus.
 
-2. Built-in accountability.
-There's something about being quietly present with other people that makes it easier to focus.
+* Less isolation.  
+Remote work can make your world feel very small. Starting the day together keeps us connected—to the work and to each other.
 
-3. Less isolation.
-Remote work can shrink your world fast. Starting the day together keeps us connected—to the work and to each other.
+* Smoother communication.  
+One colleague told me she never feels out of touch because we begin every morning in the same place. That small routine lowers the barrier to reaching out later.
 
-4. Easier communication all day long.
-One team member once told me she never feels out of touch with us because we start every morning together. That small rhythm lowers the barrier to reaching out later.
+## The Awkward Beginning
 
-## The Awkward Phase (Yes, There Was One)
+The first few weeks were uncomfortable. None of us knew the etiquette. Were we supposed to talk? Stay silent? Look busy?
 
-The first few weeks were uncomfortable. We didn't know what to say. Were we supposed to talk? Not talk? Perform productivity?
-
-I made attendance voluntary—but I showed up every day, no matter what. Consistency did the heavy lifting. Over time, we found a rhythm. We started opening up. We supported each other through personal losses. We laughed a lot. Sometimes we just worked quietly for 30 straight minutes. And that was fine too.
+I made the hour voluntary, but I showed up every day. Consistency did most of the work. Over time, we settled into a rhythm. People opened up. We supported each other through losses. We laughed. Some days we worked in silence for half an hour, and that was fine too.
 
 The comfort came from presence, not performance.
 
-## If You Want to Try It
+## If You Want to Try Something Similar
 
-You don't need special software or a formal structure. Just:
+You don’t need special tools or a complicated structure. Just pick a consistent time, keep the group small, make it optional, and show up reliably. Don’t overthink it.
 
-* Pick a consistent time.
-* Keep it small (this works best with small teams).
-* Make it optional.
-* Show up reliably as a leader.
-* Don't over-engineer it.
+The goal isn’t to squeeze more productivity out of anyone. It’s to create a steady place to land.
 
-It’s not about squeezing more productivity out of people. It's about creating a steady place to land.
-
-For our team, that hour turned remote work from something we endured into something we share. And that made all the difference.
+For us, that hour turned remote work from something we endured into something we shared.
