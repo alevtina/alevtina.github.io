@@ -851,6 +851,209 @@ html {
 // Reading collection — individual book page
 // -------------------------------------------------------------------------
 
+// -------------------------------------------------------------------------
+// Knitting collection — index page (/knitting/)
+// -------------------------------------------------------------------------
+
+.knitting-log {
+    h1 { margin-bottom: 0.5rem; }
+}
+
+.knitting-section {
+    margin-top: 2rem;
+
+    > h2 {
+        margin-top: 0;
+        padding-bottom: 0.35rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    > h3 {
+        color: var(--text-muted);
+        font-size: 0.75em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
+.knitting-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.knitting-item {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+
+    &:last-child { border-bottom: none; }
+}
+
+.knitting-cover-link {
+    display: block;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.knitting-cover {
+    width: 85px;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+}
+
+.knitting-cover-placeholder {
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--border);
+}
+
+.knitting-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+}
+
+.knitting-title {
+    display: block;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+}
+
+.knitting-pattern {
+    display: block;
+    font-size: 0.875em;
+    color: var(--text-light);
+}
+
+.knitting-designer {
+    display: block;
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+
+.knitting-yarn {
+    display: block;
+    font-size: 0.8em;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+// -------------------------------------------------------------------------
+// Knitting collection — individual project page
+// -------------------------------------------------------------------------
+
+.knit-entry {
+    .knit-header {
+        display: flex;
+        gap: 1.75rem;
+        align-items: flex-start;
+        margin-bottom: 1.75rem;
+
+        @media (max-width: 480px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .knit-cover-wrap {
+        flex-shrink: 0;
+        width: 200px;
+
+        @media (max-width: 480px) {
+            width: 160px;
+        }
+    }
+
+    .knit-cover {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 3px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+    }
+
+    .knit-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .knit-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .knit-meta-dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 0.75rem;
+        row-gap: 0.25rem;
+        margin-bottom: 0.75rem;
+        align-items: baseline;
+
+        dt {
+            color: var(--text-muted);
+            font-size: 0.75em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            white-space: nowrap;
+        }
+
+        dd {
+            font-size: 0.9em;
+            color: var(--text);
+        }
+    }
+
+    .knit-status {
+        display: inline-block;
+        font-size: 0.65em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        padding: 0.1rem 0.45rem;
+        border-radius: 99px;
+        border: 1px solid currentColor;
+
+        &.knit-status--finished    { color: var(--accent); }
+        &.knit-status--in-progress { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+        &.knit-status--hibernating { color: var(--text-muted); }
+        &.knit-status--frogged     { color: var(--highlight); }
+    }
+
+    .knit-date, .knit-designer, .knit-colorway {
+        font-size: 0.875em;
+        color: var(--text-muted);
+    }
+
+    .knit-tags {
+        margin-top: 0.6rem;
+    }
+
+    .knit-notes {
+        margin-top: 1.75rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+    }
+}
+
 .read-entry {
     .read-header {
         display: flex;

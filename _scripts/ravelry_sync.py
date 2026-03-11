@@ -2,10 +2,9 @@
 """
 ravelry_sync.py — Sync knitting/crochet projects from Ravelry to Jekyll _knitting/ collection.
 
-Uses the projects/list endpoint, which works with basic auth (API key from
-ravelry.com/pro/developer). The individual project show endpoint requires OAuth
-and is not used here; yarn and notes data are therefore not available unless
-OAuth is implemented in the future.
+Uses the projects/list endpoint with basic auth (API key from ravelry.com/pro/developer).
+The individual project show endpoint requires OAuth and is not used here; yarn, notes,
+and pattern URLs are therefore not available unless OAuth is implemented in the future.
 
 Existing files are never overwritten, so manual edits are safe.
 
@@ -67,17 +66,22 @@ def normalize_status(status_name: str) -> str:
     }.get((status_name or "").lower(), "unknown")
 
 
-def entry_date(project: dict) -> str:
-    """Return the date to use for the filename and front matter date field.
+def parse_date(value: str) -> str:
+    """Normalize a Ravelry date string to ISO format (YYYY-MM-DD)."""
+    if not value:
+        return ""
+    return value[:10].replace("/", "-")
 
-    The list endpoint uses 'end_date' for completion and 'start_date' for start.
-    """
+
+def entry_date(project: dict) -> str:
+    """Return the date to use for the filename and front matter date field."""
     status = normalize_status(project.get("status_name", ""))
-    if status == "finished" and project.get("end_date"):
-        return project["end_date"][:10]
-    if project.get("start_date"):
-        return project["start_date"][:10]
-    return TODAY
+    if status == "finished":
+        d = parse_date(project.get("completed") or "")
+        if d:
+            return d
+    d = parse_date(project.get("started") or "")
+    return d or TODAY
 
 
 def get_session() -> requests.Session:
@@ -109,19 +113,11 @@ def fetch_projects(session: requests.Session) -> list[dict]:
 
 def build_front_matter(project: dict) -> str:
     name = project.get("name") or "Untitled"
-
-    pattern = project.get("pattern") or {}
-    pattern_name = pattern.get("name") or project.get("pattern_name") or ""
-    designer = (pattern.get("pattern_author") or {}).get("name") or ""
-    pattern_permalink = pattern.get("permalink") or ""
-    pattern_url = (
-        f"https://www.ravelry.com/patterns/library/{pattern_permalink}"
-        if pattern_permalink else ""
-    )
+    pattern_name = project.get("pattern_name") or ""
 
     status = normalize_status(project.get("status_name") or "")
-    started = (project.get("start_date") or "")[:10]
-    completed = (project.get("end_date") or "")[:10]
+    started = parse_date(project.get("started") or "")
+    completed = parse_date(project.get("completed") or "")
 
     first_photo = project.get("first_photo") or {}
     cover = first_photo.get("medium2_url") or first_photo.get("small2_url") or ""
@@ -130,7 +126,8 @@ def build_front_matter(project: dict) -> str:
     ravelry_url = f"https://www.ravelry.com/projects/{RAVELRY_USERNAME}/{project_permalink}"
     ravelry_id = project.get("id", "")
 
-    craft_name = (project.get("craft") or {}).get("name") or project.get("craft_name") or ""
+    craft_name = project.get("craft_name") or ""
+    rating = project.get("rating") or ""
     tags = project.get("tag_names") or []
     tags_yaml = "[" + ", ".join(yaml_str(t) for t in tags) + "]" if tags else "[]"
 
@@ -139,8 +136,8 @@ def build_front_matter(project: dict) -> str:
         "layout: knit",
         f"title: {yaml_str(name)}",
         f"pattern: {yaml_str(pattern_name) if pattern_name else ''}",
-        f"designer: {yaml_str(designer) if designer else ''}",
-        f"pattern_url: {yaml_str(pattern_url) if pattern_url else ''}",
+        "designer:",
+        "pattern_url:",
         f"status: {status}",
         f"started: {yaml_str(started) if started else ''}",
         f"completed: {yaml_str(completed) if completed else ''}",
@@ -148,6 +145,7 @@ def build_front_matter(project: dict) -> str:
         "yarn:",
         "colorway:",
         "yarn_url:",
+        f"rating: {rating}",
         f"ravelry_url: {yaml_str(ravelry_url)}",
         f"ravelry_id: {ravelry_id}",
         f"craft: {yaml_str(craft_name) if craft_name else ''}",
@@ -186,7 +184,6 @@ def main() -> None:
         log.error("Output directory does not exist: %s", OUTPUT_DIR)
         sys.exit(1)
 
-    # Index existing files by ravelry_id to avoid duplicates
     existing_ids: set[int] = set()
     for md_file in OUTPUT_DIR.glob("*.md"):
         if md_file.name == "README.md":
@@ -205,14 +202,10 @@ def main() -> None:
 
     log.info("Fetched %d projects from Ravelry", len(all_projects))
 
-    if all_projects:
-        import json
-        log.info("DEBUG first project: %s", json.dumps(all_projects[0], indent=2))
-
     created = skipped = 0
 
     for project in all_projects:
-        craft = (project.get("craft") or {}).get("name") or project.get("craft_name") or ""
+        craft = project.get("craft_name") or ""
         if CRAFT_FILTER and craft and craft not in CRAFT_FILTER:
             log.info("  Skipping craft=%r: %s", craft, project.get("name"))
             continue
