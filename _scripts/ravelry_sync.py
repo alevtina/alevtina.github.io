@@ -2,9 +2,9 @@
 """
 ravelry_sync.py — Sync knitting/crochet projects from Ravelry to Jekyll _knitting/ collection.
 
-Uses the projects/list endpoint with basic auth (API key from ravelry.com/pro/developer).
-The individual project show endpoint requires OAuth and is not used here; yarn, notes,
-and pattern URLs are therefore not available unless OAuth is implemented in the future.
+Uses the projects/list endpoint plus the project detail endpoint (requires
+"Basic Auth: personal account access" credentials from ravelry.com/pro/developer).
+The detail endpoint provides notes, yarn details, and pattern URLs.
 
 Existing files are never overwritten, so manual edits are safe.
 
@@ -21,6 +21,7 @@ Optional:
 import os
 import re
 import sys
+import time
 import logging
 from datetime import date
 from pathlib import Path
@@ -38,6 +39,9 @@ CRAFT_FILTER = {c.strip() for c in CRAFT_FILTER_RAW.split(",")}
 
 API_BASE = "https://api.ravelry.com"
 TODAY = date.today().isoformat()
+
+# Ravelry rate limit: 3 requests/second for basic auth
+REQUEST_DELAY = 0.4
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -111,6 +115,19 @@ def fetch_projects(session: requests.Session) -> list[dict]:
     return projects
 
 
+def fetch_project_detail(session: requests.Session, permalink: str) -> dict:
+    """Fetch full project detail including notes, yarn, and pattern URL."""
+    time.sleep(REQUEST_DELAY)
+    r = session.get(
+        f"{API_BASE}/projects/{RAVELRY_USERNAME}/{permalink}.json",
+        timeout=30,
+    )
+    if r.status_code == 200:
+        return r.json().get("project", {})
+    log.warning("  Detail fetch failed (HTTP %d) for %s", r.status_code, permalink)
+    return {}
+
+
 def split_name(raw: str) -> tuple[str, str]:
     """Split "Category | Title" into (category, title). Falls back to ("", raw)."""
     if " | " in raw:
@@ -119,7 +136,14 @@ def split_name(raw: str) -> tuple[str, str]:
     return "", raw.strip()
 
 
-def build_front_matter(project: dict) -> str:
+def extract_notes(detail: dict) -> str:
+    """Return plain notes text from project detail, preferring HTML-stripped version."""
+    # notes_html contains formatted HTML; notes is plain text
+    notes = detail.get("notes") or ""
+    return notes.strip()
+
+
+def build_front_matter(project: dict, detail: dict) -> str:
     raw_name = project.get("name") or "Untitled"
     category, name = split_name(raw_name)
     pattern_name = project.get("pattern_name") or ""
@@ -140,21 +164,47 @@ def build_front_matter(project: dict) -> str:
     tags = project.get("tag_names") or []
     tags_yaml = "[" + ", ".join(yaml_str(t) for t in tags) + "]" if tags else "[]"
 
+    # Detail endpoint fields
+    pattern_url = ""
+    yarn = ""
+    colorway = ""
+    yarn_url = ""
+    designer = ""
+
+    if detail:
+        pattern = detail.get("pattern") or {}
+        pattern_url = pattern.get("permalink") or ""
+        if pattern_url:
+            pattern_url = f"https://www.ravelry.com/patterns/library/{pattern_url}"
+
+        designer_data = pattern.get("designer") or {}
+        designer = designer_data.get("name") or ""
+
+        packs = detail.get("packs") or []
+        if packs:
+            first_pack = packs[0]
+            yarn_data = first_pack.get("yarn") or {}
+            yarn = yarn_data.get("name") or ""
+            colorway = first_pack.get("colorway_name") or ""
+            yarn_permalink = yarn_data.get("permalink") or ""
+            if yarn_permalink:
+                yarn_url = f"https://www.ravelry.com/yarns/library/{yarn_permalink}"
+
     lines = [
         "---",
         "layout: knit",
         f"title: {yaml_str(name)}",
         f"category: {yaml_str(category) if category else ''}",
         f"pattern: {yaml_str(pattern_name) if pattern_name else ''}",
-        "designer:",
-        "pattern_url:",
+        f"designer: {yaml_str(designer) if designer else ''}",
+        f"pattern_url: {yaml_str(pattern_url) if pattern_url else ''}",
         f"status: {status}",
         f"started: {yaml_str(started) if started else ''}",
         f"completed: {yaml_str(completed) if completed else ''}",
         f"cover: {yaml_str(cover) if cover else ''}",
-        "yarn:",
-        "colorway:",
-        "yarn_url:",
+        f"yarn: {yaml_str(yarn) if yarn else ''}",
+        f"colorway: {yaml_str(colorway) if colorway else ''}",
+        f"yarn_url: {yaml_str(yarn_url) if yarn_url else ''}",
         f"rating: {rating}",
         f"ravelry_url: {yaml_str(ravelry_url)}",
         f"ravelry_id: {ravelry_id}",
@@ -164,10 +214,16 @@ def build_front_matter(project: dict) -> str:
         "---",
     ]
 
-    return "\n".join(lines) + "\n"
+    content = "\n".join(lines) + "\n"
+
+    notes = extract_notes(detail)
+    if notes:
+        content += "\n" + notes + "\n"
+
+    return content
 
 
-def write_entry(project: dict, output_dir: Path) -> bool:
+def write_entry(project: dict, detail: dict, output_dir: Path) -> bool:
     """Write a _knitting/ Markdown file. Returns True if created."""
     _, name = split_name(project.get("name") or "Untitled")
     slug = slugify(name)
@@ -178,7 +234,7 @@ def write_entry(project: dict, output_dir: Path) -> bool:
         log.info("  Skipping existing: %s", filepath.name)
         return False
 
-    filepath.write_text(build_front_matter(project), encoding="utf-8")
+    filepath.write_text(build_front_matter(project, detail), encoding="utf-8")
     log.info("  Created: %s", filepath.name)
     return True
 
@@ -225,7 +281,10 @@ def main() -> None:
             skipped += 1
             continue
 
-        if write_entry(project, OUTPUT_DIR):
+        permalink = project.get("permalink") or str(project_id)
+        detail = fetch_project_detail(session, permalink)
+
+        if write_entry(project, detail, OUTPUT_DIR):
             created += 1
         else:
             skipped += 1
