@@ -108,7 +108,13 @@ description: "Books I've read, am reading, and want to read."
       {%- endunless -%}
     {%- endfor -%}
 
+    {%- assign current_year = 'now' | date: '%Y' | plus: 0 -%}
+    {%- assign cutoff_year = current_year | minus: 2 -%}
+
+    {%- comment -%} Recent years — shown normally {%- endcomment -%}
     {%- for year in years_seen -%}
+      {%- assign year_int = year | plus: 0 -%}
+      {%- if year_int > cutoff_year -%}
     <h3>{{ year }}</h3>
     <ul class="reading-list" role="list">
       {%- for book in finished -%}
@@ -151,7 +157,68 @@ description: "Books I've read, am reading, and want to read."
         {%- endif -%}
       {%- endfor -%}
     </ul>
+      {%- endif -%}
     {%- endfor -%}
+
+    {%- comment -%} Older years — collapsed {%- endcomment -%}
+    {%- assign has_old = false -%}
+    {%- for year in years_seen -%}
+      {%- assign year_int = year | plus: 0 -%}
+      {%- if year_int <= cutoff_year -%}{%- assign has_old = true -%}{%- endif -%}
+    {%- endfor -%}
+
+    {%- if has_old -%}
+    <details class="reading-archive">
+      <summary>{{ cutoff_year }} and earlier</summary>
+      {%- for year in years_seen -%}
+        {%- assign year_int = year | plus: 0 -%}
+        {%- if year_int <= cutoff_year -%}
+      <h3>{{ year }}</h3>
+      <ul class="reading-list" role="list">
+        {%- for book in finished -%}
+          {%- assign book_year = book.date | date: "%Y" -%}
+          {%- if book_year == year -%}
+          {%- if book.author.first -%}
+            {%- assign book_author = book.author | join: " and " -%}
+          {%- else -%}
+            {%- assign book_author = book.author -%}
+          {%- endif -%}
+          <li class="reading-item h-entry">
+            <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
+            <data class="p-x-read-status" value="finished" hidden></data>
+            <div class="p-read-of h-cite">
+              {%- if book.cover and book.cover != "" -%}
+              <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
+                <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
+              </a>
+              {%- endif -%}
+              <div class="reading-item-info">
+                <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
+                {%- if book_author != "" -%}
+                <span class="p-author reading-author">{{ book_author | escape }}</span>
+                {%- endif -%}
+                {%- if book.year -%}
+                <span class="reading-year">{{ book.year }}</span>
+                {%- endif -%}
+                {%- if book.rating -%}
+                {%- assign _rparts = book.rating | split: "/" -%}
+                {%- assign _rnum = _rparts[0] | plus: 0 -%}
+                <span class="reading-rating star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
+                  {%- for i in (1..5) -%}
+                    {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
+                  {%- endfor -%}
+                </span>
+                {%- endif -%}
+              </div>
+            </div>
+          </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+        {%- endif -%}
+      {%- endfor -%}
+    </details>
+    {%- endif -%}
   </section>
   {%- endif -%}
 
