@@ -1,0 +1,25 @@
+---
+layout: knit
+title: "Basketweave Baby Blanket"
+category: "Blanket"
+pattern: "Garter and Rib Basketweave Baby Blanket"
+designer: 
+pattern_url: "https://www.ravelry.com/patterns/library/36471"
+status: frogged
+started: "2010-03-17"
+completed: 
+cover: "https://images4-a.ravelrycache.com/uploads/alevtina/25164123/003_medium2.JPG"
+yarn: "Softee Baby, Variegates & Ombres"
+colorway: 
+yarn_url: "https://www.ravelry.com/yarns/library/bernat-softee-baby-variegates--ombres"
+rating: 
+ravelry_url: "https://www.ravelry.com/projects/alevtina/garter-and-rib-basketweave-baby-blanket"
+ravelry_id: 3752502
+craft: "Knitting"
+date: 2010-03-17
+tags: ["baby", "blanket"]
+---
+
+04/11/10 — Decided that I can't do large items, like blankets, so I frogged it and am now starting a baby sweater instead.
+
+03/17/10 — Cast on 120 sts using US 6 needles (I think — I lost my needle sizer!) and worked 4 rows.
