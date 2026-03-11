@@ -183,7 +183,9 @@ def build_front_matter(project: dict, detail: dict) -> str:
             first_pack = packs[0]
             yarn_data = first_pack.get("yarn") or {}
             yarn = yarn_data.get("name") or ""
-            colorway = first_pack.get("colorway_name") or ""
+            colorway = (first_pack.get("colorway_name")
+                        or first_pack.get("personal_color_name")
+                        or "")
             yarn_permalink = yarn_data.get("permalink") or ""
             if yarn_permalink:
                 yarn_url = f"https://www.ravelry.com/yarns/library/{yarn_permalink}"
