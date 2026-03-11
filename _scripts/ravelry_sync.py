@@ -182,10 +182,14 @@ def build_front_matter(project: dict, detail: dict) -> str:
         if packs:
             first_pack = packs[0]
             yarn_data = first_pack.get("yarn") or {}
-            yarn = yarn_data.get("name") or ""
-            colorway = (first_pack.get("colorway_name")
-                        or first_pack.get("personal_color_name")
-                        or "")
+            yarn = first_pack.get("yarn_name") or yarn_data.get("name") or ""
+            # Collect all unique colorways across packs (projects can use multiple colorways)
+            colorways_seen = []
+            for pack in packs:
+                c = pack.get("colorway") or pack.get("personal_name") or ""
+                if c and c not in colorways_seen:
+                    colorways_seen.append(c)
+            colorway = " / ".join(colorways_seen)
             yarn_permalink = yarn_data.get("permalink") or ""
             if yarn_permalink:
                 yarn_url = f"https://www.ravelry.com/yarns/library/{yarn_permalink}"
