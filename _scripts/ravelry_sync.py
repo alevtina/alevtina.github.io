@@ -205,6 +205,10 @@ def main() -> None:
 
     log.info("Fetched %d projects from Ravelry", len(all_projects))
 
+    if all_projects:
+        import json
+        log.info("DEBUG first project: %s", json.dumps(all_projects[0], indent=2))
+
     created = skipped = 0
 
     for project in all_projects:
