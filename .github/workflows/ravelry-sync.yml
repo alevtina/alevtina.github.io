@@ -1,0 +1,39 @@
+name: Sync Ravelry Knitting Data
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Ravelry sync
+        env:
+          RAVELRY_USERNAME: alevtina
+          RAVELRY_API_USER: ${{ secrets.RAVELRY_API_USER }}
+          RAVELRY_API_PASS: ${{ secrets.RAVELRY_API_PASS }}
+          JEKYLL_KNITTING_DIR: ${{ github.workspace }}/_knitting
+        run: python _scripts/ravelry_sync.py
+
+      - name: Commit new knitting files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "sync: ravelry knitting data"
+          file_pattern: "_knitting/*.md"

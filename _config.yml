@@ -54,11 +54,14 @@ webmentions:
     replies: _includes/webmentions/replies.html
 
 
-# Reading collection
+# Collections
 collections:
   reading:
     output: true
     permalink: /reading/:slug/
+  knitting:
+    output: true
+    permalink: /knitting/:slug/
 
 # jekyll-feed: main feed + reading feed
 feed:
@@ -100,4 +103,9 @@ defaults:
       type: "reading"
     values:
       layout: "read"
+  - scope:
+      path: ""
+      type: "knitting"
+    values:
+      layout: "knit"
 

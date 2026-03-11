@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{%- if page.status == "finished" -%}
+  {%- assign status_label = "Finished" -%}
+{%- elsif page.status == "in-progress" -%}
+  {%- assign status_label = "In Progress" -%}
+{%- elsif page.status == "hibernating" -%}
+  {%- assign status_label = "Hibernating" -%}
+{%- elsif page.status == "frogged" -%}
+  {%- assign status_label = "Frogged" -%}
+{%- else -%}
+  {%- assign status_label = page.status -%}
+{%- endif -%}
+
+<article class="knit-entry">
+
+  <header class="knit-header">
+    {%- if page.cover and page.cover != "" -%}
+    <div class="knit-cover-wrap">
+      <img class="knit-cover" src="{{ page.cover | escape }}" alt="{{ page.title | escape }}" loading="lazy" />
+    </div>
+    {%- endif -%}
+
+    <div class="knit-info">
+      <h1 class="knit-title">{{ page.title | escape }}</h1>
+
+      <dl class="knit-meta-dl">
+        {%- if page.pattern and page.pattern != "" -%}
+        <dt>Pattern</dt>
+        <dd>
+          {%- if page.pattern_url and page.pattern_url != "" -%}
+          <a href="{{ page.pattern_url | escape }}" rel="noopener noreferrer" target="_blank">{{ page.pattern | escape }}</a>
+          {%- else -%}
+          {{ page.pattern | escape }}
+          {%- endif -%}
+          {%- if page.designer and page.designer != "" -%}
+          <span class="knit-designer"> by {{ page.designer | escape }}</span>
+          {%- endif -%}
+        </dd>
+        {%- endif -%}
+
+        <dt>Status</dt>
+        <dd>
+          <span class="knit-status knit-status--{{ page.status }}">{{ status_label }}</span>
+          {%- if page.completed and page.completed != "" -%}
+          <span class="knit-date"> · {{ page.completed }}</span>
+          {%- endif -%}
+        </dd>
+
+        {%- if page.started and page.started != "" -%}
+        <dt>Started</dt>
+        <dd>{{ page.started }}</dd>
+        {%- endif -%}
+
+        {%- if page.yarn and page.yarn != "" -%}
+        <dt>Yarn</dt>
+        <dd>
+          {%- if page.yarn_url and page.yarn_url != "" -%}
+          <a href="{{ page.yarn_url | escape }}" rel="noopener noreferrer" target="_blank">{{ page.yarn | escape }}</a>
+          {%- else -%}
+          {{ page.yarn | escape }}
+          {%- endif -%}
+          {%- if page.colorway and page.colorway != "" -%}
+          <span class="knit-colorway"> — {{ page.colorway | escape }}</span>
+          {%- endif -%}
+        </dd>
+        {%- endif -%}
+
+        <dt>Ravelry</dt>
+        <dd><a href="{{ page.ravelry_url | escape }}" rel="noopener noreferrer" target="_blank">View project →</a></dd>
+      </dl>
+
+      {%- if page.tags and page.tags.size > 0 -%}
+      <div class="knit-tags">
+        {%- for tag in page.tags -%}
+        <span class="tag">{{ tag | escape }}</span>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+    </div>
+  </header>
+
+  {%- assign _notes = content | strip_html | strip -%}
+  {%- if _notes != "" -%}
+  <div class="knit-notes">
+    {{ content }}
+  </div>
+  {%- endif -%}
+
+</article>
