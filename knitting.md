@@ -50,6 +50,9 @@ description: "Knitting and crochet projects, synced from Ravelry."
   <section class="knitting-section">
     <h2>Finished</h2>
 
+    {%- assign current_year = 'now' | date: '%Y' | plus: 0 -%}
+    {%- assign cutoff_year = current_year | minus: 2 -%}
+
     {%- assign years_seen = "" | split: "" -%}
     {%- for project in finished -%}
       {%- assign y = project.date | date: "%Y" -%}
@@ -58,7 +61,10 @@ description: "Knitting and crochet projects, synced from Ravelry."
       {%- endunless -%}
     {%- endfor -%}
 
+    {%- comment -%} Recent years — shown normally {%- endcomment -%}
     {%- for year in years_seen -%}
+      {%- assign year_int = year | plus: 0 -%}
+      {%- if year_int > cutoff_year -%}
     <h3>{{ year }}</h3>
     <ul class="knitting-list" role="list">
       {%- for project in finished -%}
@@ -88,7 +94,56 @@ description: "Knitting and crochet projects, synced from Ravelry."
         {%- endif -%}
       {%- endfor -%}
     </ul>
+      {%- endif -%}
     {%- endfor -%}
+
+    {%- comment -%} Older years — collapsed {%- endcomment -%}
+    {%- assign has_old = false -%}
+    {%- for year in years_seen -%}
+      {%- assign year_int = year | plus: 0 -%}
+      {%- if year_int <= cutoff_year -%}{%- assign has_old = true -%}{%- endif -%}
+    {%- endfor -%}
+
+    {%- if has_old -%}
+    <details class="knitting-archive">
+      <summary>{{ cutoff_year }} and earlier</summary>
+      {%- for year in years_seen -%}
+        {%- assign year_int = year | plus: 0 -%}
+        {%- if year_int <= cutoff_year -%}
+      <h3>{{ year }}</h3>
+      <ul class="knitting-list" role="list">
+        {%- for project in finished -%}
+          {%- assign project_year = project.date | date: "%Y" -%}
+          {%- if project_year == year -%}
+          <li class="knitting-item">
+            <a href="{{ project.url | relative_url }}" class="knitting-cover-link" tabindex="-1" aria-hidden="true">
+              {%- if project.cover and project.cover != "" -%}
+              <img class="knitting-cover" src="{{ project.cover | escape }}" alt="" loading="lazy" />
+              {%- else -%}
+              <div class="knitting-cover-placeholder"></div>
+              {%- endif -%}
+            </a>
+            <div class="knitting-item-info">
+              <a class="knitting-title" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+              {%- if project.category and project.category != "" -%}
+              <span class="knitting-category">{{ project.category | escape }}</span>
+              {%- endif -%}
+              {%- if project.designer and project.designer != "" -%}
+              <span class="knitting-designer">{{ project.designer | escape }}</span>
+              {%- endif -%}
+              {%- if project.yarn and project.yarn != "" -%}
+              <span class="knitting-yarn">{{ project.yarn | escape }}</span>
+              {%- endif -%}
+            </div>
+          </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+        {%- endif -%}
+      {%- endfor -%}
+    </details>
+    {%- endif -%}
+
   </section>
   {%- endif -%}
 

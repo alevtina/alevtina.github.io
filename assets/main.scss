@@ -886,6 +886,42 @@ html {
     }
 }
 
+.knitting-archive {
+    margin-top: 1.5rem;
+
+    > summary {
+        color: var(--text-muted);
+        font-size: 0.75em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        cursor: pointer;
+        user-select: none;
+        list-style: none;
+
+        &::-webkit-details-marker { display: none; }
+
+        &::before {
+            content: "▶ ";
+            font-size: 0.8em;
+        }
+    }
+
+    &[open] > summary::before {
+        content: "▼ ";
+    }
+
+    > h3 {
+        color: var(--text-muted);
+        font-size: 0.75em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+}
+
 .knitting-list {
     list-style: none;
     padding-left: 0;
