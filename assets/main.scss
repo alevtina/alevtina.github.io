@@ -4,46 +4,47 @@
 @charset "utf-8";
 
 // Override minima defaults before they load
-$base-font-size: 1.125rem;
-$base-line-height: 1.7;
+$base-font-size: 1.2rem;
+$base-line-height: 1.75;
 
+// Flexoki light
 :root {
-    --text: #222;
-    --text-light: #555;
-    --text-muted: #737373;
-    --bg: #fff;
-    --accent: #0033A1;
-    --highlight: #FFB71B;
-    --border: #ddd;
-    --code-bg: #f5f5f5;
-    --star-fill: #b45309;
+    --text: #100F0F;        // black
+    --text-light: #6F6E69;  // base-600
+    --text-muted: #878580;  // base-500
+    --bg: #FFFCF0;          // paper
+    --accent: #205EA6;      // blue-600
+    --highlight: #AD8301;   // yellow-600
+    --border: #CECDC3;      // base-200
+    --code-bg: #F2F0E5;     // base-50
+    --star-fill: #BC5215;   // orange-600
 }
 
-// Explicit dark mode via toggle
+// Flexoki dark — explicit toggle
 :root.dark {
-    --text: #dde0e6;
-    --text-light: #9ea5b0;
-    --text-muted: #8891a0;
-    --bg: #141821;
-    --accent: #6b9fff;
-    --highlight: #FFB71B;
-    --border: #2a3040;
-    --code-bg: #1a2030;
-    --star-fill: #f59e0b;
+    --text: #FFFCF0;        // paper
+    --text-light: #B7B5AC;  // base-300
+    --text-muted: #878580;  // base-500
+    --bg: #282726;          // base-900
+    --accent: #4385BE;      // blue-400
+    --highlight: #D0A215;   // yellow-400
+    --border: #403E3C;      // base-800
+    --code-bg: #343331;     // base-850
+    --star-fill: #DA702C;   // orange-400
 }
 
-// Auto dark mode (when no preference is stored)
+// Flexoki dark — auto (system preference)
 @media (prefers-color-scheme: dark) {
     :root:not(.light) {
-        --text: #dde0e6;
-        --text-light: #9ea5b0;
-        --text-muted: #8891a0;
-        --bg: #141821;
-        --accent: #6b9fff;
-        --highlight: #FFB71B;
-        --border: #2a3040;
-        --code-bg: #1a2030;
-        --star-fill: #f59e0b;
+        --text: #FFFCF0;
+        --text-light: #B7B5AC;
+        --text-muted: #878580;
+        --bg: #282726;
+        --accent: #4385BE;
+        --highlight: #D0A215;
+        --border: #403E3C;
+        --code-bg: #343331;
+        --star-fill: #DA702C;
     }
 }
 
@@ -53,20 +54,25 @@ $base-line-height: 1.7;
     box-sizing: border-box;
 }
 
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-size: 1.125rem;
-    line-height: 1.7;
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, Georgia, serif;
+    font-size: 1.2rem;
+    line-height: 1.75;
     color: var(--text);
     background: var(--bg);
-    max-width: 640px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
 }
 
 @media (min-width: 900px) {
     body {
-        font-size: 1.25rem;
+        font-size: 1.375rem;
     }
 }
 
@@ -127,7 +133,7 @@ a {
 
 .site-subtitle {
     color: var(--text-muted);
-    font-size: 0.8rem;
+    font-size: 0.8em;
     letter-spacing: 0.02em;
     margin-top: 0.1rem;
 }
@@ -138,7 +144,7 @@ nav.site-nav {
     align-items: center;
     flex-wrap: wrap;
     gap: 0;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 
     a {
         color: var(--accent);
@@ -162,7 +168,7 @@ nav.site-nav {
     }
 
     @media (min-width: 900px) {
-        font-size: 1rem;
+        font-size: 1em;
         border-top: 1px solid var(--border);
         border-bottom: 1px solid var(--border);
         padding-top: 1rem;
@@ -183,7 +189,7 @@ nav.site-nav {
 }
 
 .toggle-label {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 1;
 }
 
@@ -262,7 +268,6 @@ p {
 
 .intro .subtitle {
     color: var(--text-light);
-    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -306,7 +311,7 @@ li {
 }
 
 .item-meta {
-    font-size: 0.85rem;
+    font-size: 0.85em;
     color: var(--text-light);
 }
 
@@ -322,12 +327,12 @@ li {
 
 .exp-entry .exp-org {
     color: var(--text-light);
-    font-size: 0.9rem;
+    font-size: 0.9em;
 }
 
 .exp-entry .exp-date {
     color: var(--text-muted);
-    font-size: 0.85rem;
+    font-size: 0.85em;
 }
 
 .exp-entry p {
@@ -339,7 +344,7 @@ footer.site-footer {
     margin-top: 3rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--border);
-    font-size: 0.85rem;
+    font-size: 0.85em;
     color: var(--text-muted);
 
     a {
@@ -393,7 +398,7 @@ footer.site-footer {
 }
 
 .post-list .post-title {
-    font-size: 1.1rem;
+    font-size: 1.05em;
 }
 
 .post-list .post-title a {
@@ -406,13 +411,13 @@ footer.site-footer {
 }
 
 .post-list .post-meta {
-    font-size: 0.85rem;
+    font-size: 0.85em;
     color: var(--text-muted);
 }
 
 .post-list .post-excerpt {
     color: var(--text-light);
-    font-size: 0.95rem;
+    font-size: 0.9em;
     margin-top: 0.25rem;
 }
 
@@ -423,7 +428,7 @@ footer.site-footer {
     margin-bottom: 2rem;
     background: var(--code-bg);
     border-radius: 0 4px 4px 0;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     color: var(--text-light);
 
     p {
@@ -446,7 +451,7 @@ footer.site-footer {
 
 .post-header .post-meta {
     color: var(--text-muted);
-    font-size: 0.85rem;
+    font-size: 0.85em;
 }
 
 .post-header .post-tags {
@@ -455,7 +460,7 @@ footer.site-footer {
 
 .tag {
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     color: var(--accent);
     background: var(--code-bg);
     padding: 0.1rem 0.5rem;
@@ -471,7 +476,7 @@ footer.site-footer {
 
 // Table of contents (kramdown {:toc})
 #markdown-toc {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     line-height: 1.6;
     border-left: 3px solid var(--accent);
     padding-left: 1rem;
@@ -507,15 +512,21 @@ footer.site-footer {
     }
 
     hr {
-        border: none;
+        border: 0;
+        background: none;
         text-align: center;
-        margin: 2.5rem 0;
+        overflow: visible;
+        margin: 2rem 0;
 
-        &::after {
-            content: "· · ·";
+        &::before {
+            content: "•••";
+            display: inline-block;
+            font-size: 0.75em;
+            letter-spacing: 1.25em;
+            margin-left: 0.6em;
             color: var(--text-muted);
-            letter-spacing: 0.5em;
-            font-size: 0.85rem;
+            position: relative;
+            top: -0.35em;
         }
     }
 
@@ -612,7 +623,7 @@ footer.site-footer {
 
 .recent-posts .date {
     color: var(--text-muted);
-    font-size: 0.85rem;
+    font-size: 0.85em;
     flex-shrink: 0;
 }
 
@@ -656,7 +667,7 @@ html {
 }
 
 .webmentions__label {
-    font-size: 0.85rem;
+    font-size: 0.85em;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -676,7 +687,6 @@ html {
 }
 
 .webmentions-info {
-    font-size: 0.9rem;
     color: var(--text-light);
     margin-bottom: 0.75rem;
 }
@@ -689,7 +699,7 @@ html {
 .webmention-form__input {
     flex: 1;
     padding: 0.4rem 0.6rem;
-    font-size: 0.85rem;
+    font-size: 0.85em;
     border: 1px solid var(--border);
     border-radius: 4px;
     background: var(--bg);
@@ -702,7 +712,7 @@ html {
 
 .webmention-form__button {
     padding: 0.4rem 0.75rem;
-    font-size: 0.85rem;
+    font-size: 0.85em;
     background: var(--accent);
     color: #fff;
     border: none;
@@ -738,7 +748,7 @@ html {
     // Year headings under Finished
     > h3 {
         color: var(--text-muted);
-        font-size: 0.75rem;
+        font-size: 0.75em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -811,19 +821,19 @@ html {
 
 .reading-author {
     display: block;
-    font-size: 0.875rem;
+    font-size: 0.875em;
     color: var(--text-light);
 }
 
 .reading-year {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     color: var(--text-muted);
 }
 
 .reading-rating {
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.85em;
 }
 
 .star-rating {
@@ -884,7 +894,6 @@ html {
 
     .read-author {
         color: var(--text-light);
-        font-size: 1rem;
         margin-bottom: 0;
     }
 
@@ -899,7 +908,7 @@ html {
 
         dt {
             color: var(--text-muted);
-            font-size: 0.75rem;
+            font-size: 0.75em;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.07em;
@@ -911,12 +920,11 @@ html {
             align-items: baseline;
             gap: 0.4rem;
             flex-wrap: wrap;
-            font-size: 0.9rem;
+            font-size: 0.9em;
             color: var(--text);
         }
 
         .read-openlibrary-link {
-            font-size: 0.9rem;
             color: var(--accent);
             text-decoration: underline;
             text-underline-offset: 2px;
@@ -927,7 +935,7 @@ html {
 
     .read-status {
         display: inline-block;
-        font-size: 0.65rem;
+        font-size: 0.65em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -941,7 +949,7 @@ html {
     }
 
     .read-date {
-        font-size: 0.875rem;
+        font-size: 0.875em;
         color: var(--text-muted);
     }
 
@@ -1015,13 +1023,12 @@ html {
 
 .webmention__author__name {
     font-weight: 600;
-    font-size: 1rem;
 }
 
 .webmention__content {
     color: var(--text-light);
     line-height: 1.5;
-    font-size: 0.9rem;
+    font-size: 0.9em;
 
     a {
         color: var(--accent);
@@ -1030,7 +1037,7 @@ html {
 
 .webmention__meta {
     margin-top: 0.25rem;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     color: var(--text-muted);
 
     a {
