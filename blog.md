@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Blog
-description: "Writing about library systems, technology, and the occasional side project."
+description: "Writing about whatever's on my mind."
 permalink: /blog/
 ---
 
 <div class="blog-page">
     <h1>Blog</h1>
-    <p class="blog-desc">Writing about library systems, technology, and the occasional side project.</p>
+    <p class="blog-desc">{{ page.description }}</p>
 
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">

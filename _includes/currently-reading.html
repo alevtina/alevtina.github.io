@@ -1,0 +1,31 @@
+{%- assign currently_reading = site.reading | where: "status", "reading" | sort: "date" | reverse -%}
+{%- if currently_reading.size > 0 -%}
+<div class="section">
+    <h2>Currently Reading</h2>
+    <ul class="home-shelf">
+        {%- for book in currently_reading -%}
+        {%- if book.author.first -%}
+          {%- assign book_author = book.author | join: " and " -%}
+        {%- else -%}
+          {%- assign book_author = book.author -%}
+        {%- endif -%}
+        <li class="home-shelf-item">
+            <a href="{{ book.url | relative_url }}" class="home-shelf-cover-link" tabindex="-1" aria-hidden="true">
+                {%- if book.cover and book.cover != "" -%}
+                <img class="home-shelf-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
+                {%- else -%}
+                <div class="home-shelf-cover home-shelf-cover--placeholder"></div>
+                {%- endif -%}
+            </a>
+            <div class="home-shelf-info">
+                <a href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
+                {%- if book_author != "" -%}
+                <span class="home-shelf-meta">{{ book_author | escape }}</span>
+                {%- endif -%}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+    <p><a href="{{ '/reading' | relative_url }}">All books →</a></p>
+</div>
+{%- endif -%}

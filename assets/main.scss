@@ -379,7 +379,6 @@ footer.site-footer {
 }
 
 .blog-page .blog-desc {
-    color: var(--text-light);
     margin-bottom: 2rem;
 }
 
@@ -416,7 +415,6 @@ footer.site-footer {
 }
 
 .post-list .post-excerpt {
-    color: var(--text-light);
     font-size: 0.9em;
     margin-top: 0.25rem;
 }
@@ -613,6 +611,59 @@ footer.site-footer {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+}
+
+// Homepage shelf (currently reading / now knitting)
+.home-shelf {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.home-shelf-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+}
+
+.home-shelf-cover-link {
+    flex-shrink: 0;
+}
+
+.home-shelf-cover {
+    display: block;
+    width: 40px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 2px;
+
+    &--placeholder {
+        background: var(--border);
+    }
+}
+
+.home-shelf-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+
+    a {
+        font-size: 0.95em;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.home-shelf-meta {
+    font-size: 0.82em;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 // Recent posts on homepage
