@@ -102,9 +102,9 @@ def fetch_projects(session: requests.Session) -> list[dict]:
     return projects
 
 
-def fetch_project_detail(session: requests.Session, project_id: int) -> dict:
+def fetch_project_detail(session: requests.Session, permalink: str) -> dict:
     r = session.get(
-        f"{API_BASE}/projects/{RAVELRY_USERNAME}/{project_id}.json",
+        f"{API_BASE}/projects/{RAVELRY_USERNAME}/{permalink}.json",
         timeout=30,
     )
     r.raise_for_status()
@@ -235,8 +235,10 @@ def main() -> None:
             skipped += 1
             continue
 
+        permalink = project.get("permalink") or str(project_id)
+
         try:
-            detail = fetch_project_detail(session, project_id)
+            detail = fetch_project_detail(session, permalink)
             if write_entry(detail, OUTPUT_DIR):
                 created += 1
             else:
