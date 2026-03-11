@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "Alevtina (Allie) Verbovetskaya—University Director of Library Systems at CUNY."
+description: "Alevtina (Allie) Verbovetskaya—librarian, knitter, vegan. Philadelphia."
 ---
 
 {% include hero.html %}

@@ -2,19 +2,15 @@
 title: "Alevtina Verbovetskaya"
 email: alevtina.verbovetskaya@cuny.edu
 description: >-
-  University Director of Library Systems at The City University of New York.
-  Leading the systems team behind CUNY's 31 academic libraries.
+  Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
 baseurl: ""
 url: "https://verbovetskaya.com"
 
 # Personal information
 author:
   name: "Alevtina Verbovetskaya"
-  title: "University Director of Library Systems"
-  organization: "The City University of New York"
   bio: >-
-    I lead a small team of systems librarians responsible for the technology
-    that runs across CUNY's 31 academic libraries.
+    Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
   gravatar_hash: "4c8b7c933d28e9911ff6d9e2a4d0fe5d"  # MD5 of alevtina.verbovetskaya@cuny.edu
 
 # Social profiles
