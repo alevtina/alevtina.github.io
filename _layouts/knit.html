@@ -27,6 +27,11 @@ layout: default
       <h1 class="knit-title">{{ page.title | escape }}</h1>
 
       <dl class="knit-meta-dl">
+        {%- if page.category and page.category != "" -%}
+        <dt>Category</dt>
+        <dd>{{ page.category | escape }}</dd>
+        {%- endif -%}
+
         {%- if page.pattern and page.pattern != "" -%}
         <dt>Pattern</dt>
         <dd>

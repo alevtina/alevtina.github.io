@@ -111,8 +111,17 @@ def fetch_projects(session: requests.Session) -> list[dict]:
     return projects
 
 
+def split_name(raw: str) -> tuple[str, str]:
+    """Split "Category | Title" into (category, title). Falls back to ("", raw)."""
+    if " | " in raw:
+        category, title = raw.split(" | ", 1)
+        return category.strip(), title.strip()
+    return "", raw.strip()
+
+
 def build_front_matter(project: dict) -> str:
-    name = project.get("name") or "Untitled"
+    raw_name = project.get("name") or "Untitled"
+    category, name = split_name(raw_name)
     pattern_name = project.get("pattern_name") or ""
 
     status = normalize_status(project.get("status_name") or "")
@@ -135,6 +144,7 @@ def build_front_matter(project: dict) -> str:
         "---",
         "layout: knit",
         f"title: {yaml_str(name)}",
+        f"category: {yaml_str(category) if category else ''}",
         f"pattern: {yaml_str(pattern_name) if pattern_name else ''}",
         "designer:",
         "pattern_url:",
@@ -159,7 +169,7 @@ def build_front_matter(project: dict) -> str:
 
 def write_entry(project: dict, output_dir: Path) -> bool:
     """Write a _knitting/ Markdown file. Returns True if created."""
-    name = project.get("name") or "Untitled"
+    _, name = split_name(project.get("name") or "Untitled")
     slug = slugify(name)
     d = entry_date(project)
     filepath = output_dir / f"{d}-{slug}.md"
