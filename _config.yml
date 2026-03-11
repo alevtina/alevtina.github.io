@@ -1,6 +1,6 @@
 # Site settings
 title: "Alevtina Verbovetskaya"
-email: alevtina.verbovetskaya@cuny.edu
+email: alevtina@verbovetskaya.com
 description: >-
   Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
 baseurl: ""
@@ -11,13 +11,13 @@ author:
   name: "Alevtina Verbovetskaya"
   bio: >-
     Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
-  gravatar_hash: "4c8b7c933d28e9911ff6d9e2a4d0fe5d"  # MD5 of alevtina.verbovetskaya@cuny.edu
+  gravatar_hash: "94a7df47fd5166da5bb92fc9d4108b26"  # MD5 of alevtina@verbovetskaya.com
 
 # Social profiles
 social:
   linkedin: https://www.linkedin.com/in/alevtina-verbovetskaya/
   github: alevtina
-  email: alevtina.verbovetskaya@cuny.edu
+  email: alevtina@verbovetskaya.com
   mastodon: https://glammr.us/@alevtina
 
 # Build settings
