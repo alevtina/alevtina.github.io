@@ -62,11 +62,13 @@ description: "Knitting and crochet projects, synced from Ravelry."
         {%- assign project_year = project.date | date: "%Y" -%}
         {%- if project_year == year -%}
         <li class="knitting-item">
-          {%- if project.cover and project.cover != "" -%}
           <a href="{{ project.url | relative_url }}" class="knitting-cover-link" tabindex="-1" aria-hidden="true">
+            {%- if project.cover and project.cover != "" -%}
             <img class="knitting-cover" src="{{ project.cover | escape }}" alt="" loading="lazy" />
+            {%- else -%}
+            <div class="knitting-cover-placeholder"></div>
+            {%- endif -%}
           </a>
-          {%- endif -%}
           <div class="knitting-item-info">
             <a class="knitting-title" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
             {%- if project.category and project.category != "" -%}

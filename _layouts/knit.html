@@ -73,6 +73,18 @@ layout: default
         </dd>
         {%- endif -%}
 
+        {%- if page.rating -%}
+        {%- assign _rnum = page.rating | plus: 0 -%}
+        <dt>Rating</dt>
+        <dd>
+          <span class="star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
+            {%- for i in (1..5) -%}
+              {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
+            {%- endfor -%}
+          </span>
+        </dd>
+        {%- endif -%}
+
         <dt>Ravelry</dt>
         <dd><a href="{{ page.ravelry_url | escape }}" rel="noopener noreferrer" target="_blank">View project →</a></dd>
       </dl>

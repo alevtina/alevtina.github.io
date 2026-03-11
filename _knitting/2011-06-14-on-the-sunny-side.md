@@ -3,15 +3,15 @@ layout: knit
 title: "On the Sunny Side"
 category: "Hat"
 pattern: "On the sunny side"
-designer: 
-pattern_url: 
+designer:
+pattern_url:
 status: finished
 started: "2011-06-14"
 completed: "2011-06-14"
 cover: 
-yarn: "Utopia"
-colorway: 
-yarn_url: "https://www.ravelry.com/yarns/library/reynolds-utopia"
+yarn:
+colorway:
+yarn_url:
 rating: 3
 ravelry_url: "https://www.ravelry.com/projects/alevtina/on-the-sunny-side"
 ravelry_id: 6158236

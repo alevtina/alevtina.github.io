@@ -128,6 +128,7 @@ def fetch_project_detail(session: requests.Session, permalink: str) -> dict:
     return {}
 
 
+
 def split_name(raw: str) -> tuple[str, str]:
     """Split "Category | Title" into (category, title). Falls back to ("", raw)."""
     if " | " in raw:
@@ -172,13 +173,10 @@ def build_front_matter(project: dict, detail: dict) -> str:
     designer = ""
 
     if detail:
-        pattern = detail.get("pattern") or {}
-        pattern_url = pattern.get("permalink") or ""
-        if pattern_url:
-            pattern_url = f"https://www.ravelry.com/patterns/library/{pattern_url}"
+        pattern_id = detail.get("pattern_id")
+        if pattern_id:
+            pattern_url = f"https://www.ravelry.com/patterns/library/{pattern_id}"
 
-        designer_data = pattern.get("designer") or {}
-        designer = designer_data.get("name") or ""
 
         packs = detail.get("packs") or []
         if packs:

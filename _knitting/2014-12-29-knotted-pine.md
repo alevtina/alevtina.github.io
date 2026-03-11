@@ -3,15 +3,15 @@ layout: knit
 title: "Knotted Pine"
 category: "Hat"
 pattern: "Knotted Pine"
-designer: 
-pattern_url: 
+designer:
+pattern_url:
 status: frogged
 started: "2014-12-29"
 completed: 
 cover: 
-yarn: "Tweed"
-colorway: 
-yarn_url: "https://www.ravelry.com/yarns/library/rowan-tweed"
+yarn:
+colorway:
+yarn_url:
 rating: 
 ravelry_url: "https://www.ravelry.com/projects/alevtina/knotted-pine"
 ravelry_id: 14240859

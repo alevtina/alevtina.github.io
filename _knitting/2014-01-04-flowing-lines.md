@@ -3,15 +3,15 @@ layout: knit
 title: "Flowing Lines"
 category: "Sweater"
 pattern: "Flowing Lines"
-designer: 
-pattern_url: 
+designer:
+pattern_url:
 status: frogged
 started: "2014-01-04"
 completed: 
 cover: 
-yarn: "Wool of the Andes Worsted"
-colorway: 
-yarn_url: "https://www.ravelry.com/yarns/library/knit-picks-wool-of-the-andes-worsted"
+yarn:
+colorway:
+yarn_url:
 rating: 
 ravelry_url: "https://www.ravelry.com/projects/alevtina/flowing-lines"
 ravelry_id: 12001523
