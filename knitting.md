@@ -69,8 +69,8 @@ description: "Knitting and crochet projects, synced from Ravelry."
           {%- endif -%}
           <div class="knitting-item-info">
             <a class="knitting-title" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
-            {%- if project.pattern and project.pattern != "" -%}
-            <span class="knitting-pattern">{{ project.pattern | escape }}</span>
+            {%- if project.category and project.category != "" -%}
+            <span class="knitting-category">{{ project.category | escape }}</span>
             {%- endif -%}
             {%- if project.designer and project.designer != "" -%}
             <span class="knitting-designer">{{ project.designer | escape }}</span>
