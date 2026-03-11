@@ -35,6 +35,9 @@ description: "Knitting and crochet projects, synced from Ravelry."
           {%- if project.designer and project.designer != "" -%}
           <span class="knitting-designer">{{ project.designer | escape }}</span>
           {%- endif -%}
+          {%- if project.yarn and project.yarn != "" -%}
+          <span class="knitting-yarn">{{ project.yarn | escape }}</span>
+          {%- endif -%}
         </div>
       </li>
       {%- endfor -%}
@@ -78,7 +81,7 @@ description: "Knitting and crochet projects, synced from Ravelry."
             <span class="knitting-designer">{{ project.designer | escape }}</span>
             {%- endif -%}
             {%- if project.yarn and project.yarn != "" -%}
-            <span class="knitting-yarn">{{ project.yarn | escape }}{%- if project.colorway and project.colorway != "" -%} — {{ project.colorway | escape }}{%- endif -%}</span>
+            <span class="knitting-yarn">{{ project.yarn | escape }}</span>
             {%- endif -%}
           </div>
         </li>
