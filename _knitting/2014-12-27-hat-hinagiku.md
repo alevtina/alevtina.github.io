@@ -1,0 +1,20 @@
+---
+layout: knit
+title: "Hat | Hinagiku"
+pattern: "Hinagiku Hat"
+designer:
+pattern_url:
+status: finished
+started: "2014-09-22"
+completed: "2014-12-27"
+cover: "https://images4-a.ravelrycache.com/uploads/alevtina/312135738/2015-01-03_14.46.28_medium2.jpg"
+yarn:
+colorway:
+yarn_url:
+rating: 3
+ravelry_url: "https://www.ravelry.com/projects/alevtina/hinagiku-hat"
+ravelry_id: 13555546
+craft: "Knitting"
+date: 2014-12-27
+tags: ["beanie", "hat", "in-the-round", "seamless", "slouchy"]
+---

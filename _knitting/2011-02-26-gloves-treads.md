@@ -1,0 +1,20 @@
+---
+layout: knit
+title: "Gloves | Treads"
+pattern: "Treads, a tipless gloves"
+designer:
+pattern_url:
+status: frogged
+started: "2011-02-26"
+completed: 
+cover: "https://images4-a.ravelrycache.com/uploads/alevtina/55908677/IMAG0402_medium2.jpg"
+yarn:
+colorway:
+yarn_url:
+rating: 
+ravelry_url: "https://www.ravelry.com/projects/alevtina/treads-a-tipless-gloves-pattern"
+ravelry_id: 5598921
+craft: "Knitting"
+date: 2011-02-26
+tags: ["fingerless", "gloves"]
+---

@@ -1,0 +1,20 @@
+---
+layout: knit
+title: "Hat | Anchored"
+pattern: "Anchored"
+designer:
+pattern_url:
+status: frogged
+started: "2021-12-10"
+completed: 
+cover: 
+yarn:
+colorway:
+yarn_url:
+rating: 
+ravelry_url: "https://www.ravelry.com/projects/alevtina/anchored"
+ravelry_id: 29350437
+craft: "Knitting"
+date: 2021-12-10
+tags: []
+---
