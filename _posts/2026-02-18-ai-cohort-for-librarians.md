@@ -9,32 +9,18 @@ redirect_from:
 - /blog/2026/02/18/building-ai-literacy-at-scale.html
 - /blog/building-ai-literacy-at-scale.html
 ---
-Last year, my department started rethinking professional development at CUNY Libraries. Instead of one-off trainings, we began building programs that grow shared technical capacity across campuses.
+Last semester, a colleague of mine at the CUNY Graduate Center started showing up to conversations with a lot of energy about AI. Stephen Zweibel, Digital Scholarship Librarian, had been making the case that librarians needed to get serious about it—not in the "here's how to use ChatGPT for your reference questions" way, but in the "we should actually be building things" way. It's a different argument than the ones that tend to dominate at a large university, where the AI conversation mostly revolves around faculty research support, plagiarism policy, and enrollment tools. Workflow automation, in-house tool development, reducing vendor dependency—that stuff doesn't always have a natural home. My boss and I started thinking about how to channel Stephen's enthusiasm into something structured. A peer mentoring cohort seemed like the right fit.
 
-This semester, that work has taken a hands-on turn.
+We're three weeks into a 16-week program exploring agentic AI and its implications for library work, and I've been trying to write something about it before too much time passes and I lose the early impressions.
 
-We're three weeks into a 16-week peer mentoring cohort focused on agentic AI and what it actually means for library workflows.
+The cohort builds on something we've been doing for a few years through our Alma Extensibility Task Force—a group of CUNY librarians who use Alma's REST APIs to extend functionality based on systemwide needs. That work has produced small but meaningful things: automations, integrations, configuration improvements that Alma doesn't natively support. The idea here is to expand that model beyond people who already identify as programmers, and beyond Alma itself.
 
-The cohort is sponsored by the Office of Library Services. My team typically works on infrastructure—systems, integrations, APIs—but infrastructure isn't only technical. It's human. If vendors are going to build AI into library systems, we need librarians who understand it well enough to evaluate it, question it, and, when necessary, build alternatives.
+Thirteen library faculty and staff from nine CUNY campuses are spending the semester building AI-enabled tools to address real workflow challenges. Stephen is leading the cohort, guiding participants through development while keeping a consistent focus on critical evaluation: understanding APIs, interrogating model limitations, assessing risk, and figuring out what's actually technically feasible versus what's well-marketed.
 
-The idea builds on our Alma Extensibility Task Force, where librarians use Alma's REST APIs to solve systemwide problems. That group has quietly produced automations and integrations Alma doesn't natively support. The AI cohort expands that model beyond Alma and beyond the people who already see themselves as developers.
+The projects reflect the kinds of problems libraries are genuinely grappling with—automating faculty publication tracking for institutional repositories, building accessibility checkers for course content, enhancing discovery systems, streamlining course reserves workflows, developing CUNY-wide tools for data access. People's technical backgrounds range from complete beginners to experienced developers, which makes the dynamic interesting.
 
-Thirteen faculty and staff from nine CUNY campuses are spending the semester building AI-enabled tools tied to real needs: automating publication tracking for repositories, creating accessibility checks for course content, enhancing discovery, streamlining reserves, improving shared data access.
+A few of the projects I've been wanting to pursue for a while—including externalizing Alma letters into version-controlled infrastructure and standardizing access model descriptions across institution zones—are taking shape within this cohort. These were ideas that had been sitting on a back burner for longer than I'd like to admit. With structured time and tools like Claude Code, they've started moving.
 
-Skill levels range from beginners to experienced coders. That mix is intentional. Peer learning works best when people bring different strengths to the table.
+My role is mostly scaffolding—structuring the cohort, handling logistics, setting up the shared collaboration space in Microsoft Teams, trying to create conditions where people can experiment without feeling overwhelmed. The Teams space is already more active than I expected: participants troubleshooting installation issues together, sharing resources, asking questions about APIs and workflow automation. Several people are juggling a lot right now, professionally and personally, and they're still showing up.
 
-Several projects I've wanted to tackle for years—like externalizing Alma letters into version-controlled infrastructure—are finally moving. The difference isn't just better tools. It's structured time and a cohort of colleagues building alongside each other.
-
-My role is mostly scaffolding: coordinating logistics, maintaining the Teams space, making sure experimentation feels possible but not overwhelming. It's administrative, sure, but it's also strategic. Capacity building requires design.
-
-Already, the Teams channel is active with troubleshooting, API questions, and real workflow conversations. People are making time for this despite heavy workloads. That matters.
-
-The goal isn't just AI literacy. It's distributed expertise.
-
-In a 26-campus system, we need librarians who can assess vendor claims, understand technical tradeoffs, and decide when to build instead of buy. That kind of fluency is infrastructure.
-
-We're only three weeks in. But it's clear this isn't about chasing a trend.
-
-It's about expanding who gets to build—and making sure librarians remain active participants in shaping the systems that shape us.
-
-More soon.
+We're only three weeks in, but it's already interesting to watch.
