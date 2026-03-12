@@ -4,7 +4,7 @@ title: "Before the updates go live"
 date: "2025-08-02 19:16"
 last_modified_at: "2025-08-02 20:36"
 author: "Alevtina Verbovetskaya"
-excerpt: "One year into Shelf Help, here's what we've learned about making library systems feel less like a black box."
+excerpt: "We used to read release notes the way most people do: quickly, right before a meeting, and with mild dread. Then we tried something different."
 categories: [leadership]
 tags: [library-systems, alma, primo-ve, change-management]
 redirect_from:
