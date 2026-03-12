@@ -3,7 +3,7 @@ layout: post
 title: "An AI cohort for librarians"
 date: 2026-02-18
 author: "Alevtina Verbovetskaya"
-excerpt: "Three weeks into a peer mentoring cohort where 13 CUNY librarians are building practical AI tools and developing critical evaluation skills."
+excerpt: "Three weeks into a 16-week peer mentoring cohort, and we're already building things I'd been wanting to build for years."
 tags: [leadership, artificial-intelligence]
 redirect_from:
 - /blog/2026/02/18/building-ai-literacy-at-scale.html
