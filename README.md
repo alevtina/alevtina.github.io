@@ -11,7 +11,6 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 - **webmention.io** — receives incoming webmentions
 - **jekyll-webmention_io** — displays webmentions at build time
 - **@remy/webmention** — sends outgoing webmentions on deploy
-- **GoatCounter** — privacy-friendly analytics
 - **[calibre-web-reads](https://github.com/alevtina/calibre-web-reads)** — syncs Calibre-Web shelves to IndieWeb read posts
 - **Ravelry API** — syncs knitting projects via `_scripts/ravelry_sync.py`
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Knitting
+title: "Knitting Notebook"
 permalink: /knitting/
 description: "Knitting and crochet projects, synced from Ravelry."
 ---

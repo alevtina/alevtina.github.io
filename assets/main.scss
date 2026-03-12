@@ -593,7 +593,7 @@ footer.site-footer {
     }
 }
 
-.post-content {
+.post-content, .page-content {
     @extend %prose;
     margin-bottom: 2rem;
 }
