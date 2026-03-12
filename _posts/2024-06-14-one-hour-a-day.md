@@ -11,46 +11,22 @@ redirect_from:
 - /blog/2024/06/14/from-isolation-to-collaboration-implementing-co-working-hour-in-a-remote-library-team.html
 - /blog/from-isolation-to-collaboration-implementing-co-working-hour-in-a-remote-library-team.html
 ---
-When our team at CUNY’s Office of Library Services migrated 35 libraries from Aleph to Alma, the stakes were already high. Then the pandemic arrived. We went remote overnight. Leadership changed. People left. I stepped into the Director of Library Systems role and found myself supervising a team I no longer saw in person.
+A few years ago, work felt chaotic. We had just migrated to Ex Libris's Alma in the middle of a pandemic. We'd gone through multiple interim Deans. Several people had retired or resigned in the department. I had become Director of the unit I'd been a member of for eight years—a job I'd received no training for and one I had to do while working remotely. And I was onboarding a new staff member.
 
-It was a lot to absorb at once.
+It was... a lot. Especially all at once.
 
-To help a new hire get oriented—and to keep myself grounded—I opened a daily one‑hour Zoom room. No agenda. No slides. Just: “I’ll be here.”
+I had been the last new hire in the unit and, as I said, I'd already been there for eight years. I spent a lot of time working on onboarding documentation, trying to make sure I'd covered all the bases.
 
-Three years later, attendance is still optional. Everyone still shows up.
+But when my new teammate started, I quickly realized I'd taken for granted the relationships I already had with my colleagues—relationships built over years of in-person work.
 
-## What the Hour Actually Looks Like
+This new hire? She was brand new to my team, brand new to the university, and brand new to New York City.
 
-Most mornings, we log in and work. Sometimes we walk through support tickets together. Sometimes we untangle a vendor’s latest reply. Sometimes we prep for whatever meetings are looming. And sometimes we sit quietly and chip away at our own tasks.
+It was a lot for her, too.
 
-It’s not a meeting. It’s shared space.
+On the advice of my life partner—who works in tech and had been working remotely for years, long before the pandemic—I decided to try a daily co-working hour on Zoom. It's a time when anyone on the team can show up for questions, work chat, brainstorming, or just to work alongside each other.
 
-## What Shifted
+It's not quite a meeting but, in the beginning, it sure felt like one. It was awkward and stiff. None of us knew what to do or how to act. Were we supposed to talk? Stay silent? Look busy?
 
-* Fewer bottlenecks.
-Instead of scheduling another meeting or writing a long email chain, we just ask the question. Things that might have dragged on for days get resolved in minutes.
+But persistence paid off. Though I stressed that attendance was optional, I vowed to show up every day. Slowly but surely, we figured it out and settled into a rhythm. People opened up. We reviewed support tickets together. We supported each other through losses. We read through release notes. We laughed. Some days we worked in silence for half an hour, and that was fine, too.
 
-* Built‑in accountability.  
-There’s something about being quietly present with other people that makes it easier to focus.
-
-* Less isolation.  
-Remote work can make your world feel very small. Starting the day together keeps us connected—to the work and to each other.
-
-* Smoother communication.  
-One colleague told me she never feels out of touch because we begin every morning in the same place. That small routine lowers the barrier to reaching out later.
-
-## The Awkward Beginning
-
-The first few weeks were uncomfortable. None of us knew the etiquette. Were we supposed to talk? Stay silent? Look busy?
-
-I made the hour voluntary, but I showed up every day. Consistency did most of the work. Over time, we settled into a rhythm. People opened up. We supported each other through losses. We laughed. Some days we worked in silence for half an hour, and that was fine too.
-
-The comfort came from presence, not performance.
-
-## If You Want to Try Something Similar
-
-You don’t need special tools or a complicated structure. Just pick a consistent time, keep the group small, make it optional, and show up reliably. Don’t overthink it.
-
-The goal isn’t to squeeze more productivity out of anyone. It’s to create a steady place to land.
-
-For us, that hour turned remote work from something we endured into something we shared.
+This shared space is now how we start every day. It's when the whole team gets together—sharing progress, swapping tips, troubleshooting problems, and usually making each other laugh. It sets the tone for the rest of the day. Attendance is still optional, but everyone shows up.
