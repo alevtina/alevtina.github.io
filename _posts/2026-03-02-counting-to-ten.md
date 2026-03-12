@@ -9,56 +9,20 @@ redirect_from:
 - /blog/2026/03/02/the-conversation-we-did-not-plan.html
 - /blog/the-conversation-we-did-not-plan.html
 ---
-Stephen asked the question and waited.
-
-Ten seconds. Maybe more. On a Teams call, that kind of silence feels dangerous. Like you've lost the room. Or your Wi-Fi.
-
-A few weeks earlier, I'd told him he was moving too quickly—not through the material, but through the pauses. He'd ask something thoughtful, then rescue us from the quiet before anyone had time to think. It's a reflex most of us have.
+A few weeks ago, I told Stephen he was moving too fast—not through the material, but through the pauses. He'd ask something thoughtful, then fill the quiet before anyone had time to think. It's a reflex most of us have.
 
 So he started counting to ten.
 
-This week, he went past ten. He was about to give up. He even messaged me privately: *ah well*.
+I do this myself in almost every meeting I lead. When I ask for questions, I pause and count. Most times, someone speaks up. It feels awkward every single time, and it works almost every single time.
 
-What followed was the real session.
+This week, Stephen went past ten and was about to give up. He even messaged me privately: *ah well*.
 
----
+The question he'd asked was whether their participation in this program had changed how people thought about AI's impact on the profession. He'd just demoed a reference agent he built for the Graduate Center—it pulls from LibGuides and the Primo API, and in his tests it outperforms the current chat service. He hasn't deployed it. He's still thinking carefully about what it means for an AI agent to be someone's first interaction with the library.
 
-The first half had been practical and energetic. Kristen shared a small but useful discovery about using Claude Projects to preserve context instead of re-uploading files each time. Patty ran into 403 errors pushing to Alma (my fault—read-only API keys while we practice). Stephen walked us through RAG.
+Then Will started talking. He's in library school and new to the profession and these AI tools, and he was honest about feeling genuinely unsettled. He could see how well AI handles reference questions so that wasn't really the issue. What gave him pause was what that efficiency means for the person on the other end. The relationships, the friction, the slow work of getting curious about something—are we moving toward or away from those? "What actually is the point?" he asked. And then, almost in the same breath: it's also really cool to learn how this works.
 
-He demoed a reference agent he built for the Graduate Center—pulling from LibGuides and the Primo API. In his tests, it outperforms the current chat service. He hasn't deployed it. He’s thinking carefully about what it would mean for an AI agent to be someone's first interaction with the library.
+The rest of the room had a lot of feelings. Robin talked about technology and humanity in the long view, neither doomer nor booster. Jason reframed it as an information literacy question. Ashley raised the political stakes—what are our obligations as librarians when the tools we're using are developed by companies making decisions we don't control? Shamiana said she doesn't fear AI going away; she worries more about access eventually becoming limited to certain groups.
 
-Then he asked: has any of this changed your mind?
+Nobody rushed to resolve any of it, which felt right.
 
-And he waited.
-
----
-
-Will spoke first.
-
-He's in library school and new to these tools. He said he could see how efficiently AI handles reference questions. But he kept wondering what that means for the person on the other end. If learning becomes frictionless, does curiosity grow—or shrink?
-
-"What actually is the point?" he asked.
-
-Then, almost in the same breath: "It's also really cool to learn how this works."
-
-That pairing stuck with me. Concern and delight, side by side. Not contradiction—honesty.
-
-The rest of the room met him there.
-
-Robin worried about judgment: these tools can generate answers without the slow work of getting wise. Jason reframed it as information literacy. Anthony said bluntly that students are already using AI-generated citations they can't evaluate, and ignoring that won't make it go away. Ashley raised the political stakes. Shamiana worried about inequitable access.
-
-No one rushed to resolve it.
-
----
-
-We spent the first half of the session talking about how AI retrieves information. We spent the second half doing something it can't: sitting with an unsettled question.
-
-Stephen counted to ten.
-
-Will said something real.
-
-And the room didn't flinch from the silence.
-
----
-
-*We're six weeks into a 16-week cohort. [Post 1 is here.](/blog/2026/02/18/building-ai-literacy-at-scale.html) More to come.*
+Counting to ten. It really works!
