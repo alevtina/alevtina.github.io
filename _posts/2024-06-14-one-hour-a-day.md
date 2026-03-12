@@ -4,7 +4,7 @@ title: "One hour a day"
 date: "2024-06-14 19:01"
 last_modified_at: "2024-06-14 19:14"
 author: "Alevtina Verbovetskaya"
-excerpt: "A daily, optional Zoom room turned remote work into shared work—reducing isolation, speeding problem-solving, and quietly transforming a team."
+excerpt: "On the advice of my partner, I started an optional daily co-working hour for my team. That was three years ago. Everyone still shows up."
 categories: [management]
 tags: [leadership, remote-work, change-management]
 redirect_from:
