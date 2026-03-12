@@ -600,6 +600,8 @@ footer.site-footer {
 
 .post-nav {
     margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
 
     h2 {
         font-size: 1.25rem;
@@ -735,7 +737,6 @@ html {
 
 .webmention-form-wrapper {
     padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border);
 }
 
 .webmentions + .webmention-form-wrapper {
