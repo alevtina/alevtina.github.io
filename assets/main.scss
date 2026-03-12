@@ -374,7 +374,9 @@ footer.site-footer {
 }
 
 // Blog list page
-.blog-page h1 {
+.blog-page h1,
+.reading-log h1,
+.page-content > h1 {
     margin-bottom: 0.5rem;
 }
 
