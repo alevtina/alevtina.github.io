@@ -24,7 +24,7 @@ layout: default
 
 <article class="h-entry read-entry">
 
-  {{- /* Microformats2 machine-readable properties on the h-entry */ -}}
+  {%- comment -%}Microformats2 machine-readable properties on the h-entry{%- endcomment -%}
   <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
   <span class="p-author h-card" hidden>
     <span class="p-name">{{ site.author.name | escape }}</span>
@@ -40,7 +40,7 @@ layout: default
     </div>
     {%- endif -%}
 
-    {{- /* p-read-of h-cite: the book being read */ -}}
+    {%- comment -%}p-read-of h-cite: the book being read{%- endcomment -%}
     <div class="read-info p-read-of h-cite">
       <h1 class="p-name read-title">{{ page.title | escape }}</h1>
       {%- if author_string != "" -%}

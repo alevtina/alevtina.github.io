@@ -16,6 +16,7 @@ rating: 4
 ravelry_url: "https://www.ravelry.com/projects/alevtina/subtle-twist-hat-2"
 ravelry_id: 7635621
 craft: "Knitting"
+slug: subtle-twist-hat-2
 date: 2012-01-28
 tags: ["beanie", "cables", "hat", "mens"]
 ---

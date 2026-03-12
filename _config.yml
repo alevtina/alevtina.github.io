@@ -21,6 +21,7 @@ social:
   mastodon: https://glammr.us/@alevtina
 
 # Build settings
+destination: /tmp/jekyll-site
 markdown: kramdown
 highlighter: rouge
 theme: minima

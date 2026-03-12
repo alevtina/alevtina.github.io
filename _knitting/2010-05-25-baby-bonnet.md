@@ -16,6 +16,7 @@ rating: 3
 ravelry_url: "https://www.ravelry.com/projects/alevtina/super-quick-baby-bonnet-2"
 ravelry_id: 4045598
 craft: "Knitting"
+slug: baby-bonnet-2
 date: 2010-05-25
 tags: ["baby", "bonnet", "hat"]
 ---

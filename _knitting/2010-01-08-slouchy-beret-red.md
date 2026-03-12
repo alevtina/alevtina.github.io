@@ -16,6 +16,7 @@ rating: 3
 ravelry_url: "https://www.ravelry.com/projects/alevtina/the-sweatshop-of-loves-slouchy-beret-pattern-3"
 ravelry_id: 3352646
 craft: "Knitting"
+slug: slouchy-beret-red-2
 date: 2010-01-08
 tags: ["hat"]
 ---
