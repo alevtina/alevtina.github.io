@@ -2,7 +2,7 @@
 title: "Alevtina Verbovetskaya"
 email: alevtina@verbovetskaya.com
 description: >-
-  Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
+  Librarian, knitter, vegan.
 baseurl: ""
 url: "https://verbovetskaya.com"
 
@@ -10,7 +10,7 @@ url: "https://verbovetskaya.com"
 author:
   name: "Alevtina Verbovetskaya"
   bio: >-
-    Librarian, knitter, vegan. Living in Philadelphia, working in New York City.
+    Librarian, knitter, vegan.
   gravatar_hash: "94a7df47fd5166da5bb92fc9d4108b26"  # MD5 of alevtina@verbovetskaya.com
 
 # Social profiles
@@ -64,13 +64,15 @@ collections:
     output: true
     permalink: /knitting/:slug/
 
-# jekyll-feed: main feed + reading feed
+# jekyll-feed: main feed + reading feed + knitting feed
 feed:
   collections:
     posts:
       path: "/feed.xml"
     reading:
       path: "/feed/reading.xml"
+    knitting:
+      path: "/feed/knitting.xml"
 
 # Exclude from processing
 exclude:

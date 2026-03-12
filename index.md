@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "Alevtina (Allie) Verbovetskaya—librarian, knitter, vegan. Philadelphia."
+description: "Alevtina (Allie) Verbovetskaya—librarian, knitter, vegan."
 ---
 
 {% include hero.html %}
