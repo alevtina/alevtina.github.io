@@ -3,7 +3,7 @@ layout: post
 title: "Counting to ten"
 date: 2026-03-02
 author: "Alevtina Verbovetskaya"
-excerpt: "Six weeks into our agentic AI cohort, the technical agenda gave way to an honest conversation about what AI means for a profession defined by its human dimension."
+excerpt: "Six weeks into our agentic AI peer mentoring cohort, Stephen asked whether any of this had changed people's minds. Then he waited."
 tags: [leadership, artificial-intelligence]
 redirect_from:
 - /blog/2026/03/02/the-conversation-we-did-not-plan.html
