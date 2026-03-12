@@ -24,5 +24,3 @@ Then Will started talking. He's in library school and new to the profession and 
 The rest of the room had a lot of feelings. Robin talked about technology and humanity in the long view, neither doomer nor booster. Jason reframed it as an information literacy question. Ashley raised the political stakes—what are our obligations as librarians when the tools we're using are developed by companies making decisions we don't control? Shamiana said she doesn't fear AI going away; she worries more about access eventually becoming limited to certain groups.
 
 Nobody rushed to resolve any of it, which felt right.
-
-Counting to ten. It really works!
