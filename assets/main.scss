@@ -13,7 +13,7 @@ $base-line-height: 1.75;
     --text-light: #6F6E69;  // base-600
     --text-muted: #878580;  // base-500
     --bg: #FFFCF0;          // paper
-    --accent: #205EA6;      // blue-600
+    --accent: #24837B;      // cyan-600
     --highlight: #AD8301;   // yellow-600
     --border: #CECDC3;      // base-200
     --code-bg: #F2F0E5;     // base-50
@@ -22,14 +22,14 @@ $base-line-height: 1.75;
 
 // Flexoki dark — explicit toggle
 :root.dark {
-    --text: #FFFCF0;        // paper
-    --text-light: #B7B5AC;  // base-300
-    --text-muted: #878580;  // base-500
-    --bg: #282726;          // base-900
-    --accent: #4385BE;      // blue-400
+    --text: #FFFCF0;        // paper (tx)
+    --text-light: #878580;  // base-500 (tx-2)
+    --text-muted: #575653;  // base-700 (tx-3)
+    --bg: #100F0F;          // black (bg)
+    --accent: #3AA99F;      // cyan-400
     --highlight: #D0A215;   // yellow-400
-    --border: #403E3C;      // base-800
-    --code-bg: #343331;     // base-850
+    --border: #403E3C;      // base-800 (ui-2)
+    --code-bg: #282726;     // base-900 (ui / bg-2)
     --star-fill: #DA702C;   // orange-400
 }
 
@@ -37,13 +37,13 @@ $base-line-height: 1.75;
 @media (prefers-color-scheme: dark) {
     :root:not(.light) {
         --text: #FFFCF0;
-        --text-light: #B7B5AC;
-        --text-muted: #878580;
-        --bg: #282726;
-        --accent: #4385BE;
+        --text-light: #878580;
+        --text-muted: #575653;
+        --bg: #100F0F;
+        --accent: #3AA99F;
         --highlight: #D0A215;
         --border: #403E3C;
-        --code-bg: #343331;
+        --code-bg: #282726;
         --star-fill: #DA702C;
     }
 }
