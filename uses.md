@@ -9,7 +9,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 
 ## Hardware
 
-- **Desk:** [Vari](https://www.vari.com/) electric standing desk.
+- **Desk:** [Uplift](https://www.upliftdesk.com/custom-solid-wood-standing-desk/) solid wood electric standing desk.
 - **E-Reader:** [Kobo](https://us.kobobooks.com/collections/ereaders) Libra 2 with a SleepCover. I use [Calibre](https://calibre-ebook.com/) to manage my library and sideload books. No Amazon ecosystem for me, *thankyouverymuch*.
 - **Headphones:** [Bose QuietComfort 45](https://www.bose.com/pxp/bose-quietcomfort-45-headphones) are my daily drivers; AirPods (3rd gen with MagSafe charging case) when I need something smaller.
 - **Laptop:** 13" [MacBook Air](https://www.apple.com/macbook-air/) M1 (2020). Fast enough, light enough, quiet enough. The fan-less design remains a delight.
