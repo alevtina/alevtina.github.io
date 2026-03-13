@@ -1,5 +1,5 @@
 {
-  "name": "Alevtina Verbovetskaya",
+  "name": "Allie",
   "short_name": "Allie",
   "icons": [
     {
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#0033A1",
-  "background_color": "#0033A1",
+  "theme_color": "#F2F0E5",
+  "background_color": "#F2F0E5",
   "display": "standalone"
 }
