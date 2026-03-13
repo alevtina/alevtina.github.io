@@ -107,7 +107,7 @@ a {
 .site-title-row {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1.25rem;
     margin-bottom: 0.25rem;
 }
 
@@ -122,7 +122,7 @@ a {
 .site-title {
     color: var(--text);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
     line-height: 1;
     display: block;
@@ -233,18 +233,18 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-bottom: 0.25rem;
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-top: 2.5rem;
     margin-bottom: 0.75rem;
 }
 
 h3 {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -812,7 +812,6 @@ html {
     // Year headings under Finished
     > h3 {
         color: var(--text-muted);
-        font-size: 0.75em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -930,7 +929,6 @@ html {
 
     > h3 {
         color: var(--text-muted);
-        font-size: 0.75em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -945,7 +943,6 @@ html {
 
     > summary {
         color: var(--text-muted);
-        font-size: 0.75em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -967,7 +964,6 @@ html {
 
     > h3 {
         color: var(--text-muted);
-        font-size: 0.75em;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.07em;
@@ -1095,7 +1091,6 @@ html {
     }
 
     .knit-title {
-        font-size: 1.4rem;
         margin-bottom: 0.75rem;
     }
 
@@ -1192,7 +1187,6 @@ html {
     }
 
     .book-title {
-        font-size: 1.4rem;
         margin-bottom: 0.1rem;
     }
 
