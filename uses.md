@@ -10,9 +10,13 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 ## Hardware
 
 - **Desk:** [Uplift](https://www.upliftdesk.com/custom-solid-wood-standing-desk/) solid wood electric standing desk.
+- **Camera:** [Canon EOS R6](https://www.usa.canon.com/shop/digital-cameras/mirrorless-cameras) with a [Canon RF35mm F1.8](https://www.usa.canon.com/shop/p/rf35mm-f1-8-macro-is-stm) macro lens is my webcam.
+  - [Amaran PT2c](https://amarancreators.com/pages/amaran-pt2c) LED tube light
+  - [Amaran P60x](https://amarancreators.com/pages/amaran-p60x) LED panel light
 - **E-Reader:** [Kobo](https://us.kobobooks.com/collections/ereaders) Libra 2 with a SleepCover. I use [Calibre](https://calibre-ebook.com/) to manage my library and sideload books. No Amazon ecosystem for me, *thankyouverymuch*.
 - **Headphones:** [Bose QuietComfort 45](https://www.bose.com/pxp/bose-quietcomfort-45-headphones) are my daily drivers; AirPods (3rd gen with MagSafe charging case) when I need something smaller.
 - **Laptop:** 13" [MacBook Air](https://www.apple.com/macbook-air/) M1 (2020). Fast enough, light enough, quiet enough. The fan-less design remains a delight.
+- **Monitor:** 2 &times; 27" [LG 4K Ultra HD monitors](https://www.lg.com/us/4k-monitors) mounted on a dual-monitor stand.
 - **Phone:** [iPhone](https://www.apple.com/iphone/) 16 Pro, in a [Peak Design Everyday Case](https://www.peakdesign.com/products/everyday-case-for-iphone-16-series). I also have their [car mount](https://www.peakdesign.com/products/car-vent-mount) and [bike mount](https://www.peakdesign.com/products/out-front-bike-mount), and they've genuinely changed how I use my phone while moving around.
 - **Writing Tablet:** [reMarkable 2](https://remarkable.com/products/remarkable-2) with a Book Folio cover and a Marker Plus stylus.
 
