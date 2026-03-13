@@ -48,9 +48,9 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 ## Bikes
 
 - **Folding:** [Brompton C-Line](https://www.brompton.com/c-line) (2023 or 2024). For trains, for trips, for the times when a full-size bike is the wrong answer.
-  - **Saddle:** Brooks Cambium [C17 Carved](https://www.brooksengland.com/en_us/c17-carved.html).
+  - **Saddle:** Brooks Cambium [C17 Special](https://www.brooksengland.com/en_us/c17-special.html).
 - **Road:** [2012 Salsa Casseroll](https://www.salsacycles.com/products/2012_casseroll). A steel commuter/road bike that has outlasted several life phases.
   - **Bag:** [Po Campo Bedford Backpack Pannier](https://www.pocampo.com/products/bedford-backpack-pannier). Clips onto the rack, wears as a backpack off the bike.
   - **Pedals:** Shimano SPD/flat combo, though I'm rarely riding clipless these days.
   - **Rack:** Topeak rear rack with a trunk bag. The rack held a [BabySeat II](https://www.topeak.com/global/en/product/788-BABYSEAT-II) a million years ago.
-  - **Saddle:** Brooks Cambium [C17 Special](https://www.brooksengland.com/en_us/c17-special.html).
+  - **Saddle:** Brooks Cambium [C17 Carved](https://www.brooksengland.com/en_us/c17-carved.html).
