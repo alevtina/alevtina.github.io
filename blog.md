@@ -7,7 +7,7 @@ permalink: /blog/
 
 <div class="blog-page">
     <h1>Blog</h1>
-    <p class="blog-desc">{{ page.description }}</p>
+    <p>{{ page.description }}</p>
 
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">

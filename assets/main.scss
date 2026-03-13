@@ -381,8 +381,10 @@ footer.site-footer {
     margin-bottom: 0.5rem;
 }
 
-.blog-page .blog-desc {
-    margin-bottom: 2rem;
+.blog-page > p,
+.reading-log > p,
+.knitting-log > p {
+    margin-bottom: 1rem;
 }
 
 .post-list {
@@ -622,7 +624,6 @@ footer.site-footer {
 .home-shelf {
     list-style: none;
     padding-left: 0;
-    margin-bottom: 0;
 }
 
 .home-shelf-item {
