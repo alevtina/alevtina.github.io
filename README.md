@@ -17,46 +17,17 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 ## File Structure
 
 ```
-├── _config.yml              # Site configuration + webmention settings
-├── _includes/
-│   ├── head.html            # <head> with meta, webmention endpoints
-│   ├── header.html          # Avatar, site title, subtitle, nav
-│   ├── hero.html            # Homepage intro
-│   ├── footer.html          # Copyright, social links (rel="me")
-│   ├── gravatar.html        # Gravatar image helper
-│   ├── latest-blog.html     # Recent posts list
-│   ├── currently-reading.html # Homepage "Currently Reading" shelf
-│   ├── now-knitting.html    # Homepage "Now Knitting" shelf
-│   └── webmentions/         # Custom webmention templates
-│       ├── webmentions.html # General mentions (renders nothing if empty)
-│       ├── likes.html       # Likes facepile with h3 label
-│       ├── reposts.html     # Reposts facepile with h3 label
-│       └── replies.html     # Reply cards with h3 label
-├── _layouts/
-│   ├── default.html
-│   ├── page.html
-│   ├── post.html            # Includes webmentions section + form
-│   ├── read.html            # IndieWeb read post layout (microformats2)
-│   └── knit.html            # Knitting project layout
+├── _config.yml              # Site configuration
+├── _includes/               # Partials (header, footer, webmention templates, etc.)
+├── _layouts/                # Page layouts (default, post, read, knit)
 ├── _posts/                  # Blog posts
 ├── _reading/                # IndieWeb read posts (synced via calibre-web-reads)
 ├── _knitting/               # Knitting project files (synced from Ravelry)
-├── _scripts/
-│   └── ravelry_sync.py      # Ravelry sync script (run locally)
+├── _scripts/                # Local scripts (Ravelry sync)
 ├── _data/                   # Webmention cache (auto-generated)
-├── assets/
-│   ├── main.scss            # Main stylesheet
-│   └── img/                 # Images and media
-├── .github/workflows/
-│   └── deploy.yml           # Build, deploy, send webmentions
-├── about.md                 # About page (redirects from /experience)
-├── bios.md                  # Copy/paste bios and headshot
-├── blog.md                  # Blog listing page
-├── index.md                 # Homepage
-├── presentations.md         # Presentations page
-├── reading.md               # Reading log index page
-├── knitting.md              # Knitting log index page
-└── 404.html                 # Error page
+├── assets/                  # Styles and images
+├── .github/workflows/       # GitHub Actions (build, deploy, send webmentions)
+└── *.md                     # Content pages (index, about, blog, presentations, etc.)
 ```
 
 ## Reading Log
@@ -73,7 +44,7 @@ python3 sync.py
 
 The script writes new files to `_reading/`, then commits and pushes automatically. Existing files are never overwritten — add ratings and notes freely. See `_reading/README.md` for the front matter reference and how to add books manually.
 
-## Knitting Log
+## Knitting Notebook
 
 Projects are synced from Ravelry using `_scripts/ravelry_sync.py`, a standalone script that runs locally using Basic Auth against the Ravelry API.
 
@@ -165,4 +136,3 @@ bundle exec jekyll serve
 ```
 
 Requires Ruby 3.3+ (managed via `.ruby-version` / rbenv).
-

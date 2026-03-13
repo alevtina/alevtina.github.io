@@ -60,7 +60,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
   - **Saddle:** Brooks Cambium [C17 Special](https://www.brooksengland.com/en_us/c17-special.html).
 - **Road:** [2012 Salsa Casseroll](https://www.salsacycles.com/products/2012_casseroll). A steel commuter/road bike that has outlasted several life phases.
   - **Bag:** [Po Campo Bedford Backpack Pannier](https://www.pocampo.com/products/bedford-backpack-pannier). Clips onto the rack, wears as a backpack off the bike.
-  - **Bottle:** [Bivo Trio](https://drinkbivo.com/products/bivo-trio) insulated bottle. Absolutely worth it!
+  - **Bottle:** [Bivo Trio](https://drinkbivo.com/products/bivo-trio) insulated water bottle. Absolutely worth it!
   - **Pedals:** Shimano SPD/flat combo, though I'm rarely riding clipless these days.
-  - **Rack:** Topeak rear rack with a trunk bag. The rack held a [BabySeat II](https://www.topeak.com/global/en/product/788-BABYSEAT-II) a million years ago.
+  - **Rack:** [Topeak Explorer](https://www.topeak.com/us/en/product/1530-EXPLORER-(NON-DISC)-(W-O-SPRING)) rear rack with a trunk bag. The rack held a [BabySeat II](https://www.topeak.com/global/en/product/788-BABYSEAT-II) a million years ago.
   - **Saddle:** Brooks Cambium [C17 Carved](https://www.brooksengland.com/en_us/c17-carved.html).
