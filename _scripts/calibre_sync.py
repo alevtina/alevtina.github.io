@@ -646,7 +646,7 @@ def _assign_field(meta: dict, key: str, val: str, el) -> None:
 def build_front_matter(meta: dict, status: str, entry_date: str) -> str:
     """Return the complete YAML front matter block for a _reading/ entry."""
     authors = meta.get("authors", [])
-    author_line = format_author_yaml(authors)
+    author_line = format_author_yaml(authors).replace("author:", "book_author:", 1)
 
     isbn = meta.get("isbn", "")
     year = meta.get("year", "")
@@ -665,7 +665,7 @@ def build_front_matter(meta: dict, status: str, entry_date: str) -> str:
 
     return f"""\
 ---
-layout: read
+layout: book
 title: {yaml_str(meta['title'])}
 {author_line}
 {isbn_line}

@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Just for the Summer"
-author: "Abby Jimenez"
+book_author: "Abby Jimenez"
 isbn: "9781538767443"
 year: 2024
 series: "Part of Your World"

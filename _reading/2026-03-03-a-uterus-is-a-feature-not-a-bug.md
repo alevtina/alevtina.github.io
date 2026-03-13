@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "A Uterus Is a Feature, Not a Bug: The Working Woman's Guide to Overthrowing the Patriarchy"
-author: "Sarah Lacy"
+book_author: "Sarah Lacy"
 isbn: "9780062641816"
 year: 2017
 series:

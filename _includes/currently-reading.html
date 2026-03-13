@@ -4,10 +4,10 @@
     <h2>Currently Reading</h2>
     <ul class="home-shelf">
         {%- for book in currently_reading -%}
-        {%- if book.author.first -%}
-          {%- assign book_author = book.author | join: " and " -%}
+        {%- if book.book_author.first -%}
+          {%- assign book_author = book.book_author | join: " and " -%}
         {%- else -%}
-          {%- assign book_author = book.author -%}
+          {%- assign book_author = book.book_author -%}
         {%- endif -%}
         <li class="home-shelf-item">
             <a href="{{ book.url | relative_url }}" class="home-shelf-cover-link" tabindex="-1" aria-hidden="true">

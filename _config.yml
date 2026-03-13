@@ -105,10 +105,11 @@ defaults:
       path: ""
       type: "reading"
     values:
-      layout: "read"
+      layout: "book"
+      description: "Book review."
   - scope:
       path: ""
       type: "knitting"
     values:
       layout: "knit"
-
+      description: "Knitting project."

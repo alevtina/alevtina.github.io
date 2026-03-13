@@ -17,9 +17,9 @@ without fear of losing them on the next sync.
 
 ```yaml
 ---
-layout: read
+layout: book
 title: "Book Title"           # Required. Wrap in quotes if it contains colons.
-author: "Author Name"         # Single author as a string.
+book_author: "Author Name"         # Single author as a string.
 # author:                     # Multiple authors as a list:
 #   - "First Author"
 #   - "Second Author"

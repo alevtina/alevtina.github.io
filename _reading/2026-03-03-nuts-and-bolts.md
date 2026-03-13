@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Nuts and Bolts: Seven Small Inventions That Changed the World (in a Big Way)"
-author: "Roma Agrawal"
+book_author: "Roma Agrawal"
 isbn: "9781324021520"
 year: 2023
 series:

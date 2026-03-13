@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "How to Walk Away"
-author: "Katherine Center"
+book_author: "Katherine Center"
 isbn: "9781466847705"
 year: 2018
 series:

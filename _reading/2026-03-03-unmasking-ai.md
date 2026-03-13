@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Unmasking AI: My Mission to Protect What is Human In a World of Machines"
-author: "Joy Buolamwini"
+book_author: "Joy Buolamwini"
 isbn: "9780593241837"
 year: 2023
 series:

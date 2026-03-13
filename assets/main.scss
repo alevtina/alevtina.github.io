@@ -503,7 +503,7 @@ footer.site-footer {
     }
 }
 
-// Shared prose styles — used by post-content, knit-notes, read-notes
+// Shared prose styles — used by post-content, knit-notes, book-notes
 %prose {
     h2, h3, h4 {
         margin-top: 2rem;
@@ -909,10 +909,6 @@ html {
 .star--empty  { color: var(--text-muted); }
 
 // -------------------------------------------------------------------------
-// Reading collection — individual book page
-// -------------------------------------------------------------------------
-
-// -------------------------------------------------------------------------
 // Knitting collection — index page (/knitting/)
 // -------------------------------------------------------------------------
 
@@ -1156,8 +1152,8 @@ html {
     }
 }
 
-.read-entry {
-    .read-header {
+.book-entry {
+    .book-header {
         display: flex;
         gap: 1.75rem;
         align-items: flex-start;
@@ -1170,7 +1166,7 @@ html {
         }
     }
 
-    .read-cover-wrap {
+    .book-cover-wrap {
         flex-shrink: 0;
         width: 160px;
 
@@ -1179,7 +1175,7 @@ html {
         }
     }
 
-    .read-cover {
+    .book-cover {
         width: 100%;
         height: auto;
         display: block;
@@ -1187,23 +1183,29 @@ html {
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
     }
 
-    .read-info {
+    .book-info {
         flex: 1;
         min-width: 0;
     }
 
-    .read-title {
+    .book-title {
         font-size: 1.4rem;
         margin-bottom: 0.1rem;
     }
 
-    .read-author {
+    .book-author {
         color: var(--text-light);
         margin-bottom: 0;
     }
 
+    .book-year {
+        font-size: calc(0.9em * 0.875);  // matches .book-date inside dd (0.9em) × 0.875em
+        color: var(--text-muted);
+        margin-bottom: 0;
+    }
+
     // Labeled metadata grid
-    .read-meta-dl {
+    .book-meta-dl {
         display: grid;
         grid-template-columns: auto 1fr;
         column-gap: 0.75rem;
@@ -1229,7 +1231,7 @@ html {
             color: var(--text);
         }
 
-        .read-openlibrary-link {
+        .book-openlibrary-link {
             color: var(--accent);
             text-decoration: underline;
             text-underline-offset: 2px;
@@ -1238,7 +1240,7 @@ html {
         }
     }
 
-    .read-status {
+    .book-status {
         display: inline-block;
         font-size: 0.65em;
         font-weight: 700;
@@ -1248,22 +1250,22 @@ html {
         border-radius: 99px;
         border: 1px solid currentColor;
 
-        &.read-status--finished  { color: var(--accent); }
-        &.read-status--reading   { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-        &.read-status--to-read   { color: var(--text-muted); }
+        &.book-status--finished  { color: var(--accent); }
+        &.book-status--reading   { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+        &.book-status--to-read   { color: var(--text-muted); }
     }
 
-    .read-date {
+    .book-date {
         font-size: 0.875em;
         color: var(--text-muted);
     }
 
-    .read-tags {
+    .book-tags {
         margin-top: 0.6rem;
     }
 
     // Notes/body content — separated from the header block
-    .read-notes {
+    .book-notes {
         @extend %prose;
         margin-top: 1.75rem;
         padding-top: 1.5rem;

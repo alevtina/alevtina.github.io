@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Yours Truly"
-author: "Abby Jimenez"
+book_author: "Abby Jimenez"
 isbn: "9781538704417"
 year: 2023
 series: "Part of Your World"

@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Funny Story"
-author: "Emily Henry"
+book_author: "Emily Henry"
 isbn: "9780593441213"
 year: 2025
 series: 

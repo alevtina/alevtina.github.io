@@ -18,10 +18,10 @@ description: "Books I've read, am reading, and want to read."
     <h2>Currently Reading</h2>
     <ul class="reading-list" role="list">
       {%- for book in currently_reading -%}
-      {%- if book.author.first -%}
-        {%- assign book_author = book.author | join: " and " -%}
+      {%- if book.book_author.first -%}
+        {%- assign book_author = book.book_author | join: " and " -%}
       {%- else -%}
-        {%- assign book_author = book.author -%}
+        {%- assign book_author = book.book_author -%}
       {%- endif -%}
       <li class="reading-item h-entry">
         <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
@@ -59,10 +59,10 @@ description: "Books I've read, am reading, and want to read."
     <h2>Want to Read</h2>
     <ul class="reading-list" role="list">
       {%- for book in to_read -%}
-      {%- if book.author.first -%}
-        {%- assign book_author = book.author | join: " and " -%}
+      {%- if book.book_author.first -%}
+        {%- assign book_author = book.book_author | join: " and " -%}
       {%- else -%}
-        {%- assign book_author = book.author -%}
+        {%- assign book_author = book.book_author -%}
       {%- endif -%}
       <li class="reading-item h-entry">
         <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
@@ -120,10 +120,10 @@ description: "Books I've read, am reading, and want to read."
       {%- for book in finished -%}
         {%- assign book_year = book.date | date: "%Y" -%}
         {%- if book_year == year -%}
-        {%- if book.author.first -%}
-          {%- assign book_author = book.author | join: " and " -%}
+        {%- if book.book_author.first -%}
+          {%- assign book_author = book.book_author | join: " and " -%}
         {%- else -%}
-          {%- assign book_author = book.author -%}
+          {%- assign book_author = book.book_author -%}
         {%- endif -%}
         <li class="reading-item h-entry">
           <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
@@ -178,10 +178,10 @@ description: "Books I've read, am reading, and want to read."
         {%- for book in finished -%}
           {%- assign book_year = book.date | date: "%Y" -%}
           {%- if book_year == year -%}
-          {%- if book.author.first -%}
-            {%- assign book_author = book.author | join: " and " -%}
+          {%- if book.book_author.first -%}
+            {%- assign book_author = book.book_author | join: " and " -%}
           {%- else -%}
-            {%- assign book_author = book.author -%}
+            {%- assign book_author = book.book_author -%}
           {%- endif -%}
           <li class="reading-item h-entry">
             <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
