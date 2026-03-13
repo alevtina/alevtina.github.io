@@ -675,7 +675,10 @@ title: {yaml_str(meta['title'])}
 {cover_line}
 status: {status}
 date: {entry_date}
+date_started:
+date_finished:
 rating:
+format: electronic
 tags: {tags_line}
 calibre_id: {calibre_id}
 ---
@@ -700,16 +703,25 @@ def refresh_entry(meta: dict, md_file: Path) -> bool:
         return False
     body = parts[2]  # everything after the closing ---
 
-    rating_match = re.search(r"^rating:(.*)$", content, re.MULTILINE)
-    date_match   = re.search(r"^date:\s*(\S+)", content, re.MULTILINE)
-    status_match = re.search(r"^status:\s*(\S+)", content, re.MULTILINE)
+    rating_match         = re.search(r"^rating:(.*)$", content, re.MULTILINE)
+    format_match         = re.search(r"^format:(.*)$", content, re.MULTILINE)
+    date_started_match   = re.search(r"^date_started:(.*)$", content, re.MULTILINE)
+    date_finished_match  = re.search(r"^date_finished:(.*)$", content, re.MULTILINE)
+    date_match           = re.search(r"^date:\s*(\S+)", content, re.MULTILINE)
+    status_match         = re.search(r"^status:\s*(\S+)", content, re.MULTILINE)
 
-    existing_date   = date_match.group(1)   if date_match   else TODAY
-    existing_status = status_match.group(1) if status_match else "to-read"
-    existing_rating = rating_match.group(1) if rating_match else ""
+    existing_date          = date_match.group(1)          if date_match          else TODAY
+    existing_status        = status_match.group(1)        if status_match        else "to-read"
+    existing_rating        = rating_match.group(1)        if rating_match        else ""
+    existing_format        = format_match.group(1)        if format_match        else " electronic"
+    existing_date_started  = date_started_match.group(1)  if date_started_match  else ""
+    existing_date_finished = date_finished_match.group(1) if date_finished_match else ""
 
     new_content = build_front_matter(meta, existing_status, existing_date)
-    new_content = re.sub(r"^rating:.*$", f"rating:{existing_rating}", new_content, flags=re.MULTILINE)
+    new_content = re.sub(r"^rating:.*$",        f"rating:{existing_rating}",               new_content, flags=re.MULTILINE)
+    new_content = re.sub(r"^format:.*$",        f"format:{existing_format}",               new_content, flags=re.MULTILINE)
+    new_content = re.sub(r"^date_started:.*$",  f"date_started:{existing_date_started}",   new_content, flags=re.MULTILINE)
+    new_content = re.sub(r"^date_finished:.*$", f"date_finished:{existing_date_finished}", new_content, flags=re.MULTILINE)
     new_content += body
 
     if new_content == content:

@@ -57,13 +57,27 @@ layout: default
         <dd>{{ page.series | escape }}{%- if page.series_part %} #{{ page.series_part }}{%- endif %}</dd>
         {%- endif -%}
 
+        {%- if page.format -%}
+        <dt>Format</dt>
+        <dd>{{ page.format | capitalize }}</dd>
+        {%- endif -%}
+
         <dt>Status</dt>
-        <dd>
-          <span class="book-status book-status--{{ page.status }}">{{ status_label }}</span>
-          {%- if page.status == "finished" -%}
-          <span class="book-date">{{ page.date | date: "%B %-d, %Y" }}</span>
-          {%- endif -%}
-        </dd>
+        <dd><span class="book-status book-status--{{ page.status }}">{{ status_label }}</span></dd>
+
+        {%- if page.date_started -%}
+        <dt>Started</dt>
+        <dd>{{ page.date_started | date: "%B %-d, %Y" }}</dd>
+        {%- endif -%}
+
+        {%- if page.status == "finished" -%}
+        {%- assign _finished_date = page.date_finished | default: page.date -%}
+        <dt>Finished</dt>
+        <dd>{{ _finished_date | date: "%B %-d, %Y" }}</dd>
+        {%- elsif page.date_finished -%}
+        <dt>Finished</dt>
+        <dd>{{ page.date_finished | date: "%B %-d, %Y" }}</dd>
+        {%- endif -%}
 
         {%- if page.rating -%}
         {%- assign _rparts = page.rating | split: "/" -%}

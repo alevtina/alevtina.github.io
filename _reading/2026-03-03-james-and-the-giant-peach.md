@@ -8,10 +8,12 @@ series:
 series_part:
 cover: https://covers.openlibrary.org/b/isbn/9780142410363-L.jpg
 status: finished
-date: 2026-03-12
+date_started: 2025-03-03
+date_finished: 2026-03-12
 rating: 4
 tags:
   - Young Adult & Children's
+format: physical
 calibre_id:
 ---
 I read this with my son as part of his bedtime routine—a first for us both! Neither of us has seen the movie, either, so we came in with fresh eyes, though we've each read other Roald Dahl books before.

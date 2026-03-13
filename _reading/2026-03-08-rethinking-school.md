@@ -8,8 +8,9 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780393356847-L.jpg"
 status: reading
-date: 2026-03-08
+date_started: 2026-03-08
 rating:
 tags: ["Non-Fiction: Personal"]
+format: electronic
 calibre_id: 498
 ---

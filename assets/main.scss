@@ -1199,7 +1199,7 @@ html {
     }
 
     .book-year {
-        font-size: calc(0.9em * 0.875);  // matches .book-date inside dd (0.9em) × 0.875em
+        font-size: calc(0.9em * 0.875);  // matches dd font-size (0.9em) × 0.875em
         color: var(--text-muted);
         margin-bottom: 0;
     }
@@ -1253,11 +1253,6 @@ html {
         &.book-status--finished  { color: var(--accent); }
         &.book-status--reading   { background: var(--accent); color: var(--bg); border-color: var(--accent); }
         &.book-status--to-read   { color: var(--text-muted); }
-    }
-
-    .book-date {
-        font-size: 0.875em;
-        color: var(--text-muted);
     }
 
     .book-tags {

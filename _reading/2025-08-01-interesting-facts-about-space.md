@@ -11,6 +11,7 @@ status: finished
 date: 2025-08-01
 rating: 2
 tags: ["Literary Fiction"]
+format: electronic
 calibre_id: 579
 ---
 

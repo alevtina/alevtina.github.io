@@ -11,6 +11,7 @@ status: reading
 date: 2026-03-02
 rating:
 tags: [Romance]
+format: audio
 calibre_id: 
 ---
 

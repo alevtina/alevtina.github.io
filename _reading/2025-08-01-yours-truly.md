@@ -11,6 +11,7 @@ status: finished
 date: 2025-08-01
 rating: 4
 tags: ["Romance"]
+format: electronic
 calibre_id: 544
 ---
 

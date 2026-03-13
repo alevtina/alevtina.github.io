@@ -32,6 +32,7 @@ date: 2025-01-15              # For finished books: date read (or YYYY-01-01 pla
                               # For reading/to-read: date added to log.
 rating:                       # Fill in manually. Any format you like: "4/5", "★★★★".
 tags: []                      # From Calibre tags. Add or remove freely.
+format: electronic
 calibre_id: 42                # Internal Calibre book ID. Used for reference only.
 ---
 ```
