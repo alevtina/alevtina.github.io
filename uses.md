@@ -28,9 +28,10 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 
 - **AI:** [Claude](https://claude.ai).
 - **Browser:** [Firefox](https://www.firefox.com/).
-  - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
-  - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-  - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+  - [automaticDark](https://addons.mozilla.org/en-US/firefox/addon/automatic-dark/) lets me have different themes depending on the time of day.
+  - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) turns websites dark when they do not have dark mode (looking at you, Wikipedia!).
+  - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) allows me to embed CSS or JS into websites I have to use but cannot control.
+  - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) keeps my web-browsing experience ad-free.
 - **Email:** [Fastmail](https://www.fastmail.com/), though I am still weaning myself off of Gmail.
 - **IDE:** [Visual Studio Code](https://code.visualstudio.com/).
   - [Flexoki](https://github.com/kepano/flexoki/tree/main/vscode)
