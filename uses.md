@@ -26,17 +26,17 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 
 ## Software
 
-- **AI:** Claude
-- **Browser:** Firefox
-  - Privacy Badger
-  - uBlock Origin
-  - Stylus
+- **AI:** [Claude](https://claude.ai).
+- **Browser:** [Firefox](https://www.firefox.com/).
+  - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+  - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+  - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - **Email:** [Fastmail](https://www.fastmail.com/), though I am still weaning myself off of Gmail.
 - **IDE:** [Visual Studio Code](https://code.visualstudio.com/).
   - [Flexoki](https://github.com/kepano/flexoki/tree/main/vscode)
   - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   - [vscode-pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
-- **Image Editing:** [Pixelmator Pro](https://www.apple.com/pixelmator-pro/).
+- **Image Editor:** [Pixelmator Pro](https://www.apple.com/pixelmator-pro/).
 - **Notes:** Apple Notes for now; trying to get on the [Obsidian](https://obsidian.md/) bandwagon.
 - **Password Manager:** [1Password](https://1password.com/).
 - **Screen Recording:** [Screen Studio](https://screen.studio/) for polished, engaging recordings when macOS native just won't do.
