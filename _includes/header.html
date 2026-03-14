@@ -16,10 +16,5 @@
         <a href="{{ '/reading' | relative_url }}"{% if page.url == '/reading' or page.url == '/reading/' or page.layout == 'book' %} class="active"{% endif %}>Reading</a>
         <span class="nav-sep">·</span>
         <a href="{{ '/knitting' | relative_url }}"{% if page.url == '/knitting' or page.url == '/knitting/' or page.layout == 'knit' %} class="active"{% endif %}>Knitting</a>
-        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-            <span class="toggle-label">🌞</span>
-            <span class="toggle-track"><span class="toggle-knob"></span></span>
-            <span class="toggle-label">🌚</span>
-        </button>
     </nav>
 </header>

@@ -9,6 +9,10 @@
     var theme = localStorage.getItem('theme');
     if (theme === 'dark') document.documentElement.classList.add('dark');
     else if (theme === 'light') document.documentElement.classList.add('light');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var isDark = theme === 'dark' || (!theme && prefersDark);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', isDark ? '#100F0F' : '#FFFCF0');
 })();
 </script>
 
@@ -21,24 +25,41 @@
 
     <script>
     (function() {
-        var btn = document.querySelector('.theme-toggle');
+        var btns = document.querySelectorAll('.theme-btn');
+        var root = document.documentElement;
+        var meta = document.querySelector('meta[name="theme-color"]');
 
-        function isDark() {
-            return document.documentElement.classList.contains('dark') ||
-                (!document.documentElement.classList.contains('light') &&
-                 window.matchMedia('(prefers-color-scheme: dark)').matches);
-        }
-
-        btn.addEventListener('click', function() {
-            if (isDark()) {
-                document.documentElement.classList.remove('dark');
-                document.documentElement.classList.add('light');
+        function applyTheme(theme) {
+            root.classList.remove('dark', 'light');
+            if (theme === 'dark') {
+                root.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            } else if (theme === 'light') {
+                root.classList.add('light');
                 localStorage.setItem('theme', 'light');
             } else {
-                document.documentElement.classList.remove('light');
-                document.documentElement.classList.add('dark');
-                localStorage.setItem('theme', 'dark');
+                localStorage.removeItem('theme');
             }
+            if (meta) {
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var isDark = theme === 'dark' || (theme === 'system' && prefersDark);
+                meta.setAttribute('content', isDark ? '#100F0F' : '#FFFCF0');
+            }
+            btns.forEach(function(btn) {
+                btn.classList.toggle('active', btn.dataset.theme === theme);
+            });
+        }
+
+        // Set initial active button without re-applying classes
+        var saved = localStorage.getItem('theme') || 'system';
+        btns.forEach(function(btn) {
+            btn.classList.toggle('active', btn.dataset.theme === saved);
+        });
+
+        btns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                applyTheme(btn.dataset.theme);
+            });
         });
     })();
     </script>

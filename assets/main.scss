@@ -20,8 +20,8 @@ $base-line-height: 1.75;
     --star-fill: #BC5215;   // orange-600
 }
 
-// Flexoki dark — explicit toggle
-:root.dark {
+// Flexoki dark palette
+@mixin dark-theme {
     --text: #FFFCF0;        // paper (tx)
     --text-light: #878580;  // base-500 (tx-2)
     --text-muted: #575653;  // base-700 (tx-3)
@@ -33,20 +33,16 @@ $base-line-height: 1.75;
     --star-fill: #DA702C;   // orange-400
 }
 
-// Flexoki dark — auto (system preference)
+:root.dark { @include dark-theme; }
+
 @media (prefers-color-scheme: dark) {
-    :root:not(.light) {
-        --text: #FFFCF0;
-        --text-light: #878580;
-        --text-muted: #575653;
-        --bg: #100F0F;
-        --accent: #3AA99F;
-        --highlight: #D0A215;
-        --border: #403E3C;
-        --code-bg: #282726;
-        --star-fill: #DA702C;
-    }
+    :root:not(.light) { @include dark-theme; }
 }
+
+// color-scheme tells the browser how to style native UI elements (scrollbars, inputs, etc.)
+:root { color-scheme: light dark; }
+:root.light { color-scheme: light; }
+:root.dark { color-scheme: dark; }
 
 * {
     margin: 0;
@@ -180,49 +176,32 @@ nav.site-nav {
 
 .theme-toggle {
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: var(--border);
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.theme-btn {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.toggle-label {
-    font-size: 0.875em;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 1em;
     line-height: 1;
-}
+    opacity: 0.45;
+    transition: background 0.15s ease, opacity 0.15s ease;
 
-.toggle-track {
-    display: block;
-    width: 32px;
-    height: 18px;
-    background: var(--border);
-    border-radius: 9px;
-    position: relative;
-}
+    &.active {
+        background: var(--bg);
+        opacity: 1;
+    }
 
-.toggle-knob {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 14px;
-    height: 14px;
-    background: var(--bg);
-    border-radius: 50%;
-    transition: left 0.2s ease;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-// Dark mode: slide knob to the right
-:root.dark .toggle-knob {
-    left: 16px;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root:not(.light) .toggle-knob {
-        left: 16px;
+    &:hover:not(.active) {
+        opacity: 0.75;
     }
 }
 
