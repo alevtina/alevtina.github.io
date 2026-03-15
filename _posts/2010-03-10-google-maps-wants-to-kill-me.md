@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Maps wants to kill me"
-date: 2010-03-10
+date: 2010-03-10 19:06
 author: "Alevtina Verbovetskaya"
 excerpt: "Google Maps just added biking directions—great news, except it wants me to cross the Verrazano-Narrows Bridge, which cyclists aren't allowed on. High hopes, beta bugs and all."
 categories: [personal]

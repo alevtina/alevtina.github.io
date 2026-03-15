@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#nyccentury"
-date: 2014-09-08
+date: 2014-09-08 18:20
 author: "Alevtina Verbovetskaya"
 excerpt: "100 miles through all five boroughs, starting with the Brooklyn Bridge at 5:30 AM. I burned 2,300 calories, got called a roadie, and was in bed by 9:30 PM."
 categories: [personal]

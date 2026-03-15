@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Steel is real"
-date: 2011-12-19
+date: 2011-12-19 22:46
 author: "Alevtina Verbovetskaya"
 excerpt: "I've been lusting after a steel-frame Salsa Casseroll for months. Turns out my boyfriend had the same idea. Looks like I'm getting a new bike after all."
 categories: [personal]

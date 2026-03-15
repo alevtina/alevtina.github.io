@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blood donor once more!"
-date: 2026-01-19
+date: 2026-01-19 21:09
 author: "Alevtina Verbovetskaya"
 excerpt: "After years away, I donated blood again—and discovered my reason for stopping was based on a completely avoidable misunderstanding."
 categories: [personal]

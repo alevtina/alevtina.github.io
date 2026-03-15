@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I want to ride my bicycle"
-date: 2009-07-17
+title: "I want to ride my bicycle, I want to ride my bike!"
+date: 2009-07-17 15:25
 author: "Alevtina Verbovetskaya"
 excerpt: "I drove 65 miles to Rockland County to buy a 1995 Schwinn, and I don't regret it. Now I'm outfitting it to replace my car for short errands around Staten Island."
 categories: [personal]

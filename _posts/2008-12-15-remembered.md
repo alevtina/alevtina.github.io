@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remembered"
-date: 2008-12-15
+date: 2008-12-15 09:09
 author: "Alevtina Verbovetskaya"
 excerpt: "A student returned to thank me—and this time, I actually remembered her. Turns out the research we did together earned her an A."
 categories: [work]

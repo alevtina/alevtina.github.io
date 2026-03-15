@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "At Ira's feet"
-date: 2012-06-21
+date: 2012-06-21 13:42
 author: "Alevtina Verbovetskaya"
 excerpt: "Co-op shifts, a 20-mile bike tour, a conference presentation, and a nerve-wracking job interview—all in one month. Also: I was accidentally on TV."
 categories: [personal]

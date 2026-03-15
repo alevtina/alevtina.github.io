@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lake Vanare"
-date: 2011-11-13
+date: 2011-11-13 23:58
 author: "Alevtina Verbovetskaya"
 excerpt: "A rainy escape to Lake Luzerne: fog at the top of Hadley Mountain, a muddy fall on the way down, and a delirious 30-mile bike ride in the sun. Muscles aching, spirits soaring."
 categories: [personal]

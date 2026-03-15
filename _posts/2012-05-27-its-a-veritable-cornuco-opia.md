@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It’s a veritable cornuco-opia!"
-date: 2012-05-27
+date: 2012-05-27 11:42
 author: "Alevtina Verbovetskaya"
 excerpt: "A King of the Hill episode about a food co-op was all the push I needed. I joined the Greene Hill Food Co-op in Brooklyn—less than a mile from my house. It was, as advertised, glorious."
 categories: [personal]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let them eat vegan!"
-date: 2012-05-01
+date: 2012-05-01 19:42
 author: "Alevtina Verbovetskaya"
 excerpt: "I went vegan—for no particular reason. Armed with Isa Chandra Moskowitz cookbooks and a compost pail, I'm biking to the farmers' market and loving every minute of it."
 categories: [personal]

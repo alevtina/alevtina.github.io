@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How could I forget to mention the bicycle"
-date: 2010-06-21
+date: 2010-06-21 16:23
 author: "Alevtina Verbovetskaya"
 excerpt: "Early morning rides through empty Staten Island parks, a 40-mile Five Boro tour, and a 55-mile century on the horizon. I'm finally taking cycling seriously."
 categories: [personal]
