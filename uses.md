@@ -17,8 +17,8 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 - **Eyeglasses:** [Warby Parker](https://www.warbyparker.com/eyeglasses) Gillian in Teal Tortoise with non-corrective lenses.
 - **Headphones:** [Bose QuietComfort 45](https://www.bose.com/pxp/bose-quietcomfort-45-headphones) are my daily drivers; AirPods (3rd gen with MagSafe charging case) when I need something smaller.
 - **Keyboard:** [Keychron K3 Pro](https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-custom-mechanical-keyboard) mechanical keyboard with RGB backlight and brown switches.
-- **Laptop:** 13" [Apple MacBook Air](https://www.apple.com/macbook-air/) M1 (2020). Fast enough, light enough, quiet enough. The fan-less design remains a delight.
-- **Monitors:** Two 27" [LG 4K Ultra HD](https://www.lg.com/us/4k-monitors) mounted on a dual-monitor stand.
+- **Laptop:** 13" [Apple MacBook Air](https://www.apple.com/macbook-air/) M1 (2020) is still fast enough, light enough, and quiet enough.
+- **Monitors:** Two 27" [LG 4K Ultra HD](https://www.lg.com/us/4k-monitors) monitors mounted on a dual-monitor stand.
 - **Mouse:** [Logi Ergo M575](https://www.logitech.com/en-us/shop/p/m575-ergo-wireless-trackball) wireless trackball.
 - **Phone:** [Apple iPhone](https://www.apple.com/iphone/) 16 Pro, in a [Peak Design Everyday Case](https://www.peakdesign.com/products/everyday-case-for-iphone-16-series). I also have their [car mount](https://www.peakdesign.com/products/car-vent-mount) and [bike mount](https://www.peakdesign.com/products/out-front-bike-mount), and they've genuinely changed how I use my phone while moving around.
 - **Watch:** [Apple Watch](https://www.apple.com/watch/) Series 10 with a [Milanese Loop](https://www.apple.com/shop/product/mghy4am/a/42mm-natural-milanese-loop) band.
@@ -62,6 +62,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 - **Road:** [2012 Salsa Casseroll](https://www.salsacycles.com/products/2012_casseroll). A steel commuter/road bike that has outlasted several life phases.
   - **Bag:** [Po Campo Bedford Backpack Pannier](https://www.pocampo.com/products/bedford-backpack-pannier). Clips onto the rack, wears as a backpack off the bike.
   - **Bottle:** [Bivo Trio](https://drinkbivo.com/products/bivo-trio) insulated water bottle. Absolutely worth it!
-  - **Pedals:** Shimano SPD/flat combo, though I'm rarely riding clipless these days.
+  - **Lock:** [Kryptonite New York Standard](https://www.kryptonitelock.com/en/products/product-information/current-key/002154.html) U-lock.
+  - **Pedals:** Shimano PD-A530 combo clipless/platform pedals, though I'm rarely riding clipless these days.
   - **Rack:** [Topeak Explorer](https://www.topeak.com/us/en/product/1530-EXPLORER-(NON-DISC)-(W-O-SPRING)) rear rack with a trunk bag. The rack held a [BabySeat II](https://www.topeak.com/global/en/product/788-BABYSEAT-II) a million years ago.
   - **Saddle:** Brooks Cambium [C17 Carved](https://www.brooksengland.com/en_us/c17-carved.html).
