@@ -23,7 +23,10 @@ social:
 # Build settings
 destination: /tmp/jekyll-site
 markdown: kramdown
-highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
 theme: minima
 excerpt_separator: "<!--more-->"
 plugins:
