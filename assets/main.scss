@@ -559,6 +559,38 @@ footer.site-footer {
         }
     }
 
+    // Rouge line numbers (line_numbers: true in _config.yml)
+    .rouge-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0;
+
+        td {
+            padding: 0;
+        }
+
+        .rouge-gutter {
+            padding-right: 1rem;
+            color: var(--text-muted);
+            user-select: none;
+            text-align: right;
+            white-space: nowrap;
+            width: 1%;
+        }
+
+        .rouge-code {
+            width: 100%;
+        }
+
+        pre {
+            margin: 0;
+            padding: 0;
+            background: none;
+            border-radius: 0;
+            overflow-x: visible;
+        }
+    }
+
     img {
         max-width: 100%;
         height: auto;
