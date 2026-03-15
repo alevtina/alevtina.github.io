@@ -5,6 +5,7 @@ description: >-
   Librarian, knitter, vegan.
 baseurl: ""
 url: "https://verbovetskaya.com"
+timezone: America/New_York
 
 # Personal information
 author:
