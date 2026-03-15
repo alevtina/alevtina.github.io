@@ -8,7 +8,7 @@ series:
 series_part:
 cover: https://covers.openlibrary.org/b/isbn/9780141371481-L.jpg
 status: reading
-date_started: 2025-03-15
+date_started: 2026-03-14
 rating: 
 tags:
   - Young Adult & Children's
