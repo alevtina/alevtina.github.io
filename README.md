@@ -27,7 +27,8 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 ├── _data/                   # Webmention cache (auto-generated)
 ├── assets/                  # Styles and images
 ├── .github/workflows/       # GitHub Actions (build, deploy, send webmentions)
-└── *.md                     # Content pages (index, about, blog, presentations, etc.)
+├── blog/                    # Blog index (index.html, required for jekyll-paginate)
+└── *.md                     # Content pages (index, about, presentations, etc.)
 ```
 
 ## Reading Log
