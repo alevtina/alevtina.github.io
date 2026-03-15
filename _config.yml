@@ -26,7 +26,8 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    line_numbers: true
+    block:
+      line_numbers: true
 theme: minima
 excerpt_separator: "<!--more-->"
 plugins:
