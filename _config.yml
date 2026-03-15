@@ -6,6 +6,7 @@ description: >-
 baseurl: ""
 url: "https://verbovetskaya.com"
 timezone: America/New_York
+lang: en-US
 
 # Personal information
 author:
@@ -18,10 +19,18 @@ author:
 social:
   linkedin: https://www.linkedin.com/in/alevtina-verbovetskaya/
   github: alevtina
-  email: alevtina@verbovetskaya.com
+  email: site@verbovetskaya.com
   mastodon: https://glammr.us/@alevtina
+  links:
+    - https://www.linkedin.com/in/alevtina-verbovetskaya/
+    - https://github.com/alevtina
+    - https://glammr.us/@alevtina
 
 # Build settings
+future: false
+paginate: 10
+paginate_path: /blog/page:num/
+
 destination: /tmp/jekyll-site
 markdown: kramdown
 kramdown:
