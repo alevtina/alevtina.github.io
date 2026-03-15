@@ -6,8 +6,7 @@ date: "2013-10-28"
 last_modified_at: "2014-08-01"
 author: "Alevtina Verbovetskaya"
 excerpt: "Linking to Aleph OPAC searches requires removing session IDs from URLs and using specific parameters like find_scan_code—here's how to create persistent, proxied links."
-categories: 
-  - "ils"
+categories: [work]
 tags: [aleph, technology]
 redirect_from: /blog/2013/10/28/linking-to-aleph-opac-and-search-results.html
 ---

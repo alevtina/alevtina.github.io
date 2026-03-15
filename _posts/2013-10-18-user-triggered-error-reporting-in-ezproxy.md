@@ -5,8 +5,7 @@ title: "User-triggered error reporting in EZproxy"
 date: "2013-10-18"
 author: "Alevtina Verbovetskaya"
 excerpt: "I enhanced EZproxy's needhost.htm with a Google Form that lets users report access errors—collecting browser data automatically and emailing me the results for quick troubleshooting."
-categories: 
-  - "proxy"
+categories: [work]
 tags: [ezproxy, technology]
 redirect_from: /blog/2013/10/18/user-triggered-error-reporting-in-ezproxy.html
 ---

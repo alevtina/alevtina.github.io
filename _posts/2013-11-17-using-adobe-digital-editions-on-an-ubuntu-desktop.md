@@ -5,8 +5,7 @@ title: "Using Adobe Digital Editions on an Ubuntu desktop"
 date: "2013-11-17"
 author: "Alevtina Verbovetskaya"
 excerpt: "I installed Ubuntu but panicked when I couldn't install Adobe Digital Editions for my e-reader—until I discovered how to use Wine and Winetricks to get ADE working perfectly."
-categories: 
-  - "general"
+categories: [general]
 tags: [technology]
 redirect_from: /blog/2013/11/17/using-adobe-digital-editions-on-an-ubuntu-desktop.html
 ---

@@ -5,8 +5,8 @@ date: "2025-08-02 19:16"
 last_modified_at: "2025-08-02 20:36"
 author: "Alevtina Verbovetskaya"
 excerpt: "We used to read release notes the way most people do: quickly, right before a meeting, and with mild dread. Then we tried something different."
-categories: [leadership]
-tags: [library-systems, alma, primo-ve, change-management]
+categories: [work]
+tags: [leadership, library-systems, alma, primo-ve, change-management]
 redirect_from:
 - /blog/2025/08/02/we-read-the-release-notes-so-you-dont-have-to.html
 - /blog/we-read-the-release-notes-so-you-dont-have-to.html

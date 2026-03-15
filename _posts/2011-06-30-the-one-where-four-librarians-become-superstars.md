@@ -4,9 +4,8 @@ title: "The one where four librarians become superstars"
 date: "2011-06-30"
 author: "Alevtina Verbovetskaya"
 excerpt: "Four librarians used the campus film studio's teleprompter and green screen to create Google-style instructional videos—short, sweet tutorials under one minute each."
-categories: 
-  - "instruction"
-tags: [videos, tutorials]
+categories: [work]
+tags: [instruction, videos, tutorials]
 redirect_from: /blog/2011/06/30/the-one-where-four-librarians-become-superstars.html
 ---
 

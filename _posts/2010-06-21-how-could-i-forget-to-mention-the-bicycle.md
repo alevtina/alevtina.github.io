@@ -1,0 +1,14 @@
+---
+layout: post
+title: "How could I forget to mention the bicycle"
+date: 2010-06-21
+author: "Alevtina Verbovetskaya"
+excerpt: "Early morning rides through empty Staten Island parks, a 40-mile Five Boro tour, and a 55-mile century on the horizon. I'm finally taking cycling seriously."
+categories: [personal]
+tags: [bicycles]
+---
+I’ve been on a real bicycling kick lately. This is good news because I really want to go on a small bike tour this summer and because I’ve signed up for the [NYC Century Bike Tour](https://nyccentury.org/) (just 55 miles, not the whole century). This was all spurred by the [TD Bank Five Boro Bike Tour](https://www.bikenewyork.org/rides/fbbt/) in which I had participated back in May. It was exhilarating biking through the five boroughs (40+ miles) in a matter of hours! Thirty-two thousand people (and bikes!) had shown up for the event and it was insane. I had never experienced anything like it. After Alex and I completed this tour, I was determined to get back on my bike and ride regularly. Finally, a month and a half later, I’m taking this promise seriously.
+
+Last week, I decided that I ought to start taking my bike out early in the mornings before it gets too hot. (The weather has been in the 90s lately, with high humidity. This is awful for bicyclists.) There really isn’t anywhere to go so I just head to the nearby parks. At 8:30 in the morning, these areas are deserted and I feel so serene looking out over the water. (The benefit of living on an island is that almost every park has water views.) It’s a great way to start the day. I also sometimes do yoga before I head out to help me wake up and feel energized. (It’s amazing what physical activity does for the mind.) Then I spend the ride maneuvering the streets of Staten Island in solitude, just me and my thoughts on my bike. It’s really the best part of my day and I regret not making this part of my daily routine sooner.
+
+However, because I eventually want to do long tours on my bike, these excursions are not just for relaxation. I have to keep track of the rides so I can build up my tolerance. I recently upgraded my iPhone to the 3G model specifically because it has GPS capabilities and I knew that there would be apps for runners and cyclists for just this purpose. I downloaded [RunKeeper](https://www.runkeeper.com/) and I’m now able to track my rides. Thanks to this app, I know that this morning’s bike ride to the [Conference House Park](https://www.nycgovparks.org/parks/conferencehousepark/) was 9.44 miles long and that I climbed 381 feet. (That explains why, 7 hours later, I’m still so exhausted.) This is longer than Friday’s ride (9.27 miles, 492-foot climb), which was longer than Thursday’s ride (8.18 miles, 352-foot climb). I can take progressively longer rides and increase my tolerance. Hopefully, by the end of this month, I won’t feel so tired after a 400-foot climb over 10 miles.

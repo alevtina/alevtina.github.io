@@ -4,9 +4,8 @@ title: "The more I see the less I know"
 date: "2011-01-28"
 author: "Alevtina Verbovetskaya"
 excerpt: "After 3 weeks of design iterations, my RefWorks flyer is ready for campus-wide distribution—including 4 workshops scheduled at different times to accommodate all schedules."
-categories: 
-  - "instruction"
-tags: []
+categories: [work]
+tags: [instruction]
 redirect_from: /blog/2011/01/28/the-more-i-see-the-less-i-know.html
 ---
 

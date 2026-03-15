@@ -4,6 +4,7 @@ title: "Counting to ten"
 date: 2026-03-02
 author: "Alevtina Verbovetskaya"
 excerpt: "Six weeks into our agentic AI peer mentoring cohort, Stephen asked whether any of this had changed people's minds. Then he waited."
+categories: [work]
 tags: [leadership, artificial-intelligence]
 redirect_from:
 - /blog/2026/03/02/the-conversation-we-did-not-plan.html

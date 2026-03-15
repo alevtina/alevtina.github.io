@@ -1,0 +1,16 @@
+---
+layout: post
+title: "It’s a veritable cornuco-opia!"
+date: 2012-05-27
+author: "Alevtina Verbovetskaya"
+excerpt: "A King of the Hill episode about a food co-op was all the push I needed. I joined the Greene Hill Food Co-op in Brooklyn—less than a mile from my house. It was, as advertised, glorious."
+categories: [personal]
+tags: [veganism, co-op]
+---
+When I stayed home earlier this week with a stomach ache, I had a knitting marathon while watching the 12th season of [King of the Hill](https://www.imdb.com/title/tt0118375/). This season included one of my favorite episodes: [Raise the Steaks](https://www.imdb.com/title/tt1143442/), where Hank joins a food co-op to enjoy its delicious produce and fresh steaks. (My favorite part of the episode is when Hank says, “You’re not making any sense. Tomatoes don’t taste like anything!” and Peggy exclaims, “If this is what food tastes like, what have we been eating!?”) It was the final push I needed to go and join a local food co-op.
+
+Brooklyn is home to one of the most famous co-ops out there: [Park Slope Food Coop](https://foodcoop.com/). In fact, it’s one of the oldest and largest food co-ops in the United States, having been established in 1973 and being home to more than 16,000 members. However, it’s not as convenient to my home as I’d like and it keeps making the news for unfavorable things, like its [militaristic work requirements](https://www.nytimes.com/2009/10/25/nyregion/25coop.html) and the ensuing [emotional unrest](https://www.chow.com/food-news/53529/wont-work-for-food/). So I began looking for other options and that’s when I came across the [Greene Hill Food Co-op](https://www.greenehillfood.coop/).
+
+I hadn’t heard of this co-op before and that surprised me: it’s less than a mile (a 20-minute walk or an 8-minute bike ride!) from my house, how could I have missed it? Turns out, it’s a little over a year old and only recently reached 1,000 members. They’re also only open two days a week at this point, which is a bummer but understandable considering they’re 100% member-owned and -operated. (The more contributing members, the more operating hours!) So I decided to make the commitment and filled out the [online form to join](https://greenehillfood.coop/join-us/)! The next step was visiting the store to get my member card and shop! So I went yesterday with Alex, got my key fob, and shopped. It was glorious! Well, not “glorious” but “as advertised.” It’s a small space (they’re only using one of the three storefronts–totaling 2,700 square feet–they’re leasing) but it wasn’t crowded… and there is a limited selection of products but it’s all things I shop for on a regular basis. I could see it growing, expanding, and evolving, and I foresee many happy shopping experiences at this co-op!
+
+All that’s left is for me to schedule my work shifts and start working. (The co-op uses an external website to manage the shifts and I haven’t received my login credentials yet.) That’s going to be interesting, especially in the fall when I begin classes at the [CUNY Grad Center](https://gc.cuny.edu/) while working full-time. What have I signed myself up for!?

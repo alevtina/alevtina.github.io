@@ -4,9 +4,8 @@ title: "Video tutorials a la carte"
 date: "2011-09-27"
 author: "Alevtina Verbovetskaya"
 excerpt: "Our library instructional videos turned out exactly as envisioned—short tutorials students can email to themselves, created through collaboration across campus departments."
-categories: 
-  - "instruction"
-tags: [teaching, tutorials, videos]
+categories: [work]
+tags: [instruction, teaching, tutorials, videos]
 redirect_from: /blog/2011/09/27/video-tutorials-a-la-carte.html
 ---
 
