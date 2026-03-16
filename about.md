@@ -23,6 +23,8 @@ Outside of work, I knit (started in library school and never stopped), cook vega
 
 I’m trying to read more and watch less TV. It’s a work in progress.
 
+For a periodic snapshot of what I’m up to right now, see my [/now page](/now/).
+
 # About This Site
 
 A personal blog, a reading log, a knitting notebook, and an excuse to stay weird on the internet. Part IndieWeb experiment, part archive, part nostalgia for when people owned their little corners of the web.
