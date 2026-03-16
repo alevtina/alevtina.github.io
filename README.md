@@ -19,7 +19,7 @@ Personal website. Built with Jekyll 4, hosted on GitHub Pages via GitHub Actions
 ```
 ├── _config.yml              # Site configuration
 ├── _includes/               # Partials (header, footer, webmention templates, etc.)
-├── _layouts/                # Page layouts (default, post, read, knit)
+├── _layouts/                # Page layouts (default, post, book, knit)
 ├── _posts/                  # Blog posts
 ├── _reading/                # IndieWeb read posts (synced via calibre-web-reads)
 ├── _knitting/               # Knitting project files (synced from Ravelry)
