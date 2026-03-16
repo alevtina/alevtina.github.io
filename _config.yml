@@ -41,6 +41,7 @@ kramdown:
 theme: minima
 excerpt_separator: "<!--more-->"
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
