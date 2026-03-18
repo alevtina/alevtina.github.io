@@ -179,6 +179,11 @@ https://verbovetskaya.com/blog/using-adobe-digital-editions-on-an-ubuntu-desktop
   http://www.barnesandnoble.com/nook/: false
   http://robert.penz.name/440/howto-install-adobe-digital-editions-on-ubuntu-12-04-and-use-it-with-an-e-book-reader/: false
   http://askubuntu.com/questions/32549/using-adobe-digital-editions-to-transfer-books-to-the-nook-or-a-workaround/308569: false
+  https://www.adobe.com/products/digital-editions.html: false
+  https://www.winehq.org/: false
+  https://www.barnesandnoble.com/nook/: false
+  https://robert.penz.name/440/howto-install-adobe-digital-editions-on-ubuntu-12-04-and-use-it-with-an-e-book-reader/: false
+  https://askubuntu.com/questions/32549/using-adobe-digital-editions-to-transfer-books-to-the-nook-or-a-workaround/308569: false
 https://verbovetskaya.com/blog/life-with-pi-microcomputing-in-academia/:
   http://www.centerdigitaled.com/events/CUNY-IT-Conference-2013.html: false
   http://www.verbovetskaya.com/: false
@@ -213,3 +218,84 @@ https://verbovetskaya.com/blog/life-with-pi-microcomputing-in-academia/:
 https://verbovetskaya.com/blog/the-conversation-we-did-not-plan/:
   https://github.com/szweibel/reference_agent: false
   https://web.archive.org/web/20260226233531/https://www.cnn.com/2026/02/26/tech/anthropic-rejects-pentagon-offer: false
+https://verbovetskaya.com/blog/i-want-ride-my-bicycle/:
+  https://newyork.craigslist.org/bik/: false
+  https://en.wikipedia.org/wiki/Rockland_County,_New_York: false
+  https://www.yelp.com/biz/the-bike-shop-of-staten-island-staten-island: false
+https://verbovetskaya.com/blog/google-maps-wants-to-kill-me/:
+  https://googleblog.blogspot.com/2010/03/biking-directions-added-to-google-maps.html: false
+  https://www.ridethecity.com/: false
+  https://www.mapmyride.com/: false
+  https://www.difara.com/: false
+  ? https://maps.google.com/maps?f=d&source=s_d&saddr=Hylan+Blvd+and+Seaview+Ave,+Staten+Island,+NY&daddr=1424+Avenue+J,+Brooklyn,+NY&hl=en&geocode=FaJNawId5nGV-ymrPPRjxE7CiTHJqDSoMq9SRg
+  : false
+  https://www.transalt.org/files/resources/bridges/verrazano.html: false
+  https://maps.google.com/support/bin/answer.py?hl=en&answer=162873: false
+https://verbovetskaya.com/blog/how-could-i-forget-to-mention-the-bicycle/:
+  https://nyccentury.org/: false
+  https://www.bikenewyork.org/rides/fbbt/: false
+  https://www.runkeeper.com/: false
+  https://www.nycgovparks.org/parks/conferencehousepark/: false
+https://verbovetskaya.com/blog/lake-vanare/:
+  https://en.wikipedia.org/wiki/Party_Down: false
+  https://www.hmdb.org/marker.asp?marker=9257: false
+  https://www.flickr.com/photos/pilotgirl/4753269725/: false
+https://verbovetskaya.com/blog/steel-is-real/:
+  https://www.bikeforums.net/archive/index.php/t-24598.html: false
+  https://salsacycles.com/bikes/casseroll/: false
+  https://brooklynspoke.com/2011/12/18/tithe-to-transportation-alternatives/: false
+https://verbovetskaya.com/blog/let-them-eat-vegan/:
+  http://www.grownyc.org/compost: false
+https://verbovetskaya.com/blog/its-a-veritable-cornuco-opia/:
+  https://www.imdb.com/title/tt0118375/: false
+  https://www.imdb.com/title/tt1143442/: false
+  https://foodcoop.com/: false
+  https://www.nytimes.com/2009/10/25/nyregion/25coop.html: false
+  https://www.chow.com/food-news/53529/wont-work-for-food/: false
+  https://www.greenehillfood.coop/: false
+  https://greenehillfood.coop/join-us/: false
+  https://gc.cuny.edu/: false
+https://verbovetskaya.com/blog/at-iras-feet/:
+  https://www.greenehillfood.coop/: false
+  https://www.tourdebrooklyn.org/: false
+  https://www.ny1.com/: false
+  https://www.ny1.com/content/top_stories/162370/cyclists-bring-flair--enthusiasm-to-annual--tour-de-brooklyn-: false
+  https://www.sunyla.org/annual/2012: false
+  http://wwws.lehman.edu/library/video-tutorials.php: false
+  https://www.sunyla.org/sunyla12/F39_SUNYLA2012_-_Verbovetskaya.pptx: false
+  https://www.turtlemountain.com/products/soy-milk-ice-creams: false
+  https://www.sleepwalkmovie.com/: false
+  https://www.bam.org/view.aspx?pid=1193: false
+  https://www.johnmulaney.com/: false
+  https://www.radiolab.org/series/in-the-dark/: false
+https://verbovetskaya.com/blog/nyccentury/:
+  https://www.transalt.org/: false
+  https://www.nyccentury.org/: false
+  https://strava-embeds.com/embed.js: false
+  https://www.nycgovparks.org/parks/highland-park: false
+  https://www.nycgovparks.org/parks/forest-park: false
+  https://www.nycgovparks.org/parks/ralph-demarco-park: false
+  https://www.nycgovparks.org/parks/astoria-park: false
+  https://www.nycgovparks.org/parks/harlem-river-park-bikeway: false
+  https://en.wikipedia.org/wiki/Harlem_River_Drive: false
+  https://salsacycles.com/bikes/archive/2012_casseroll: false
+  https://bike.shimano.com/publish/content/global_cycle/en/us/index/products/pedals/road/product.-code-PD-A530.-type-.pd_road.html: false
+  https://buy.garmin.com/en-US/US/into-sports/running/forerunner-620/prod122785.html: false
+  https://www.louisgarneau.com/us-en/product/0/1487187/_/MULTI_LITE_CYCLING_SHOES: false
+  https://www.rei.com/product/738015/shimano-sh-56-multi-directional-release-spd-cleats: false
+  https://shop.pearlizumi.com/product.php?mode=view&pc_id=379&product_id=2112056&outlet=&color_code=021: false
+  https://www.shebeest.com/threads/bottoms/?&name=Century+Elite+Short&style=3030&color=black: false
+  https://castelli-cycling.com/en/products/detail/984/: false
+  https://shop.pearlizumi.com/product.php?mode=view&pc_id=336&product_id=1792669&outlet=&color_code=508: false
+  https://shop.pearlizumi.com/product.php?mode=view&pc_id=336&product_id=1794903&outlet=&color_code=021: false
+  https://www.desotosport.com/product/shb: false
+  https://shop.pearlizumi.com/product.php?mode=view&pc_id=491&product_id=2110796&outlet=&color_code=021: false
+  https://www.scott-sports.com/global/en/products/2276420002222/SCOTT: false
+  https://thinkbabybottles.3dcartstores.com/Thinksport-LIVESTRONG-sunscreen-SPF-50-3oz_p_178.html: false
+  https://www.tifosioptics.com/products/1120300331/: false
+  https://www.assos.com/en/19/singleProduct.aspx?prod=175: false
+  https://www.topeak.com/products/pumps/pocketrocket: false
+  https://www.topeak.com/products/bags/mtxtrunkbagex: false
+https://verbovetskaya.com/blog/where-i-decide-to-lift-things-up-and-put-them-down/:
+  https://www.worldcat.org/oclc/156891965: false
+  https://www.livingsocial.com/: false
