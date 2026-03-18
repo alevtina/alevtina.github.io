@@ -54,7 +54,7 @@
 
 // Override minima defaults before they load
 $base-font-size: 1.2rem;
-$base-line-height: 1.75;
+$base-line-height: 1.4;
 
 // Flexoki light
 :root {
@@ -108,7 +108,7 @@ body {
     font-family: 'Inter', system-ui, sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
-    line-height: 1.75;
+    line-height: 1.4;
     color: var(--text);
     background: var(--bg);
     max-width: 720px;
@@ -260,7 +260,7 @@ nav.site-nav {
 h1, h2, h3, h4 {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.4;
     color: var(--text);
 }
 
@@ -513,7 +513,7 @@ footer.site-footer {
 // Table of contents (kramdown {:toc})
 #markdown-toc {
     font-size: 0.9em;
-    line-height: 1.6;
+    line-height: 1.4;
     border-left: 3px solid var(--accent);
     padding-left: 1rem;
     margin-bottom: 2rem;
@@ -1411,7 +1411,7 @@ html {
 
 .webmention__content {
     color: var(--text-light);
-    line-height: 1.5;
+    line-height: 1.4;
     font-size: 0.9em;
 
     a {
