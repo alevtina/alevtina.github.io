@@ -9,10 +9,10 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 
 ## Hardware
 
-- **Desk:** [UPLIFT](https://www.upliftdesk.com/custom-solid-wood-standing-desk/) electric standing desk.
 - **Camera:** [Canon EOS R6](https://www.usa.canon.com/shop/digital-cameras/mirrorless-cameras) with a [Canon RF35mm F1.8 macro lens](https://www.usa.canon.com/shop/p/rf35mm-f1-8-macro-is-stm) is my totally over-the-top webcam setup.
   - [Amaran PT2c](https://amarancreators.com/pages/amaran-pt2c) LED tube light
   - [Amaran P60x](https://amarancreators.com/pages/amaran-p60x) LED panel light
+- **Desk:** [UPLIFT](https://www.upliftdesk.com/custom-solid-wood-standing-desk/) electric standing desk.
 - **E-Reader:** [Kobo](https://us.kobobooks.com/collections/ereaders) Libra 2 with a SleepCover. I use [Calibre](https://calibre-ebook.com/) to manage my library and sideload books. No Amazon ecosystem for me, *thankyouverymuch*.
 - **Eyeglasses:** [Warby Parker](https://www.warbyparker.com/eyeglasses) Gillian in Teal Tortoise with non-corrective lenses.
 - **Headphones:** [Bose QuietComfort 45](https://www.bose.com/pxp/bose-quietcomfort-45-headphones) are my daily drivers; AirPods (3rd gen with MagSafe charging case) when I need something smaller.
