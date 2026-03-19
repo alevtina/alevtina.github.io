@@ -36,37 +36,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url('/assets/fonts/cormorant-garamond-400.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url('/assets/fonts/cormorant-garamond-400-italic.woff2') format('woff2');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url('/assets/fonts/cormorant-garamond-600.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url('/assets/fonts/cormorant-garamond-600-italic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
 
 // Override minima defaults before they load
 $base-font-size: 1.2rem;
