@@ -104,7 +104,7 @@ A message will be shown to authorize the script; click "Continue." Read the term
 
 You should now have a form, embedded in your EZproxy's needhost.htm file, that users can submit to self-report problems accessing resources. Their responses will be logged in a spreadsheet in your Google Drive account and emailed to you upon submission. Go forth and troubleshoot!
 
-**Resources**
+## Resources
 
 - [NeedHost alerts via Google Form](http://pluto.potsdam.edu/ezproxywiki/index.php/NeedHost_alerts_via_Google_Form)
 - [Tip: Making a Google Doc submission form email you the results](http://www.blogxpertise.com/2012/04/tip-making-google-doc-submission-form.html)

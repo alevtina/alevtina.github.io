@@ -11,13 +11,9 @@ tags: [aleph, technology]
 redirect_from: /blog/2013/10/28/linking-to-aleph-opac-and-search-results.html
 ---
 
-> **Note**
-> 
-> This post was updated in August 2014 to reflect the new URL for the CUNY Catalog.
-
 [Linking to the Aleph OPAC](#linking-to-the-aleph-opac) is easy. [Linking to a specific search](#linking-to-a-specific-search) is... well, it's not as easy and it requires some practice. I'll explain how to do them both.
 
-### Linking to the Aleph OPAC
+## Linking to the Aleph OPAC
 
 I don't know how other institutions do it but, at CUNY, we encourage folks to [proxy their OPAC links](http://www.oclc.org/support/services/ezproxy/documentation/example/opac.en.html). This ensures that when a user attempts to view an e-resource, he/she will be able to authenticate himself/herself and gain access to that resource. Otherwise, the user will be stuck behind a paywall.
 
@@ -31,7 +27,7 @@ Of course, this is going just through the central office proxy server (ensuring 
 
 Using this properly formatted URL, your patrons will be defaulted to their local library search scope and they will be pinged for authentication when they reach a licensed e-resource.
 
-### Linking to a specific search
+## Linking to a specific search
 
 But what about when you want to link to a specific search? For example, a faculty member would like to link to all the library's holdings of Junot Diaz's work from her Blackboard course site. How can we help her with this?
 
@@ -74,6 +70,6 @@ Here, instead of a `find_scan_code`, we're using a `ccl_term` (Common Command La
 
 These characters have to be escaped in the `ccl_term` parameter. For a list of the CCL terms, see the [CUNY Catalog help files](http://libsearch.cuny.edu/F/?func=file&file_name=help-1#ccl).
 
-### Embedding a search box
+## Embedding a search box
 
 Instructions for embedding a search box to the CUNY Catalog from anywhere (e.g., LibGuides, SerialsSolutons, etc.) are too long to include in this post. However, they are available on the [Support @ OLS](http://support.cunylibraries.org/systems/aleph/web-opac/search-box) website.

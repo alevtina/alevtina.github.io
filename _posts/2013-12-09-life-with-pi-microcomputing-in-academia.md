@@ -12,11 +12,11 @@ redirect_from: /blog/2013/12/09/life-with-pi-microcomputing-in-academia.html
 
 Last Friday, I co-led a presentation on single-board computers at the [2013 CUNY IT Conference](http://www.centerdigitaled.com/events/CUNY-IT-Conference-2013.html). Since it was a very well-attended session (where we had great discussions with the attendees), I thought I'd provide a brief recap and link to the presentation material.
 
-### Life with Pi: Microcomputing in Academia
+## Life with Pi: Microcomputing in Academia
 
 ![Life with Pi: Microcomputing in Academia](/assets/img/life_with_pi_-_microcomputing_in_academia.png)
 
-#### Introduction to single-board computers
+### Introduction to single-board computers
 
 [Allie Verbovetskaya](http://www.verbovetskaya.com/), Web & Mobile Systems Librarian / CUNY
 
@@ -42,7 +42,7 @@ So you can begin to see how microcomputers can be used for more than basic tinke
 
 But why should you bother to do any of this? Well, there are actually uses beyond recreation. In fact, there is evidence of more and more applications in academia. My colleague Junior discussed uses in the classroom while Robin explained how microcomputers can be used in and for research. Steve discussed the benefits of teaching microcomputing techniques and explain why computational literacy is becoming more important in today's world. The presentation was then rounded out with demonstrations of projects that each of us had constructed, followed by questions from the audience.
 
-#### Uses in pedagogy
+### Uses in pedagogy
 
 [Junior Tidal](http://www.juniortidal.com/), Web Services & Multimedia Librarian / NYCCT
 
@@ -56,7 +56,7 @@ Junior discussed uses of microcomputers in the classroom, including:
 
 You can also see Junior's write-up of our presentation for more information about his section: [http://juniortidal.com/2013/12/life-of-pi/](http://juniortidal.com/2013/12/life-of-pi/).
 
-#### Uses in research
+### Uses in research
 
 [Robin Davis](http://www.robincamille.com/), Emerging Technologies & Distance Services Librarian / John Jay College
 
@@ -70,26 +70,26 @@ Robin opened with several real-life examples of microcomputers currently being u
 
 For a complete overview of Robin's contribution to the presentation, see the write-up on her website: [http://www.robincamille.com/presentations/microcomputing/](http://www.robincamille.com/presentations/microcomputing/).
 
-#### Computational literacy
+### Computational literacy
 
 [Stephen Zweibel](http://www.zweibel.org/), Visiting Lecturer (Librarian) / Hunter College
 
 Steve discussed the importance of computational literacy and how microcomputers can be used to teach this literacy to the next generation of learners. He defined "computational literacy" as the ability to use computers and computational technologies to solve problems, and explained how it supports algorithmic thinking and collaboration.
 
-#### Demonstrations
+## Demonstrations
 
 - I discussed setting up a personal Dropbox-clone using an [ownCloud](http://www.owncloud.com/) instance on a Raspberry Pi-powered web server, to be used as a classroom repository or just a safe place to store potentially sensitive materials.
 - Junior demonstrated his "auto-citation" project. Using the [Open Library API](https://openlibrary.org/developers/api), he created a script that makes it possible to scan an ISBN (or enter it manually) and get a citation (in APA, MLA, and Chicago styles) in return.
 - Robin showed a light level logger, wherein she used Python to read data submitted by a 95¢ photocell sensor wired on a breadboard (hooked up to a Raspberry Pi).
 - Steve described the concept of a [LibraryBox](http://jasongriffey.net/librarybox/) (digital file repository available via its own Wi-Fi signal) and encouraged the audience to connect to his LibraryBox network and download some documents to see his project in action.
 
-### Presentation Material
+## Presentation Material
 
 The slides are available online: [http://www.robincamille.com/jj/cunyit/](http://www.robincamille.com/jj/cunyit/).
 
 We also created a handout that was made available at the presentation. You can download it from [http://www.robincamille.com/jj/cunyit/handout.pdf](http://www.robincamille.com/jj/cunyit/handout.pdf).
 
-### Colophon
+## Colophon
 
 The four co-presenters worked on this presentation collaboratively using git and a shared repository on [GitHub](http://www.github.com/): [https://github.com/szweibel/CUNY-IT-Presentation](https://github.com/szweibel/CUNY-IT-Presentation). It was the first time any of us has used GitHub in this manner and it proved quite successful.
 

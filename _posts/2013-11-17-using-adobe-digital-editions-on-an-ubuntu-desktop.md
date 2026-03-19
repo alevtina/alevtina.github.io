@@ -28,7 +28,7 @@ That's it! You now have ADE 1.7.2 installed on your Ubuntu machine that can be a
 
 [^1]: I've only tested this setup with a [Nook](https://www.barnesandnoble.com/nook/) but I assume the same steps will work for all other ADE-supported e-reading devices.
 
-**Resources**
+## Resources
 
 * [Howto install Adobe Digital Editions on Ubuntu 12.04 and use it with an e-book reader](https://robert.penz.name/440/howto-install-adobe-digital-editions-on-ubuntu-12-04-and-use-it-with-an-e-book-reader/)
 * [Using Adobe Digital Editions to transfer books to the Nook, or a workaround](https://askubuntu.com/questions/32549/using-adobe-digital-editions-to-transfer-books-to-the-nook-or-a-workaround/308569#308569)
