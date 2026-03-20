@@ -93,13 +93,9 @@ body {
     padding: 2rem 1.5rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
     body {
         font-size: 1.375rem;
-    }
-
-    .site-title {
-        font-size: 3.0rem;
     }
 }
 
@@ -157,6 +153,12 @@ a {
 
     &:hover {
         color: var(--accent);
+    }
+}
+
+@media (min-width: 600px) {
+    .site-title {
+        font-size: 3.0rem;
     }
 }
 
