@@ -34,6 +34,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
   - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) keeps my web-browsing experience ad-free.
 - **Email:** [Fastmail](https://www.fastmail.com/), though I am still weaning myself off of Gmail.
 - **IDE:** [Visual Studio Code](https://code.visualstudio.com/).
+  - [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
   - [Flexoki](https://github.com/kepano/flexoki/tree/main/vscode)
   - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
   - [vscode-pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
@@ -48,7 +49,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 - **Fitness:** [Strong](https://www.strong.app/) for weightlifting; [Strava](https://www.strava.com/) for rides.
 - **Journal:** [Day One](https://dayoneapp.com/), though I'm actively looking for an exit since Automattic acquired it.
 - **Nutrition:** [Cronometer](https://cronometer.com/) when I'm tracking calories and macros.
-- **RSS:** [Reeder](https://reederapp.com/) allows me to keep up with the web without doomscrolling.
+- **RSS:** [Reeder Classic](https://reederapp.com/classic/) allows me to keep up with the web without doomscrolling.
 - **Reading:** [Libby](https://libbyapp.com/) for ebooks and audiobooks from the library.
 - **Recipes:** [Mela](https://mela.recipes/) is a clean, no-nonsense recipe app for iOS/macOS. Import from a URL, cook, done.
 - **To Do:** Apple Reminders integrates nicely into the iOS ecosystem and our family, allowing us to share lists and reminders with each other.
