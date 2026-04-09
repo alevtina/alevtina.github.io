@@ -13,7 +13,6 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
   - 2 x [Amaran PT2c](https://amarancreators.com/pages/amaran-pt2c) LED tube lights
   - 1 x [Amaran P60x](https://amarancreators.com/pages/amaran-p60x) LED panel light
 - **Desk:** [UPLIFT](https://www.upliftdesk.com/custom-solid-wood-standing-desk/) electric standing desk.
-- **E-Reader:** [Kobo](https://us.kobobooks.com/collections/ereaders) Libra 2 with a SleepCover. I use [Calibre](https://calibre-ebook.com/) to manage my library and sideload books. No Amazon ecosystem for me, *thankyouverymuch*.
 - **Headphones:** [Bose QuietComfort 45](https://www.bose.com/pxp/bose-quietcomfort-45-headphones).
 - **Keyboard:** [Keychron K3 Pro](https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-custom-mechanical-keyboard) mechanical keyboard with RGB backlight and brown switches.
 - **Laptop:** 13" [Apple MacBook Air](https://www.apple.com/macbook-air/) M1 (2020) is still fast enough, light enough, and quiet enough.
@@ -62,6 +61,7 @@ A list of the things I actually use. Inspired by [uses.tech](https://uses.tech/)
 
 ## Everyday Carry
 
+- **E-Reader:** [Kobo](https://us.kobobooks.com/collections/ereaders) Libra 2 with a SleepCover. I use [Calibre](https://calibre-ebook.com/) to manage my library and sideload books. No Amazon ecosystem for me, *thankyouverymuch*.
 - **Eyeglasses:** [Warby Parker](https://www.warbyparker.com/eyeglasses) Gillian in Teal Tortoise with non-corrective lenses.
 - **Headphones:** [AirPods](https://www.apple.com/airpods/) (3rd gen with MagSafe charging case) for when I need something smaller.
 - **Keys:** [Orbitkey Key Organizer Active](https://www.orbitkey.com/collections/all-keys/products/key-organiser-active-1). I backed their Kickstarter back in 2016 and haven't looked back.
