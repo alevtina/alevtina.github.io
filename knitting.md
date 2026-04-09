@@ -6,7 +6,7 @@ description: "Knitting and crochet projects, synced from Ravelry."
 ---
 
 <div class="knitting-log">
-  <h1>Knitting</h1>
+  <h1>Knitting Notebook</h1>
   <p>Projects synced from <a href="https://www.ravelry.com/people/alevtina" rel="noopener noreferrer" target="_blank">Ravelry</a>.</p>
 
   {%- assign all_projects = site.knitting | sort: "date" | reverse -%}
