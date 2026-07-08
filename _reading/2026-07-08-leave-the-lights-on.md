@@ -10,6 +10,7 @@ cover:
 status: to-read
 date: 2026-07-08
 rating:
-tags: []
+tags: []'
+format: electronic
 calibre_id: 641
 ---

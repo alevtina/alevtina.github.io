@@ -11,5 +11,6 @@ status: finished
 date: 2026-01-01
 rating:
 tags: []
+format: electronic
 calibre_id: 647
 ---

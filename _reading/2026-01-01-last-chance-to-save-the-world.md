@@ -9,7 +9,8 @@ series_part: 3
 cover:
 status: finished
 date: 2026-01-01
-rating:
+rating: 3/5
 tags: ["Space Opera & Adventure"]
+format: electronic
 calibre_id: 553
 ---
