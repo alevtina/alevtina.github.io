@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "The Circle"
-author: "Dave Eggers"
+book_author: "Dave Eggers"
 isbn: "9780385351409"
 year: 2013
 series: "The Circle"

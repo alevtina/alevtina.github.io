@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "How to Steal a Galaxy"
-author: "Beth Revis"
+book_author: "Beth Revis"
 isbn: "9780756419486"
 year: 2024
 series: "Chaotic Orbits"

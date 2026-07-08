@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Full Speed to a Crash Landing"
-author: "Beth Revis"
+book_author: "Beth Revis"
 isbn: "9780756419462"
 year: 2024
 series: "Chaotic Orbits"

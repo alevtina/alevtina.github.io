@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "The Huntress"
-author: "Kate Quinn"
+book_author: "Kate Quinn"
 isbn: "9780062740380"
 year: 2019
 series:

@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Culpability"
-author: "Bruce Holsinger"
+book_author: "Bruce Holsinger"
 isbn: "9781954118973"
 year: 2025
 series:

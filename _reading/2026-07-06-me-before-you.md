@@ -1,15 +1,15 @@
 ---
-layout: read
+layout: book
 title: "Me Before You"
-author: "Jojo Moyes"
+book_author: "Jojo Moyes"
 isbn: "9781101606377"
 year: 2012
 series: "Me Before You"
 series_part: 1
 cover: "https://covers.openlibrary.org/b/id/14419339-L.jpg"
 status: finished
-date: 2026-01-01
-rating:
+date: 2026-07-06
+rating: 4/5
 tags: []
 format: electronic
 calibre_id: 647

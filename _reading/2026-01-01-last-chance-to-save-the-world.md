@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "Last Chance to Save the World"
-author: "Beth Revis"
+book_author: "Beth Revis"
 isbn: "9780756419714"
 year: 2025
 series: "Chaotic Orbits"

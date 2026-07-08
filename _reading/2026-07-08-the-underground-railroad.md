@@ -1,7 +1,7 @@
 ---
-layout: read
+layout: book
 title: "The Underground Railroad"
-author: "Colson Whitehead"
+book_author: "Colson Whitehead"
 isbn: "9780385537049"
 year: 2016
 series:
