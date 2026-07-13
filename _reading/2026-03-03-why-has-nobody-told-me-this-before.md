@@ -10,7 +10,7 @@ cover: "https://covers.openlibrary.org/b/id/12821544-L.jpg"
 status: to-read
 date: 2026-03-03
 rating:
-tags: []
+tags: ["Non-Fiction: Science & Ideas"]
 format: electronic
 calibre_id: 418
 ---
