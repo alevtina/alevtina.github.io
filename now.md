@@ -5,40 +5,36 @@ description: "A periodic snapshot of what I'm up to."
 permalink: /now/
 ---
 
-This is a [now page](https://nownownow.com/about)—a periodic snapshot of what I'm up to. It was last updated in March 2026.
+This is a [now page](https://nownownow.com/about)—a periodic snapshot of what I'm up to. It was last updated in July 2026.
 
 ## Work
 
-Most of my professional energy right now is going toward figuring out how to support librarians who write code. That means documentation—a style guide aimed at CUNY librarians who program—and working with the university's DevSecOps team to build infrastructure that brings some consistency to what librarian-programmers are already doing. This is happening across two overlapping efforts: the Alma Extensibility Task Force and the Library Agentic AI Peer Mentoring Program, which is in full swing this spring.
+Following the success of the peer mentoring AI program I helped organize in the spring, I put in for funding a second round. Just got a tentative green light but still waiting to hear about funding. ALA just put out [guidance on AI for libraries](https://www.ala.org/tools/standards-and-guidelines/guidance-use-artificial-intelligence-libraries) and they emphasize providing "paid time and institutional support for workers to learn how AI functions" so I'm hoping the university can support this cohort in this way.
 
 ## Life
 
-We had some unseasonably warm days earlier this month and I took full advantage: I biked ~20 miles a day for two glorious days in the mid-20s°C.
-
-I've been deep in a rabbit hole of bike touring videos lately—specifically families who tour by bike. It looks like a more interesting way to travel than backpacking, and frankly more my speed. I'm not ready to commit to anything yet but the idea is taking up a lot of mental real estate.
-
-We're also considering getting rid of our car. My partner stepped back from work a few years ago to focus on the house and parenting full time, which has been wonderful—but we didn't anticipate private school tuition, and the budget is tighter than we'd planned. The car is an obvious candidate. It's a big decision and we're still mulling it over.
-
-Lucy, my cat, will be 12 this summer. She's gained some weight and her energy is lower than it used to be, which is normal for a cat her age but she still needs exercise for both physical and mental health. I'm trying to be better about playing with her, which mostly means I need to be better about not being glued to a device all evening.
+I turned 40 this month! Not a big deal, doesn't make a difference... but it *is* a milestone.
 
 ## Watching
 
-I rewatch TV series to wind down or have on in the background. Most recently I rewatched *Schitt's Creek*; currently working through *Young Sheldon* again. With my partner, I've been enjoying *Jet Lag* and *Abolish Everything* on [Nebula](https://nebula.tv/). The most recent movie I watched was *Hoppers*—saw it in the theater with my son and we both enjoyed it.
+While he was sick, Phil got a trial subscription to MGM+ so he could watch [Project Hail Mary](https://www.imdb.com/title/tt12042730/). (We read that book together a few years ago.) He did not love the movie when he watched it alone in bed because he couldn't help comparing it to the book. However, he put it on the living room TV recently and we enjoyed the heck out of it!
+
+I just finished rewatching "Better Off Ted" and am now watching the third season of "Boarders" on Tubi.
 
 ## Listening
 
-To motivate myself to work out, I pick a book or podcast to listen to while I row and lift weights. Right now it's Emily Henry's *Funny Story*. I'm not finding it particularly gripping, but it's something to do.
-
-I also recently read about [The Paradox](https://theparadoxband.com), a punk band, and have had their album on repeat.
+I re-discovered [Adron](https://www.adronmusic.com/) and I've been really enjoying her [self-titled 2008 album](https://music.apple.com/us/album/adron/281092847). 
 
 ## Reading
 
-I started reading *The Witches* by Roald Dahl with my son at bedtime. We got 1.5 chapters in before he asked me to stop—it was scaring him.
+I recently finsiehd the *Me Before You* series of books by Jojo Moyes. I enjoyed the first one and only read the next two because of it but I did not like them as much.
+
+I'm now reading *The Gifted School* by Bruce Holsinger. I read another of his books, *Culpability*, last month and enjoyed it so figured I'd give this one a go, too. I'm really invested in it right now!
 
 For more, take a look at my [reading log](/reading/).
 
 ## Knitting
 
-I recently finished a garter stitch corner-to-corner blanket that took over two months to complete and I am thoroughly burned out. I'm supposed to be knitting a sweater for my partner but it's on hold until I can give it the attention it deserves.
+My son showed an interest in a hat I knit for my niece. So I decided to start knitting *him* a hat... but, as I was winding the hank of black yarn into a ball, he told me he didn't want a black hat anymore. He drew his desired design on graph paper but I already started the black hat so I'll finish that and figure out his intarsiamore intricate, colorworky one.
 
 For more, take a look at my [knitting notebook](/knitting/).
