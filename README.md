@@ -57,7 +57,7 @@ set -a && source .env && set +a
 python3 ravelry_sync.py
 ```
 
-The `.env` file needs `RAVELRY_USERNAME` and `RAVELRY_PASSWORD`. The script writes new files to `_knitting/` and never overwrites existing files — add notes freely. See `_knitting/README.md` for the front matter reference.
+The `.env` file needs `RAVELRY_API_USER` and `RAVELRY_API_PASS` (Basic Auth credentials from ravelry.com/pro/developer). The script writes new files to `_knitting/` and never overwrites existing files — add notes freely. See `_knitting/README.md` for the front matter reference.
 
 After syncing, trigger a Jekyll build manually (GitHub Actions won't auto-trigger from a script push):
 
