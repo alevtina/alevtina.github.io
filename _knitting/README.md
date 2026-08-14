@@ -5,8 +5,9 @@ Knitting and crochet project files, synced from Ravelry via `_scripts/ravelry_sy
 Each file is named `{date}-{slug}.md` where date is the completion date for
 finished projects, or the start date for in-progress and hibernating projects.
 
-**Existing files are never overwritten by the sync script**, so it's safe to
-edit the notes, tags, or any other field manually.
+**Existing files are overwritten by the sync script on every run** to stay in
+sync with Ravelry — do not edit these files by hand, edit the project on
+Ravelry instead and re-run the sync.
 
 ## Front matter fields
 
@@ -29,4 +30,4 @@ edit the notes, tags, or any other field manually.
 | `date` | Date used for sorting (completion date or start date) |
 | `tags` | Tags from Ravelry |
 
-Body content (below the `---`) is the project notes from Ravelry, preserved on first sync.
+Body content (below the `---`) is the project notes from Ravelry, refreshed on every sync.

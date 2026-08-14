@@ -6,7 +6,8 @@ Uses the projects/list endpoint plus the project detail endpoint (requires
 "Basic Auth: personal account access" credentials from ravelry.com/pro/developer).
 The detail endpoint provides notes, yarn details, and pattern URLs.
 
-Existing files are never overwritten, so manual edits are safe.
+Existing files are overwritten on every run to stay in sync with Ravelry —
+do not hand-edit files in the output directory.
 
 Required environment variables:
     RAVELRY_API_USER     Ravelry API key username (from ravelry.com/pro/developer)
@@ -227,20 +228,26 @@ def build_front_matter(project: dict, detail: dict) -> str:
     return content
 
 
-def write_entry(project: dict, detail: dict, output_dir: Path) -> bool:
-    """Write a _knitting/ Markdown file. Returns True if created."""
+def write_entry(project: dict, detail: dict, output_dir: Path, existing_path: Path | None) -> str:
+    """Write a _knitting/ Markdown file, overwriting any prior version. Returns 'created' or 'updated'."""
     _, name = split_name(project.get("name") or "Untitled")
     slug = slugify(name)
     d = entry_date(project)
     filepath = output_dir / f"{d}-{slug}.md"
 
-    if filepath.exists():
-        log.info("  Skipping existing: %s", filepath.name)
-        return False
+    content = build_front_matter(project, detail)
 
-    filepath.write_text(build_front_matter(project, detail), encoding="utf-8")
-    log.info("  Created: %s", filepath.name)
-    return True
+    if existing_path is not None and existing_path != filepath:
+        existing_path.unlink()
+
+    filepath.write_text(content, encoding="utf-8")
+
+    if existing_path is None:
+        log.info("  Created: %s", filepath.name)
+        return "created"
+
+    log.info("  Updated: %s", filepath.name)
+    return "updated"
 
 
 def main() -> None:
@@ -254,13 +261,13 @@ def main() -> None:
         log.error("Output directory does not exist: %s", OUTPUT_DIR)
         sys.exit(1)
 
-    existing_ids: set[int] = set()
+    existing_paths: dict[int, Path] = {}
     for md_file in OUTPUT_DIR.glob("*.md"):
         if md_file.name == "README.md":
             continue
         m = re.search(r"^ravelry_id:\s*(\d+)", md_file.read_text(encoding="utf-8"), re.MULTILINE)
         if m:
-            existing_ids.add(int(m.group(1)))
+            existing_paths[int(m.group(1))] = md_file
 
     session = get_session()
 
@@ -272,7 +279,7 @@ def main() -> None:
 
     log.info("Fetched %d projects from Ravelry", len(all_projects))
 
-    created = skipped = 0
+    created = updated = 0
 
     for project in all_projects:
         craft = project.get("craft_name") or ""
@@ -281,19 +288,16 @@ def main() -> None:
             continue
 
         project_id = project["id"]
-        if project_id in existing_ids:
-            skipped += 1
-            continue
-
         permalink = project.get("permalink") or str(project_id)
         detail = fetch_project_detail(session, permalink)
 
-        if write_entry(project, detail, OUTPUT_DIR):
+        result = write_entry(project, detail, OUTPUT_DIR, existing_paths.get(project_id))
+        if result == "created":
             created += 1
         else:
-            skipped += 1
+            updated += 1
 
-    log.info("Done — %d created, %d skipped", created, skipped)
+    log.info("Done — %d created, %d updated", created, updated)
 
 
 if __name__ == "__main__":
