@@ -9,9 +9,9 @@ status: frogged
 started: "2011-07-03"
 completed: 
 cover: "https://images4-a.ravelrycache.com/uploads/alevtina/84634578/DSC03461_medium2.JPG"
-yarn: "Cascade Yarns ® Ecological Wool®"
+yarn: "Cascade Yarns ® Ecological Wool ®"
 colorway: "8063 Grey-brown"
-yarn_url: "https://www.ravelry.com/yarns/library/cascade-yarns-ecological-wool"
+yarn_url: "https://www.ravelry.com/yarns/library/cascade-yarns-ecological-wool-"
 rating: 
 ravelry_url: "https://www.ravelry.com/projects/alevtina/cable-cardigan"
 ravelry_id: 6252042
