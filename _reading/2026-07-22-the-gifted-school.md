@@ -7,8 +7,8 @@ year: 2019
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/8748492-L.jpg"
-status: reading
-date: 2026-07-22
+status: finished
+date: 2026-01-01
 rating:
 tags: []
 calibre_id: 665
