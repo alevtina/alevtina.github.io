@@ -1118,6 +1118,12 @@ html {
     font-style: italic;
 }
 
+.knitting-completed {
+    display: block;
+    font-size: 0.75em;
+    color: var(--text-muted);
+}
+
 // -------------------------------------------------------------------------
 // Knitting collection — individual project page
 // -------------------------------------------------------------------------
@@ -1201,7 +1207,7 @@ html {
         &.knit-status--frogged     { color: var(--highlight); }
     }
 
-    .knit-date, .knit-designer, .knit-colorway {
+    .knit-designer, .knit-colorway {
         font-size: 0.875em;
         color: var(--text-muted);
     }

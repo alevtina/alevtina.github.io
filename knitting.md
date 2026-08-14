@@ -89,6 +89,9 @@ description: "Knitting and crochet projects, synced from Ravelry."
             {%- if project.yarn and project.yarn != "" -%}
             <span class="knitting-yarn">{{ project.yarn | escape }}</span>
             {%- endif -%}
+            {%- if project.completed and project.completed != "" -%}
+            <span class="knitting-completed">Completed {{ project.completed }}</span>
+            {%- endif -%}
           </div>
         </li>
         {%- endif -%}
@@ -133,6 +136,9 @@ description: "Knitting and crochet projects, synced from Ravelry."
               {%- endif -%}
               {%- if project.yarn and project.yarn != "" -%}
               <span class="knitting-yarn">{{ project.yarn | escape }}</span>
+              {%- endif -%}
+              {%- if project.completed and project.completed != "" -%}
+              <span class="knitting-completed">Completed {{ project.completed }}</span>
               {%- endif -%}
             </div>
           </li>

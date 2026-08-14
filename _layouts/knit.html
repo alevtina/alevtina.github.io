@@ -49,14 +49,16 @@ layout: default
         <dt>Status</dt>
         <dd>
           <span class="knit-status knit-status--{{ page.status }}">{{ status_label }}</span>
-          {%- if page.completed and page.completed != "" -%}
-          <span class="knit-date"> · {{ page.completed }}</span>
-          {%- endif -%}
         </dd>
 
         {%- if page.started and page.started != "" -%}
         <dt>Started</dt>
         <dd>{{ page.started }}</dd>
+        {%- endif -%}
+
+        {%- if page.completed and page.completed != "" -%}
+        <dt>Completed</dt>
+        <dd>{{ page.completed }}</dd>
         {%- endif -%}
 
         {%- if page.yarn and page.yarn != "" -%}
