@@ -57,13 +57,9 @@ set -a && source .env && set +a
 python3 ravelry_sync.py
 ```
 
-The `.env` file needs `RAVELRY_API_USER` and `RAVELRY_API_PASS` (Basic Auth credentials from ravelry.com/pro/developer). The script writes to `_knitting/` and overwrites existing files on every run to stay in sync with Ravelry — edit projects on Ravelry, not the local files. See `_knitting/README.md` for the front matter reference.
+The `.env` file needs `RAVELRY_API_USER` and `RAVELRY_API_PASS` (Basic Auth credentials from ravelry.com/pro/developer). The script writes to `_knitting/` and overwrites existing files on every run to stay in sync with Ravelry — edit projects on Ravelry, not the local files. See `_knitting/README.md` for the front matter reference. Commit and push the changes; the push triggers a Jekyll rebuild automatically.
 
-After syncing, trigger a Jekyll build manually (GitHub Actions won't auto-trigger from a script push):
-
-```sh
-gh workflow run "Build and Deploy Jekyll" --ref main
-```
+The sync also runs daily via the "Sync Ravelry Knitting Data" GitHub Actions workflow (or on demand with `gh workflow run "Sync Ravelry Knitting Data" --ref main`), which commits any changes and triggers a Jekyll rebuild automatically once it completes.
 
 ## Adding Blog Posts
 

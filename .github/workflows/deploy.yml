@@ -7,6 +7,11 @@ on:
     # Rebuild every 6 hours to pick up new webmentions
     - cron: '0 */6 * * *'
   workflow_dispatch:
+  workflow_run:
+    # git-auto-commit-action pushes with GITHUB_TOKEN, which doesn't
+    # trigger `on: push` — rebuild explicitly once the sync commits.
+    workflows: ["Sync Ravelry Knitting Data"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -20,9 +25,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
