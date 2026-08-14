@@ -228,10 +228,25 @@ def build_front_matter(project: dict, detail: dict) -> str:
     return content
 
 
-def write_entry(project: dict, detail: dict, output_dir: Path, existing_path: Path | None) -> str:
+def assign_slugs(projects: list[dict]) -> dict[int, str]:
+    """Assign each project a unique slug, appending -2, -3, ... for projects that share a title's
+    base slug with an earlier (by completion/start date) project."""
+    groups: dict[str, list[dict]] = {}
+    for project in projects:
+        _, name = split_name(project.get("name") or "Untitled")
+        base = slugify(name)
+        groups.setdefault(base, []).append(project)
+
+    slugs: dict[int, str] = {}
+    for base, group in groups.items():
+        group.sort(key=lambda p: (entry_date(p), p["id"]))
+        for i, project in enumerate(group):
+            slugs[project["id"]] = base if i == 0 else f"{base}-{i + 1}"
+    return slugs
+
+
+def write_entry(project: dict, detail: dict, output_dir: Path, existing_path: Path | None, slug: str) -> str:
     """Write a _knitting/ Markdown file, overwriting any prior version. Returns 'created' or 'updated'."""
-    _, name = split_name(project.get("name") or "Untitled")
-    slug = slugify(name)
     d = entry_date(project)
     filepath = output_dir / f"{d}-{slug}.md"
 
@@ -279,6 +294,12 @@ def main() -> None:
 
     log.info("Fetched %d projects from Ravelry", len(all_projects))
 
+    included_projects = [
+        p for p in all_projects
+        if not CRAFT_FILTER or not p.get("craft_name") or p.get("craft_name") in CRAFT_FILTER
+    ]
+    slugs = assign_slugs(included_projects)
+
     created = updated = 0
 
     for project in all_projects:
@@ -291,7 +312,7 @@ def main() -> None:
         permalink = project.get("permalink") or str(project_id)
         detail = fetch_project_detail(session, permalink)
 
-        result = write_entry(project, detail, OUTPUT_DIR, existing_paths.get(project_id))
+        result = write_entry(project, detail, OUTPUT_DIR, existing_paths.get(project_id), slugs[project_id])
         if result == "created":
             created += 1
         else:
