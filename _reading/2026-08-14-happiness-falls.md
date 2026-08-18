@@ -7,9 +7,9 @@ year: 2023
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780593448212-L.jpg"
-status: to-read
-date: 2026-07-22
+status: reading
+date_started: 2026-08-14
 rating:
-tags: []
+tags: ["Fiction"]
 calibre_id: 663
 ---
