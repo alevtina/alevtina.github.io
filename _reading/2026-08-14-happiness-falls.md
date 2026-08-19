@@ -7,7 +7,7 @@ year: 2023
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780593448212-L.jpg"
-status: reading
+status: finished
 date_started: 2026-08-14
 date_finished: 2026-08-18
 rating: 4
