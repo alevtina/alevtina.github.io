@@ -44,10 +44,9 @@ Leave it empty or write whatever you like — Markdown is supported.
 
 ## Adding a book manually
 
-1. Create a new file: `_reading/YYYY-MM-DD-slug.md`
-   - Use the date you finished, started, or want to track the book.
+1. Create a new file: `_reading/slug.md`
    - The slug is a URL-safe version of the title (lowercase, hyphens, no punctuation).
-   - Example: `_reading/2025-06-01-the-left-hand-of-darkness.md`
+   - Example: `_reading/the-left-hand-of-darkness.md`
 
 2. Copy the front matter template above and fill in the fields.
 
@@ -57,8 +56,9 @@ Leave it empty or write whatever you like — Markdown is supported.
 
 ## Editing an existing entry
 
-Open the file and edit freely. The sync script identifies files by filename, so
-as long as you don't rename the file, it will keep skipping it on future syncs.
+Open the file and edit freely. The sync script identifies files by the
+`calibre_id:` front-matter field, not the filename, so renaming a file is safe
+— it will still be recognized and skipped on future syncs.
 
 Fields you'll most often fill in manually:
 - **`rating:`** — the sync script leaves this blank intentionally.

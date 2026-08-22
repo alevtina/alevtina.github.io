@@ -740,7 +740,7 @@ def write_entry(meta: dict, status: str, entry_date: str, output_dir: Path) -> b
     (existing files are never overwritten to preserve manual edits).
     """
     slug = title_slug(meta["title"])
-    filepath = output_dir / f"{entry_date}-{slug}.md"
+    filepath = output_dir / f"{slug}.md"
 
     if filepath.exists():
         log.info("  Skipping existing file: %s", filepath.name)
@@ -956,7 +956,7 @@ def main() -> None:
                         skipped += 1
                 elif write_entry(meta, status, entry_date, OUTPUT_DIR):
                     created += 1
-                    id_to_file[book_id] = OUTPUT_DIR / f"{entry_date}-{title_slug(meta['title'])}.md"
+                    id_to_file[book_id] = OUTPUT_DIR / f"{title_slug(meta['title'])}.md"
                 else:
                     skipped += 1
             except Exception as exc:
