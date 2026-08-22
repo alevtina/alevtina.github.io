@@ -1,0 +1,29 @@
+{%- if include.book.book_author.first -%}
+  {%- assign book_author = include.book.book_author | join: " and " -%}
+{%- else -%}
+  {%- assign book_author = include.book.book_author -%}
+{%- endif -%}
+{%- assign book_label = include.book.title -%}
+{%- if book_author != "" -%}{%- assign book_label = book_label | append: ", " | append: book_author -%}{%- endif -%}
+{%- if include.book.year -%}{%- assign book_label = book_label | append: " (" | append: include.book.year | append: ")" -%}{%- endif -%}
+<li class="reading-grid-item h-entry">
+  <a class="u-url" href="{{ include.book.url | absolute_url }}" hidden></a>
+  <data class="p-x-read-status" value="{{ include.status }}" hidden></data>
+  <a href="{{ include.book.url | relative_url }}" class="reading-grid-cover-link p-read-of h-cite" title="{{ book_label | escape }}">
+    {%- if include.book.cover and include.book.cover != "" -%}
+    <img class="reading-grid-cover" src="{{ include.book.cover | escape }}" alt="{{ book_label | escape }}" loading="lazy" />
+    {%- else -%}
+    <div class="reading-grid-cover reading-cover-placeholder" role="img" aria-label="{{ book_label | escape }}"></div>
+    {%- endif -%}
+    <span class="p-name" hidden>{{ include.book.title | escape }}</span>
+    {%- if include.status == "finished" and include.book.rating -%}
+    {%- assign _rparts = include.book.rating | split: "/" -%}
+    {%- assign _rnum = _rparts[0] | plus: 0 -%}
+    <span class="reading-grid-rating star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
+      {%- for i in (1..5) -%}
+        {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
+      {%- endfor -%}
+    </span>
+    {%- endif -%}
+  </a>
+</li>

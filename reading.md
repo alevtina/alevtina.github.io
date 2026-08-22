@@ -57,37 +57,9 @@ description: "Books I've read, am reading, and want to read."
   {%- if to_read.size > 0 -%}
   <section class="reading-section">
     <h2>Want to Read</h2>
-    <ul class="reading-list" role="list">
+    <ul class="reading-grid" role="list">
       {%- for book in to_read -%}
-      {%- if book.book_author.first -%}
-        {%- assign book_author = book.book_author | join: " and " -%}
-      {%- else -%}
-        {%- assign book_author = book.book_author -%}
-      {%- endif -%}
-      <li class="reading-item h-entry">
-        <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
-        <data class="p-x-read-status" value="to-read" hidden></data>
-        <div class="p-read-of h-cite">
-          {%- if book.cover and book.cover != "" -%}
-          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-            <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
-          </a>
-          {%- else -%}
-          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-            <div class="reading-cover-placeholder"></div>
-          </a>
-          {%- endif -%}
-          <div class="reading-item-info">
-            <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
-            {%- if book_author != "" -%}
-            <span class="p-author reading-author">{{ book_author | escape }}</span>
-            {%- endif -%}
-            {%- if book.year -%}
-            <span class="reading-year">{{ book.year }}</span>
-            {%- endif -%}
-          </div>
-        </div>
-      </li>
+        {%- include reading-grid-item.html book=book status="to-read" -%}
       {%- endfor -%}
     </ul>
   </section>
@@ -116,44 +88,11 @@ description: "Books I've read, am reading, and want to read."
       {%- assign year_int = year | plus: 0 -%}
       {%- if year_int > cutoff_year -%}
     <h3>{{ year }}</h3>
-    <ul class="reading-list" role="list">
+    <ul class="reading-grid" role="list">
       {%- for book in finished -%}
         {%- assign book_year = book.date | date: "%Y" -%}
         {%- if book_year == year -%}
-        {%- if book.book_author.first -%}
-          {%- assign book_author = book.book_author | join: " and " -%}
-        {%- else -%}
-          {%- assign book_author = book.book_author -%}
-        {%- endif -%}
-        <li class="reading-item h-entry">
-          <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
-          <data class="p-x-read-status" value="finished" hidden></data>
-          <div class="p-read-of h-cite">
-            {%- if book.cover and book.cover != "" -%}
-            <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-              <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
-            </a>
-            {%- endif -%}
-            <div class="reading-item-info">
-              <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
-              {%- if book_author != "" -%}
-              <span class="p-author reading-author">{{ book_author | escape }}</span>
-              {%- endif -%}
-              {%- if book.year -%}
-              <span class="reading-year">{{ book.year }}</span>
-              {%- endif -%}
-              {%- if book.rating -%}
-              {%- assign _rparts = book.rating | split: "/" -%}
-              {%- assign _rnum = _rparts[0] | plus: 0 -%}
-              <span class="reading-rating star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
-                {%- for i in (1..5) -%}
-                  {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
-                {%- endfor -%}
-              </span>
-              {%- endif -%}
-            </div>
-          </div>
-        </li>
+          {%- include reading-grid-item.html book=book status="finished" -%}
         {%- endif -%}
       {%- endfor -%}
     </ul>
@@ -174,44 +113,11 @@ description: "Books I've read, am reading, and want to read."
         {%- assign year_int = year | plus: 0 -%}
         {%- if year_int <= cutoff_year -%}
       <h3>{{ year }}</h3>
-      <ul class="reading-list" role="list">
+      <ul class="reading-grid" role="list">
         {%- for book in finished -%}
           {%- assign book_year = book.date | date: "%Y" -%}
           {%- if book_year == year -%}
-          {%- if book.book_author.first -%}
-            {%- assign book_author = book.book_author | join: " and " -%}
-          {%- else -%}
-            {%- assign book_author = book.book_author -%}
-          {%- endif -%}
-          <li class="reading-item h-entry">
-            <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
-            <data class="p-x-read-status" value="finished" hidden></data>
-            <div class="p-read-of h-cite">
-              {%- if book.cover and book.cover != "" -%}
-              <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-                <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
-              </a>
-              {%- endif -%}
-              <div class="reading-item-info">
-                <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
-                {%- if book_author != "" -%}
-                <span class="p-author reading-author">{{ book_author | escape }}</span>
-                {%- endif -%}
-                {%- if book.year -%}
-                <span class="reading-year">{{ book.year }}</span>
-                {%- endif -%}
-                {%- if book.rating -%}
-                {%- assign _rparts = book.rating | split: "/" -%}
-                {%- assign _rnum = _rparts[0] | plus: 0 -%}
-                <span class="reading-rating star-rating" role="img" aria-label="{{ _rnum }} out of 5 stars">
-                  {%- for i in (1..5) -%}
-                    {%- if i <= _rnum -%}<span class="star star--filled" aria-hidden="true">★</span>{%- else -%}<span class="star star--empty" aria-hidden="true">☆</span>{%- endif -%}
-                  {%- endfor -%}
-                </span>
-                {%- endif -%}
-              </div>
-            </div>
-          </li>
+            {%- include reading-grid-item.html book=book status="finished" -%}
           {%- endif -%}
         {%- endfor -%}
       </ul>
@@ -227,37 +133,9 @@ description: "Books I've read, am reading, and want to read."
   {%- if dnf.size > 0 -%}
   <section class="reading-section">
     <h2>Didn't Finish</h2>
-    <ul class="reading-list" role="list">
+    <ul class="reading-grid" role="list">
       {%- for book in dnf -%}
-      {%- if book.book_author.first -%}
-        {%- assign book_author = book.book_author | join: " and " -%}
-      {%- else -%}
-        {%- assign book_author = book.book_author -%}
-      {%- endif -%}
-      <li class="reading-item h-entry">
-        <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
-        <data class="p-x-read-status" value="dnf" hidden></data>
-        <div class="p-read-of h-cite">
-          {%- if book.cover and book.cover != "" -%}
-          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-            <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
-          </a>
-          {%- else -%}
-          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
-            <div class="reading-cover-placeholder"></div>
-          </a>
-          {%- endif -%}
-          <div class="reading-item-info">
-            <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
-            {%- if book_author != "" -%}
-            <span class="p-author reading-author">{{ book_author | escape }}</span>
-            {%- endif -%}
-            {%- if book.year -%}
-            <span class="reading-year">{{ book.year }}</span>
-            {%- endif -%}
-          </div>
-        </div>
-      </li>
+        {%- include reading-grid-item.html book=book status="dnf" -%}
       {%- endfor -%}
     </ul>
   </section>

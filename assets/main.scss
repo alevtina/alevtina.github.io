@@ -976,6 +976,54 @@ html {
 .star--filled { color: var(--star-fill); }
 .star--empty  { color: var(--text-muted); }
 
+.reading-grid {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+    gap: 1rem;
+}
+
+.reading-grid-item {
+    display: flex;
+}
+
+.reading-grid-cover-link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+        transform: translateY(-2px);
+    }
+}
+
+.reading-grid-cover {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.reading-grid-cover.reading-cover-placeholder {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+}
+
+.reading-grid-rating {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.7em;
+    text-align: center;
+}
+
 // -------------------------------------------------------------------------
 // Knitting collection — index page (/knitting/)
 // -------------------------------------------------------------------------
