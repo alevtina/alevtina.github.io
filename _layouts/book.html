@@ -18,6 +18,8 @@ layout: default
   {%- assign status_label = "Currently Reading" -%}
 {%- elsif page.status == "to-read" -%}
   {%- assign status_label = "Want to Read" -%}
+{%- elsif page.status == "dnf" -%}
+  {%- assign status_label = "DNF" -%}
 {%- else -%}
   {%- assign status_label = page.status -%}
 {%- endif -%}

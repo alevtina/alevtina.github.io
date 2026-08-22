@@ -222,6 +222,47 @@ description: "Books I've read, am reading, and want to read."
   </section>
   {%- endif -%}
 
+  {%- comment -%} Didn't Finish {%- endcomment -%}
+  {%- assign dnf = all_reading | where: "status", "dnf" -%}
+  {%- if dnf.size > 0 -%}
+  <section class="reading-section">
+    <h2>Didn't Finish</h2>
+    <ul class="reading-list" role="list">
+      {%- for book in dnf -%}
+      {%- if book.book_author.first -%}
+        {%- assign book_author = book.book_author | join: " and " -%}
+      {%- else -%}
+        {%- assign book_author = book.book_author -%}
+      {%- endif -%}
+      <li class="reading-item h-entry">
+        <a class="u-url" href="{{ book.url | absolute_url }}" hidden></a>
+        <data class="p-x-read-status" value="dnf" hidden></data>
+        <div class="p-read-of h-cite">
+          {%- if book.cover and book.cover != "" -%}
+          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
+            <img class="reading-cover" src="{{ book.cover | escape }}" alt="" loading="lazy" />
+          </a>
+          {%- else -%}
+          <a href="{{ book.url | relative_url }}" class="reading-cover-link" tabindex="-1" aria-hidden="true">
+            <div class="reading-cover-placeholder"></div>
+          </a>
+          {%- endif -%}
+          <div class="reading-item-info">
+            <a class="p-name reading-title" href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
+            {%- if book_author != "" -%}
+            <span class="p-author reading-author">{{ book_author | escape }}</span>
+            {%- endif -%}
+            {%- if book.year -%}
+            <span class="reading-year">{{ book.year }}</span>
+            {%- endif -%}
+          </div>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+  {%- endif -%}
+
   {%- if all_reading.size == 0 -%}
   <p>No entries yet — run the Calibre sync workflow to populate this page.</p>
   {%- endif -%}
