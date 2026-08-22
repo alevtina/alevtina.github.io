@@ -12,6 +12,7 @@ date_started: 2026-08-14
 date_finished: 2026-08-18
 rating: 4
 tags: ["Fiction"]
+format: electronic
 calibre_id: 663
 ---
 Set in summer 2020, during the early days of COVID lockdown, this novel opens when Adam, the father of a biracial Korean American family living in Virginia,￼goes missing. The only witness is his 14-year-old son, Eugene, who has a dual diagnosis of autism and Angelman syndrome and does not speak. The story is narrated by Eugene’s 20-year-old sister, Mia, as the family tries to piece together what happened to their father. Along the way, Kim takes on the Korean American experience, COVID-19, raising children with disabilities, racism, and immigration, while working to dismantle the bias that equates oral fluency with cognitive ability. The novel also weaves in the relativity of happiness, Noam Chomsky’s theory of psycholinguistic nativism, and the fundamentals of speech therapy.

@@ -1,7 +1,7 @@
 ---
 layout: book
 title: "Influence Without Authority"
-book_author: "Allan R. Cohen&David L. Bradford"
+book_author: "Allan R. Cohen & David L. Bradford"
 isbn: "9781119347507"
 year: 2017
 series:
@@ -11,5 +11,6 @@ status: to-read
 date: 2026-08-22
 rating:
 tags: ["Business & Management"]
+format: electronic
 calibre_id: 508
 ---

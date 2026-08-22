@@ -9,7 +9,7 @@ series_part:
 cover: "https://covers.openlibrary.org/b/id/15104477-L.jpg"
 status: finished
 date: 2026-01-01
-rating: 4/5
+rating: 4
 tags: ["General Fiction"]
 format: electronic
 calibre_id: 644

@@ -10,6 +10,7 @@ cover:
 status: to-read
 date: 2026-08-22
 rating:
-tags: []
+tags: ["Fiction"]
+format: electronic
 calibre_id: 674
 ---

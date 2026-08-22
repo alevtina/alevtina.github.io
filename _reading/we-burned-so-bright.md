@@ -10,6 +10,7 @@ cover: "https://covers.openlibrary.org/b/id/15132877-L.jpg"
 status: to-read
 date: 2026-08-22
 rating:
-tags: []
+tags: ["Fiction"]
+format: electronic
 calibre_id: 675
 ---

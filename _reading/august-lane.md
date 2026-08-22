@@ -11,5 +11,6 @@ status: dnf
 date: 2026-08-22
 rating:
 tags: []
+format: electronic
 calibre_id: 589
 ---

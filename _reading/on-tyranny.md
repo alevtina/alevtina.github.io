@@ -11,5 +11,6 @@ status: to-read
 date: 2026-08-22
 rating:
 tags: ["Non-Fiction: Science & Ideas"]
+format: electronic
 calibre_id: 549
 ---

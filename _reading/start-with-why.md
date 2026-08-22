@@ -11,5 +11,6 @@ status: to-read
 date: 2026-08-22
 rating:
 tags: ["Business & Management"]
+format: electronic
 calibre_id: 507
 ---
