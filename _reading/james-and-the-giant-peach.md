@@ -8,7 +8,7 @@ series:
 series_part:
 cover: https://covers.openlibrary.org/b/isbn/9780142410363-L.jpg
 status: finished
-date_started: 2025-03-03
+date_started: 2026-03-03
 date_finished: 2026-03-12
 rating: 4
 tags:
