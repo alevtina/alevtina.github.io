@@ -65,15 +65,15 @@ description: "Books I've read, am reading, and want to read."
   </section>
   {%- endif -%}
 
-  {%- comment -%} Finished — grouped by year {%- endcomment -%}
-  {%- assign finished = all_reading | where: "status", "finished" -%}
-  {%- if finished.size > 0 -%}
+  {%- comment -%} Read — finished and DNF, grouped by year {%- endcomment -%}
+  {%- assign read_books = all_reading | where_exp: "b", "b.status == 'finished' or b.status == 'dnf'" -%}
+  {%- if read_books.size > 0 -%}
   <section class="reading-section">
-    <h2>Finished</h2>
+    <h2>Read</h2>
 
     {%- comment -%} Collect unique years in reverse-chronological order {%- endcomment -%}
     {%- assign years_seen = "" | split: "" -%}
-    {%- for book in finished -%}
+    {%- for book in read_books -%}
       {%- assign y = book.sort_date | date: "%Y" -%}
       {%- unless years_seen contains y -%}
         {%- assign years_seen = years_seen | push: y -%}
@@ -89,10 +89,10 @@ description: "Books I've read, am reading, and want to read."
       {%- if year_int > cutoff_year -%}
     <h3>{{ year }}</h3>
     <ul class="reading-grid" role="list">
-      {%- for book in finished -%}
+      {%- for book in read_books -%}
         {%- assign book_year = book.sort_date | date: "%Y" -%}
         {%- if book_year == year -%}
-          {%- include reading-grid-item.html book=book status="finished" -%}
+          {%- include reading-grid-item.html book=book status=book.status -%}
         {%- endif -%}
       {%- endfor -%}
     </ul>
@@ -114,10 +114,10 @@ description: "Books I've read, am reading, and want to read."
         {%- if year_int <= cutoff_year -%}
       <h3>{{ year }}</h3>
       <ul class="reading-grid" role="list">
-        {%- for book in finished -%}
+        {%- for book in read_books -%}
           {%- assign book_year = book.sort_date | date: "%Y" -%}
           {%- if book_year == year -%}
-            {%- include reading-grid-item.html book=book status="finished" -%}
+            {%- include reading-grid-item.html book=book status=book.status -%}
           {%- endif -%}
         {%- endfor -%}
       </ul>
@@ -125,19 +125,6 @@ description: "Books I've read, am reading, and want to read."
       {%- endfor -%}
     </details>
     {%- endif -%}
-  </section>
-  {%- endif -%}
-
-  {%- comment -%} Didn't Finish {%- endcomment -%}
-  {%- assign dnf = all_reading | where: "status", "dnf" -%}
-  {%- if dnf.size > 0 -%}
-  <section class="reading-section">
-    <h2>Didn't Finish</h2>
-    <ul class="reading-grid" role="list">
-      {%- for book in dnf -%}
-        {%- include reading-grid-item.html book=book status="dnf" -%}
-      {%- endfor -%}
-    </ul>
   </section>
   {%- endif -%}
 

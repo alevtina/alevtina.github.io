@@ -44,6 +44,7 @@ $base-line-height: 1.4;
     --border: #CECDC3;      // base-200
     --code-bg: #F2F0E5;     // base-50
     --star-fill: #BC5215;   // orange-600
+    --dnf: #AF3029;         // red-600
 }
 
 // Flexoki dark palette
@@ -57,6 +58,7 @@ $base-line-height: 1.4;
     --border: #403E3C;      // base-800 (ui-2)
     --code-bg: #282726;     // base-900 (ui / bg-2)
     --star-fill: #DA702C;   // orange-400
+    --dnf: #D14D41;         // red-400
 }
 
 :root.dark { @include dark-theme; }
@@ -990,8 +992,11 @@ html {
 }
 
 .reading-grid-cover-link {
+    position: relative;
     display: block;
     width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
     text-decoration: none;
     transition: transform 0.15s ease;
 
@@ -999,6 +1004,34 @@ html {
     &:focus-visible {
         transform: translateY(-2px);
     }
+}
+
+.reading-grid-cover-link--dnf .reading-grid-cover {
+    filter: grayscale(1) opacity(0.55);
+    transition: filter 0.15s ease;
+}
+
+.reading-grid-cover-link--dnf:hover .reading-grid-cover,
+.reading-grid-cover-link--dnf:focus-visible .reading-grid-cover {
+    filter: grayscale(0.4) opacity(0.85);
+}
+
+.reading-grid-dnf-badge {
+    position: absolute;
+    top: 10px;
+    right: -34px;
+    width: 120px;
+    transform: rotate(45deg);
+    text-align: center;
+    background: var(--dnf);
+    color: var(--bg);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.15rem 0;
+    pointer-events: none;
 }
 
 .reading-grid-cover {

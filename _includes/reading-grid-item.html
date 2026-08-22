@@ -9,13 +9,16 @@
 <li class="reading-grid-item h-entry">
   <a class="u-url" href="{{ include.book.url | absolute_url }}" hidden></a>
   <data class="p-x-read-status" value="{{ include.status }}" hidden></data>
-  <a href="{{ include.book.url | relative_url }}" class="reading-grid-cover-link p-read-of h-cite" title="{{ book_label | escape }}">
+  <a href="{{ include.book.url | relative_url }}" class="reading-grid-cover-link p-read-of h-cite{% if include.status == "dnf" %} reading-grid-cover-link--dnf{% endif %}" title="{{ book_label | escape }}">
     {%- if include.book.cover and include.book.cover != "" -%}
     <img class="reading-grid-cover" src="{{ include.book.cover | escape }}" alt="{{ book_label | escape }}" loading="lazy" />
     {%- else -%}
     <div class="reading-grid-cover reading-cover-placeholder" role="img" aria-label="{{ book_label | escape }}"></div>
     {%- endif -%}
     <span class="p-name" hidden>{{ include.book.title | escape }}</span>
+    {%- if include.status == "dnf" -%}
+    <span class="reading-grid-dnf-badge" role="img" aria-label="Didn't finish">DNF</span>
+    {%- endif -%}
     {%- if include.status == "finished" and include.book.rating -%}
     {%- assign _rparts = include.book.rating | split: "/" -%}
     {%- assign _rnum = _rparts[0] | plus: 0 -%}
