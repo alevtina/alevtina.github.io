@@ -8,8 +8,9 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780062740373-L.jpg"
 status: finished
-date: 2026-01-01
-rating: 4/5
+date_started: 2026-05-16
+date_finished: 
+rating: 4
 tags: ["Fiction"]
 format: electronic
 calibre_id: 626

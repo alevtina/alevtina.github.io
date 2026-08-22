@@ -9,7 +9,7 @@ description: "Books I've read, am reading, and want to read."
   <h1>Reading Log</h1>
   <p>Books I've read, am reading, and want to read—synced from Calibre-Web and published as <a href="https://indieweb.org/read">IndieWeb read posts</a>.</p>
 
-  {%- assign all_reading = site.reading | sort: "date" | reverse -%}
+  {%- assign all_reading = site.reading | sort: "sort_date" | reverse -%}
 
   {%- comment -%} Currently Reading {%- endcomment -%}
   {%- assign currently_reading = all_reading | where: "status", "reading" -%}
@@ -74,7 +74,7 @@ description: "Books I've read, am reading, and want to read."
     {%- comment -%} Collect unique years in reverse-chronological order {%- endcomment -%}
     {%- assign years_seen = "" | split: "" -%}
     {%- for book in finished -%}
-      {%- assign y = book.date | date: "%Y" -%}
+      {%- assign y = book.sort_date | date: "%Y" -%}
       {%- unless years_seen contains y -%}
         {%- assign years_seen = years_seen | push: y -%}
       {%- endunless -%}
@@ -90,7 +90,7 @@ description: "Books I've read, am reading, and want to read."
     <h3>{{ year }}</h3>
     <ul class="reading-grid" role="list">
       {%- for book in finished -%}
-        {%- assign book_year = book.date | date: "%Y" -%}
+        {%- assign book_year = book.sort_date | date: "%Y" -%}
         {%- if book_year == year -%}
           {%- include reading-grid-item.html book=book status="finished" -%}
         {%- endif -%}
@@ -115,7 +115,7 @@ description: "Books I've read, am reading, and want to read."
       <h3>{{ year }}</h3>
       <ul class="reading-grid" role="list">
         {%- for book in finished -%}
-          {%- assign book_year = book.date | date: "%Y" -%}
+          {%- assign book_year = book.sort_date | date: "%Y" -%}
           {%- if book_year == year -%}
             {%- include reading-grid-item.html book=book status="finished" -%}
           {%- endif -%}

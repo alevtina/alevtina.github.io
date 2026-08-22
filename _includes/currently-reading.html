@@ -1,4 +1,4 @@
-{%- assign currently_reading = site.reading | where: "status", "reading" | sort: "date" | reverse -%}
+{%- assign currently_reading = site.reading | where: "status", "reading" | sort: "sort_date" | reverse -%}
 {%- if currently_reading.size > 0 -%}
 <div class="section">
     <h2>Currently Reading</h2>
