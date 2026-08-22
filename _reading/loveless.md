@@ -2,11 +2,11 @@
 layout: book
 title: "Loveless"
 book_author: "Alice Oseman"
-isbn: "9781338751956"
+isbn: "9781338751932"
 year: 2022
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/isbn/9781338751956-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9781338751932-L.jpg"
 status: finished
 date: 2025-08-01
 rating: 3

@@ -2,11 +2,11 @@
 layout: book
 title: "A Family Matter"
 book_author: "Claire Lynch"
-isbn: "9781668078914"
+isbn: "9781668078891"
 year: 2025
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/id/15233564-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9781668078891-L.jpg"
 status: to-read
 date: 2026-08-22
 rating:

@@ -2,7 +2,7 @@
 layout: book
 title: "So Old, So Young"
 book_author: "Grant Ginder"
-isbn: "9781668051795"
+isbn: "9781668051771"
 year: 2026
 series:
 series_part:

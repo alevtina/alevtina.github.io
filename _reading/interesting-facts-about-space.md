@@ -2,7 +2,7 @@
 layout: book
 title: "Interesting Facts about Space"
 book_author: "Emily Austin"
-isbn: "9781668014233"
+isbn: "9781668014240"
 year: 2024
 series:
 series_part:

@@ -2,15 +2,15 @@
 layout: book
 title: "Dungeon Crawler Carl"
 book_author: "Matt Dinniman"
-isbn:
+isbn: "9780593820247"
 year: 2020
 series: "Dungeon Crawler Carl"
 series_part: 1
-cover: "https://covers.openlibrary.org/b/id/15143022-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9780593820247-L.jpg"
 status: dnf
 date_started: 2026-08-19
 rating:
-tags: ["LitRPG","Fiction"]
+tags: ["LitRPG","Science Fiction"]
 format: electronic
 calibre_id: 610
 ---

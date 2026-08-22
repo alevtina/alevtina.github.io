@@ -2,11 +2,11 @@
 layout: book
 title: "This Time Tomorrow"
 book_author: "Emma Straub"
-isbn: "9780525539025"
+isbn: "9780525539018"
 year: 2022
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/id/12750629-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9780525539018-L.jpg"
 status: to-read
 date: 2026-08-22
 rating:

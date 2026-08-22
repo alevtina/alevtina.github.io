@@ -2,11 +2,11 @@
 layout: book
 title: "The Circle"
 book_author: "Dave Eggers"
-isbn: "9780385351409"
+isbn: "9780345807298"
 year: 2013
 series: "The Circle"
 series_part: 1
-cover: "https://covers.openlibrary.org/b/isbn/9780385351409-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9780345807298-L.jpg"
 status: finished
 date: 2026-01-01
 date_started: 2026-07-30

@@ -2,11 +2,11 @@
 layout: book
 title: "On Tyranny"
 book_author: "Timothy Snyder"
-isbn: "9780804190121"
+isbn: "9798217087952"
 year: 2017
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/isbn/9780804190121-L.jpg"
+cover: "https://covers.openlibrary.org/b/id/10186935-L.jpg"
 status: to-read
 date: 2026-08-22
 rating:

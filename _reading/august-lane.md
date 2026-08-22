@@ -2,7 +2,7 @@
 layout: book
 title: "August Lane"
 book_author: "Regina Black"
-isbn: "9781538767542"
+isbn: "9781538767528"
 year: 2025
 series:
 series_part:

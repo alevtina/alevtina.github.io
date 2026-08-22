@@ -2,11 +2,11 @@
 layout: book
 title: "Happiness Falls"
 book_author: "Angie Kim"
-isbn: "9780593448212"
+isbn: "9780593448229"
 year: 2023
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/isbn/9780593448212-L.jpg"
+cover: "https://covers.openlibrary.org/b/isbn/9780593448229-L.jpg"
 status: finished
 date_started: 2026-08-14
 date_finished: 2026-08-18

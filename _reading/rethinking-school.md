@@ -2,11 +2,11 @@
 layout: book
 title: "Rethinking School: How to Take Charge of Your Child's Education"
 book_author: "Susan Wise Bauer"
-isbn: "9780393356847"
+isbn: "9780393285963"
 year: 2018
 series:
 series_part:
-cover: "https://covers.openlibrary.org/b/isbn/9780393356847-L.jpg"
+cover: "https://covers.openlibrary.org/b/id/8808445-L.jpg"
 status: reading
 date_started: 2026-03-08
 rating:
