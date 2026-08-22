@@ -9,7 +9,7 @@ series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780062740373-L.jpg"
 status: finished
 date_started: 2026-05-16
-date_finished: 
+date_finished: 2026-07-01
 rating: 4
 tags: ["Fiction"]
 format: electronic

@@ -6,9 +6,9 @@ isbn: "9781538767528"
 year: 2025
 series:
 series_part:
-cover:
+cover: "https://images-us.bookshop.org/ingram/9781538767528.jpg"
 status: dnf
-date: 2026-08-22
+date_started: 2026-01-01
 rating:
 tags: []
 format: electronic

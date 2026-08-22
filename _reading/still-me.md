@@ -8,7 +8,8 @@ series: "Me Before You"
 series_part: 3
 cover: "https://www.jojomoyes.com/wp-content/uploads/STILL-ME-Cover.jpg"
 status: finished
-date: 2026-01-01
+date_started: 
+date_finished: 2026-07-11
 rating: 2
 tags: ["Romance"]
 format: electronic

@@ -8,7 +8,7 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9780063343535-L.jpg"
 status: dnf
-date: 2026-08-22
+date_started: 2025-10-01
 rating:
 tags: ["Fiction"]
 format: electronic

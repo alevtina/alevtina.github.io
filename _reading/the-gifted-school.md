@@ -8,7 +8,8 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/8748492-L.jpg"
 status: finished
-date: 2026-01-01
+date_started: 2026-07-20
+date_finished: 2026-07-29
 rating: 4
 tags: ["General Fiction"]
 format: electronic

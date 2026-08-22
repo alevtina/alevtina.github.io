@@ -8,7 +8,8 @@ series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9781954118966-L.jpg"
 status: finished
-date: 2026-01-01
+date_started: 
+date_finished: 2026-06-30 
 rating: 4
 tags: ["General Fiction"]
 format: electronic

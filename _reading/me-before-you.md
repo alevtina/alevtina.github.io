@@ -8,7 +8,8 @@ series: "Me Before You"
 series_part: 1
 cover: "https://www.jojomoyes.com/wp-content/uploads/ME-BEFORE-YOU-Cover.jpg"
 status: finished
-date: 2026-07-06
+date_started: 
+date_finished: 2026-07-06
 rating: 4/5
 tags: ["Romance"]
 format: electronic
