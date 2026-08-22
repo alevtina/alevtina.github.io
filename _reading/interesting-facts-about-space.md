@@ -14,5 +14,6 @@ tags: ["Literary Fiction"]
 format: electronic
 calibre_id: 579
 ---
+Enid is a woman obsessed with space and true crime podcasts, juggling a rotation of dates with women from apps, an all-consuming fear of bald men, and unresolved grief over her father, who abandoned her young and recently died. As she tries to build a relationship with her estranged half-sisters and stumbles into her first serious romance, she becomes convinced someone is following her, and her paranoia spirals from there.
 
-This one had a super slow build-up to its climax. I found it frustrating. It reminds me of Stephen Chbosky's *The Perks of Being a Wallflower*, which itself is reminiscent of J. D. Salinger's *The Catcher in the Rye*. I prefer the Chbosky and Salinger versions, though.
+This one had a frustratingly slow build to its climax. Enid spends most of the book avoiding her problems rather than confronting them, which made it hard for me to connect with her; she comes across as more selfish and inconsiderate than sympathetic, and I found myself feeling for the people around her instead. By the time she finally goes to therapy and starts unpacking everything, the book is nearly over, and the resolution feels rushed given how long the setup took.

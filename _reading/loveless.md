@@ -14,5 +14,6 @@ tags: ["Romance", "Young Adult & Children's"]
 format: electronic
 calibre_id: 576
 ---
+I watched and loved *Heartstopper* on Netflix but had never read it or any of Oseman's other books, so this was my first real introduction to her writing on the page, and a decent one at that. Georgia starts college having fallen in love with the idea of love without ever having experienced it herself: she's had a few crushes, or thinks she has, and arrives at university with her two best friends and a new roommate, Rooney, expecting this to finally be the moment romance clicks for her. Instead, she realizes kissing grosses her out and starts questioning whether her past crushes were even real, which sends her on a path toward understanding herself as aromantic and asexual.
 
-I watched (and loved!) "Heartstopper" on Netflix but never read it or any of Oseman's other books. This was a decent introduction. I tell myself that reading young adult fiction is good for me with my growing son: it'll remind me what it feels like to be young. I'll be more emphatic when he starts that tumultuous time in his life.
+The narrative felt a bit juvenile at times, though that made it an easy, quick read rather than a real drawback. What stuck with me most was the emphasis on friendship, particularly Georgia's bond with Pip, Rooney, Jason, and Sunil, and how her missteps (using Jason as a testing ground for her feelings chief among them) end up fracturing and then repairing those relationships in a way that felt earned.
