@@ -7,8 +7,8 @@ year:
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9781250881236-L.jpg"
-status: to-read
-date: 2026-08-22
+status: reading
+date: 2026-08-30
 rating:
 tags: ["Fiction"]
 format: electronic
