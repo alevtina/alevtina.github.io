@@ -7,7 +7,7 @@ year: 2026
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/isbn/9781250881236-L.jpg"
-status: finished
+status: to-read
 date_started: 2026-08-28
 date_finished: 2026-08-31
 rating: 4
