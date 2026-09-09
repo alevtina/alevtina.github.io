@@ -10,7 +10,7 @@ cover: "https://images-us.bookshop.org/ingram/9781668051771.jpg"
 status: finished
 date_started: 2026-09-01
 date_finished: 2026-09-08
-rating: 4=3
+rating: 3
 tags: ["Fiction"]
 format: electronic
 calibre_id: 674
