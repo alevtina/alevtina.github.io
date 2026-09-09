@@ -7,10 +7,10 @@ year: 2022
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/12720725-L.jpg"
-status: to-read
-date: 2026-08-30
+status: reading
+date_started: 2026-09-08
 rating:
-tags: []
+tags: ["Fiction"]
 format: electronic
 calibre_id: 680
 ---
