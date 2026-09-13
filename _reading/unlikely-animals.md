@@ -7,7 +7,7 @@ year: 2022
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/12720725-L.jpg"
-status: reading
+status: finished
 date_started: 2026-09-08
 rating:
 tags: ["Fiction"]
