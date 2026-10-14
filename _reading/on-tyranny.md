@@ -7,7 +7,7 @@ year: 2017
 series:
 series_part:
 cover: "https://covers.openlibrary.org/b/id/10186935-L.jpg"
-status: reading
+status: to-read
 date_started: 2026-10-13
 rating:
 tags: ["Non-Fiction: Science & Ideas"]
