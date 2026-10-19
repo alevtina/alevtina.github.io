@@ -7,8 +7,8 @@ year:
 series: "Cerulean Chronicles"
 series_part: 1
 cover: "https://covers.openlibrary.org/b/isbn/9781250217325-L.jpg"
-status: to-read
-date: 2026-09-13
+status: reading
+date_started: 2026-10-13
 rating:
 tags: []
 format: electronic
