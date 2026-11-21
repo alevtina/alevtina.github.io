@@ -20,6 +20,8 @@ date: 2025-12-04
 tags: []
 ---
 
+**2026-11-17**: Worker to listed length, ending on a round that ends in K,P before GSS.
+
 **2026-11-16**: Increased on the 1st round of 8-round Moss Stitch pattern repeats a total of 4 times, a total of 32 rounds. (I have 49 sts on the needles.) I need another 14 sts, with increases every 6th row. I’ll have to figure out a cadence that I’m comfortable with that I can repeat on the other sleeve when it comes time.
 *Edited to add*: I’ll increase on the 1st round of 4-round Moss Stitch pattern repeats. I did one repeat, now up to 51 sts.
 
