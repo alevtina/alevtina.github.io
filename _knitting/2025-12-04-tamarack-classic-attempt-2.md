@@ -20,7 +20,9 @@ date: 2025-12-04
 tags: []
 ---
 
-**2026-11-21**: Sleeve two underway! Stopped after the first set of increases.
+**2026-11-26**: Sleeve #2 done.
+
+**2026-11-21**: Sleeve #2 underway! Stopped after the first set of increases.
 
 **2026-11-17**: Worked to listed length, ending on a round that ends in K,P before the rev St st selvedge stitch.
 
